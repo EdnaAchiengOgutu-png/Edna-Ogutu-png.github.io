@@ -1,7 +1,6 @@
 <style>
-  /* 1. Global Page Foundation: Light Grey is Dominant */
-  body { 
-    background-color: #EFEFEF !important; 
+ body { 
+    background-color: #E1A95F !important; 
     color: #2F3538 !important; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     margin: 0 !important; 
