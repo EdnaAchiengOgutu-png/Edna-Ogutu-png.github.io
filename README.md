@@ -1,6 +1,7 @@
 <style>
- body { 
-    background-color: #E1A95F !important; 
+/* 1. Global Page Foundation: Royal Corporate Blue is Dominant */
+  body { 
+    background-color: #1A488E !important; 
     color: #2F3538 !important; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     margin: 0 !important; 
