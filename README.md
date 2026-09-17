@@ -1,8 +1,10 @@
 # Edna Achieng Ogutu
 ### Statistician | Data Analyst | Monitoring, Evaluation & Learning (MEL)
-Nairobi, Kenya | hednaogutuh@gmail.com | https://www.linkedin.com/in/edna-achieng-ogutu/
+Nairobi, Kenya | hednaogutuh@gmail.com
 
-[Home](#-professional-summary) | [Skills](#-core-expertise--technical-skills) | [Experience](#-professional-experience) | [Education](#-education--certifications)
+[Home](#edna-achieng-ogutu) | [Skills](#%EF%B8%8F-core-expertise--technical-skills) | [Experience](#-professional-experience) | [Education](#-education--certifications)
+
+
 
 ---
 
