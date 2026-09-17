@@ -1,127 +1,217 @@
 <style>
-  /* Page Layout Base */
-  body { background-color: #F8F9FA !important; color: #2B2E33 !important; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; padding: 0 !important; margin: 0 !important; }
+  /* 1. Global Page Foundation: Light Grey is Dominant */
+  body { 
+    background-color: #EFEFEF !important; 
+    color: #2F3538 !important; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0 !important; 
+    padding: 0 !important; 
+  }
   
-  /* The Infotrak Style Top Navigation Bar */
-  h1 { background-color: #2B2E33 !important; color: #FFFFFF !important; padding: 25px 40px !important; margin: 0 0 20px 0 !important; text-align: left; font-size: 28px; }
-  h3 { color: #FFD200 !important; font-size: 16px; margin-top: 5px; font-weight: normal; }
-  
-  /* Navigation Menu Container */
-  p:first-of-type { background-color: #3A3F44 !important; padding: 12px 40px !important; margin: -20px 0 30px 0 !important; display: block; }
-  p:first-of-type a { color: #FFFFFF !important; margin-right: 20px; text-transform: uppercase; font-size: 13px; letter-spacing: 1px; }
-  p:first-of-type a:hover { color: #FFD200 !important; text-decoration: none; }
+  /* Container to center and wrap content */
+  .portfolio-container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+  }
 
-  /* Body Content & Section Headings */
-  h2 { color: #2B2E33 !important; border-bottom: 3px solid #FFD200; padding-bottom: 6px; margin-top: 40px; font-size: 22px; }
-  h3 { color: #3A3F44 !important; font-weight: bold; font-size: 16px; }
-  a { color: #3A3F44 !important; text-decoration: underline; }
+  /* 2. Main Header: Charcoal Grey with White Text & Mustard Accent */
+  .header-block { 
+    background-color: #2F3538 !important; 
+    color: #FFFFFF !important; 
+    padding: 40px !important; 
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border-left: 6px solid #FFD200;
+  }
+  .header-block h1 { color: #FFFFFF !important; margin: 0 0 10px 0; font-size: 32px; font-weight: 700; }
+  .header-block h3 { color: #FFD200 !important; margin: 0 0 15px 0; font-size: 16px; font-weight: 400; letter-spacing: 0.5px; }
+  .header-block p { color: #D0D5DD !important; margin: 5px 0; font-size: 14px; }
+
+  /* 3. Sticky-Style Navigation: Charcoal Grey with Yellow Hover Highlights */
+  .navbar { 
+    background-color: #2F3538 !important; 
+    padding: 15px 30px !important; 
+    border-radius: 6px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .navbar a { 
+    color: #FFFFFF !important; 
+    margin: 0 15px; 
+    text-decoration: none !important; 
+    font-weight: 600; 
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .navbar a:hover { color: #FFD200 !important; }
+
+  /* 4. Structural Content Sections: Crisp White Cards over Light Grey Background */
+  .content-card {
+    background-color: #FFFFFF !important;
+    padding: 35px !important;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+
+  /* Headings: Charcoal Grey with Solid Mustard Yellow Anchor Underline */
+  h2 { 
+    color: #2F3538 !important; 
+    font-size: 22px; 
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #FFD200; 
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  h3 { color: #2F3538 !important; font-size: 17px; font-weight: 600; margin-top: 25px; margin-bottom: 8px; }
+  .job-meta { color: #687076 !important; font-style: italic; font-size: 14px; margin-bottom: 12px; display: block; }
   
-  /* Clean structural lists */
-  ul { padding-left: 20px; }
-  li { margin-bottom: 8px; color: #4E5256; }
-  hr { display: none; }
+  /* Elegant List Elements */
+  ul { padding-left: 20px; margin-top: 5px; }
+  li { margin-bottom: 8px; line-height: 1.6; color: #444C52; font-size: 15px; }
+  
+  /* Skill Grid Layout */
+  .skill-group { margin-bottom: 15px; }
+  .skill-title { font-weight: bold; color: #2F3538; }
 </style>
 
+<div class="portfolio-container">
 
-# Edna Achieng Ogutu
-### Statistician | Data Analyst | Monitoring, Evaluation & Learning (MEL)
-Nairobi, Kenya |  hednaogutuh@gmail.com
+<div class="header-block">
+  <h1>Edna Ogutu</h1>
+  <h3>Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions)</h3>
+  <p> Nairobi, Kenya |  hednaogutuh@gmail.com |  <a href="Your-LinkedIn-URL-Here" style="color: #FFD200 !important; text-decoration: underline;">Connect on LinkedIn</a></p>
+</div>
 
-[ Home](#edna-achieng-ogutu) | [ Skills](#core-expertise--technical-skills) | [ Experience](#professional-experience) | [ Education](#education--certifications)
+<div class="navbar">
+  <a href="#summary"> Home</a>
+  <a href="#skills">🛠️ Skills</a>
+  <a href="#experience"> Experience</a>
+  <a href="#education"> Education</a>
+</div>
 
----
+<div id="summary" class="content-card">
+  <h2> Professional Summary</h2>
+  <p style="line-height: 1.7; font-size: 15px; color: #2F3538;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
+  <p style="line-height: 1.7; font-size: 15px; color: #2F3538;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
+</div>
 
-## Professional Summary
-Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination. 
+<div id="skills" class="content-card">
+  <h2>🛠️ Core Expertise & Technical Skills</h2>
+  
+  <h3>Core Areas of Expertise</h3>
+  <ul>
+    <li><span class="skill-title">MEL & Program Monitoring:</span> Program monitoring | Indicator & target tracking | Monitoring data collection | Field monitoring | Progress tracking | Evidence generation</li>
+    <li><span class="skill-title">Data Collection & Quality Assurance:</span> Digital data collection | Data capture | Data validation | Data cleaning | Data reconciliation | Completeness & consistency checks | Discrepancy resolution</li>
+    <li><span class="skill-title">Research & Field Operations:</span> Research implementation | Field coordination | Enumerator supervision | Surveys | KIIs | FGDs | Field documentation</li>
+    <li><span class="skill-title">Data Analysis & Reporting:</span> Statistical analysis | Quantitative & qualitative analysis | Data summaries | Tables | Visualisations | Dashboards | Report preparation</li>
+    <li><span class="skill-title">Documentation & Learning:</span> Research documentation | Evidence synthesis | Lessons learned | Knowledge management | Stakeholder coordination | Data protection</li>
+  </ul>
 
-Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.
+  <h3>Technical Tools</h3>
+  <ul>
+    <li><span class="skill-title">Data & Analytics:</span> Excel (Advanced) | Power BI | Stata | R | SPSS | SQL | Python</li>
+    <li><span class="skill-title">Data Collection & Reporting:</span> KoboCollect | SurveyCTO | Digital survey platforms | Microsoft Word | PowerPoint | Teams | Outlook</li>
+  </ul>
+</div>
 
----
+<div id="experience" class="content-card">
+  <h2> Professional Experience</h2>
 
-## Core Expertise & Technical Skills
+  <h3> PASGR - African Youth Pathways to Systems Change (AYPS)</h3>
+  <span class="job-meta">Field Coordinator | Research, Data Quality & Monitoring Support (Jun 2026 - Aug 2026)</span>
+  <ul>
+    <li>Coordinated field implementation, including enumerator deployment, field communication, progress monitoring, and adherence to approved study procedures.</li>
+    <li>Facilitated enumerator training and field briefings on quantitative and qualitative methodologies, digital data collection, research ethics, and field protocols.</li>
+    <li>Supported household surveys, Key Informant Interviews (KIIs), and Focus Group Discussions (FGDs) in accordance with approved research protocols.</li>
+    <li>Monitored live digital data submissions, identifying completeness, consistency, and submission issues requiring follow-up.</li>
+    <li>Reported field progress, emerging challenges, data-quality issues, and implementation gaps to the Principal Investigator and research team.</li>
+    <li>Supported field documentation, transcription, data cleaning, qualitative coding, thematic analysis, and preliminary quantitative analysis.</li>
+    <li>Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.</li>
+  </ul>
 
-### Core Areas of Expertise
-* **MEL & Program Monitoring:** Program monitoring | Indicator & target tracking | Monitoring data collection | Field monitoring | Progress tracking | Evidence generation
-* **Data Collection & Quality Assurance:** Digital data collection | Data capture | Data validation | Data cleaning | Data reconciliation | Completeness & consistency checks | Discrepancy resolution
-* **Research & Field Operations:** Research implementation | Field coordination | Enumerator supervision | Surveys | KIIs | FGDs | Field documentation
-* **Data Analysis & Reporting:** Statistical analysis | Quantitative & qualitative analysis | Data summaries | Tables | Visualisations | Dashboards | Report preparation
-* **Documentation & Learning:** Research documentation | Evidence synthesis | Lessons learned | Knowledge management | Stakeholder coordination | Data protection
+  <h3> Hamasisha Africa</h3>
+  <span class="job-meta">Research & Data Operations Analyst (Remote - Project-Based Consultancy) | (Mar 2022 - Apr 2026)</span>
+  <ul>
+    <li>Supported monitoring, evaluation, and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
+    <li>Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics, and data-quality requirements.</li>
+    <li>Supported recruitment, orientation, deployment, and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.</li>
+    <li>Supported the design and refinement of structured questionnaires, digital data-collection tools, and qualitative interview guides.</li>
+    <li>Conducted and supported KIIs and FGDs, including participant engagement, field coordination, documentation, and qualitative data organization.</li>
+    <li>Performed data cleaning, validation, coding, and quantitative and qualitative analysis, contributing to interpretation of findings.</li>
+    <li>Prepared research reports, monitoring summaries, presentations, and evidence briefs for program and research teams.</li>
+    <li>Maintained research documentation and supported ethical research, confidentiality, data protection, and accurate field-team records.</li>
+  </ul>
 
-### Technical Tools
-* **Data & Analytics:** Excel (Advanced) | Power BI | Stata | R | SPSS | SQL | Python
-* **Data Collection & Reporting:** KoboCollect | SurveyCTO | Digital survey platforms | Microsoft Word | PowerPoint | Teams | Outlook
+  <h3> Calltronix Kenya Limited</h3>
+  <span class="job-meta">Data Analyst (Contract) | (Jan 2025 - Feb 2026)</span>
+  <ul>
+    <li>Provided analytical and operational support across 37+ customer and workforce programs, using data to monitor performance and support operational decision-making.</li>
+    <li>Conducted data cleaning, validation, reconciliation, and quality assurance across biometric, CRM, telephony, and workforce data sources.</li>
+    <li>Managed payroll processes for 350+ FTE across multiple projects, incorporating attendance, overtime, incentives, and benefits.</li>
+    <li>Reconciled workforce and attendance records across multiple systems, identifying discrepancies and validating payroll inputs.</li>
+    <li>Developed and automated Power BI and Excel dashboards for attendance, shift adherence, and KPI monitoring, reducing reporting time by 80%.</li>
+    <li>Conducted volume forecasting, capacity planning, and schedule optimization to support workforce allocation.</li>
+    <li>Partnered with HR and Finance to validate timesheets, reconcile payroll information, and prepare operational and compliance reports.</li>
+  </ul>
 
----
+ <h3> SGS Kenya</h3>
+  <span class="job-meta">Data Officer Intern | (Nov 2023 - Jan 2024)</span>
+  <ul>
+    <li>Supported data collection, compilation, cleaning, validation, and database management for operational and research data.</li>
+    <li>Conducted data-quality checks and reconciled discrepancies across multiple data sources.</li>
+    <li>Prepared routine and ad-hoc reports, data tables, summaries, and Excel-based reporting tools.</li>
+    <li>Performed descriptive analysis and supported data visualization for internal reporting and decision-making.</li>
+  </ul>
 
-## Professional Experience
+  <h3>📍 GAIN-AGRA Project</h3>
+  <span class="job-meta">Research Assistant - Nutrition Survey Project (Project-Based) | (Apr 2023 - May 2023)</span>
+  <ul>
+    <li>Implemented household surveys using structured digital data-collection tools and approved field procedures.</li>
+    <li>Administered questionnaires while maintaining informed consent, confidentiality, and participant-protection requirements.</li>
+    <li>Conducted field-level data validation and quality checks to identify incomplete or inconsistent submissions.</li>
+    <li>Supported field reporting, data cleaning, and preparation of collected data for analysis.</li>
+  </ul>
 
-### 📍 PASGR - African Youth Pathways to Systems Change (AYPS)
-**Field Coordinator | Research, Data Quality & Monitoring Support** *(Jun 2026 - Aug 2026)*
-* Coordinated field implementation, including enumerator deployment, field communication, progress monitoring, and adherence to approved study procedures.
-* Facilitated enumerator training and field briefings on quantitative and qualitative methodologies, digital data collection, research ethics, and field protocols.
-* Supported household surveys, Key Informant Interviews (KIIs), and Focus Group Discussions (FGDs) in accordance with approved research protocols.
-* Monitored live digital data submissions, identifying completeness, consistency, and submission issues requiring follow-up.
-* Reported field progress, emerging challenges, data-quality issues, and implementation gaps to the Principal Investigator and research team.
-* Supported field documentation, transcription, data cleaning, qualitative coding, thematic analysis, and preliminary quantitative analysis.
-* Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.
+  <h3> Adaptive Model for Research and Empowerment in Communities (AMREC)</h3>
+  <span class="job-meta">Research Analyst – Intern | (Jan 2023 - Mar 2023)</span>
+  <ul>
+    <li>Analyzed health research and program datasets using Stata and SPSS to generate statistical summaries and research outputs.</li>
+    <li>Cleaned, coded, and validated datasets to produce analysis-ready research data.</li>
+    <li>Conducted data-quality checks and supported preparation of statistical reports and research summaries.</li>
+    <li>Assisted research and program teams with interpretation and synthesis of quantitative findings.</li>
+  </ul>
 
-### 📍 Hamasisha Africa
-**Research & Data Operations Analyst (Remote - Project-Based Consultancy)** *(Mar 2022 - Apr 2026)*
-* Supported monitoring, evaluation, and research activities across youth empowerment and community development programs, including baseline and monitoring studies.
-* Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics, and data-quality requirements.
-* Supported recruitment, orientation, deployment, and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.
-* Supported the design and refinement of structured questionnaires, digital data-collection tools, and qualitative interview guides.
-* Conducted and supported KIIs and FGDs, including participant engagement, field coordination, documentation, and qualitative data organization.
-* Performed data cleaning, validation, coding, and quantitative and qualitative analysis, contributing to interpretation of findings.
-* Prepared research reports, monitoring summaries, presentations, and evidence briefs for program and research teams.
-* Maintained research documentation and supported ethical research, confidentiality, data protection, and accurate field-team records.
+  <h3> JKUAT - School of Computing and Information Technology (SCIT)</h3>
+  <span class="job-meta">IBM Data Science - Attachment Program | (Aug 2021 - Dec 2021)</span>
+  <ul>
+    <li>Completed a structured four-month IBM Data Science learning program delivered in partnership with JKUAT's School of Computing and Information Technology.</li>
+    <li>Applied data science concepts through practical exercises involving data preparation, exploration, analysis, and visualization.</li>
+    <li>Developed foundational skills in data-driven problem solving and communicating analytical findings through reports and visualizations.</li>
+  </ul>
+</div>
 
-### 📍 Calltronix Kenya Limited
-**Data Analyst (Contract)** *(Jan 2025 - Feb 2026)*
-* Provided analytical and operational support across 37+ customer and workforce programs, using data to monitor performance and support operational decision-making.
-* Conducted data cleaning, validation, reconciliation, and quality assurance across biometric, CRM, telephony, and workforce data sources.
-* Managed payroll processes for 350+ FTE across multiple projects, incorporating attendance, overtime, incentives and benefits.
-* Reconciled workforce and attendance records across multiple systems, identifying discrepancies and validating payroll inputs.
-* Developed and automated Power BI and Excel dashboards for attendance, shift adherence, and KPI monitoring, reducing reporting time by 80%.
-* Conducted volume forecasting, capacity planning, and schedule optimization to support workforce allocation.
-* Partnered with HR and Finance to validate timesheets, reconcile payroll information, and prepare operational and compliance reports.
+<div id="education" class="content-card">
+  <h2> Education & Certifications</h2>
 
-### 📍 SGS Kenya
-**Data Officer Intern** *(Nov 2023 - Jan 2024)*
-* Supported data collection, compilation, cleaning, validation, and database management for operational and research data.
-* Conducted data-quality checks and reconciled discrepancies across multiple data sources.
-* Prepared routine and ad-hoc reports, data tables, summaries, and Excel-based reporting tools.
-* Performed descriptive analysis and supported data visualization for internal reporting and decision-making.
+  <h3>Education</h3>
+  <ul>
+    <li><span class="skill-title">Master of Science in Data Science</span> | Open University of Kenya <i>(In Progress | Expected 2028)</i></li>
+    <li><span class="skill-title">Bachelor Of Science in Biostatistics</span> | Jomo Kenyatta University of Agriculture and Technology (JKUAT)</li>
+  </ul>
 
-### 📍 GAIN-AGRA Project
-**Research Assistant - Nutrition Survey Project (Project-Based)** *(Apr 2023 - May 2023)*
-* Implemented household surveys using structured digital data-collection tools and approved field procedures.
-* Administered questionnaires while maintaining informed consent, confidentiality, and participant-protection requirements.
-* Conducted field-level data validation and quality checks to identify incomplete or inconsistent submissions.
-* Supported field reporting, data cleaning and preparation of collected data for analysis.
+  <h3>Professional Certifications</h3>
+  <ul>
+    <li><b>MEAL Essentials Professional Certificate</b> – DisasterReady / Humanitarian Leadership Academy</li>
+    <li><b>Project Management Essentials</b> – DisasterReady</li>
+    <li><b>IBM Data Science, Artificial Intelligence & Machine Learning Certificate</b></li>
+  </ul>
+</div>
 
-### 📍 Adaptive Model for Research and Empowerment in Communities (AMREC)
-**Research Analyst – Intern** *(Jan 2023 - Mar 2023)*
-* Analyzed health research and program datasets using Stata and SPSS to generate statistical summaries and research outputs.
-* Cleaned, coded and validated datasets to produce analysis-ready research data.
-* Conducted data-quality checks and supported preparation of statistical reports and research summaries.
-* Assisted research and program teams with interpretation and synthesis of quantitative findings.
-
-### 📍 JKUAT - School of Computing and Information Technology (SCIT)
-**IBM Data Science - Attachment Program** *(Aug 2021 - Dec 2021)*
-* Completed a structured four-month IBM Data Science learning program delivered in partnership with JKUAT's School of Computing and Information Technology.
-* Applied data science concepts through practical exercises involving data preparation, exploration, analysis, and visualization.
-* Developed foundational skills in data-driven problem solving and communicating analytical findings through reports and visualizations.
-
----
-
-## Education & Certifications
-
-### Education
-* **Master of Science in Data Science** | Open University of Kenya *(In Progress | Expected 2028)*
-* **Bachelor Of Science in Biostatistics** | Jomo Kenyatta University of Agriculture and Technology (JKUAT)
-
-### Professional Certifications
-* **MEAL Essentials Professional Certificate** – DisasterReady / Humanitarian Leadership Academy
-* **Project Management Essentials** – DisasterReady
-* **IBM Data Science, Artificial Intelligence & Machine Learning Certificate**
+</div>
