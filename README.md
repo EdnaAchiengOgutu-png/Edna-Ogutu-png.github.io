@@ -176,6 +176,8 @@
     <li>Developed and automated Power BI and Excel dashboards for attendance, shift adherence, and KPI monitoring, reducing reporting time by 80%.</li>
     <li>Conducted volume forecasting, capacity planning, and schedule optimization to support workforce allocation.</li>
     <li>Partnered with HR and Finance to validate timesheets, reconcile payroll information, and prepare operational and compliance reports.</li>
+    <li>Provided analytical and operational support across 37+ customer and workforce programs, using data to monitor performance and support operational decision-making.</li>
+    <li>Conducted data cleaning, validation, reconciliation, and quality assurance across biometric, CRM, telephony, and workforce data sources.</li>
   </ul>
 
   <h3> SGS Kenya</h3>
@@ -231,6 +233,3 @@
   </ul>
 </div>
 
-</div>
-    <li>Provided analytical and operational support across 37+ customer and workforce programs, using data to monitor performance and support operational decision-making.</li>
-    <li>Conducted data cleaning, validation, reconciliation, and quality assurance across biometric, CRM, telephony, and workforce data sources.</li>
