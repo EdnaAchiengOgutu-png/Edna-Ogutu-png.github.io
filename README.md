@@ -1,13 +1,27 @@
 <style>
-  body { background-color: #3A3F44 !important; color: #FFFFFF !important; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-  h1, h2, h3, h4 { color: #FFD200 !important; border-bottom: 1px solid #555A60; padding-bottom: 8px; }
-  a { color: #FFD200 !important; text-decoration: none; font-weight: bold; }
-  a:hover { text-decoration: underline; color: #FFFFFF !important; }
-  code, pre { background-color: #2B2E33 !important; color: #FFD200 !important; border: 1px solid #555A60; }
-  hr { border: 0; height: 1px; background: #555A60; margin: 20px 0; }
+  /* Page Layout Base */
+  body { background-color: #F8F9FA !important; color: #2B2E33 !important; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; padding: 0 !important; margin: 0 !important; }
+  
+  /* The Infotrak Style Top Navigation Bar */
+  h1 { background-color: #2B2E33 !important; color: #FFFFFF !important; padding: 25px 40px !important; margin: 0 0 20px 0 !important; text-align: left; font-size: 28px; }
+  h3 { color: #FFD200 !important; font-size: 16px; margin-top: 5px; font-weight: normal; }
+  
+  /* Navigation Menu Container */
+  p:first-of-type { background-color: #3A3F44 !important; padding: 12px 40px !important; margin: -20px 0 30px 0 !important; display: block; }
+  p:first-of-type a { color: #FFFFFF !important; margin-right: 20px; text-transform: uppercase; font-size: 13px; letter-spacing: 1px; }
+  p:first-of-type a:hover { color: #FFD200 !important; text-decoration: none; }
+
+  /* Body Content & Section Headings */
+  h2 { color: #2B2E33 !important; border-bottom: 3px solid #FFD200; padding-bottom: 6px; margin-top: 40px; font-size: 22px; }
+  h3 { color: #3A3F44 !important; font-weight: bold; font-size: 16px; }
+  a { color: #3A3F44 !important; text-decoration: underline; }
+  
+  /* Clean structural lists */
   ul { padding-left: 20px; }
-  li { margin-bottom: 6px; }
+  li { margin-bottom: 8px; color: #4E5256; }
+  hr { display: none; }
 </style>
+
 
 # Edna Achieng Ogutu
 ### Statistician | Data Analyst | Monitoring, Evaluation & Learning (MEL)
