@@ -1,5 +1,5 @@
 <style>
-/* 1. Global Page Foundation: Royal Corporate Blue is Dominant */
+  /* 1. Global Page Foundation: Royal Corporate Blue is Dominant */
   body { 
     background-color: #1A488E !important; 
     color: #2F3538 !important; 
@@ -47,13 +47,30 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* 4. Structural Content Sections: Crisp White Cards over Light Grey Background */
+  /* 4. Structural Content Sections: Crisp White Cards */
   .content-card {
     background-color: #FFFFFF !important;
     padding: 35px !important;
     border-radius: 8px;
     margin-bottom: 30px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* 5. IMAGE BACKGROUND CARDS WITH READABILITY OVERLAYS */
+  .skills-bg-card {
+    background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), 
+                url('https://dreamstime.com') !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  .education-bg-card {
+    background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), 
+                url('https://pinimg.com') !important;
+    background-size: cover !important;
+    background-position: center !important;
   }
 
   /* Headings: Charcoal Grey with Solid Mustard Yellow Anchor Underline */
@@ -78,20 +95,20 @@
   
   /* Skill Grid Layout */
   .skill-group { margin-bottom: 15px; }
-  .skill-title { font-weight: bold; color: #2F3538; }
+  .skill-title { font-weight: bold; color: #1A488E; }
 </style>
 
 <div class="portfolio-container">
 
 <div class="header-block">
   <h1>Edna Ogutu</h1>
-  <h3>Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions)</h3>
-  <p> Nairobi, Kenya |  hednaogutuh@gmail.com |  <a href="Your-LinkedIn-URL-Here" style="color: #FFD200 !important; text-decoration: underline;">Connect on LinkedIn</a></p>
+  <h3>Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</h3>
+  <p> Nairobi, Kenya | hednaogutuh@gmail.com |  <a href="https://www.linkedin.com/in/edna-achieng-ogutu/" style="color: #FFD200 !important; text-decoration: underline;">Connect on LinkedIn</a></p>
 </div>
 
 <div class="navbar">
   <a href="#summary"> Home</a>
-  <a href="#skills">🛠️ Skills</a>
+  <a href="#skills"> Skills</a>
   <a href="#experience"> Experience</a>
   <a href="#education"> Education</a>
 </div>
@@ -102,7 +119,7 @@
   <p style="line-height: 1.7; font-size: 15px; color: #2F3538;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
 </div>
 
-<div id="skills" class="content-card">
+<div id="skills" class="content-card skills-bg-card">
   <h2>🛠️ Core Expertise & Technical Skills</h2>
   
   <h3>Core Areas of Expertise</h3>
@@ -144,7 +161,7 @@
     <li>Supported recruitment, orientation, deployment, and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.</li>
     <li>Supported the design and refinement of structured questionnaires, digital data-collection tools, and qualitative interview guides.</li>
     <li>Conducted and supported KIIs and FGDs, including participant engagement, field coordination, documentation, and qualitative data organization.</li>
-    <li>Performed data cleaning, validation, coding, and quantitative and qualitative analysis, contributing to interpretation of findings.</li>
+    <li>Performed data cleaning, validation, coding, and quantitative/qualitative analysis, contributing to interpretation of findings.</li>
     <li>Prepared research reports, monitoring summaries, presentations, and evidence briefs for program and research teams.</li>
     <li>Maintained research documentation and supported ethical research, confidentiality, data protection, and accurate field-team records.</li>
   </ul>
@@ -161,7 +178,7 @@
     <li>Partnered with HR and Finance to validate timesheets, reconcile payroll information, and prepare operational and compliance reports.</li>
   </ul>
 
- <h3> SGS Kenya</h3>
+  <h3> SGS Kenya</h3>
   <span class="job-meta">Data Officer Intern | (Nov 2023 - Jan 2024)</span>
   <ul>
     <li>Supported data collection, compilation, cleaning, validation, and database management for operational and research data.</li>
@@ -170,7 +187,7 @@
     <li>Performed descriptive analysis and supported data visualization for internal reporting and decision-making.</li>
   </ul>
 
-  <h3>📍 GAIN-AGRA Project</h3>
+  <h3> GAIN-AGRA Project</h3>
   <span class="job-meta">Research Assistant - Nutrition Survey Project (Project-Based) | (Apr 2023 - May 2023)</span>
   <ul>
     <li>Implemented household surveys using structured digital data-collection tools and approved field procedures.</li>
@@ -197,7 +214,7 @@
   </ul>
 </div>
 
-<div id="education" class="content-card">
+<div id="education" class="content-card education-bg-card">
   <h2> Education & Certifications</h2>
 
   <h3>Education</h3>
@@ -215,3 +232,5 @@
 </div>
 
 </div>
+    <li>Provided analytical and operational support across 37+ customer and workforce programs, using data to monitor performance and support operational decision-making.</li>
+    <li>Conducted data cleaning, validation, reconciliation, and quality assurance across biometric, CRM, telephony, and workforce data sources.</li>
