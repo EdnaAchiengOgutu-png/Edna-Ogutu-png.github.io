@@ -1,3 +1,14 @@
+<style>
+  body { background-color: #3A3F44 !important; color: #FFFFFF !important; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  h1, h2, h3, h4 { color: #FFD200 !important; border-bottom: 1px solid #555A60; padding-bottom: 8px; }
+  a { color: #FFD200 !important; text-decoration: none; font-weight: bold; }
+  a:hover { text-decoration: underline; color: #FFFFFF !important; }
+  code, pre { background-color: #2B2E33 !important; color: #FFD200 !important; border: 1px solid #555A60; }
+  hr { border: 0; height: 1px; background: #555A60; margin: 20px 0; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+</style>
+
 # Edna Achieng Ogutu
 ### Statistician | Data Analyst | Monitoring, Evaluation & Learning (MEL)
 Nairobi, Kenya |  hednaogutuh@gmail.com
