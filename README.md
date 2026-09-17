@@ -1,4 +1,9 @@
-<style>
+ <style>
+  /* Force hide the default GitHub repository title at the very top */
+  header, #header, .title, h1:first-of-type:not(.header-block h1) {
+    display: none !important;
+  }
+
   /* 1. Global Page Foundation: Royal Corporate Blue is Dominant */
   body { 
     background-color: #1A488E !important; 
@@ -7,6 +12,7 @@
     margin: 0 !important; 
     padding: 0 !important; 
   }
+
   
   /* Container to center and wrap content */
   .portfolio-container {
