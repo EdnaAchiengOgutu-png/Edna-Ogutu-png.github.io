@@ -1,22 +1,21 @@
 <style>
-  /* Force hide default GitHub repository elements */
+  /* Force hide default GitHub template elements */
   header, #header, .title, h1:first-of-type:not(.header-block h1) {
     display: none !important;
   }
 
-  /* 1. Global Page Foundation: Force Clean Arial Structure Globally */
+  /* 1. Global Page Foundation */
   body, h1, h2, h3, p, a, li, span, div { 
     font-family: 'Arial', sans-serif !important; 
   }
 
   body { 
-    background-color: #1A488E !important; 
-    color: #2F3538 !important; 
+    background-color: #1A488E !important; /* Uniform Royal Blue Page Background */
     margin: 0 !important; 
     padding: 0 !important; 
   }
   
-  /* 2. Lock Header & Navbar at the Top Window Frame */
+  /* 2. Fixed Top Layout Navigation & Header Container */
   .fixed-header-container {
     position: fixed !important;
     top: 0 !important;
@@ -31,7 +30,6 @@
     box-sizing: border-box !important;
   }
 
-  /* Portfolio wrapper to align content properly */
   .portfolio-container {
     max-width: 950px;
     margin: 0 auto;
@@ -39,119 +37,114 @@
     box-sizing: border-box;
   }
 
-  /* Main Header: Charcoal Grey with White Text & Mustard Accent */
+  /* 3. Main Profile Block: Solid Deep Charcoal with Crisp White & Yellow Elements */
   .header-block { 
-    background-color: #2F3538 !important; 
+    background-color: #23272A !important; 
     color: #FFFFFF !important; 
     padding: 30px 40px !important; 
     border-radius: 8px;
     margin-bottom: 15px;
     border-left: 6px solid #FFD200;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
   }
-  .header-block h1 { color: #FFFFFF !important; margin: 0 0 5px 0; font-size: 28px; font-weight: 700; display: block !important; }
-  .header-block h3 { color: #FFD200 !important; margin: 0 0 10px 0; font-size: 15px; font-weight: 700; letter-spacing: 0.5px; line-height: 1.4; }
-  .header-block p { color: #D0D5DD !important; margin: 5px 0; font-size: 14px; }
+  .header-block h1 { color: #FFFFFF !important; margin: 0 0 8px 0; font-size: 28px; font-weight: 800; }
+  .header-block h3 { color: #FFD200 !important; margin: 0 0 12px 0; font-size: 15px; font-weight: 700; letter-spacing: 0.3px; line-height: 1.5; }
+  .header-block p { color: #E5E7EB !important; margin: 5px 0; font-size: 14px; font-weight: bold; }
 
-  /* Navigation Bar styling */
+  /* 4. Menu Navbar Strip */
   .navbar { 
-    background-color: #2F3538 !important; 
+    background-color: #23272A !important; 
     padding: 14px 30px !important; 
     border-radius: 6px;
     margin-bottom: 10px;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
   }
   .navbar a { 
     color: #FFFFFF !important; 
     margin: 0 15px; 
     text-decoration: none !important; 
-    font-weight: 600; 
+    font-weight: 700; 
     font-size: 13px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* 3. The Scroll Layer: Shifted down beneath frozen layout headers */
+  /* 5. Content Layout Grid */
   .scroll-content {
-    margin-top: 340px !important; 
+    margin-top: 360px !important; 
     padding-bottom: 40px;
   }
 
-  /* 4. Base Content Card Structure: Soft Cornflower Blue (#97B2DE) */
+  /* 6. Section Container Cards: Uniform Soft Cornflower Blue with Dark Readable Text */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px !important;
     border-radius: 8px;
     margin-bottom: 30px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 350px !important; 
+    scroll-margin-top: 370px !important; 
   }
 
-  /* 5. Image Background Overlays: Tinted with Soft Cornflower Blue blend filter */
+  /* 7. Card Background Graph Texture Overlays */
   .skills-bg-card {
-    background: linear-gradient(rgba(151, 178, 222, 0.92), rgba(151, 178, 222, 0.92)), 
+    background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
                 url('https://dreamstime.com') !important;
     background-size: cover !important;
     background-position: center !important;
   }
 
   .education-bg-card {
-    background: linear-gradient(rgba(151, 178, 222, 0.92), rgba(151, 178, 222, 0.92)), 
+    background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
                 url('https://pinimg.com') !important;
     background-size: cover !important;
     background-position: center !important;
   }
 
-  /* 6. Strategic Font Styling: Bold Mustard Yellow for Main Subject Headings */
+  /* 8. Text Typographic System for Cards */
   h2 { 
-    color: #FFD200 !important; 
-    font-size: 24px; 
-    font-weight: 800; /* High structural thickness */
+    color: #23272A !important; /* Bold Charcoal for Category Titles */
+    font-size: 22px; 
+    font-weight: 800; 
     margin-top: 0;
     margin-bottom: 20px;
     padding-bottom: 8px;
-    border-bottom: 3px solid #FFD200; 
+    border-bottom: 3px solid #23272A; 
     text-transform: uppercase;
     letter-spacing: 0.8px;
   }
 
-  /* 7. Corporate Brand Titles: Thick Bold Charcoal for Companies */
   h3 { 
-    color: #2F3538 !important; 
-    font-size: 19px; 
+    color: #111314 !important; /* Extra Deep contrast for Corporate names */
+    font-size: 18px; 
     font-weight: 800; 
     margin-top: 25px; 
     margin-bottom: 4px; 
-    letter-spacing: -0.2px;
   }
   
-  /* 8. Sub-headers: Thick Bold Charcoal for Job Roles & Timeline Metadata */
   .job-meta { 
-    color: #2F3538 !important; 
+    color: #23272A !important; 
     font-style: normal; 
     font-size: 14px; 
     margin-bottom: 14px; 
     display: block; 
     font-weight: 700; 
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
   }
   
-  /* 9. Balanced Content Descriptions */
   ul { padding-left: 20px; margin-top: 5px; }
   li { 
     margin-bottom: 10px; 
-    line-height: 1.65; 
-    color: #23272A !important; 
+    line-height: 1.6; 
+    color: #1A1D20 !important; /* Clean Dark Text for reading bullet points */
     font-size: 15px; 
     font-weight: 500; 
   }
   
-  /* 10. Technical Highlight Anchors */
   .skill-title { 
     font-weight: 700; 
     color: #1A488E; 
@@ -163,17 +156,17 @@
 
 <!-- FIXED CONTAINER BLOCK -->
 <div class="fixed-header-container">
-
+  <div class="header-block">
     <h1>Edna Ogutu</h1>
     <h3>Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</h3>
-    <p> Nairobi, Kenya |  hednaogutuh@gmail.com |  <a href="Your-LinkedIn-URL-Here" style="color: #FFD200 !important; text-decoration: underline;">Connect on LinkedIn</a></p>
+    <p>📍 Nairobi, Kenya | 📧 hednaogutuh@gmail.com | 💼 <a href="Your-LinkedIn-URL-Here" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a></p>
   </div>
 
   <div class="navbar">
-    <a href="#summary"> Home</a>
-    <a href="#skills"> Skills</a>
-    <a href="#experience"> Experience</a>
-    <a href="#education"> Education</a>
+    <a href="#summary">🏠 Home</a>
+    <a href="#skills">🛠️ Skills</a>
+    <a href="#experience">💼 Experience</a>
+    <a href="#education">🎓 Education</a>
   </div>
 </div>
 
@@ -181,13 +174,13 @@
 <div class="scroll-content">
 
 <div id="summary" class="content-card">
-  <h2> Professional Summary</h2>
-  <p style="line-height: 1.7; font-size: 15px; color: #2F3538; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
-  <p style="line-height: 1.7; font-size: 15px; color: #2F3538; font-weight: 500;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
+  <h2>📋 Professional Summary</h2>
+  <p style="line-height: 1.6; font-size: 15px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
+  <p style="line-height: 1.6; font-size: 15px; color: #1A1D20; font-weight: 500;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
 </div>
 
 <div id="skills" class="content-card skills-bg-card">
-  <h2> Core Expertise & Technical Skills</h2>
+  <h2>🛠️ Core Expertise & Technical Skills</h2>
   
   <h3>Core Areas of Expertise</h3>
   <ul>
@@ -206,9 +199,9 @@
 </div>
 
 <div id="experience" class="content-card">
-  <h2> Professional Experience</h2>
+  <h2>💼 Professional Experience</h2>
 
-  <h3> PASGR - African Youth Pathways to Systems Change (AYPS)</h3>
+  <h3>📍 PASGR - African Youth Pathways to Systems Change (AYPS)</h3>
   <span class="job-meta">Field Coordinator | Research, Data Quality & Monitoring Support (Jun 2026 - Aug 2026)</span>
   <ul>
     <li>Coordinated field implementation, including enumerator deployment, field communication, progress monitoring, and adherence to approved study procedures.</li>
@@ -219,22 +212,26 @@
     <li>Supported field documentation, transcription, data cleaning, qualitative coding, thematic analysis, and preliminary quantitative analysis.</li>
     <li>Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.</li>
   </ul>
-    </ul>
 
-  <h3> Hamasisha Africa</h3>
+  <h3>📍 Hamasisha Africa</h3>
   <span class="job-meta">Research & Data Operations Analyst (Remote - Project-Based Consultancy) | (Mar 2022 - Apr 2026)</span>
   <ul>
-    <li>Supported monitoring, evaluation, and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
-    <li>Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics, and data-quality requirements.</li>
-    <li>Supported recruitment, orientation, deployment, and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.</li>
-    <li>Supported the design and refinement of structured questionnaires, digital data-collection tools, and qualitative interview guides.</li>
-    <li>Conducted and supported KIIs and FGDs, including participant engagement, field coordination, documentation, and qualitative data organization.</li>
-    <li>Performed data cleaning, validation, coding, and quantitative and qualitative analysis, contributing to interpretation of findings.</li>
-    <li>Prepared research reports, monitoring summaries, presentations, and evidence briefs for program and research teams.</li>
-    <li>Maintained research documentation and supported ethical research, confidentiality, data protection, and accurate field-team records.</li>
+    <li>Supported monitoring, evaluation and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
+    <li>Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics and data-quality requirements.</li>
+  <h3>📍 Hamasisha Africa</h3>
+  <span class="job-meta">Research & Data Operations Analyst (Remote - Project-Based Consultancy) | (Mar 2022 - Apr 2026)</span>
+  <ul>
+    <li>Supported monitoring, evaluation and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
+    <li>Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics and data-quality requirements.</li>
+    <li>Supported recruitment, orientation, deployment and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.</li>
+    <li>Supported the design and refinement of structured questionnaires, digital data-collection tools and qualitative interview guides.</li>
+    <li>Conducted and supported KIIs and FGDs, including participant engagement, field coordination, documentation and qualitative data organization.</li>
+    <li>Performed data cleaning, validation, coding and quantitative and qualitative analysis, contributing to interpretation of findings.</li>
+    <li>Prepared research reports, monitoring summaries, presentations and evidence briefs for program and research teams.</li>
+    <li>Maintained research documentation and supported ethical research, confidentiality, data protection and accurate field-team records.</li>
   </ul>
 
-  <h3> Calltronix Kenya Limited</h3>
+  <h3>📍 Calltronix Kenya Limited</h3>
   <span class="job-meta">Data Analyst (Contract) | (Jan 2025 - Feb 2026)</span>
   <ul>
     <li>Provided analytical and operational support across 37+ customer and workforce programs, using data to monitor performance and support operational decision-making.</li>
@@ -246,7 +243,7 @@
     <li>Partnered with HR and Finance to validate timesheets, reconcile payroll information, and prepare operational and compliance reports.</li>
   </ul>
 
-  <h3> SGS Kenya</h3>
+  <h3>📍 SGS Kenya</h3>
   <span class="job-meta">Data Officer Intern | (Nov 2023 - Jan 2024)</span>
   <ul>
     <li>Supported data collection, compilation, cleaning, validation, and database management for operational and research data.</li>
@@ -255,7 +252,7 @@
     <li>Performed descriptive analysis and supported data visualization for internal reporting and decision-making.</li>
   </ul>
 
-  <h3> GAIN-AGRA Project</h3>
+  <h3>📍 GAIN-AGRA Project</h3>
   <span class="job-meta">Research Assistant - Nutrition Survey Project (Project-Based) | (Apr 2023 - May 2023)</span>
   <ul>
     <li>Implemented household surveys using structured digital data-collection tools and approved field procedures.</li>
@@ -264,7 +261,7 @@
     <li>Supported field reporting, data cleaning, and preparation of collected data for analysis.</li>
   </ul>
 
-  <h3> Adaptive Model for Research and Empowerment in Communities (AMREC)</h3>
+  <h3>📍 Adaptive Model for Research and Empowerment in Communities (AMREC)</h3>
   <span class="job-meta">Research Analyst – Intern | (Jan 2023 - Mar 2023)</span>
   <ul>
     <li>Analyzed health research and program datasets using Stata and SPSS to generate statistical summaries and research outputs.</li>
@@ -273,7 +270,7 @@
     <li>Assisted research and program teams with interpretation and synthesis of quantitative findings.</li>
   </ul>
 
-  <h3> JKUAT - School of Computing and Information Technology (SCIT)</h3>
+  <h3>📍 JKUAT - School of Computing and Information Technology (SCIT)</h3>
   <span class="job-meta">IBM Data Science - Attachment Program | (Aug 2021 - Dec 2021)</span>
   <ul>
     <li>Completed a structured four-month IBM Data Science learning program delivered in partnership with JKUAT's School of Computing and Information Technology.</li>
@@ -283,7 +280,7 @@
 </div>
 
 <div id="education" class="content-card education-bg-card">
-  <h2> Education & Certifications</h2>
+  <h2>🎓 Education & Certifications</h2>
 
   <h3>Education</h3>
   <ul>
@@ -299,6 +296,5 @@
   </ul>
 </div>
 
-</div> <!-- Closes the scroll-content div -->
-</div> <!-- Closes the portfolio-container div -->
-
+</div> <!-- Closes scroll-content -->
+</div> <!-- Closes portfolio-container -->
