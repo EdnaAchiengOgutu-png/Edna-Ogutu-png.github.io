@@ -1,5 +1,5 @@
 <style>
-  /* Force hide the default GitHub repository title at the very top */
+  /* Force hide default GitHub repository elements */
   header, #header, .title, h1:first-of-type:not(.header-block h1) {
     display: none !important;
   }
@@ -13,21 +13,27 @@
     padding: 0 !important; 
   }
   
-  /* 2. THE CHOSEN FIX: Freeze Header & Navbar at the Top */
-  .sticky-wrapper {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: #1A488E !important; /* Matches background to prevent overlap transparency */
-    padding-top: 20px;
-    padding-bottom: 10px;
+  /* 2. THE CHOSEN FIX: Permanently Lock Header & Navbar at the Top Window Frame */
+  .fixed-header-container {
+    position: fixed !important;
+    top: 0 !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 100% !important;
+    max-width: 950px !important;
+    z-index: 9999 !important;
+    background-color: #1A488E !important; /* Prevents underlying text bleeding */
+    padding-top: 20px !important;
+    padding-bottom: 5px !important;
+    box-sizing: border-box !important;
   }
 
+  /* Portfolio wrapper to align content properly */
   .portfolio-container {
     max-width: 950px;
     margin: 0 auto;
-    padding: 0 20px 20px 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
 
   /* Main Header: Charcoal Grey with White Text & Mustard Accent */
@@ -41,15 +47,15 @@
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 0 5px 0; font-size: 28px; font-weight: 700; display: block !important; }
-  .header-block h3 { color: #FFD200 !important; margin: 0 0 10px 0; font-size: 15px; font-weight: 400; letter-spacing: 0.5px; }
+  .header-block h3 { color: #FFD200 !important; margin: 0 0 10px 0; font-size: 15px; font-weight: 400; letter-spacing: 0.5px; line-height: 1.4; }
   .header-block p { color: #D0D5DD !important; margin: 5px 0; font-size: 14px; }
 
-  /* Navigation: Charcoal Grey with Yellow Hover Highlights */
+  /* Navigation Bar styling matching your look */
   .navbar { 
     background-color: #2F3538 !important; 
-    padding: 12px 30px !important; 
+    padding: 14px 30px !important; 
     border-radius: 6px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
@@ -64,9 +70,10 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* 3. Scrolling Content Cards Alignment */
+  /* 3. The Scroll Layer: Shifted down precisely so it doesn't hide behind the frozen headers */
   .scroll-content {
-    margin-top: 20px;
+    margin-top: 340px !important; /* Adds clear buffer space beneath your fixed top layout */
+    padding-bottom: 40px;
   }
 
   .content-card {
@@ -77,7 +84,7 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 360px; /* Crucial: Prevents frozen header from blocking titles when jumping */
+    scroll-margin-top: 350px !important; /* Prevents frozen elements from blocking the section title when you click links */
   }
 
   /* Image Background Overlays */
@@ -95,7 +102,7 @@
     background-position: center !important;
   }
 
-  /* Headings: Charcoal Grey with Solid Mustard Yellow Underline */
+  /* Headings & Lists Layout */
   h2 { 
     color: #2F3538 !important; 
     font-size: 22px; 
@@ -107,7 +114,6 @@
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
-
   h3 { color: #2F3538 !important; font-size: 17px; font-weight: 600; margin-top: 25px; margin-bottom: 8px; }
   .job-meta { color: #687076 !important; font-style: italic; font-size: 14px; margin-bottom: 12px; display: block; }
   ul { padding-left: 20px; margin-top: 5px; }
@@ -115,22 +121,29 @@
   .skill-title { font-weight: bold; color: #1A488E; }
 </style>
 
+<div class="portfolio-container">
 
-<div class="header-block">
-  <h1>Edna Ogutu</h1>
-  <h3>Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</h3>
-  <p> Nairobi, Kenya | hednaogutuh@gmail.com |  <a href="https://www.linkedin.com/in/edna-achieng-ogutu/" style="color: #FFD200 !important; text-decoration: underline;">Connect on LinkedIn</a></p>
+<!-- FIXED CONTAINER BLOCK -->
+<div class="fixed-header-container">
+  <div class="header-block">
+    <h1>Edna Ogutu</h1>
+    <h3>Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</h3>
+    <p>  Nairobi, Kenya | 📧 hednaogutuh@gmail.com |  <a href="Your-LinkedIn-URL-Here" style="color: #FFD200 !important; text-decoration: underline;">Connect on LinkedIn</a></p>
+  </div>
+
+  <div class="navbar">
+    <a href="#summary"> Home</a>
+    <a href="#skills">🛠️ Skills</a>
+    <a href="#experience"> Experience</a>
+    <a href="#education"> Education</a>
+  </div>
 </div>
 
-<div class="navbar">
-  <a href="#summary"> Home</a>
-  <a href="#skills"> Skills</a>
-  <a href="#experience"> Experience</a>
-  <a href="#education"> Education</a>
-</div>
+<!-- SCROLLING CONTENT LAYER -->
+<div class="scroll-content">
 
 <div id="summary" class="content-card">
-  <h2> Professional Summary</h2>
+  <h2>📋 Professional Summary</h2>
   <p style="line-height: 1.7; font-size: 15px; color: #2F3538;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
   <p style="line-height: 1.7; font-size: 15px; color: #2F3538;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
 </div>
@@ -169,7 +182,7 @@
     <li>Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.</li>
   </ul>
 
-  <h3> Hamasisha Africa</h3>
+ <h3> Hamasisha Africa</h3>
   <span class="job-meta">Research & Data Operations Analyst (Remote - Project-Based Consultancy) | (Mar 2022 - Apr 2026)</span>
   <ul>
     <li>Supported monitoring, evaluation, and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
@@ -177,7 +190,7 @@
     <li>Supported recruitment, orientation, deployment, and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.</li>
     <li>Supported the design and refinement of structured questionnaires, digital data-collection tools, and qualitative interview guides.</li>
     <li>Conducted and supported KIIs and FGDs, including participant engagement, field coordination, documentation, and qualitative data organization.</li>
-    <li>Performed data cleaning, validation, coding, and quantitative/qualitative analysis, contributing to interpretation of findings.</li>
+    <li>Performed data cleaning, validation, coding, and quantitative and qualitative analysis, contributing to interpretation of findings.</li>
     <li>Prepared research reports, monitoring summaries, presentations, and evidence briefs for program and research teams.</li>
     <li>Maintained research documentation and supported ethical research, confidentiality, data protection, and accurate field-team records.</li>
   </ul>
@@ -192,8 +205,6 @@
     <li>Developed and automated Power BI and Excel dashboards for attendance, shift adherence, and KPI monitoring, reducing reporting time by 80%.</li>
     <li>Conducted volume forecasting, capacity planning, and schedule optimization to support workforce allocation.</li>
     <li>Partnered with HR and Finance to validate timesheets, reconcile payroll information, and prepare operational and compliance reports.</li>
-    <li>Provided analytical and operational support across 37+ customer and workforce programs, using data to monitor performance and support operational decision-making.</li>
-    <li>Conducted data cleaning, validation, reconciliation, and quality assurance across biometric, CRM, telephony, and workforce data sources.</li>
   </ul>
 
   <h3> SGS Kenya</h3>
@@ -249,3 +260,5 @@
   </ul>
 </div>
 
+</div> <!-- Closes the scroll-content div -->
+</div> <!-- Closes the portfolio-container div -->
