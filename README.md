@@ -29,7 +29,7 @@
     width: 100% !important;
     z-index: 9999 !important;
     background-color: #1A488E !important; 
-    padding: 20px 1% 5px 1% !important; /* Minimal margins so elements stretch broad */
+    padding: 20px 1% 5px 1% !important; 
     box-sizing: border-box !important;
   }
 
@@ -37,7 +37,7 @@
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
-    padding: 40px 50px !important; /* Heavy internal spacing */
+    padding: 40px 50px !important; 
     border-radius: 8px;
     margin-bottom: 15px;
     border-left: 8px solid #FFD200;
@@ -45,14 +45,14 @@
     width: 100% !important;
     box-sizing: border-box !important;
   }
-  .header-block h1 { color: #FFFFFF !important; margin: 0 0 10px 0; font-size: 38px; font-weight: 900; } /* Maximum Text Scale */
+  .header-block h1 { color: #FFFFFF !important; margin: 0 0 10px 0; font-size: 38px; font-weight: 900; } 
   .header-block h3 { color: #FFD200 !important; margin: 0 0 14px 0; font-size: 18px; font-weight: 700; letter-spacing: 0.5px; line-height: 1.5; }
   .header-block p { color: #E5E7EB !important; margin: 6px 0; font-size: 16px; font-weight: bold; }
 
   /* 4. Menu Navigation Links: Ultra-Wide Strip */
   .navbar { 
     background-color: #23272A !important; 
-    padding: 20px 40px !important; /* Much chunkier menu bar thickness */
+    padding: 20px 40px !important; 
     border-radius: 6px;
     margin-bottom: 10px;
     text-align: center;
@@ -62,10 +62,10 @@
   }
   .navbar a { 
     color: #FFFFFF !important; 
-    margin: 0 40px; /* Extreme visual spacing between buttons */
+    margin: 0 40px; 
     text-decoration: none !important; 
     font-weight: 800; 
-    font-size: 16px; /* Large clickable text link elements */
+    font-size: 16px; 
     text-transform: uppercase;
     letter-spacing: 1px;
   }
@@ -73,26 +73,27 @@
 
   /* 5. Fluid Scrolling Content Layer: Forced Edge-to-Edge Execution Alignment */
   .scroll-content {
-    margin-top: 420px !important; /* Safe buffer spacing to compensate for enlarged top layouts */
-    padding: 0 1% 40px 1% !important; /* Perfect flush structural track placement */
+    margin-top: 420px !important; 
+    padding: 0 1% 40px 1% !important; 
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* 6. Section Container Cards: Absolute Full Widescreen Mode Block Units */
+  /* 6. Section Container Cards: FIXED CORNER SPACING GAP BUFFER */
   .content-card {
     background-color: #97B2DE !important; 
-    padding: 45px 55px !important; /* Expanded structural card canvas context grid padding */
+    padding: 30px 45px 45px 45px !important; /* Slightly pulled up upper padding to ride higher */
     border-radius: 8px;
-    margin-bottom: 35px;
+    margin-bottom: 45px !important; /* RESTORED BLUE SPACE GAP BETWEEN CARDS */
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
     scroll-margin-top: 440px !important; 
     width: 100% !important;
     box-sizing: border-box !important;
+    display: block !important;
   }
 
   /* Background Grid elements */
@@ -110,43 +111,54 @@
     background-position: center !important;
   }
 
-  /* Large Layout Typography Metrics Inside Section Cards with Absolute Flush Top Alignment */
+  /* 7. PERFECT FLUSH TOP VERTICAL ALIGNMENT FIX */
+  .content-card > h2:first-child, .content-card > div:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
   h2 { 
     color: #23272A !important; 
     font-size: 28px; 
     font-weight: 900; 
-    margin: 0 0 25px 0 !important; /* Zero top margin forces alignment to absolute top */
+    margin: 0 0 25px 0 !important; /* Locks title completely at the upper border */
     padding-top: 0 !important;
     padding-bottom: 12px;
     border-bottom: 4px solid #23272A; 
     text-transform: uppercase;
     letter-spacing: 1px;
-    vertical-align: top !important; 
+    display: block !important;
   }
+
   h3 { 
     color: #111314 !important; 
     font-size: 23px; 
     font-weight: 900; 
-    margin-top: 0 !important; /* Wipes out empty spacing headers gaps */
+    margin-top: 25px !important; /* Restores spacing between companies */
     margin-bottom: 8px !important; 
     padding-top: 0 !important;
-    vertical-align: top !important;
+    display: block !important;
   }
+
+  /* First company heading inside a card sits completely flush up top */
+  h2 + h3, .content-card > h3:first-of-type {
+    margin-top: 5px !important;
+  }
+  
   .job-meta { 
     color: #23272A !important; 
     font-style: normal; 
     font-size: 16px; 
     margin-top: 0 !important;
     margin-bottom: 18px !important; 
-    padding-top: 0 !important;
     display: block; 
     font-weight: 800; 
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    vertical-align: top !important;
   }
+  
   ul { padding-left: 30px; margin-top: 5px; }
-  li { margin-bottom: 14px; line-height: 1.7; color: #1A1D20 !important; font-size: 17px; font-weight: 500; } /* Maximum Readability Text Scale */
+  li { margin-bottom: 14px; line-height: 1.7; color: #1A1D20 !important; font-size: 17px; font-weight: 500; } 
   .skill-title { font-weight: 700; color: #1A488E; font-size: 17.5px; }
 </style>
 
@@ -197,9 +209,9 @@
 </div>
 
 <div id="experience" class="content-card">
-  <h2>💼 Professional Experience</h2>
+   <h2>💼 Professional Experience</h2>
 
-  <h3>📍 PASGR - African Youth Pathways to Systems Change (AYPS)</h3>
+  <h3 style="margin-top: 5px !important;">📍 PASGR - African Youth Pathways to Systems Change (AYPS)</h3>
   <span class="job-meta">Field Coordinator | Research, Data Quality & Monitoring Support (Jun 2026 - Aug 2026)</span>
   <ul>
     <li>Coordinated field implementation, including enumerator deployment, field communication, progress monitoring, and adherence to approved study procedures.</li>
@@ -208,31 +220,20 @@
     <li>Monitored live digital data submissions, identifying completeness, consistency, and submission issues requiring follow-up.</li>
     <li>Reported field progress, emerging challenges, data-quality issues, and implementation gaps to the Principal Investigator and research team.</li>
     <li>Supported field documentation, transcription, data cleaning, qualitative coding, thematic analysis, and preliminary quantitative analysis.</li>
-
-
-
-
-
-
-
-
+    <li>Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.</li>
+  </ul>
 
   <h3>📍 Hamasisha Africa</h3>
   <span class="job-meta">Research & Data Operations Analyst (Remote - Project-Based Consultancy) | (Mar 2022 - Apr 2026)</span>
   <ul>
-    <li>Supported monitoring, evaluation and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
-    <li>Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics and data-quality requirements.</li>
-  <h3>📍 Hamasisha Africa</h3>
-  <span class="job-meta">Research & Data Operations Analyst (Remote - Project-Based Consultancy) | (Mar 2022 - Apr 2026)</span>
-  <ul>
-    <li>Supported monitoring, evaluation and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
-    <li>Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics and data-quality requirements.</li>
-    <li>Supported recruitment, orientation, deployment and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.</li>
-    <li>Supported the design and refinement of structured questionnaires, digital data-collection tools and qualitative interview guides.</li>
-    <li>Conducted and supported KIIs and FGDs, including participant engagement, field coordination, documentation and qualitative data organization.</li>
-    <li>Performed data cleaning, validation, coding and quantitative and qualitative analysis, contributing to interpretation of findings.</li>
-    <li>Prepared research reports, monitoring summaries, presentations and evidence briefs for program and research teams.</li>
-    <li>Maintained research documentation and supported ethical research, confidentiality, data protection and accurate field-team records.</li>
+    <li>Supported monitoring, evaluation, and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
+    <li>Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics, and data-quality requirements.</li>
+    <li>Supported recruitment, orientation, deployment, and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.</li>
+    <li>Supported the design and refinement of structured questionnaires, digital data-collection tools, and qualitative interview guides.</li>
+    <li>Conducted and supported KIIs and FGDs, including participant engagement, field coordination, documentation, and qualitative data organization.</li>
+    <li>Performed data cleaning, validation, coding, and quantitative and qualitative analysis, contributing to interpretation of findings.</li>
+    <li>Prepared research reports, monitoring summaries, presentations, and evidence briefs for program and research teams.</li>
+    <li>Maintained research documentation and supported ethical research, confidentiality, data protection, and accurate field-team records.</li>
   </ul>
 
   <h3>📍 Calltronix Kenya Limited</h3>
@@ -286,7 +287,7 @@
 <div id="education" class="content-card education-bg-card">
   <h2>🎓 Education & Certifications</h2>
 
-  <h3>Education</h3>
+  <h3 style="margin-top: 5px !important;">Education</h3>
   <ul>
     <li><span class="skill-title">Master of Science in Data Science</span> | Open University of Kenya <i>(In Progress | Expected 2028)</i></li>
     <li><span class="skill-title">Bachelor Of Science in Biostatistics</span> | Jomo Kenyatta University of Agriculture and Technology (JKUAT)</li>
@@ -300,4 +301,6 @@
   </ul>
 </div>
 
+</div> <!-- Closes the scroll-content layout box -->
+</div> <!-- Closes the portfolio-container frame -->
 
