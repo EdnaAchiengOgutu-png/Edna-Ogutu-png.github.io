@@ -1,10 +1,10 @@
- <style>
+<style>
   /* Force hide the default GitHub repository title at the very top */
   header, #header, .title, h1:first-of-type:not(.header-block h1) {
     display: none !important;
   }
 
-  /* 1. Global Page Foundation: Royal Corporate Blue is Dominant */
+  /* 1. Global Page Foundation: Royal Corporate Blue */
   body { 
     background-color: #1A488E !important; 
     color: #2F3538 !important; 
@@ -12,48 +12,63 @@
     margin: 0 !important; 
     padding: 0 !important; 
   }
-
   
-  /* Container to center and wrap content */
+  /* 2. THE CHOSEN FIX: Freeze Header & Navbar at the Top */
+  .sticky-wrapper {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1A488E !important; /* Matches background to prevent overlap transparency */
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
   .portfolio-container {
     max-width: 950px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
   }
 
-  /* 2. Main Header: Charcoal Grey with White Text & Mustard Accent */
+  /* Main Header: Charcoal Grey with White Text & Mustard Accent */
   .header-block { 
     background-color: #2F3538 !important; 
     color: #FFFFFF !important; 
-    padding: 40px !important; 
+    padding: 30px 40px !important; 
     border-radius: 8px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     border-left: 6px solid #FFD200;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
-  .header-block h1 { color: #FFFFFF !important; margin: 0 0 10px 0; font-size: 32px; font-weight: 700; }
-  .header-block h3 { color: #FFD200 !important; margin: 0 0 15px 0; font-size: 16px; font-weight: 400; letter-spacing: 0.5px; }
+  .header-block h1 { color: #FFFFFF !important; margin: 0 0 5px 0; font-size: 28px; font-weight: 700; display: block !important; }
+  .header-block h3 { color: #FFD200 !important; margin: 0 0 10px 0; font-size: 15px; font-weight: 400; letter-spacing: 0.5px; }
   .header-block p { color: #D0D5DD !important; margin: 5px 0; font-size: 14px; }
 
-  /* 3. Sticky-Style Navigation: Charcoal Grey with Yellow Hover Highlights */
+  /* Navigation: Charcoal Grey with Yellow Hover Highlights */
   .navbar { 
     background-color: #2F3538 !important; 
-    padding: 15px 30px !important; 
+    padding: 12px 30px !important; 
     border-radius: 6px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
   .navbar a { 
     color: #FFFFFF !important; 
     margin: 0 15px; 
     text-decoration: none !important; 
     font-weight: 600; 
-    font-size: 14px;
+    font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* 4. Structural Content Sections: Crisp White Cards */
+  /* 3. Scrolling Content Cards Alignment */
+  .scroll-content {
+    margin-top: 20px;
+  }
+
   .content-card {
     background-color: #FFFFFF !important;
     padding: 35px !important;
@@ -62,9 +77,10 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     position: relative;
     overflow: hidden;
+    scroll-margin-top: 360px; /* Crucial: Prevents frozen header from blocking titles when jumping */
   }
 
-  /* 5. IMAGE BACKGROUND CARDS WITH READABILITY OVERLAYS */
+  /* Image Background Overlays */
   .skills-bg-card {
     background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), 
                 url('https://dreamstime.com') !important;
@@ -79,7 +95,7 @@
     background-position: center !important;
   }
 
-  /* Headings: Charcoal Grey with Solid Mustard Yellow Anchor Underline */
+  /* Headings: Charcoal Grey with Solid Mustard Yellow Underline */
   h2 { 
     color: #2F3538 !important; 
     font-size: 22px; 
@@ -94,17 +110,11 @@
 
   h3 { color: #2F3538 !important; font-size: 17px; font-weight: 600; margin-top: 25px; margin-bottom: 8px; }
   .job-meta { color: #687076 !important; font-style: italic; font-size: 14px; margin-bottom: 12px; display: block; }
-  
-  /* Elegant List Elements */
   ul { padding-left: 20px; margin-top: 5px; }
   li { margin-bottom: 8px; line-height: 1.6; color: #444C52; font-size: 15px; }
-  
-  /* Skill Grid Layout */
-  .skill-group { margin-bottom: 15px; }
   .skill-title { font-weight: bold; color: #1A488E; }
 </style>
 
-<div class="portfolio-container">
 
 <div class="header-block">
   <h1>Edna Ogutu</h1>
