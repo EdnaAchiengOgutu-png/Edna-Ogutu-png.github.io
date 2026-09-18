@@ -296,5 +296,4 @@
   </ul>
 </div>
 
-</div> <!-- Closes scroll-content -->
-</div> <!-- Closes portfolio-container -->
+
