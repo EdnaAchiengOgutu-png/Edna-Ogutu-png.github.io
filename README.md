@@ -1,10 +1,9 @@
 <style>
-  /* 1. UNIVERSAL WIDESCREEN RESET: Force every parent wrapper to stretch 100% edge-to-edge */
+  /* 1. UNIVERSAL WIDESCREEN RESET: Force edge-to-edge layout stretch */
   header, #header, .title, h1:first-of-type:not(.header-block h1) {
     display: none !important;
   }
   
-  /* Destroys hidden structural column boxes injected by the default GitHub styling sheets */
   html, body, .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body, .portfolio-container {
     max-width: 100% !important;
     width: 100% !important;
@@ -21,7 +20,7 @@
     background-color: #1A488E !important; 
   }
   
-  /* 2. Top Navigation Fixed Box Layout */
+  /* 2. Top Navigation: Enlarged padding to stretch wide across the screen */
   .fixed-header-container {
     position: fixed !important;
     top: 0 !important;
@@ -29,69 +28,73 @@
     width: 100% !important;
     z-index: 9999 !important;
     background-color: #1A488E !important; 
-    padding: 20px 4% 5px 4% !important;
+    padding: 20px 2% 5px 2% !important; /* Scaled down padding to grow container size */
     box-sizing: border-box !important;
   }
 
-  /* 3. Main Profile Block Background Panel */
+  /* 3. Main Profile Block: Enlarged width footprint */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
-    padding: 30px 40px !important; 
+    padding: 35px 45px !important; /* Increased inner padding */
     border-radius: 8px;
     margin-bottom: 15px;
     border-left: 6px solid #FFD200;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
-  .header-block h1 { color: #FFFFFF !important; margin: 0 0 8px 0; font-size: 28px; font-weight: 800; }
-  .header-block h3 { color: #FFD200 !important; margin: 0 0 12px 0; font-size: 15px; font-weight: 700; letter-spacing: 0.3px; line-height: 1.5; }
-  .header-block p { color: #E5E7EB !important; margin: 5px 0; font-size: 14px; font-weight: bold; }
+  .header-block h1 { color: #FFFFFF !important; margin: 0 0 8px 0; font-size: 32px; font-weight: 800; } /* Enlarged text sizes */
+  .header-block h3 { color: #FFD200 !important; margin: 0 0 12px 0; font-size: 16px; font-weight: 700; letter-spacing: 0.3px; line-height: 1.5; }
+  .header-block p { color: #E5E7EB !important; margin: 5px 0; font-size: 15px; font-weight: bold; }
 
-  /* 4. Menu Link Strip */
+  /* 4. Menu Link Strip: Stretched full wide */
   .navbar { 
     background-color: #23272A !important; 
-    padding: 14px 30px !important; 
+    padding: 16px 30px !important; /* Increased thickness */
     border-radius: 6px;
     margin-bottom: 10px;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
   .navbar a { 
     color: #FFFFFF !important; 
-    margin: 0 15px; 
+    margin: 0 25px; /* Added spacing between menu links */
     text-decoration: none !important; 
     font-weight: 700; 
-    font-size: 13px;
+    font-size: 14px; /* Enlarged navigation font text */
     text-transform: uppercase;
     letter-spacing: 0.8px;
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* 5. Scrolling Content Layer Fluid Adjustment to match upper blocks */
+  /* 5. Scrolling Content Layer: Perfectly aligned edge-to-edge with the headers */
   .scroll-content {
-    margin-top: 360px !important; 
-    padding: 0 4% 40px 4% !important;
+    margin-top: 380px !important; /* Adjusted spacing buffer beneath your expanded header stack */
+    padding: 0 2% 40px 2% !important; /* Matches top navigation alignment footprint */
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* 6. Main Section Box Blocks */
+  /* 6. Main Content Cards: Expanded full screen wide dimensions */
   .content-card {
     background-color: #97B2DE !important; 
-    padding: 35px !important;
+    padding: 40px 45px !important; /* Increased internal padding size */
     border-radius: 8px;
     margin-bottom: 30px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 370px !important; 
+    scroll-margin-top: 395px !important; 
     width: 100% !important;
     box-sizing: border-box !important;
   }
 
-  /* Background Grid elements */
+  /* Background Graphic Overlays */
   .skills-bg-card {
     background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
                 url('https://dreamstime.com') !important;
@@ -106,23 +109,23 @@
     background-position: center !important;
   }
 
-  /* Typographic controls */
+  /* Typographic text rules inside cards */
   h2 { 
     color: #23272A !important; 
-    font-size: 22px; 
+    font-size: 24px; /* Scaled up card headers */
     font-weight: 800; 
     margin-top: 0;
-    margin-bottom: 20px;
-    padding-bottom: 8px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
     border-bottom: 3px solid #23272A; 
     text-transform: uppercase;
     letter-spacing: 0.8px;
   }
-  h3 { color: #111314 !important; font-size: 18px; font-weight: 800; margin-top: 25px; margin-bottom: 4px; }
-  .job-meta { color: #23272A !important; font-style: normal; font-size: 14px; margin-bottom: 14px; display: block; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
-  ul { padding-left: 20px; margin-top: 5px; }
-  li { margin-bottom: 10px; line-height: 1.6; color: #1A1D20 !important; font-size: 15px; font-weight: 500; }
-  .skill-title { font-weight: 700; color: #1A488E; font-size: 15.5px; }
+  h3 { color: #111314 !important; font-size: 20px; font-weight: 800; margin-top: 30px; margin-bottom: 6px; }
+  .job-meta { color: #23272A !important; font-style: normal; font-size: 15px; margin-bottom: 16px; display: block; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
+  ul { padding-left: 25px; margin-top: 5px; }
+  li { margin-bottom: 12px; line-height: 1.65; color: #1A1D20 !important; font-size: 16px; font-weight: 500; } /* Scaled up readability metrics */
+  .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
 </style>
 
 <div class="portfolio-container">
@@ -148,8 +151,8 @@
 
 <div id="summary" class="content-card">
   <h2>📋 Professional Summary</h2>
-  <p style="line-height: 1.6; font-size: 15px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
-  <p style="line-height: 1.6; font-size: 15px; color: #1A1D20; font-weight: 500;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
+  <p style="line-height: 1.6; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
+  <p style="line-height: 1.6; font-size: 16px; color: #1A1D20; font-weight: 500;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
 </div>
 
 <div id="skills" class="content-card skills-bg-card">
@@ -161,7 +164,7 @@
     <li><span class="skill-title">Data Collection & Quality Assurance:</span> Digital data collection | Data capture | Data validation | Data cleaning | Data reconciliation | Completeness & consistency checks | Discrepancy resolution</li>
     <li><span class="skill-title">Research & Field Operations:</span> Research implementation | Field coordination | Enumerator supervision | Surveys | KIIs | FGDs | Field documentation</li>
     <li><span class="skill-title">Data Analysis & Reporting:</span> Statistical analysis | Quantitative & qualitative analysis | Data summaries | Tables | Visualisations | Dashboards | Report preparation</li>
-    <li><span class="skill-title">LinkedIn Connection Portal:</span> Research documentation | Evidence synthesis | Lessons learned | Knowledge management | Stakeholder coordination | Data protection</li>
+    <li><span class="skill-title">Documentation & Learning:</span> Research documentation | Evidence synthesis | Lessons learned | Knowledge management | Stakeholder coordination | Data protection</li>
   </ul>
 
   <h3>Technical Tools</h3>
@@ -185,6 +188,7 @@
     <li>Supported field documentation, transcription, data cleaning, qualitative coding, thematic analysis, and preliminary quantitative analysis.</li>
     <li>Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.</li>
   </ul>
+
 
 
 
