@@ -4,11 +4,14 @@
     display: none !important;
   }
 
-  /* 1. Global Page Foundation: Royal Corporate Blue */
+  /* 1. Global Page Foundation: Force Clean Arial Structure Globally */
+  body, h1, h2, h3, p, a, li, span, div { 
+    font-family: 'Arial', sans-serif !important; 
+  }
+
   body { 
     background-color: #1A488E !important; 
     color: #2F3538 !important; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     margin: 0 !important; 
     padding: 0 !important; 
   }
@@ -47,7 +50,7 @@
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 0 5px 0; font-size: 28px; font-weight: 700; display: block !important; }
-  .header-block h3 { color: #FFD200 !important; margin: 0 0 10px 0; font-size: 15px; font-weight: 400; letter-spacing: 0.5px; line-height: 1.4; }
+  .header-block h3 { color: #FFD200 !important; margin: 0 0 10px 0; font-size: 15px; font-weight: 700; letter-spacing: 0.5px; line-height: 1.4; }
   .header-block p { color: #D0D5DD !important; margin: 5px 0; font-size: 14px; }
 
   /* Navigation Bar styling */
@@ -76,7 +79,7 @@
     padding-bottom: 40px;
   }
 
-  /* 4. Base Content Card Structure: Updated to Soft Cornflower Blue (#97B2DE) */
+  /* 4. Base Content Card Structure: Soft Cornflower Blue (#97B2DE) */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px !important;
@@ -103,30 +106,64 @@
     background-position: center !important;
   }
 
-  /* Headings & Lists Layout */
+  /* 6. Strategic Font Styling: Bold Mustard Yellow for Main Subject Headings */
   h2 { 
-    color: #2F3538 !important; 
-    font-size: 22px; 
-    font-weight: 700;
+    color: #FFD200 !important; 
+    font-size: 24px; 
+    font-weight: 800; /* High structural thickness */
     margin-top: 0;
     margin-bottom: 20px;
     padding-bottom: 8px;
     border-bottom: 3px solid #FFD200; 
     text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  /* 7. Corporate Brand Titles: Thick Bold Charcoal for Companies */
+  h3 { 
+    color: #2F3538 !important; 
+    font-size: 19px; 
+    font-weight: 800; 
+    margin-top: 25px; 
+    margin-bottom: 4px; 
+    letter-spacing: -0.2px;
+  }
+  
+  /* 8. Sub-headers: Thick Bold Charcoal for Job Roles & Timeline Metadata */
+  .job-meta { 
+    color: #2F3538 !important; 
+    font-style: normal; 
+    font-size: 14px; 
+    margin-bottom: 14px; 
+    display: block; 
+    font-weight: 700; 
+    text-transform: uppercase;
     letter-spacing: 0.5px;
   }
-  h3 { color: #2F3538 !important; font-size: 17px; font-weight: 600; margin-top: 25px; margin-bottom: 8px; }
-  .job-meta { color: #2F3538 !important; font-style: italic; font-size: 14px; margin-bottom: 12px; display: block; font-weight: 600; }
+  
+  /* 9. Balanced Content Descriptions */
   ul { padding-left: 20px; margin-top: 5px; }
-  li { margin-bottom: 8px; line-height: 1.6; color: #2F3538 !important; font-size: 15px; font-weight: 500; }
-  .skill-title { font-weight: bold; color: #1A488E; }
+  li { 
+    margin-bottom: 10px; 
+    line-height: 1.65; 
+    color: #23272A !important; 
+    font-size: 15px; 
+    font-weight: 500; 
+  }
+  
+  /* 10. Technical Highlight Anchors */
+  .skill-title { 
+    font-weight: 700; 
+    color: #1A488E; 
+    font-size: 15.5px;
+  }
 </style>
 
 <div class="portfolio-container">
 
 <!-- FIXED CONTAINER BLOCK -->
 <div class="fixed-header-container">
-  <div class="header-block">
+
     <h1>Edna Ogutu</h1>
     <h3>Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</h3>
     <p> Nairobi, Kenya |  hednaogutuh@gmail.com |  <a href="Your-LinkedIn-URL-Here" style="color: #FFD200 !important; text-decoration: underline;">Connect on LinkedIn</a></p>
@@ -134,7 +171,7 @@
 
   <div class="navbar">
     <a href="#summary"> Home</a>
-    <a href="#skills">🛠️ Skills</a>
+    <a href="#skills"> Skills</a>
     <a href="#experience"> Experience</a>
     <a href="#education"> Education</a>
   </div>
