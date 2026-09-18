@@ -1,15 +1,16 @@
 <style>
-  /* 1. FORCE THE ENTIRE WEBSITE BOX TO GO FULL SCREEN WIDE LIKE INFOTRAK */
+  /* 1. UNIVERSAL WIDESCREEN RESET: Force every parent wrapper to stretch 100% edge-to-edge */
   header, #header, .title, h1:first-of-type:not(.header-block h1) {
     display: none !important;
   }
   
-  /* Overrides GitHub's secret default wrapper settings to allow full width stretch */
-  .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body {
+  /* Destroys hidden structural column boxes injected by the default GitHub styling sheets */
+  html, body, .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body, .portfolio-container {
     max-width: 100% !important;
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
+    box-sizing: border-box !important;
   }
 
   body, h1, h2, h3, p, a, li, span, div { 
@@ -18,11 +19,9 @@
 
   body { 
     background-color: #1A488E !important; 
-    margin: 0 !important; 
-    padding: 0 !important; 
   }
   
-  /* 2. Top Navigation Box layout stretched out broad */
+  /* 2. Top Navigation Fixed Box Layout */
   .fixed-header-container {
     position: fixed !important;
     top: 0 !important;
@@ -34,15 +33,7 @@
     box-sizing: border-box !important;
   }
 
-  .portfolio-container {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 auto !important;
-    box-sizing: border-box !important;
-    padding: 0 !important;
-  }
-
-  /* 3. Profiles header bar background panel */
+  /* 3. Main Profile Block Background Panel */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
@@ -76,7 +67,7 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* 5. Fluid scrolling window layers - FORCED TO MATCH HEADERS */
+  /* 5. Scrolling Content Layer Fluid Adjustment to match upper blocks */
   .scroll-content {
     margin-top: 360px !important; 
     padding: 0 4% 40px 4% !important;
@@ -128,7 +119,7 @@
     letter-spacing: 0.8px;
   }
   h3 { color: #111314 !important; font-size: 18px; font-weight: 800; margin-top: 25px; margin-bottom: 4px; }
-  .job-meta { color: #23272A !important; font-style: italic; font-size: 14px; margin-bottom: 14px; display: block; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
+  .job-meta { color: #23272A !important; font-style: normal; font-size: 14px; margin-bottom: 14px; display: block; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
   ul { padding-left: 20px; margin-top: 5px; }
   li { margin-bottom: 10px; line-height: 1.6; color: #1A1D20 !important; font-size: 15px; font-weight: 500; }
   .skill-title { font-weight: 700; color: #1A488E; font-size: 15.5px; }
@@ -170,7 +161,7 @@
     <li><span class="skill-title">Data Collection & Quality Assurance:</span> Digital data collection | Data capture | Data validation | Data cleaning | Data reconciliation | Completeness & consistency checks | Discrepancy resolution</li>
     <li><span class="skill-title">Research & Field Operations:</span> Research implementation | Field coordination | Enumerator supervision | Surveys | KIIs | FGDs | Field documentation</li>
     <li><span class="skill-title">Data Analysis & Reporting:</span> Statistical analysis | Quantitative & qualitative analysis | Data summaries | Tables | Visualisations | Dashboards | Report preparation</li>
-    <li><span class="skill-title">Documentation & Learning:</span> Research documentation | Evidence synthesis | Lessons learned | Knowledge management | Stakeholder coordination | Data protection</li>
+    <li><span class="skill-title">LinkedIn Connection Portal:</span> Research documentation | Evidence synthesis | Lessons learned | Knowledge management | Stakeholder coordination | Data protection</li>
   </ul>
 
   <h3>Technical Tools</h3>
@@ -194,6 +185,7 @@
     <li>Supported field documentation, transcription, data cleaning, qualitative coding, thematic analysis, and preliminary quantitative analysis.</li>
     <li>Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.</li>
   </ul>
+
 
 
 
