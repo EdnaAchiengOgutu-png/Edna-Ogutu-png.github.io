@@ -110,20 +110,41 @@
     background-position: center !important;
   }
 
-  /* Large Layout Typography Metrics Inside Section Cards */
+  /* Large Layout Typography Metrics Inside Section Cards with Absolute Flush Top Alignment */
   h2 { 
     color: #23272A !important; 
-    font-size: 28px; /* Enlarged core component subject title headers */
+    font-size: 28px; 
     font-weight: 900; 
-    margin-top: 0;
-    margin-bottom: 25px;
+    margin: 0 0 25px 0 !important; /* Zero top margin forces alignment to absolute top */
+    padding-top: 0 !important;
     padding-bottom: 12px;
     border-bottom: 4px solid #23272A; 
     text-transform: uppercase;
     letter-spacing: 1px;
+    vertical-align: top !important; 
   }
-  h3 { color: #111314 !important; font-size: 23px; font-weight: 900; margin-top: 35px; margin-bottom: 8px; }
-  .job-meta { color: #23272A !important; font-style: normal; font-size: 16px; margin-bottom: 18px; display: block; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
+  h3 { 
+    color: #111314 !important; 
+    font-size: 23px; 
+    font-weight: 900; 
+    margin-top: 0 !important; /* Wipes out empty spacing headers gaps */
+    margin-bottom: 8px !important; 
+    padding-top: 0 !important;
+    vertical-align: top !important;
+  }
+  .job-meta { 
+    color: #23272A !important; 
+    font-style: normal; 
+    font-size: 16px; 
+    margin-top: 0 !important;
+    margin-bottom: 18px !important; 
+    padding-top: 0 !important;
+    display: block; 
+    font-weight: 800; 
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    vertical-align: top !important;
+  }
   ul { padding-left: 30px; margin-top: 5px; }
   li { margin-bottom: 14px; line-height: 1.7; color: #1A1D20 !important; font-size: 17px; font-weight: 500; } /* Maximum Readability Text Scale */
   .skill-title { font-weight: 700; color: #1A488E; font-size: 17.5px; }
@@ -152,14 +173,14 @@
 
 <div id="summary" class="content-card">
   <h2>📋 Professional Summary</h2>
-  <p style="line-height: 1.7; font-size: 17px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
+  <p style="line-height: 1.7; font-size: 17px; color: #1A1D20; font-weight: 500; margin-top: 0 !important;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
   <p style="line-height: 1.7; font-size: 17px; color: #1A1D20; font-weight: 500;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
 </div>
 
 <div id="skills" class="content-card skills-bg-card">
   <h2>🛠️ Core Expertise & Technical Skills</h2>
   
-  <h3>Core Areas of Expertise</h3>
+  <h3 style="margin-top: 0 !important;">Core Areas of Expertise</h3>
   <ul>
     <li><span class="skill-title">MEL & Program Monitoring:</span> Program monitoring | Indicator & target tracking | Monitoring data collection | Field monitoring | Progress tracking | Evidence generation</li>
     <li><span class="skill-title">Data Collection & Quality Assurance:</span> Digital data collection | Data capture | Data validation | Data cleaning | Data reconciliation | Completeness & consistency checks | Discrepancy resolution</li>
