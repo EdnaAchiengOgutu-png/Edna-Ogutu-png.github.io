@@ -35,8 +35,8 @@
   }
 
   .portfolio-container {
-    width: 92% !important;
-    max-width: 1500px !important;
+    width: 100% !important;
+    max-width: 100% !important;
     margin: 0 auto !important;
     box-sizing: border-box !important;
     padding: 0 !important;
@@ -76,11 +76,14 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* 5. Fluid scrolling window layers */
+  /* 5. Fluid scrolling window layers - FORCED TO MATCH HEADERS */
   .scroll-content {
     margin-top: 360px !important; 
     padding: 0 4% 40px 4% !important;
     box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
   }
 
   /* 6. Main Section Box Blocks */
@@ -93,13 +96,21 @@
     position: relative;
     overflow: hidden;
     scroll-margin-top: 370px !important; 
-    width: 100% !box-sizing: border-box !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   /* Background Grid elements */
   .skills-bg-card {
     background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
                 url('https://dreamstime.com') !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  .education-bg-card {
+    background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
+                url('https://pinimg.com') !important;
     background-size: cover !important;
     background-position: center !important;
   }
@@ -117,7 +128,7 @@
     letter-spacing: 0.8px;
   }
   h3 { color: #111314 !important; font-size: 18px; font-weight: 800; margin-top: 25px; margin-bottom: 4px; }
-  .job-meta { color: #23272A !important; font-style: normal; font-size: 14px; margin-bottom: 14px; display: block; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
+  .job-meta { color: #23272A !important; font-style: italic; font-size: 14px; margin-bottom: 14px; display: block; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
   ul { padding-left: 20px; margin-top: 5px; }
   li { margin-bottom: 10px; line-height: 1.6; color: #1A1D20 !important; font-size: 15px; font-weight: 500; }
   .skill-title { font-weight: 700; color: #1A488E; font-size: 15.5px; }
@@ -125,6 +136,7 @@
 
 <div class="portfolio-container">
 
+<!-- FIXED CONTAINER BLOCK -->
 <div class="fixed-header-container">
   <div class="header-block">
     <h1>Edna Ogutu</h1>
@@ -140,6 +152,7 @@
   </div>
 </div>
 
+<!-- SCROLLING CONTENT LAYER -->
 <div class="scroll-content">
 
 <div id="summary" class="content-card">
@@ -181,6 +194,9 @@
     <li>Supported field documentation, transcription, data cleaning, qualitative coding, thematic analysis, and preliminary quantitative analysis.</li>
     <li>Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.</li>
   </ul>
+
+
+
 
 
 
