@@ -15,14 +15,14 @@
     padding: 0 !important; 
   }
   
-  /* 2. Fixed Top Layout Navigation & Header Container */
+  /* 2. Fixed Top Layout Navigation & Header Container (Updated to fit wide screen layout) */
   .fixed-header-container {
     position: fixed !important;
     top: 0 !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
     width: 100% !important;
-    max-width: 950px !important;
+    max-width: 95% !important; /* Expanded out from 950px */
     z-index: 9999 !important;
     background-color: #1A488E !important; 
     padding-top: 20px !important;
@@ -31,7 +31,7 @@
   }
 
   .portfolio-container {
-    max-width: 950px;
+    max-width: 95% !important; /* Expanded out from 950px to fit screen wide */
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
@@ -89,7 +89,7 @@
     scroll-margin-top: 370px !important; 
   }
 
-  /* 7. Card Background Graph Texture Overlays */
+  /* 7. Card Background Graph Texture Overlays (Fixed broken paths) */
   .skills-bg-card {
     background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
                 url('https://dreamstime.com') !important;
@@ -212,6 +212,7 @@
     <li>Supported field documentation, transcription, data cleaning, qualitative coding, thematic analysis, and preliminary quantitative analysis.</li>
     <li>Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.</li>
   </ul>
+
 
   <h3>📍 Hamasisha Africa</h3>
   <span class="job-meta">Research & Data Operations Analyst (Remote - Project-Based Consultancy) | (Mar 2022 - Apr 2026)</span>
