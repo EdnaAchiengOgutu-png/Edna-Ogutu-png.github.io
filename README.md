@@ -13,7 +13,7 @@
     padding: 0 !important; 
   }
   
-  /* 2. THE CHOSEN FIX: Permanently Lock Header & Navbar at the Top Window Frame */
+  /* 2. Lock Header & Navbar at the Top Window Frame */
   .fixed-header-container {
     position: fixed !important;
     top: 0 !important;
@@ -22,7 +22,7 @@
     width: 100% !important;
     max-width: 950px !important;
     z-index: 9999 !important;
-    background-color: #1A488E !important; /* Prevents underlying text bleeding */
+    background-color: #1A488E !important; 
     padding-top: 20px !important;
     padding-bottom: 5px !important;
     box-sizing: border-box !important;
@@ -50,7 +50,7 @@
   .header-block h3 { color: #FFD200 !important; margin: 0 0 10px 0; font-size: 15px; font-weight: 400; letter-spacing: 0.5px; line-height: 1.4; }
   .header-block p { color: #D0D5DD !important; margin: 5px 0; font-size: 14px; }
 
-  /* Navigation Bar styling matching your look */
+  /* Navigation Bar styling */
   .navbar { 
     background-color: #2F3538 !important; 
     padding: 14px 30px !important; 
@@ -70,33 +70,34 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* 3. The Scroll Layer: Shifted down precisely so it doesn't hide behind the frozen headers */
+  /* 3. The Scroll Layer: Shifted down beneath frozen layout headers */
   .scroll-content {
-    margin-top: 340px !important; /* Adds clear buffer space beneath your fixed top layout */
+    margin-top: 340px !important; 
     padding-bottom: 40px;
   }
 
+  /* 4. Base Content Card Structure: Updated to Soft Cornflower Blue (#97B2DE) */
   .content-card {
-    background-color: #FFFFFF !important;
+    background-color: #97B2DE !important; 
     padding: 35px !important;
     border-radius: 8px;
     margin-bottom: 30px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 350px !important; /* Prevents frozen elements from blocking the section title when you click links */
+    scroll-margin-top: 350px !important; 
   }
 
-  /* Image Background Overlays */
+  /* 5. Image Background Overlays: Tinted with Soft Cornflower Blue blend filter */
   .skills-bg-card {
-    background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), 
+    background: linear-gradient(rgba(151, 178, 222, 0.92), rgba(151, 178, 222, 0.92)), 
                 url('https://dreamstime.com') !important;
     background-size: cover !important;
     background-position: center !important;
   }
 
   .education-bg-card {
-    background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), 
+    background: linear-gradient(rgba(151, 178, 222, 0.92), rgba(151, 178, 222, 0.92)), 
                 url('https://pinimg.com') !important;
     background-size: cover !important;
     background-position: center !important;
@@ -115,9 +116,9 @@
     letter-spacing: 0.5px;
   }
   h3 { color: #2F3538 !important; font-size: 17px; font-weight: 600; margin-top: 25px; margin-bottom: 8px; }
-  .job-meta { color: #687076 !important; font-style: italic; font-size: 14px; margin-bottom: 12px; display: block; }
+  .job-meta { color: #2F3538 !important; font-style: italic; font-size: 14px; margin-bottom: 12px; display: block; font-weight: 600; }
   ul { padding-left: 20px; margin-top: 5px; }
-  li { margin-bottom: 8px; line-height: 1.6; color: #444C52; font-size: 15px; }
+  li { margin-bottom: 8px; line-height: 1.6; color: #2F3538 !important; font-size: 15px; font-weight: 500; }
   .skill-title { font-weight: bold; color: #1A488E; }
 </style>
 
@@ -128,7 +129,7 @@
   <div class="header-block">
     <h1>Edna Ogutu</h1>
     <h3>Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</h3>
-    <p>  Nairobi, Kenya | 📧 hednaogutuh@gmail.com |  <a href="Your-LinkedIn-URL-Here" style="color: #FFD200 !important; text-decoration: underline;">Connect on LinkedIn</a></p>
+    <p> Nairobi, Kenya |  hednaogutuh@gmail.com |  <a href="Your-LinkedIn-URL-Here" style="color: #FFD200 !important; text-decoration: underline;">Connect on LinkedIn</a></p>
   </div>
 
   <div class="navbar">
@@ -143,13 +144,13 @@
 <div class="scroll-content">
 
 <div id="summary" class="content-card">
-  <h2>📋 Professional Summary</h2>
-  <p style="line-height: 1.7; font-size: 15px; color: #2F3538;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
-  <p style="line-height: 1.7; font-size: 15px; color: #2F3538;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
+  <h2> Professional Summary</h2>
+  <p style="line-height: 1.7; font-size: 15px; color: #2F3538; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
+  <p style="line-height: 1.7; font-size: 15px; color: #2F3538; font-weight: 500;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
 </div>
 
 <div id="skills" class="content-card skills-bg-card">
-  <h2>🛠️ Core Expertise & Technical Skills</h2>
+  <h2> Core Expertise & Technical Skills</h2>
   
   <h3>Core Areas of Expertise</h3>
   <ul>
@@ -181,8 +182,9 @@
     <li>Supported field documentation, transcription, data cleaning, qualitative coding, thematic analysis, and preliminary quantitative analysis.</li>
     <li>Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.</li>
   </ul>
+    </ul>
 
- <h3> Hamasisha Africa</h3>
+  <h3> Hamasisha Africa</h3>
   <span class="job-meta">Research & Data Operations Analyst (Remote - Project-Based Consultancy) | (Mar 2022 - Apr 2026)</span>
   <ul>
     <li>Supported monitoring, evaluation, and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
@@ -262,3 +264,4 @@
 
 </div> <!-- Closes the scroll-content div -->
 </div> <!-- Closes the portfolio-container div -->
+
