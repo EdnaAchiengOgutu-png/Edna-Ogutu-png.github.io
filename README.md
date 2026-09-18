@@ -4,7 +4,6 @@
     display: none !important;
   }
   
-  /* Aggressive global layout expansion targeting every hidden theme div */
   html, body, .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body, .portfolio-container, .scroll-content, div, section, main {
     max-width: 100% !important;
     width: 100% !important;
@@ -21,7 +20,7 @@
     background-color: #1A488E !important; 
   }
   
-  /* 2. Top Fixed Header: Expanded to 98% Screen Width Footprint */
+  /* 2. Top Fixed Header: Ultra-Slim Layout Container Box */
   .fixed-header-container {
     position: fixed !important;
     top: 0 !important;
@@ -29,51 +28,56 @@
     width: 100% !important;
     z-index: 9999 !important;
     background-color: #1A488E !important; 
-    padding: 20px 1% 5px 1% !important; 
+    padding: 10px 1% 0 1% !important; /* Compressed outer frame margins */
     box-sizing: border-box !important;
   }
 
-  /* 3. Main Profile Block: Maximized Inner Area & Larger Font */
+  /* 3. Main Profile Block: Streamlined and Thinned Down Like Infotrak */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
-    padding: 40px 50px !important; 
-    border-radius: 8px;
-    margin-bottom: 15px;
+    padding: 15px 30px !important; /* Heavily reduced vertical thickness from 40px to 15px */
+    border-radius: 6px 6px 0 0;
+    margin-bottom: 0px !important; /* Fuses the header block flawlessly into the menu bar below */
     border-left: 8px solid #FFD200;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     width: 100% !important;
     box-sizing: border-box !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
   }
-  .header-block h1 { color: #FFFFFF !important; margin: 0 0 10px 0; font-size: 38px; font-weight: 900; } 
-  .header-block h3 { color: #FFD200 !important; margin: 0 0 14px 0; font-size: 18px; font-weight: 700; letter-spacing: 0.5px; line-height: 1.5; }
-  .header-block p { color: #E5E7EB !important; margin: 6px 0; font-size: 16px; font-weight: bold; }
+  .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: inline-block !important; } 
+  .header-block p { color: #E5E7EB !important; margin: 0 !important; font-size: 14px; font-weight: bold; display: inline-block !important; }
 
-  /* 4. Menu Navigation Links: Ultra-Wide Strip */
+  /* 4. Menu Navigation Links: Thin Ribbon Strip */
   .navbar { 
     background-color: #23272A !important; 
-    padding: 20px 40px !important; 
-    border-radius: 6px;
+    padding: 12px 30px !important; /* Reduced vertical thickness for a minimalist strip look */
+    border-radius: 0 0 6px 6px;
     margin-bottom: 10px;
     text-align: center;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     width: 100% !important;
     box-sizing: border-box !important;
+    border-left: 8px solid #FFD200;
+    border-top: 1px solid #3A3F44; /* Clean subtle divider separator line */
   }
   .navbar a { 
     color: #FFFFFF !important; 
-    margin: 0 40px; 
+    margin: 0 35px; 
     text-decoration: none !important; 
     font-weight: 800; 
-    font-size: 16px; 
+    font-size: 15px; 
     text-transform: uppercase;
     letter-spacing: 1px;
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* 5. Fluid Scrolling Content Layer: Forced Edge-to-Edge Execution Alignment */
+  /* 5. Fluid Scrolling Content Layer: Moved Up Higher to Match Smaller Headers */
   .scroll-content {
-    margin-top: 420px !important; 
+    margin-top: 170px !important; /* Adjusted from 420px to close up the massive vertical gap layout */
     padding: 0 1% 40px 1% !important; 
     box-sizing: border-box !important;
     width: 100% !important;
@@ -81,16 +85,16 @@
     display: block !important;
   }
 
-  /* 6. Section Container Cards: FIXED CORNER SPACING GAP BUFFER */
+  /* 6. Section Container Cards */
   .content-card {
     background-color: #97B2DE !important; 
-    padding: 30px 45px 45px 45px !important; /* Slightly pulled up upper padding to ride higher */
+    padding: 45px 55px !important; 
     border-radius: 8px;
-    margin-bottom: 45px !important; /* RESTORED BLUE SPACE GAP BETWEEN CARDS */
+    margin-bottom: 35px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 440px !important; 
+    scroll-margin-top: 190px !important; /* Dynamic anchor alignment correction */
     width: 100% !important;
     box-sizing: border-box !important;
     display: block !important;
@@ -111,52 +115,12 @@
     background-position: center !important;
   }
 
-  /* 7. PERFECT FLUSH TOP VERTICAL ALIGNMENT FIX */
-  .content-card > h2:first-child, .content-card > div:first-child {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-  }
-
-  h2 { 
-    color: #23272A !important; 
-    font-size: 28px; 
-    font-weight: 900; 
-    margin: 0 0 25px 0 !important; /* Locks title completely at the upper border */
-    padding-top: 0 !important;
-    padding-bottom: 12px;
-    border-bottom: 4px solid #23272A; 
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    display: block !important;
-  }
-
-  h3 { 
-    color: #111314 !important; 
-    font-size: 23px; 
-    font-weight: 900; 
-    margin-top: 25px !important; /* Restores spacing between companies */
-    margin-bottom: 8px !important; 
-    padding-top: 0 !important;
-    display: block !important;
-  }
-
-  /* First company heading inside a card sits completely flush up top */
-  h2 + h3, .content-card > h3:first-of-type {
-    margin-top: 5px !important;
-  }
-  
-  .job-meta { 
-    color: #23272A !important; 
-    font-style: normal; 
-    font-size: 16px; 
-    margin-top: 0 !important;
-    margin-bottom: 18px !important; 
-    display: block; 
-    font-weight: 800; 
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-  
+  /* Layout Typography Styles */
+  .content-card > h2:first-child, .content-card > div:first-child { margin-top: 0 !important; padding-top: 0 !important; }
+  h2 { color: #23272A !important; font-size: 28px; font-weight: 900; margin: 0 0 25px 0 !important; padding-top: 0 !important; padding-bottom: 12px; border-bottom: 4px solid #23272A; text-transform: uppercase; letter-spacing: 1px; display: block !important; }
+  h3 { color: #111314 !important; font-size: 23px; font-weight: 900; margin-top: 35px !important; margin-bottom: 8px !important; padding-top: 0 !important; display: block !important; }
+  h2 + h3, .content-card > h3:first-of-type { margin-top: 5px !important; }
+  .job-meta { color: #23272A !important; font-style: normal; font-size: 16px; margin-top: 0 !important; margin-bottom: 18px !important; display: block; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
   ul { padding-left: 30px; margin-top: 5px; }
   li { margin-bottom: 14px; line-height: 1.7; color: #1A1D20 !important; font-size: 17px; font-weight: 500; } 
   .skill-title { font-weight: 700; color: #1A488E; font-size: 17.5px; }
@@ -164,11 +128,10 @@
 
 <div class="portfolio-container">
 
-<!-- FIXED CONTAINER BLOCK -->
+<!-- FIXED COMPRESSED NAVIGATION HEADER BLOCK -->
 <div class="fixed-header-container">
   <div class="header-block">
     <h1>Edna Ogutu</h1>
-    <h3>Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</h3>
     <p>📍 Nairobi, Kenya | 📧 hednaogutuh@gmail.com | 💼 <a href="Your-LinkedIn-URL-Here" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a></p>
   </div>
 
@@ -184,8 +147,10 @@
 <div class="scroll-content">
 
 <div id="summary" class="content-card">
-  <h2>📋 Professional Summary</h2>
-  <p style="line-height: 1.7; font-size: 17px; color: #1A1D20; font-weight: 500; margin-top: 0 !important;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
+  <h2>📋 Professional Summary & Strategy</h2>
+  <p style="font-size: 19px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.4;">Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</p>
+  <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
+  <p style="line-height: 1.7; font-size: 17px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
   <p style="line-height: 1.7; font-size: 17px; color: #1A1D20; font-weight: 500;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
 </div>
 
@@ -226,14 +191,14 @@
   <h3>📍 Hamasisha Africa</h3>
   <span class="job-meta">Research & Data Operations Analyst (Remote - Project-Based Consultancy) | (Mar 2022 - Apr 2026)</span>
   <ul>
-    <li>Supported monitoring, evaluation, and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
-    <li>Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics, and data-quality requirements.</li>
-    <li>Supported recruitment, orientation, deployment, and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.</li>
-    <li>Supported the design and refinement of structured questionnaires, digital data-collection tools, and qualitative interview guides.</li>
-    <li>Conducted and supported KIIs and FGDs, including participant engagement, field coordination, documentation, and qualitative data organization.</li>
-    <li>Performed data cleaning, validation, coding, and quantitative and qualitative analysis, contributing to interpretation of findings.</li>
-    <li>Prepared research reports, monitoring summaries, presentations, and evidence briefs for program and research teams.</li>
-    <li>Maintained research documentation and supported ethical research, confidentiality, data protection, and accurate field-team records.</li>
+    <li>Supported monitoring, evaluation and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
+    <li>Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics and data-quality requirements.</li>
+    <li>Supported recruitment, orientation, deployment and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.</li>
+    <li>Supported the design and refinement of structured questionnaires, digital data-collection tools and qualitative interview guides.</li>
+    <li>Conducted and supported KIIs and FGDs, including participant engagement, field coordination, documentation and qualitative data organization.</li>
+    <li>Performed data cleaning, validation, coding and quantitative and qualitative analysis, contributing to interpretation of findings.</li>
+    <li>Prepared research reports, monitoring summaries, presentations and evidence briefs for program and research teams.</li>
+    <li>Maintained research documentation and supported ethical research, confidentiality, data protection and accurate field-team records.</li>
   </ul>
 
   <h3>📍 Calltronix Kenya Limited</h3>
@@ -301,6 +266,5 @@
   </ul>
 </div>
 
-</div> <!-- Closes the scroll-content layout box -->
-</div> <!-- Closes the portfolio-container frame -->
-
+</div> <!-- Closes scroll-content -->
+</div> <!-- Closes portfolio-container -->
