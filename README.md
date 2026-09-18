@@ -1,43 +1,48 @@
 <style>
-  /* Force hide default GitHub template elements */
+  /* 1. FORCE THE ENTIRE WEBSITE BOX TO GO FULL SCREEN WIDE LIKE INFOTRAK */
   header, #header, .title, h1:first-of-type:not(.header-block h1) {
     display: none !important;
   }
+  
+  /* Overrides GitHub's secret default wrapper settings to allow full width stretch */
+  .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 
-  /* 1. Global Page Foundation */
   body, h1, h2, h3, p, a, li, span, div { 
     font-family: 'Arial', sans-serif !important; 
   }
 
   body { 
-    background-color: #1A488E !important; /* Uniform Royal Blue Page Background */
+    background-color: #1A488E !important; 
     margin: 0 !important; 
     padding: 0 !important; 
   }
   
-  /* 2. Fixed Top Layout Navigation & Header Container (Updated to fit wide screen layout) */
+  /* 2. Top Navigation Box layout stretched out broad */
   .fixed-header-container {
     position: fixed !important;
     top: 0 !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
+    left: 0 !important;
     width: 100% !important;
-    max-width: 95% !important; /* Expanded out from 950px */
     z-index: 9999 !important;
     background-color: #1A488E !important; 
-    padding-top: 20px !important;
-    padding-bottom: 5px !important;
+    padding: 20px 4% 5px 4% !important;
     box-sizing: border-box !important;
   }
 
   .portfolio-container {
-    max-width: 95% !important; /* Expanded out from 950px to fit screen wide */
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
+    width: 92% !important;
+    max-width: 1500px !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
   }
 
-  /* 3. Main Profile Block: Solid Deep Charcoal with Crisp White & Yellow Elements */
+  /* 3. Profiles header bar background panel */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
@@ -51,7 +56,7 @@
   .header-block h3 { color: #FFD200 !important; margin: 0 0 12px 0; font-size: 15px; font-weight: 700; letter-spacing: 0.3px; line-height: 1.5; }
   .header-block p { color: #E5E7EB !important; margin: 5px 0; font-size: 14px; font-weight: bold; }
 
-  /* 4. Menu Navbar Strip */
+  /* 4. Menu Link Strip */
   .navbar { 
     background-color: #23272A !important; 
     padding: 14px 30px !important; 
@@ -71,13 +76,14 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* 5. Content Layout Grid */
+  /* 5. Fluid scrolling window layers */
   .scroll-content {
     margin-top: 360px !important; 
-    padding-bottom: 40px;
+    padding: 0 4% 40px 4% !important;
+    box-sizing: border-box !important;
   }
 
-  /* 6. Section Container Cards: Uniform Soft Cornflower Blue with Dark Readable Text */
+  /* 6. Main Section Box Blocks */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px !important;
@@ -87,9 +93,10 @@
     position: relative;
     overflow: hidden;
     scroll-margin-top: 370px !important; 
+    width: 100% !box-sizing: border-box !important;
   }
 
-  /* 7. Card Background Graph Texture Overlays (Fixed broken paths) */
+  /* Background Grid elements */
   .skills-bg-card {
     background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
                 url('https://dreamstime.com') !important;
@@ -97,16 +104,9 @@
     background-position: center !important;
   }
 
-  .education-bg-card {
-    background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
-                url('https://pinimg.com') !important;
-    background-size: cover !important;
-    background-position: center !important;
-  }
-
-  /* 8. Text Typographic System for Cards */
+  /* Typographic controls */
   h2 { 
-    color: #23272A !important; /* Bold Charcoal for Category Titles */
+    color: #23272A !important; 
     font-size: 22px; 
     font-weight: 800; 
     margin-top: 0;
@@ -116,45 +116,15 @@
     text-transform: uppercase;
     letter-spacing: 0.8px;
   }
-
-  h3 { 
-    color: #111314 !important; /* Extra Deep contrast for Corporate names */
-    font-size: 18px; 
-    font-weight: 800; 
-    margin-top: 25px; 
-    margin-bottom: 4px; 
-  }
-  
-  .job-meta { 
-    color: #23272A !important; 
-    font-style: normal; 
-    font-size: 14px; 
-    margin-bottom: 14px; 
-    display: block; 
-    font-weight: 700; 
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-  }
-  
+  h3 { color: #111314 !important; font-size: 18px; font-weight: 800; margin-top: 25px; margin-bottom: 4px; }
+  .job-meta { color: #23272A !important; font-style: normal; font-size: 14px; margin-bottom: 14px; display: block; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
   ul { padding-left: 20px; margin-top: 5px; }
-  li { 
-    margin-bottom: 10px; 
-    line-height: 1.6; 
-    color: #1A1D20 !important; /* Clean Dark Text for reading bullet points */
-    font-size: 15px; 
-    font-weight: 500; 
-  }
-  
-  .skill-title { 
-    font-weight: 700; 
-    color: #1A488E; 
-    font-size: 15.5px;
-  }
+  li { margin-bottom: 10px; line-height: 1.6; color: #1A1D20 !important; font-size: 15px; font-weight: 500; }
+  .skill-title { font-weight: 700; color: #1A488E; font-size: 15.5px; }
 </style>
 
 <div class="portfolio-container">
 
-<!-- FIXED CONTAINER BLOCK -->
 <div class="fixed-header-container">
   <div class="header-block">
     <h1>Edna Ogutu</h1>
@@ -170,7 +140,6 @@
   </div>
 </div>
 
-<!-- SCROLLING CONTENT LAYER -->
 <div class="scroll-content">
 
 <div id="summary" class="content-card">
@@ -212,6 +181,7 @@
     <li>Supported field documentation, transcription, data cleaning, qualitative coding, thematic analysis, and preliminary quantitative analysis.</li>
     <li>Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.</li>
   </ul>
+
 
 
   <h3>📍 Hamasisha Africa</h3>
