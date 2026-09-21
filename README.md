@@ -28,16 +28,16 @@
     display: none !important;
   }
   
-  /* THE PERFECT FIX: Forces top frozen ribbon header to ignore all container limits and stretch wall-to-wall */
+  /* Forces top frozen ribbon header to ignore all container limits and stretch wall-to-wall */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
-    left: 0 !important;   /* Forces start flush to absolute left viewport wall */
-    right: 0 !important;  /* Forces end flush to absolute right viewport wall */
+    left: 0 !important;   
+    right: 0 !important;  
     width: 100% !important;
     z-index: 999999 !important; 
     background-color: #D2F7FF !important; 
-    padding: 0 !important; /* Cleared side constraints entirely */
+    padding: 0 !important; 
     margin: 0 !important;
     box-sizing: border-box !important;
   }
@@ -45,12 +45,12 @@
   .portfolio-container {
     width: 100% !important;
     max-width: 100% !important;
-    margin: 0 auto !important;
+    margin: 0 !important;
     box-sizing: border-box !important;
     padding: 0 !important;
   }
 
-  /* Main Profile Block Header Content Box - Full Width Stretch */
+  /* Main Profile Block Header Content Box - FIXED WITH OUTER GOLD TOP BORDER */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
@@ -58,13 +58,14 @@
     border-radius: 0 !important; 
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
+    border-top: 4px solid #FFD200 !important; /* Forces signature gold on the absolute top outer edge */
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     width: 100% !important;
     box-sizing: border-box !important;
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip */
+  /* Navigation Ribbon Strip - FIXED WITH OUTER GOLD BOTTOM BORDER */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 40px !important; 
@@ -74,6 +75,7 @@
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44; 
+    border-bottom: 4px solid #FFD200 !important; /* Forces signature gold on the absolute bottom outer edge */
     border-radius: 0 !important; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
@@ -120,9 +122,9 @@
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer Layout - SHIFTED SLIGHTLY TO COMPENSATE CORRECTION HEIGHT */
+  /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
-    margin-top: 135px !important; 
+    margin-top: 142px !important; /* Adjusted by a couple pixels to perfectly clear the new outer bottom border */
     padding: 15px 0 75px 0 !important; 
     box-sizing: border-box !important;
     width: 100% !important;
@@ -206,7 +208,7 @@
 <input type="radio" name="page-tabs" id="tab-certifications" class="tab-toggle" />
 <input type="radio" name="page-tabs" id="tab-get-in-touch" class="tab-toggle" />
 
-<!-- FIXED TOP HEADER STRIP PANEL - ABSOLUTE EDGE TO EDGE STRETCH ACTIVE -->
+<!-- FIXED TOP HEADER STRIP PANEL -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu | Enterprise Solutions Consultant</h1>
@@ -223,29 +225,14 @@
   </div>
 </div>
 
+
+
 <!-- FIXED BOTTOM FROZEN BAR -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
     <p>📍 <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
     <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
   </div>
-</div>
-
-<!-- SCROLLING CONTENT LAYER VIEWPORT -->
-<div class="scroll-content">
-
-<!-- 1. ABOUT CARD -->
-
-
-
-
-<!-- 1. ABOUT CARD -->
-<div id="about" class="content-card">
-  <h2>👤 About & Value Proposition</h2>
-  <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Stop guessing. Start growing. I turn your raw enterprise data into clear dashboards and smart analytics that turn complex numbers into simple next steps.</p>
-  <p style="font-size: 18px; color: #23272A; font-weight: 700; margin: 15px 0 20px 0; line-height: 1.4; font-style: italic;">"You collect the data. I find the money and operational efficiencies hidden inside it."</p>
-  <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
-  <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with extensive experience supporting Monitoring, Evaluation, Accountability and Learning (MEL), research, and development programs. Specialized in quantitative and qualitative analysis, database validation, and building centralized business intelligence frameworks that translate messy field research targets into clear institutional insights.</p>
 </div>
 
 <!-- 2. SERVICES CARD -->
@@ -376,7 +363,7 @@
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
-    <!-- LEFT SIDE DETAILS COLUMN PANEL -->
+       <!-- LEFT SIDE DETAILS COLUMN PANEL -->
     <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
       <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get in touch</span>
       <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important; text-align: left !important;">Let's talk</h2>
@@ -390,16 +377,16 @@
     </div>
     
     <!-- RIGHT SIDE ACTIVE TYPEABLE BOOKING FORM CONTAINER -->
-    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 45px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center;">
+    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 45px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center; text-align: center !important;">
       
       <!-- Specialized Single Focus Email Portal Card -->
-      <div style="border: 2px dashed #CBD5E0; border-radius: 8px; padding: 25px; background-color: #F8FAFC; text-align: center;">
-        <span style="font-size: 40px; display: block; margin-bottom: 10px;">📧</span>
-        <h4 style="margin: 0 0 8px 0; font-size: 18px; font-weight: bold; color: #23272A;">Secure Enterprise Email Hub</h4>
-        <p style="margin: 0 0 20px 0; font-size: 15px; font-weight: bold; color: #1A488E;">hednaogutuh@gmail.com</p>
-        <p style="margin: 0 0 25px 0; font-size: 14px; line-height: 1.45; color: #4A5568;">Click below to automatically generate an explicit analytics project proposal brief directly inside your default mail app securely.</p>
+      <div style="border: 2px dashed #CBD5E0; border-radius: 8px; padding: 25px; background-color: #F8FAFC; text-align: center !important; width: 100%; box-sizing: border-box;">
+        <span style="font-size: 40px; display: block; margin-bottom: 10px; text-align: center !important;">📧</span>
+        <h4 style="margin: 0 0 8px 0; font-size: 18px; font-weight: bold; color: #23272A; text-align: center !important;">Secure Enterprise Email Hub</h4>
+        <p style="margin: 0 0 20px 0; font-size: 15px; font-weight: bold; color: #1A488E; text-align: center !important;">hednaogutuh@gmail.com</p>
+        <p style="margin: 0 0 25px 0; font-size: 14px; line-height: 1.45; color: #4A5568; text-align: center !important;">Click below to automatically generate an explicit analytics project proposal brief directly inside your default mail app securely.</p>
         
-        <a href="mailto:hednaogutuh@://gmail.com" style="background-color: #1A488E !important; color: #FFFFFF !important; padding: 15px 30px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(26,72,142,0.2); text-transform: uppercase; letter-spacing: 0.5px;">✉️ Launch Project Inquiry</a>
+        <a href="mailto:hednaogutuh@://gmail.com" style="background-color: #1A488E !important; color: #FFFFFF !important; padding: 15px 30px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(26,72,142,0.2); text-transform: uppercase; letter-spacing: 0.5px; text-align: center !important;">✉️ Launch Project Inquiry</a>
       </div>
       
     </div>
