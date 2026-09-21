@@ -365,52 +365,85 @@
   </ul>
 </div>
 
-<!-- 8. GET IN TOUCH - UNBREAKABLE CLIENT ENGAGEMENT CONSOLE -->
+<!-- 8. GET IN TOUCH ACTIVE SUBMISSION ENGINE - FULLY TYPEABLE NATIVE ROUTING -->
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
-  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
+  <form action="mailto:hednaogutuh@gmail.com" method="GET" enctype="text/plain" style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
+    <!-- Hidden parameter sets email subject line automatically -->
+    <input type="hidden" name="subject" value="New Data Solutions Consultancy Booking" />
+
     <!-- LEFT SIDE DETAILS COLUMN PANEL -->
     <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
       <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get in touch</span>
       <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important; text-align: left !important;">Let's talk</h2>
-      <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 25px; text-align: left !important;">Let's collaborate on your next business intelligence dashboard, Stata analysis, or MEL framework optimization. Choose your preferred connection link on the right.</p>
+      <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 30px; text-align: left !important;">Fill out your project details on the right to request a data solutions session. I confirm by email within one business day with a calendar invite.</p>
       
       <!-- Box Info Fragment 1 -->
       <div style="background-color: #F8FAFC; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #E2E8F0; width: 100%; box-sizing: border-box;">
-        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A; display: block; text-align: left !important;">How project booking works</h4>
-        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important; text-align: left !important;">Review the pre-formatted consulting brief criteria on the right. You can connect instantly over real-time text chat platforms or via professional email channels.</p>
+        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A; display: block; text-align: left !important;">How booking works</h4>
+        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important; text-align: left !important;">Type your schedule slots directly into the live fields. When you click submit, your native email app or Gmail opens with your responses pre-filled and ready to send straight to me.</p>
+      </div>
+      
+      <!-- Box Info Fragment 2 -->
+      <div style="background-color: #F8FAFC; padding: 20px; border-radius: 8px; border: 1px solid #E2E8F0; width: 100%; box-sizing: border-box;">
+        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A; display: block; text-align: left !important;">Need instant text chat?</h4>
+        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important; text-align: left !important;">Utilize the yellow WhatsApp sync portal button at the bottom of the right-hand panel for a direct messaging thread.</p>
       </div>
     </div>
     
-    <!-- RIGHT SIDE INTUITIVE CONTACT MATRIX GATEWAY -->
-    <div style="flex: 1.2; min-width: 360px; background-color: #F8FAFC; border: 1px solid #E2E8F0; padding: 35px; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); box-sizing: border-box; margin: 0 !important;">
+    <!-- RIGHT SIDE ACTIVE TYPEABLE BOOKING FORM CONTAINER -->
+    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important;">
       
-      <!-- Contact Card Channel 1: Email -->
-      <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-        <h4 style="margin: 0 0 6px 0; font-size: 14px; font-weight: 800; text-transform: uppercase; color: #1A488E; letter-spacing: 0.5px;">Corporate Email Workspace</h4>
-        <p style="margin: 0 0 12px 0; font-size: 16px; font-weight: bold; color: #23272A;">hednaogutuh@gmail.com</p>
-        <p style="margin: 0 0 15px 0; font-size: 13px; line-height: 1.4; color: #718096;">Click below to launch an email consultation or copy my workspace address directly to your clipboard for a manual Gmail request.</p>
-        <div style="display: flex; gap: 10px;">
-          <a href="mailto:hednaogutuh@gmail.com" style="background-color: #1A488E !important; color: #FFFFFF !important; padding: 10px 15px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 13px; text-transform: uppercase; display: inline-block;">✉️ Open Mail App</a>
+      <!-- Form Input Row 1 -->
+      <div style="display: flex; gap: 20px; margin-bottom: 20px; width: 100%; box-sizing: border-box;">
+        <div style="flex: 1;">
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Full name</label>
+          <input type="text" name="Client_Name" placeholder="Your name (e.g., Jane Doe)" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
+        </div>
+        <div style="flex: 1;">
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Email address</label>
+          <input type="email" name="Client_Email" placeholder="name@company.com" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
         </div>
       </div>
-
-      <!-- Contact Card Channel 2: WhatsApp -->
-      <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-        <h4 style="margin: 0 0 6px 0; font-size: 14px; font-weight: 800; text-transform: uppercase; color: #23272A; letter-spacing: 0.5px;">Real-Time WhatsApp Routing</h4>
-        <p style="margin: 0 0 12px 0; font-size: 16px; font-weight: bold; color: #23272A;">+254 741 937074</p>
-        <p style="margin: 0 0 15px 0; font-size: 13px; line-height: 1.4; color: #718096;">Initiate a direct text chat thread or call to verify current project availabilities, freelance rates, and consulting timelines.</p>
-        <a href="https://whatsapp.com" target="_blank" style="background-color: #23272A !important; color: #FFD200 !important; padding: 10px 20px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 13px; text-transform: uppercase; display: inline-block;">💬 Start WhatsApp Chat</a>
+      
+      <!-- Form Input Row 2 -->
+      <div style="display: flex; gap: 20px; margin-bottom: 20px; width: 100%; box-sizing: border-box;">
+        <div style="flex: 1;">
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Preferred date</label>
+          <input type="text" name="Requested_Date" placeholder="dd/mm/yyyy" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
+        </div>
+        <div style="flex: 1;">
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">What is this about?</label>
+          <select name="Consultancy_Topic" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px; height: 45px;">
+            <option value="">Select a consultancy topic</option>
+            <option value="Power_BI_Dashboards_and_BI">Power BI Dashboards & Business Intelligence</option>
+            <option value="Advanced_Excel_and_Reconciliation">Advanced Excel & Database Reconciliation</option>
+            <option value="Stata_and_Biostatistical_Analytics">Stata & Biostatistical Analytics</option>
+            <option value="MEL_Systems_and_Architecture">MEL Frameworks & Systems Architecture</option>
+          </select>
+        </div>
+      </div>
+      
+      <!-- Form Input Row 3 -->
+      <div style="margin-bottom: 20px; width: 50%; box-sizing: border-box;">
+        <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Preferred time</label>
+        <input type="text" name="Requested_Time" placeholder="e.g., 2:00 PM EAT" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
+      </div>
+      
+      <!-- Form Input Row 4 -->
+      <div style="margin-bottom: 25px; width: 100%; box-sizing: border-box;">
+        <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Tell me a little more</label>
+        <textarea name="Project_Context_Details" placeholder="Provide a brief background on your target data challenge, your timeline, and what a successful outcome looks like..." rows="3" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px; resize: none;"></textarea>
       </div>
 
-      <!-- Consulting Requirements Reminder Box -->
-      <div style="background-color: #FFFDF0; border: 1px solid #FEEBC8; padding: 15px; border-radius: 6px;">
-        <h5 style="margin: 0 0 5px 0; font-size: 13px; font-weight: bold; color: #C05621;">📌 Recommended Brief Template Info</h5>
-        <p style="margin: 0; font-size: 12px; line-height: 1.4; color: #7B341E;">When reaching out, please include your <b>Full Name</b>, <b>Organization Scope</b>, and a brief description of your target analytics or database challenge.</p>
+      <!-- SUBMIT ACTION BUTTONS - UNLOCKED AND INTERACTIVE -->
+      <div style="text-align: center; display: flex; gap: 15px; width: 100%; box-sizing: border-box;">
+        <button type="submit" style="flex: 1; background-color: #1A488E !important; color: #FFFFFF !important; padding: 14px 20px !important; border: none !important; border-radius: 6px; font-weight: bold; font-size: 14px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center; height: 45px;">✉️ Submit Booking Request</button>
+        <a href="https://whatsapp.com" target="_blank" style="flex: 1; background-color: #23272A !important; color: #FFD200 !important; padding: 14px 20px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center; line-height: 45px; height: 45px; box-sizing: border-box;">Sync via WhatsApp</a>
       </div>
       
     </div>
-  </div>
+  </form>
 </div>
 
 </div> <!-- Closes scroll-content layout engine -->
