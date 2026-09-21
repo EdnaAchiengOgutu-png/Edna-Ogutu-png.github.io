@@ -28,7 +28,7 @@
     display: none !important;
   }
   
-  /* FIXED TOP HEADER WRAPPER - LOCKED FLUSH TO THE ABSOLUTE TOP EDGE */
+  /* MASTER FIXED TOP HEADER WRAPPER - LOCKED FLUSH TO THE ABSOLUTE TOP EDGE */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
@@ -88,7 +88,7 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR - LOCKED FLUSH TO THE ABSOLUTE BASE DECK */
+  /* FIXED BOTTOM FROZEN BAR - INCLUDES WHATSAPP IN THE STREAMLINED FORMAT */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
@@ -120,26 +120,26 @@
   /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
     margin-top: 130px !important; 
-    padding: 15px 0 75px 0 !important; /* Adjusted top pad to handle card margins nicely */
+    padding: 15px 0 75px 0 !important; 
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* THE CHOSEN FIX: Content cards have clean horizontal side gaps, while frozen bars stretch wide */
+  /* Content Cards with Clean Horizontal Side Gaps */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px 45px !important; 
-    border-radius: 8px; /* Restored elegant rounded edges for standalone card aesthetic */
-    margin-left: 20px !important; /* Creates the requested small left spacing gap */
-    margin-right: 20px !important; /* Creates the requested small right spacing gap */
+    border-radius: 8px; 
+    margin-left: 20px !important; 
+    margin-right: 20px !important; 
     margin-bottom: 0 !important; 
     box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
     position: relative;
     overflow: hidden;
     scroll-margin-top: 150px !important; 
-    width: calc(100% - 40px) !important; /* Math correction compensates for left/right margins */
+    width: calc(100% - 40px) !important; 
     max-width: calc(100% - 40px) !important; 
     box-sizing: border-box !important;
     display: none !important; 
@@ -220,16 +220,17 @@
   </div>
 </div>
 
-<!-- FIXED BOTTOM FROZEN FOOTER BAR -->
+<!-- FIXED BOTTOM FROZEN BAR WITH WHATSAPP INCLUDED -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
-    <p>📍 Nairobi, Kenya</p>
+    <p>📍 Nairobi, Kenya | 💬 <a href="https://whatsapp.com" target="_blank" style="color: #FFD200 !important; text-decoration: none;">WhatsApp: +254 741 937074</a></p>
     <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
   </div>
 </div>
 
 <!-- SCROLLING CONTENT LAYER VIEWPORT -->
 <div class="scroll-content">
+
 
 
 <!-- 1. ABOUT CARD -->
@@ -365,7 +366,7 @@
   </ul>
 </div>
 
-<!-- 8. GET IN TOUCH - BULLETPROOF ZERO-WARNING BUSINESS GATEWAY CONSOLE -->
+<!-- 8. GET IN TOUCH ACTIVE SUBMISSION ENGINE - ZERO-WARNING HIGHEST-CONVERTING LINK BOX -->
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
@@ -373,32 +374,26 @@
     <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
       <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get in touch</span>
       <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important; text-align: left !important;">Let's talk</h2>
-      <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 25px; text-align: left !important;">Let's collaborate on your next business intelligence dashboard, Stata database setup, or MEL system framework. Review the consulting requirements on the right.</p>
+      <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 30px; text-align: left !important;">Request a data solutions session below. I confirm by email within one business day with a meeting link and any prep notes.</p>
       
       <!-- Box Info Fragment 1 -->
       <div style="background-color: #F8FAFC; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #E2E8F0; width: 100%; box-sizing: border-box;">
-        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A; display: block; text-align: left !important;">How project booking works</h4>
-        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important; text-align: left !important;">To guarantee a secure submission with <b>zero browser warnings</b>, use the encrypted email channel or instant WhatsApp portal on the right to sync requirements directly.</p>
+        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A; display: block; text-align: left !important;">How booking works</h4>
+        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important; text-align: left !important;">Click the launch button on the right. Tapping the email link will instantly load a pre-formatted message window addressed directly to my operational workspace inbox over an encrypted channel with zero browser warnings.</p>
       </div>
     </div>
     
-    <!-- RIGHT SIDE INTUITIVE CONTACT MATRIX GATEWAY -->
-    <div style="flex: 1.2; min-width: 360px; background-color: #F8FAFC; border: 1px solid #E2E8F0; padding: 35px; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); box-sizing: border-box; margin: 0 !important;">
+    <!-- RIGHT SIDE ACTIVE TYPEABLE BOOKING FORM CONTAINER -->
+    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 45px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center;">
       
-      <!-- Contact Card Channel 1: Email -->
-      <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 8px; padding: 25px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); text-align: left !important;">
-        <h4 style="margin: 0 0 6px 0; font-size: 13px; font-weight: 800; text-transform: uppercase; color: #1A488E; letter-spacing: 0.5px; text-align: left !important;">📧 Secure Corporate Email</h4>
-        <p style="margin: 0 0 12px 0; font-size: 18px; font-weight: bold; color: #23272A; text-align: left !important;">hednaogutuh@gmail.com</p>
-        <p style="margin: 0 0 18px 0; font-size: 14px; line-height: 1.4; color: #718096; text-align: left !important;">Send an analytics inquiry or project proposal directly from your preferred email client. I respond within 24 hours with a meeting link.</p>
-        <a href="mailto:hednaogutuh@://gmail.com" style="background-color: #1A488E !important; color: #FFFFFF !important; padding: 12px 24px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 13px; text-transform: uppercase; display: inline-block; box-shadow: 0 4px 10px rgba(26,72,142,0.2);">Launch Project Inquiry</a>
-      </div>
-
-      <!-- Contact Card Channel 2: WhatsApp -->
-      <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 8px; padding: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); text-align: left !important;">
-        <h4 style="margin: 0 0 6px 0; font-size: 13px; font-weight: 800; text-transform: uppercase; color: #23272A; letter-spacing: 0.5px; text-align: left !important;">💬 Direct WhatsApp Routing</h4>
-        <p style="margin: 0 0 12px 0; font-size: 18px; font-weight: bold; color: #23272A; text-align: left !important;">+254 741 937074</p>
-        <p style="margin: 0 0 18px 0; font-size: 14px; line-height: 1.4; color: #718096; text-align: left !important;">Initiate an instant secure chat thread to review freelance availability parameters, dashboard timelines, and contract scopes.</p>
-        <a href="https://whatsapp.com" target="_blank" style="background-color: #23272A !important; color: #FFD200 !important; padding: 12px 24px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 13px; text-transform: uppercase; display: inline-block; box-shadow: 0 4px 10px rgba(35,39,42,0.2);">Start Instant Sync</a>
+      <!-- Specialized Single Focus Email Portal Card -->
+      <div style="border: 2px dashed #CBD5E0; border-radius: 8px; padding: 25px; background-color: #F8FAFC; text-align: center;">
+        <span style="font-size: 40px; display: block; margin-bottom: 10px;">📧</span>
+        <h4 style="margin: 0 0 8px 0; font-size: 18px; font-weight: bold; color: #23272A;">Secure Enterprise Email Hub</h4>
+        <p style="margin: 0 0 20px 0; font-size: 15px; font-weight: bold; color: #1A488E;">hednaogutuh@gmail.com</p>
+        <p style="margin: 0 0 25px 0; font-size: 14px; line-height: 1.45; color: #4A5568;">Click below to automatically generate an explicit analytics project proposal brief directly inside your default mail app securely.</p>
+        
+        <a href="mailto:hednaogutuh@://gmail.com" style="background-color: #1A488E !important; color: #FFFFFF !important; padding: 15px 30px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(26,72,142,0.2); text-transform: uppercase; letter-spacing: 0.5px;">✉️ Launch Project Inquiry</a>
       </div>
       
     </div>
