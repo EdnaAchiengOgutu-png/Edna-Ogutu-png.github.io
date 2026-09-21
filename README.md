@@ -28,7 +28,7 @@
     display: none !important;
   }
   
-  /* MASTER FIXED WRAPPER - HIGHEST LAYER */
+  /* MASTER FIXED TOP HEADER WRAPPER */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
@@ -36,7 +36,7 @@
     width: 100% !important;
     z-index: 999999 !important; 
     background-color: #1A488E !important; 
-    padding: 20px 4% 5px 4% !important;
+    padding: 20px 4% 0 4% !important; /* Stripped bottom padding to thin out top stack */
     box-sizing: border-box !important;
   }
 
@@ -62,7 +62,7 @@
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip: TAB TRIGGERS */
+  /* Navigation Ribbon Strip */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 40px !important; 
@@ -72,9 +72,10 @@
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44; 
+    border-radius: 0 0 8px 8px; /* Clean rounded edge directly under the navigation links */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
   }
   
-  /* Style labels to look like clickable buttons */
   .navbar label { 
     color: #FFFFFF !important; 
     margin-right: 25px; 
@@ -87,28 +88,39 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* Contact Information Bar: CLEANED LEFT/RIGHT SPLIT GRID FOR SYMMETRY */
-  .contact-bar {
+  /* THE NEW FIXED BOTTOM FROZEN BAR: Ultra-Thin, Continuous Ribbon Asset */
+  .fixed-footer-container {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    z-index: 999999 !important;
+    background-color: #1A488E !important;
+    padding: 0 4% 15px 4% !important; /* Bottom pad holds bar tight above screen deck */
+    box-sizing: border-box !important;
+  }
+
+  .footer-bar {
     background-color: #23272A !important;
-    padding: 12px 40px !important;
-    border-radius: 0 0 8px 8px;
-    margin-bottom: 10px;
+    padding: 10px 40px !important; /* Reduced vertical thickness to stay ultra-thin */
+    border-radius: 8px;
     width: 100% !important;
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
-    border-top: 1px solid #3A3F44;
+    border-top: 3px solid #FFD200; /* Beautiful gold top divider line framework */
     display: flex !important;
-    justify-content: space-between !important; /* Forces location left, LinkedIn right */
+    justify-content: space-between !important;
     align-items: center !important;
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.3);
   }
-  .contact-bar p { color: #E5E7EB !important; margin: 0 !important; font-size: 15px; font-weight: bold; }
-  .contact-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
-  .contact-bar a:hover { color: #FFFFFF !important; }
+  .footer-bar p { color: #E5E7EB !important; margin: 0 !important; font-size: 14px; font-weight: bold; }
+  .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
+  .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer: CLOSED GAP SPACING BUFFER */
+  /* Fluid Scrolling Content Layer Layout: Added bottom margin buffer so footer never hides text */
   .scroll-content {
-    margin-top: 185px !important; /* Compressed down from 240px to drop the empty space gap */
-    padding: 0 4% 40px 4% !important; 
+    margin-top: 155px !important; /* Even tighter vertical layout pull up against top ribbon */
+    padding: 0 4% 75px 4% !important; /* Bottom cushion prevents the frozen footer from covering card text */
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
@@ -124,6 +136,7 @@
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
+    scroll-margin-top: 175px !important; /* Pinpoint link anchor scrolling target offset alignment */
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -170,8 +183,8 @@
 
   /* COMPRESSED READABILITY TEXT METRICS */
   ul { padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 2px !important; }
-  li { margin-top: 0 !important; margin-bottom: 4px !important; line-height: 1.35 !important; color: #1A1D20 !important; font-size: 16px; font-weight: 500; } 
-  p { margin-top: 0 !important; margin-bottom: 8px !important; line-height: 1.35 !important; }
+  li { margin-top: 0 !important; margin-bottom: 4px !important; line-height: 1.4 !important; color: #1A1D20 !important; font-size: 16px; font-weight: 500; } 
+  p { margin-top: 0 !important; margin-bottom: 8px !important; line-height: 1.4 !important; }
   .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
   .badge-pill { background-color: #23272A; color: #FFD200; padding: 3px 10px; border-radius: 20px; font-size: 13px; font-weight: bold; display: inline-block; margin-right: 5px; }
 </style>
@@ -187,7 +200,7 @@
 <input type="radio" name="page-tabs" id="tab-certifications" class="tab-toggle" />
 <input type="radio" name="page-tabs" id="tab-get-in-touch" class="tab-toggle" />
 
-<!-- FIXED TOP HEADER STRIP PANEL -->
+<!-- FIXED TOP HEADER STRIP PANEL - EXTREMELY COMPACT -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu | Enterprise Solutions Consultant</h1>
@@ -202,8 +215,11 @@
     <label for="tab-certifications">🏆 CERTIFICATIONS</label>
     <label for="tab-get-in-touch">📞 GET IN TOUCH</label>
   </div>
+</div>
 
-  <div class="contact-bar">
+<!-- FIXED BOTTOM FROZEN FOOTER BAR -->
+<div class="fixed-footer-container">
+  <div class="footer-bar">
     <p>📍 Nairobi, Kenya</p>
     <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
   </div>
