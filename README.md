@@ -60,9 +60,9 @@
   /* Navigation Ribbon Strip: ALIGNED TO THE FAR LEFT */
   .navbar { 
     background-color: #23272A !important; 
-    padding: 12px 40px !important; /* Adjusted to align with padding of header-block */
+    padding: 12px 40px !important; 
     margin: 0 !important;
-    text-align: left !important; /* FORCED LEFT ALIGNMENT */
+    text-align: left !important; 
     width: 100% !important;
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
@@ -70,7 +70,7 @@
   }
   .navbar a { 
     color: #FFFFFF !important; 
-    margin-right: 45px; /* Spacing between left-aligned items */
+    margin-right: 45px; 
     margin-left: 0 !important;
     text-decoration: none !important; 
     font-weight: 800; 
@@ -86,13 +86,15 @@
     padding: 12px 40px !important;
     border-radius: 0 0 8px 8px;
     margin-bottom: 10px;
-    text-align: right !important; /* FORCED RIGHT ALIGNMENT */
+    text-align: right !important; 
     width: 100% !important;
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44;
   }
   .contact-bar p { color: #E5E7EB !important; margin: 0 !important; font-size: 15px; font-weight: bold; }
+  .contact-bar a { color: #FFFFFF !important; text-decoration: none !important; }
+  .contact-bar a:hover { color: #FFD200 !important; text-decoration: underline !important; }
 
   /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
@@ -113,7 +115,7 @@
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 250px !important; /* Tweak scroll-margin to fit new layout */
+    scroll-margin-top: 250px !important; 
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -199,24 +201,25 @@
 
 <div class="portfolio-container">
 
-<!-- FIXED CONTAINER BLOCK - ALIGNMENT STACK -->
+<!-- FIXED CONTAINER BLOCK - DYNAMIC SHORTCUTS ENABLED -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu</h1>
   </div>
 
   <div class="navbar">
-    <a href="#summary"> HOME</a>
-    <a href="#skills"> SKILLS</a>
-    <a href="#experience"> EXPERIENCE</a>
-    <a href="#education"> EDUCATION</a>
+    <a href="#summary">🏠 HOME</a>
+    <a href="#skills">🛠️ SKILLS</a>
+    <a href="#experience">💼 EXPERIENCE</a>
+    <a href="#education">🎓 EDUCATION</a>
   </div>
 
   <div class="contact-bar">
     <p>
-       Nairobi, Kenya | 
-       <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; text-decoration: none;">hednaogutuh@gmail.com</a> | 
-       <a href="https://linkedin.com" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
+      📍 Nairobi, Kenya | 
+      💬 <a href="https://wa.me" target="_blank" style="color: #FFFFFF !important; font-weight: bold;">+254741937074</a> | 
+      📧 <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; font-weight: bold;">hednaogutuh@gmail.com</a> | 
+      💼 <a href="https://linkedin.com" target="_blank" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
     </p>
   </div>
 </div>
@@ -224,31 +227,8 @@
 <!-- SCROLLING CONTENT LAYER -->
 <div class="scroll-content">
 
-
-<div id="tools-proficiency" class="content-card">
-  <h2>🛠️ Specialized Tools Proficiency Matrix</h2>
-  
-  <h3 style="margin-top: 0 !important;">Data & Advanced Statistical Analytics</h3>
-  <ul>
-    <li><span class="skill-title">Stata:</span> Advanced quantitative research scripting | Biostatistical regression modeling | Health indicator tracking | Research data cleaning & coding</li>
-    <li><span class="skill-title">Power BI:</span> Automated interactive data dashboards | Operational KPI monitoring | Volume forecasting metrics | Workforce schedule optimization</li>
-    <li><span class="skill-title">Microsoft Excel (Advanced):</span> Advanced data clearing | Complex payroll algorithms | Biometric data validation | Formula automation & ad-hoc data tables</li>
-    <li><span class="skill-title">R Programming:</span> Statistical modeling computing | Data visualization script workflows | Analytical evidence synthesis</li>
-    <li><span class="skill-title">SPSS:</span> Heath program dataset summary analysis | Descriptive statistics summary outputs | Data-quality checklist validations</li>
-    <li><span class="skill-title">SQL & Python Data Science:</span> Foundational data-driven problem solving | Database management scripts | Data preparation routines</li>
-  </ul>
-
-  <h3>Digital Mobile Data Collection & Field Systems</h3>
-  <ul>
-    <li><span class="skill-title">KoboCollect & SurveyCTO:</span> Structured digital questionnaire deployment | Mobile logic validations | Field data capture workflows</li>
-    <li><span class="skill-title">Enterprise Systems:</span> Microsoft Teams | Outlook | Word | PowerPoint | CRM platforms | Telephony & Workforce validation structures</li>
-  </ul>
-</div>
-
-
-
 <div id="summary" class="content-card">
-  <h2> Professional Summary & Strategy</h2>
+  <h2>📋 Professional Summary & Strategy</h2>
   <p style="font-size: 18px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.4;">Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</p>
   <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
   <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
