@@ -22,14 +22,14 @@
     padding: 0 !important;
   }
   
-  /* FIXED COMPACT TOP LAYOUT LAYER - FORCED FULL SCREEN WIDTH */
-  .fixed-header-container {
+  /* MASTER FIXED WRAPPER - FORCED ON THE ABSOLUTE TOP HIGHEST LAYER */
+  .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     width: 100% !important;
-    z-index: 9999 !important;
-    background-color: #1A488E !important; 
+    z-index: 999999 !important; /* Extremely high depth layout tier so cards scroll underneath */
+    background-color: #1A488E !important; /* Prevents text from bleeding through the blue margins */
     padding: 20px 4% 5px 4% !important;
     box-sizing: border-box !important;
   }
@@ -85,9 +85,9 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* Fluid Scrolling Content Layer Layout - SHIFTED DOWN SO IT NEVER HIDES */
+  /* Fluid Scrolling Content Layer Layout - POSITIONED SAFELY BELOW EXTENDED FIX DEPTH HEADER */
   .scroll-content {
-    margin-top: 200px !important; /* Fixed padding buffer so cards load below the header */
+    margin-top: 220px !important; /* Safe padding buffer so your page loads cleanly below the strip */
     padding: 0 4% 40px 4% !important; 
     box-sizing: border-box !important;
     width: 100% !important;
@@ -95,16 +95,16 @@
     display: block !important;
   }
 
-  /* Section Content Cards: FULL SCREEN WIDE MODE WITH CLEAN ANCHOR OFFSET ELEMENT */
+  /* Section Content Cards: EDGE TO EDGE STRETCH */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 30px 40px !important; 
     border-radius: 8px;
-    margin-bottom: 35px !important; /* Clean structural blue separation gaps */
+    margin-bottom: 35px !important; 
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 170px !important; /* FIXED POSITION OFFSET: Masks upper cards cleanly behind bar */
+    scroll-margin-top: 200px !important; /* Shifts text section target alignment cleanly below the bar */
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -190,9 +190,9 @@
 
 <div class="portfolio-container">
 
-<!-- FIXED CONTAINER BLOCK -->
-<div class="fixed-header-container">
-
+<!-- FIXED CONTAINER BLOCK - RE-ENGINEERED MASTER WRAPPER CLASS -->
+<div class="master-sticky-header">
+  <div class="header-block">
 
 
 
