@@ -201,12 +201,17 @@
 
 
     
+     <div class="header-block">
     <h1>Edna Ogutu</h1>
-    <p> <img width="176" height="176" alt="image" src="https://github.com/user-attachments/assets/fa3632f7-0a9b-451d-8a55-ae2f1b090347" />
- Nairobi, Kenya | <img width="179" height="172" alt="image" src="https://github.com/user-attachments/assets/6ffcba67-e8d8-4364-b88c-08223ec6bebd" />
- hednaogutuh@gmail.com | <img width="180" height="173" alt="image" src="https://github.com/user-attachments/assets/6eee4214-7a0c-4280-af8c-4be004c35b2a" />
- <a href="https://www.linkedin.com/in/edna-achieng-ogutu/" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a></p>
+    <p>
+      📍 Nairobi, Kenya | 
+      <img width="20" height="20" style="vertical-align: middle; margin-right: 4px;" alt="Email" src="https://github.com/user-attachments/assets/6ffcba67-e8d8-4364-b88c-08223ec6bebd" /> 
+      <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; text-decoration: none;">hednaogutuh@gmail.com</a> | 
+      <img width="20" height="20" style="vertical-align: middle; margin-right: 4px;" alt="LinkedIn" src="https://github.com/user-attachments/assets/6eee4214-7a0c-4280-af8c-4be004c35b2a" /> 
+      <a href="https://www.linkedin.com/in/edna-achieng-ogutu/" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
+    </p>
   </div>
+
 
   <div class="navbar">
     <a href="#summary">🏠 Home</a>
