@@ -28,15 +28,17 @@
     display: none !important;
   }
   
-  /* MASTER FIXED TOP HEADER WRAPPER */
+  /* THE PERFECT FIX: Forces top frozen ribbon header to ignore all container limits and stretch wall-to-wall */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
-    left: 0 !important;
+    left: 0 !important;   /* Forces start flush to absolute left viewport wall */
+    right: 0 !important;  /* Forces end flush to absolute right viewport wall */
     width: 100% !important;
     z-index: 999999 !important; 
     background-color: #D2F7FF !important; 
-    padding: 20px 4% 0 4% !important; 
+    padding: 0 !important; /* Cleared side constraints entirely */
+    margin: 0 !important;
     box-sizing: border-box !important;
   }
 
@@ -88,7 +90,7 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR - UNIFIED TEXT COLOR METRICS ATTACHED */
+  /* FIXED BOTTOM FROZEN BAR */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
@@ -114,13 +116,13 @@
     box-shadow: 0 -4px 15px rgba(0,0,0,0.15);
   }
   .footer-bar p { color: #FFFFFF !important; margin: 0 !important; font-size: 14px; font-weight: bold; }
-  .footer-bar span.footer-highlight { color: #FFD200 !important; font-weight: bold; } /* New structural class enforces high-converting gold format */
+  .footer-bar span.footer-highlight { color: #FFD200 !important; font-weight: bold; }
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer Layout */
+  /* Fluid Scrolling Content Layer Layout - SHIFTED SLIGHTLY TO COMPENSATE CORRECTION HEIGHT */
   .scroll-content {
-    margin-top: 130px !important; 
+    margin-top: 135px !important; 
     padding: 15px 0 75px 0 !important; 
     box-sizing: border-box !important;
     width: 100% !important;
@@ -204,7 +206,7 @@
 <input type="radio" name="page-tabs" id="tab-certifications" class="tab-toggle" />
 <input type="radio" name="page-tabs" id="tab-get-in-touch" class="tab-toggle" />
 
-<!-- FIXED TOP HEADER STRIP PANEL -->
+<!-- FIXED TOP HEADER STRIP PANEL - ABSOLUTE EDGE TO EDGE STRETCH ACTIVE -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu | Enterprise Solutions Consultant</h1>
@@ -221,7 +223,7 @@
   </div>
 </div>
 
-<!-- FIXED BOTTOM FROZEN BAR WITH FULL BRAND COLOR HARMONY INTEGRATED -->
+<!-- FIXED BOTTOM FROZEN BAR -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
     <p>📍 <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
@@ -231,6 +233,9 @@
 
 <!-- SCROLLING CONTENT LAYER VIEWPORT -->
 <div class="scroll-content">
+
+<!-- 1. ABOUT CARD -->
+
 
 
 
