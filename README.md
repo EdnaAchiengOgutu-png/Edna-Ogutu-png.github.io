@@ -22,6 +22,11 @@
     margin: 0 !important;
     padding: 0 !important;
   }
+
+  /* HIDES THE RADIO MECHANISM BUTTONS OUT OF SIGHT */
+  input[type="radio"].tab-toggle {
+    display: none !important;
+  }
   
   /* MASTER FIXED WRAPPER - HIGHEST LAYER */
   .master-sticky-header {
@@ -31,7 +36,7 @@
     width: 100% !important;
     z-index: 999999 !important; 
     background-color: #1A488E !important; 
-    padding: 20px 4% 5px 4% !important; /* Controlled 4% outer layout padding */
+    padding: 20px 4% 5px 4% !important;
     box-sizing: border-box !important;
   }
 
@@ -47,7 +52,7 @@
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
-    padding: 20px 40px 10px 40px !important; 
+    padding: 15px 40px !important; 
     border-radius: 8px 8px 0 0;
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
@@ -55,9 +60,9 @@
     width: 100% !important;
     box-sizing: border-box !important;
   }
-  .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 28px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
+  .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip */
+  /* Navigation Ribbon Strip: TURNED INTO INTERACTIVE TAB TRIGGERS */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 40px !important; 
@@ -68,19 +73,21 @@
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44; 
   }
-  .navbar a { 
+  
+  /* Style labels to look like clickable buttons */
+  .navbar label { 
     color: #FFFFFF !important; 
     margin-right: 25px; 
-    margin-left: 0 !important;
-    text-decoration: none !important; 
     font-weight: 800; 
     font-size: 13px; 
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    cursor: pointer !important;
+    display: inline-block !important;
   }
-  .navbar a:hover { color: #FFD200 !important; }
+  .navbar label:hover { color: #FFD200 !important; }
 
-  /* Contact Information Bar */
+  /* Contact Information Bar: ALIGNED TO THE FAR RIGHT */
   .contact-bar {
     background-color: #23272A !important;
     padding: 12px 40px !important;
@@ -96,121 +103,102 @@
   .contact-bar a { color: #FFFFFF !important; text-decoration: none !important; }
   .contact-bar a:hover { color: #FFD200 !important; text-decoration: underline !important; }
 
-  /* Fluid Scrolling Content Layer Layout - MATCHES 4% HORIZONTAL PADDING FOR PERFECT ALIGNMENT */
+  /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
     margin-top: 240px !important; 
-    padding: 0 4% 40px 4% !important; /* Forces scroll cards to align 100% with top frozen header bar edges */
+    padding: 0 4% 40px 4% !important; 
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* Section Content Cards: UNIFIED DESIGN RULES Across Entire Framework */
+  /* Section Content Cards: HIDDEN BY DEFAULT FOR TAB CONTROLS */
   .content-card {
     background-color: #97B2DE !important; 
-    padding: 35px 45px !important; /* Structured symmetrical internal text padding */
+    padding: 30px 40px !important; 
     border-radius: 8px;
     margin-bottom: 35px !important; 
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 250px !important; 
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
-    display: block !important;
+    display: none !important; /* Forces cards out of view unless selected */
+  }
+
+  /* THE ENGINE LINK: Show only the checked tab card */
+  #tab-about:checked ~ .scroll-content #about,
+  #tab-services:checked ~ .scroll-content #services,
+  #tab-projects:checked ~ .scroll-content #projects,
+  #tab-experience:checked ~ .scroll-content #experience,
+  #tab-education:checked ~ .scroll-content #education,
+  #tab-certifications:checked ~ .scroll-content #certifications,
+  #tab-get-in-touch:checked ~ .scroll-content #get-in-touch {
+    display: block !important; /* Spits active panel into preview window */
+  }
+
+  /* Highlight Active Menu Label Item */
+  #tab-about:checked ~ .master-sticky-header .navbar label[for="tab-about"],
+  #tab-services:checked ~ .master-sticky-header .navbar label[for="tab-services"],
+  #tab-projects:checked ~ .master-sticky-header .navbar label[for="tab-projects"],
+  #tab-experience:checked ~ .master-sticky-header .navbar label[for="tab-experience"],
+  #tab-education:checked ~ .master-sticky-header .navbar label[for="tab-education"],
+  #tab-certifications:checked ~ .master-sticky-header .navbar label[for="tab-certifications"],
+  #tab-get-in-touch:checked ~ .master-sticky-header .navbar label[for="tab-get-in-touch"] {
+    color: #FFD200 !important;
+    border-bottom: 2px solid #FFD200;
+  }
+
+  /* Background Grid Elements */
+  .skills-bg-card {
+    background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
+                url('https://dreamstime.com') !important;
+    background-size: cover !important;
+    background-position: center !important;
   }
 
   /* Typographic controls with flush top alignment overrides */
   .content-card > h2:first-child, .content-card > div:first-child { margin-top: 0 !important; padding-top: 0 !important; }
-  
-  h2 { 
-    color: #23272A !important; 
-    font-size: 26px; 
-    font-weight: 900; 
-    margin: 0 0 20px 0 !important; 
-    padding-top: 0 !important; 
-    padding-bottom: 10px; 
-    border-bottom: 4px solid #23272A; 
-    text-transform: uppercase; 
-    letter-spacing: 1px; 
-    display: block !important; 
-  }
-
-  h3 { 
-    color: #111314 !important; 
-    font-size: 21px; 
-    font-weight: 900; 
-    margin-top: 22px !important; 
-    margin-bottom: 6px !important; 
-    padding-top: 0 !important; 
-    display: block !important; 
-  }
-
+  h2 { color: #23272A !important; font-size: 26px; font-weight: 900; margin: 0 0 20px 0 !important; padding-bottom: 10px; border-bottom: 4px solid #23272A; text-transform: uppercase; letter-spacing: 1px; display: block !important; }
+  h3 { color: #111314 !important; font-size: 21px; font-weight: 900; margin-top: 22px !important; margin-bottom: 6px !important; padding-top: 0 !important; display: block !important; }
   h2 + h3, .content-card > h3:first-of-type { margin-top: 5px !important; }
-  
-  .job-meta { 
-    color: #23272A !important; 
-    font-style: normal; 
-    font-size: 15px; 
-    margin-top: 0 !important; 
-    margin-bottom: 14px !important; 
-    display: block; 
-    font-weight: 800; 
-    text-transform: uppercase; 
-    letter-spacing: 0.5px; 
-  }
+  .job-meta { color: #23272A !important; font-style: normal; font-size: 15px; margin-top: 0 !important; margin-bottom: 14px !important; display: block; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
 
-  /* COMPRESSED READABILITY TEXT METRICS */
-  ul { 
-    padding-left: 25px !important; 
-    margin-top: 2px !important; 
-    margin-bottom: 2px !important; 
-  }
-  li { 
-    margin-top: 0 !important;
-    margin-bottom: 5px !important; 
-    line-height: 1.4 !important;  
-    color: #1A1D20 !important; 
-    font-size: 16px; 
-    font-weight: 500; 
-  } 
-  p {
-    margin-top: 0 !important;
-    margin-bottom: 8px !important; 
-    line-height: 1.4 !important;
-  }
+  /* COMPRESSED SPACING */
+  ul { padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 2px !important; }
+  li { margin-top: 0 !important; margin-bottom: 4px !important; line-height: 1.35 !important; color: #1A1D20 !important; font-size: 16px; font-weight: 500; } 
+  p { margin-top: 0 !important; margin-bottom: 8px !important; line-height: 1.35 !important; }
   .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
-  
-  .badge-pill {
-    background-color: #23272A;
-    color: #FFD200;
-    padding: 3px 10px;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: bold;
-    display: inline-block;
-    margin-right: 5px;
-  }
+  .badge-pill { background-color: #23272A; color: #FFD200; padding: 3px 10px; border-radius: 20px; font-size: 13px; font-weight: bold; display: inline-block; margin-right: 5px; }
 </style>
 
 <div class="portfolio-container">
 
-<!-- FIXED TOP HEADER MODULE -->
+<!-- MASTER CSS REGISTER RADIO BUTTONS (About checked by default) -->
+<input type="radio" name="page-tabs" id="tab-about" class="tab-toggle" checked />
+<input type="radio" name="page-tabs" id="tab-services" class="tab-toggle" />
+<input type="radio" name="page-tabs" id="tab-projects" class="tab-toggle" />
+<input type="radio" name="page-tabs" id="tab-experience" class="tab-toggle" />
+<input type="radio" name="page-tabs" id="tab-education" class="tab-toggle" />
+<input type="radio" name="page-tabs" id="tab-certifications" class="tab-toggle" />
+<input type="radio" name="page-tabs" id="tab-get-in-touch" class="tab-toggle" />
+
+<!-- FIXED TOP HEADER STRIP PANEL -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu | Enterprise Solutions Consultant</h1>
   </div>
 
   <div class="navbar">
-    <a href="#about">🏠 ABOUT</a>
-    <a href="#services">💼 SERVICES</a>
-    <a href="#projects">📊 PROJECTS</a>
-    <a href="#experience">📈 EXPERIENCE</a>
-    <a href="#education">🎓 EDUCATION</a>
-    <a href="#certifications">🏆 CERTIFICATIONS</a>
-    <a href="#get-in-touch">📞 GET IN TOUCH</a>
+    <label for="tab-about">🏠 ABOUT</label>
+    <label for="tab-services">💼 SERVICES</label>
+    <label for="tab-projects">📊 PROJECTS</label>
+    <label for="tab-experience">📈 EXPERIENCE</label>
+    <label for="tab-education">🎓 EDUCATION</label>
+    <label for="tab-certifications">🏆 CERTIFICATIONS</label>
+    <label for="tab-get-in-touch">📞 GET IN TOUCH</label>
   </div>
 
   <div class="contact-bar">
@@ -223,8 +211,9 @@
   </div>
 </div>
 
-<!-- SCROLLING CONTENT LAYER -->
+<!-- SCROLLING CONTENT LAYER VIEWPORT -->
 <div class="scroll-content">
+
 
 <!-- 1. ABOUT CARD -->
 <div id="about" class="content-card">
@@ -236,7 +225,7 @@
 </div>
 
 <!-- 2. SERVICES CARD -->
-<div id="services" class="content-card">
+<div id="services" class="content-card skills-bg-card">
   <h2>💼 Operational Consulting Services</h2>
   <h3 style="margin-top: 0 !important;">Data Packages I Offer:</h3>
   <ul>
@@ -247,6 +236,7 @@
     <li><span class="skill-title">Documentation & Learning:</span> Synthesizing research evidence, documenting lessons learned, managing knowledge networks, and implementing strict data protection workflows.</li>
   </ul>
 </div>
+
 <!-- 3. PROJECTS SHOWCASE CARD -->
 <div id="projects" class="content-card">
   <h2>📊 Strategic Projects Portfolio</h2>
@@ -261,26 +251,6 @@
 </div>
 
 <!-- 4. TOOLS SHOWCASE MATRIX -->
-<div id="tools-proficiency" class="content-card">
-  <h2>🛠️ Specialized Solutions & Tools Matrix</h2>
-  
-  <h3 style="margin-top: 0 !important;">Business Intelligence & Advanced Analytics</h3>
-  <ul>
-    <li><span class="skill-title">Power BI Architecture:</span> Building automated corporate dashboards, real-time KPI tracking models, volume forecasting engines, and call-centre shift optimizations.</li>
-    <li><span class="skill-title">Stata Scripting & Biostatistics:</span> Advanced quantitative research scripting, regression modeling, biostatistical evidence synthesis, and large-scale survey data cleansing.</li>
-    <li><span class="skill-title">Advanced Microsoft Excel:</span> Designing complex algorithmic payroll engines for 350+ FTE, biometric check sheet validations, automated lookup scripts, and database reconciliations.</li>
-    <li><span class="skill-title">R Programming & SPSS:</span> Implementing descriptive dataset workflows, healthcare program summaries, qualitative data metrics, and graphic data visualizations.</li>
-    <li><span class="skill-title">SQL & Python Data Science:</span> Formulating back-end relational database management routines, data cleaning pipelines, and structured problem-solving models.</li>
-  </ul>
-
-  <h3>Mobile Data Collection & Field Systems</h3>
-  <ul>
-    <li><span class="skill-title">KoboCollect & SurveyCTO:</span> Building field questionnaires with complex digital validation logic, automated conditions, and structured mobile data capture modules.</li>
-    <li><span class="skill-title">Enterprise Ecosystems:</span> Integrating analytics workflows across CRM platforms, telephony metrics logs, Microsoft Teams, PowerPoint, and Excel.</li>
-  </ul>
-</div>
-
-<!-- 5. EXPERIENCE CARD -->
 <div id="experience" class="content-card">
   <h2>📈 Consulting & Analytics Engagement History</h2>
 
@@ -336,7 +306,7 @@
   </ul>
 </div>
 
-<!-- 6. EDUCATION CARD -->
+<!-- 5. EDUCATION CARD -->
 <div id="education" class="content-card">
   <h2>🎓 Academic Background</h2>
   <h3 style="margin-top: 0 !important;">Degrees</h3>
@@ -346,7 +316,7 @@
   </ul>
 </div>
 
-<!-- 7. CERTIFICATIONS CARD -->
+<!-- 6. CERTIFICATIONS CARD -->
 <div id="certifications" class="content-card">
   <h2>🏆 Professional Accreditations</h2>
   <h3 style="margin-top: 0 !important;">Specialized Certifications</h3>
@@ -357,7 +327,7 @@
   </ul>
 </div>
 
-<!-- 8. GET IN TOUCH ACTIVE SUBMISSION ENGINE - SYMMETRIC SPLIT ENGINE LAYOUT -->
+<!-- 7. GET IN TOUCH ACTIVE SUBMISSION ENGINE - SYMMETRIC SPLIT ENGINE LAYOUT -->
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
   <form action="https://formspree.io" method="POST" style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
@@ -419,7 +389,13 @@
         <input type="text" name="Requested Time" placeholder="e.g., 2:00 PM EAT" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
       </div>
       
-      <!-- TRANSMISSION SUBMIT BUTTONS -->
+      <!-- Form Input Row 4 -->
+      <div style="margin-bottom: 25px; width: 100%; box-sizing: border-box;">
+        <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Tell me a little more</label>
+        <textarea name="Project Context Details" placeholder="Provide a line or two of context: the target data challenge, your timeline, and what a successful outcome looks like..." rows="3" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px; resize: none;"></textarea>
+      </div>
+
+    <!-- TRANSMISSION SUBMIT BUTTONS -->
       <div style="text-align: center; display: flex; gap: 15px; width: 100%; box-sizing: border-box;">
         <button type="submit" style="flex: 1; background-color: #1A488E !important; color: #FFFFFF !important; padding: 14px 20px !important; border: none !important; border-radius: 6px; font-weight: bold; font-size: 14px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center; height: 45px;">✉️ Submit Booking Request</button>
         <a href="https://whatsapp.com" target="_blank" style="flex: 1; background-color: #23272A !important; color: #FFD200 !important; padding: 14px 20px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center; line-height: 45px; height: 45px; box-sizing: border-box;">Sync via WhatsApp</a>
