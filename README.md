@@ -1,9 +1,10 @@
 <style>
-  /* 1. FORCE MAXIMUM FULL SCREEN WIDTH OVERRIDES OVER EVERY INNER ELEMENT */
+  /* Force hide default GitHub template elements */
   header, #header, .title, h1:first-of-type:not(.header-block h1) {
     display: none !important;
   }
   
+  /* Forces the outer website background to remain 100% full length edge-to-edge */
   html, body, .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body, .portfolio-container, .scroll-content, div, section, main {
     max-width: 100% !important;
     width: 100% !important;
@@ -17,10 +18,10 @@
   }
 
   body { 
-    background-color: #1A488E !important; 
+    background-color: #1A488E !important; /* Continuous full-length royal blue background */
   }
   
-  /* 2. Top Fixed Header: Ultra-Slim Layout Container Box */
+  /* Top Fixed Header Layout Box container */
   .fixed-header-container {
     position: fixed !important;
     top: 0 !important;
@@ -28,20 +29,21 @@
     width: 100% !important;
     z-index: 9999 !important;
     background-color: #1A488E !important; 
-    padding: 10px 1% 0 1% !important; /* Compressed outer frame margins */
+    padding: 20px 2% 5px 2% !important; 
     box-sizing: border-box !important;
   }
 
-  /* 3. Main Profile Block: Streamlined and Thinned Down Like Infotrak */
+  /* Main Profile Block Header Content: Centered & Compact Width */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
-    padding: 15px 30px !important; /* Heavily reduced vertical thickness from 40px to 15px */
+    padding: 15px 40px !important; 
     border-radius: 6px 6px 0 0;
-    margin-bottom: 0px !important; /* Fuses the header block flawlessly into the menu bar below */
+    margin: 0 auto !important; 
     border-left: 8px solid #FFD200;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     width: 100% !important;
+    max-width: 950px !important; /* Keeps the top panel compact */
     box-sizing: border-box !important;
     display: flex !important;
     justify-content: space-between !important;
@@ -51,18 +53,19 @@
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: inline-block !important; } 
   .header-block p { color: #E5E7EB !important; margin: 0 !important; font-size: 14px; font-weight: bold; display: inline-block !important; }
 
-  /* 4. Menu Navigation Links: Thin Ribbon Strip */
+  /* Menu Navigation Links Ribbon Strip: Centered & Compact Width */
   .navbar { 
     background-color: #23272A !important; 
-    padding: 12px 30px !important; /* Reduced vertical thickness for a minimalist strip look */
+    padding: 12px 30px !important; 
     border-radius: 0 0 6px 6px;
-    margin-bottom: 10px;
+    margin: 0 auto 10px auto !important;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     width: 100% !important;
+    max-width: 950px !important; /* Matches header block width */
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
-    border-top: 1px solid #3A3F44; /* Clean subtle divider separator line */
+    border-top: 1px solid #3A3F44; 
   }
   .navbar a { 
     color: #FFFFFF !important; 
@@ -75,32 +78,33 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* 5. Fluid Scrolling Content Layer: Moved Up Higher to Match Smaller Headers */
+  /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
-    margin-top: 170px !important; /* Adjusted from 420px to close up the massive vertical gap layout */
-    padding: 0 1% 40px 1% !important; 
+    margin-top: 170px !important; 
+    padding: 0 2% 40px 2% !important; 
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* 6. Section Container Cards */
+  /* Cards are smaller in width and centered, but layout background stays full-length */
   .content-card {
     background-color: #97B2DE !important; 
-    padding: 45px 55px !important; 
+    padding: 30px 40px !important; /* Muted inner padding for a compact feel */
     border-radius: 8px;
-    margin-bottom: 35px;
+    margin: 0 auto 35px auto !important; /* Centering command: auto left and right margins */
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 190px !important; /* Dynamic anchor alignment correction */
+    scroll-margin-top: 190px !important; 
     width: 100% !important;
+    max-width: 950px !important; /* Cards are now smaller and compact in width */
     box-sizing: border-box !important;
     display: block !important;
   }
 
-  /* Background Grid elements */
+  /* Background Grid Elements */
   .skills-bg-card {
     background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
                 url('https://dreamstime.com') !important;
@@ -115,22 +119,75 @@
     background-position: center !important;
   }
 
-  /* Layout Typography Styles */
+  /* Typographic text layout controls with flush top alignment overrides */
   .content-card > h2:first-child, .content-card > div:first-child { margin-top: 0 !important; padding-top: 0 !important; }
-  h2 { color: #23272A !important; font-size: 28px; font-weight: 900; margin: 0 0 25px 0 !important; padding-top: 0 !important; padding-bottom: 12px; border-bottom: 4px solid #23272A; text-transform: uppercase; letter-spacing: 1px; display: block !important; }
-  h3 { color: #111314 !important; font-size: 23px; font-weight: 900; margin-top: 35px !important; margin-bottom: 8px !important; padding-top: 0 !important; display: block !important; }
+  
+  h2 { 
+    color: #23272A !important; 
+    font-size: 26px; 
+    font-weight: 900; 
+    margin: 0 0 20px 0 !important; 
+    padding-top: 0 !important; 
+    padding-bottom: 10px; 
+    border-bottom: 4px solid #23272A; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    display: block !important; 
+  }
+
+  h3 { 
+    color: #111314 !important; 
+    font-size: 21px; 
+    font-weight: 900; 
+    margin-top: 22px !important; 
+    margin-bottom: 6px !important; 
+    padding-top: 0 !important; 
+    display: block !important; 
+  }
+
   h2 + h3, .content-card > h3:first-of-type { margin-top: 5px !important; }
-  .job-meta { color: #23272A !important; font-style: normal; font-size: 16px; margin-top: 0 !important; margin-bottom: 18px !important; display: block; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
-  ul { padding-left: 30px; margin-top: 5px; }
-  li { margin-bottom: 14px; line-height: 1.7; color: #1A1D20 !important; font-size: 17px; font-weight: 500; } 
-  .skill-title { font-weight: 700; color: #1A488E; font-size: 17.5px; }
+  
+  .job-meta { 
+    color: #23272A !important; 
+    font-style: normal; 
+    font-size: 15px; 
+    margin-top: 0 !important; 
+    margin-bottom: 14px !important; 
+    display: block; 
+    font-weight: 800; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+  }
+
+  /* COMPRESSED SENTENCE & PARAGRAPH SPACING OVERRIDES */
+  ul { 
+    padding-left: 25px !important; 
+    margin-top: 2px !important; 
+    margin-bottom: 2px !important; 
+  }
+  li { 
+    margin-top: 0 !important;
+    margin-bottom: 4px !important; /* Compresses the empty vertical spaces between points */
+    line-height: 1.35 !important;  /* Pulls lines within the same sentence closer together */
+    color: #1A1D20 !important; 
+    font-size: 16px; 
+    font-weight: 500; 
+  } 
+  p {
+    margin-top: 0 !important;
+    margin-bottom: 8px !important; /* Tightens space between consecutive paragraphs */
+    line-height: 1.35 !important;
+  }
+  .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
 </style>
 
 <div class="portfolio-container">
 
-<!-- FIXED COMPRESSED NAVIGATION HEADER BLOCK -->
+<!-- FIXED CONTAINER BLOCK -->
 <div class="fixed-header-container">
   <div class="header-block">
+
+    
     <h1>Edna Ogutu</h1>
     <p>📍 Nairobi, Kenya | 📧 hednaogutuh@gmail.com | 💼 <a href="Your-LinkedIn-URL-Here" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a></p>
   </div>
