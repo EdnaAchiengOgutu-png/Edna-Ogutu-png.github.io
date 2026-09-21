@@ -31,12 +31,12 @@
   /* FIXED TOP HEADER WRAPPER - LOCKED FLUSH TO THE ABSOLUTE TOP EDGE */
   .master-sticky-header {
     position: fixed !important;
-    top: 0 !important; /* Forces the container to touch the very top edge */
+    top: 0 !important;
     left: 0 !important;
     width: 100% !important;
     z-index: 999999 !important; 
     background-color: #D2F7FF !important; 
-    padding: 0 !important; /* Removed padding to maximize horizontal stretch */
+    padding: 0 !important;
     box-sizing: border-box !important;
   }
 
@@ -53,7 +53,7 @@
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
     padding: 15px 40px !important; 
-    border-radius: 0 !important; /* Removed rounded edges to snap flush to screen boundaries */
+    border-radius: 0 !important; 
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
@@ -91,12 +91,12 @@
   /* FIXED BOTTOM FROZEN BAR - LOCKED FLUSH TO THE ABSOLUTE BASE DECK */
   .fixed-footer-container {
     position: fixed !important;
-    bottom: 0 !important; /* Forces the footer to touch the very bottom edge */
+    bottom: 0 !important;
     left: 0 !important;
     width: 100% !important;
     z-index: 999999 !important;
     background-color: #D2F7FF !important; 
-    padding: 0 !important; /* Removed padding to maximize horizontal stretch */
+    padding: 0 !important;
     box-sizing: border-box !important;
   }
 
@@ -117,31 +117,32 @@
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer Layout - SHIFTED FOR PERFECT GAP DISPLACEMENT */
+  /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
-    margin-top: 130px !important; /* Clean distance room directly beneath the navbar */
-    padding: 0 0 75px 0 !important; /* Clean bottom cushion above footer */
+    margin-top: 130px !important; 
+    padding: 15px 0 75px 0 !important; /* Adjusted top pad to handle card margins nicely */
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* Section Content Cards: TRUE WIDESCREEN STRETCH EXECUTED */
+  /* THE CHOSEN FIX: Content cards have clean horizontal side gaps, while frozen bars stretch wide */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px 45px !important; 
-    border-radius: 0 !important; /* Snaps flush horizontally against the viewport borders */
+    border-radius: 8px; /* Restored elegant rounded edges for standalone card aesthetic */
+    margin-left: 20px !important; /* Creates the requested small left spacing gap */
+    margin-right: 20px !important; /* Creates the requested small right spacing gap */
     margin-bottom: 0 !important; 
-    box-shadow: none !important; /* Clean background blending */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
     position: relative;
     overflow: hidden;
     scroll-margin-top: 150px !important; 
-    width: 100% !important;
-    max-width: 100% !important; /* Stretches 100% edge-to-edge horizontally */
+    width: calc(100% - 40px) !important; /* Math correction compensates for left/right margins */
+    max-width: calc(100% - 40px) !important; 
     box-sizing: border-box !important;
     display: none !important; 
-    max-height: none !important; /* Removed restriction to allow normal reading flow */
     overflow-y: visible !important;
   }
 
