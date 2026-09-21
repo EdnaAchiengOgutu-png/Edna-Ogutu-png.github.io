@@ -224,6 +224,29 @@
 <!-- SCROLLING CONTENT LAYER -->
 <div class="scroll-content">
 
+
+<div id="tools-proficiency" class="content-card">
+  <h2>🛠️ Specialized Tools Proficiency Matrix</h2>
+  
+  <h3 style="margin-top: 0 !important;">Data & Advanced Statistical Analytics</h3>
+  <ul>
+    <li><span class="skill-title">Stata:</span> Advanced quantitative research scripting | Biostatistical regression modeling | Health indicator tracking | Research data cleaning & coding</li>
+    <li><span class="skill-title">Power BI:</span> Automated interactive data dashboards | Operational KPI monitoring | Volume forecasting metrics | Workforce schedule optimization</li>
+    <li><span class="skill-title">Microsoft Excel (Advanced):</span> Advanced data clearing | Complex payroll algorithms | Biometric data validation | Formula automation & ad-hoc data tables</li>
+    <li><span class="skill-title">R Programming:</span> Statistical modeling computing | Data visualization script workflows | Analytical evidence synthesis</li>
+    <li><span class="skill-title">SPSS:</span> Heath program dataset summary analysis | Descriptive statistics summary outputs | Data-quality checklist validations</li>
+    <li><span class="skill-title">SQL & Python Data Science:</span> Foundational data-driven problem solving | Database management scripts | Data preparation routines</li>
+  </ul>
+
+  <h3>Digital Mobile Data Collection & Field Systems</h3>
+  <ul>
+    <li><span class="skill-title">KoboCollect & SurveyCTO:</span> Structured digital questionnaire deployment | Mobile logic validations | Field data capture workflows</li>
+    <li><span class="skill-title">Enterprise Systems:</span> Microsoft Teams | Outlook | Word | PowerPoint | CRM platforms | Telephony & Workforce validation structures</li>
+  </ul>
+</div>
+
+
+
 <div id="summary" class="content-card">
   <h2> Professional Summary & Strategy</h2>
   <p style="font-size: 18px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.4;">Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</p>
