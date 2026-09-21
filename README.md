@@ -206,17 +206,17 @@
   </div>
 
   <div class="navbar">
-    <a href="#summary">🏠 HOME</a>
-    <a href="#skills">🛠️ SKILLS</a>
-    <a href="#experience">💼 EXPERIENCE</a>
-    <a href="#education">🎓 EDUCATION</a>
+    <a href="#summary"> HOME</a>
+    <a href="#skills"> SKILLS</a>
+    <a href="#experience"> EXPERIENCE</a>
+    <a href="#education"> EDUCATION</a>
   </div>
 
   <div class="contact-bar">
     <p>
-      📍 Nairobi, Kenya | 
-      📧 <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; text-decoration: none;">hednaogutuh@gmail.com</a> | 
-      💼 <a href="https://linkedin.com" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
+       Nairobi, Kenya | 
+       <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; text-decoration: none;">hednaogutuh@gmail.com</a> | 
+       <a href="https://linkedin.com" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
     </p>
   </div>
 </div>
@@ -233,7 +233,7 @@
 </div>
 
 <div id="skills" class="content-card skills-bg-card">
-  <h2>📊 Core Expertise & Technical Skills</h2>
+  <h2> Core Expertise & Technical Skills</h2>
   <h3 style="margin-top: 0 !important;">Core Areas of Expertise</h3>
   <ul>
     <li><span class="skill-title">MEL & Program Monitoring:</span> Program monitoring | Indicator & target tracking | Monitoring data collection | Field monitoring | Progress tracking | Evidence generation</li>
