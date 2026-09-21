@@ -57,7 +57,7 @@
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 28px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip: ALIGNED TO THE FAR LEFT */
+  /* Navigation Ribbon Strip: THE STRATEGIC SEVEN-PAGE SEQUENCING */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 40px !important; 
@@ -70,13 +70,13 @@
   }
   .navbar a { 
     color: #FFFFFF !important; 
-    margin-right: 45px; 
+    margin-right: 25px; /* Adjusted spacing to tightly fit all 7 navigation elements */
     margin-left: 0 !important;
     text-decoration: none !important; 
     font-weight: 800; 
-    font-size: 15px; 
+    font-size: 13px; /* Slightly scaled for broad multi-link desktop viewports */
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
   }
   .navbar a:hover { color: #FFD200 !important; }
 
@@ -126,13 +126,6 @@
   .skills-bg-card {
     background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
                 url('https://dreamstime.com') !important;
-    background-size: cover !important;
-    background-position: center !important;
-  }
-
-  .education-bg-card {
-    background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
-                url('https://pinimg.com') !important;
     background-size: cover !important;
     background-position: center !important;
   }
@@ -198,7 +191,6 @@
   }
   .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
   
-  /* Business Matrix Style Pill Labels */
   .badge-pill {
     background-color: #23272A;
     color: #FFD200;
@@ -213,25 +205,28 @@
 
 <div class="portfolio-container">
 
-<!-- FIXED NAVIGATION HEADER BLOCK -->
+<!-- FIXED COMPACT NAVIGATION HEADER BLOCK WITH 7 STRATEGIC TRACKS -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu | Enterprise Solutions Consultant</h1>
   </div>
 
   <div class="navbar">
-    <a href="#summary">🏠 SOLUTIONS</a>
-    <a href="#capabilities">🛠️ CAPABILITIES</a>
-    <a href="#experience">💼 CONSULTING HISTORY</a>
-    <a href="#education">🎓 CREDENTIALS</a>
+    <a href="#about">🏠 ABOUT</a>
+    <a href="#services">💼 SERVICES</a>
+    <a href="#projects">📊 PROJECTS</a>
+    <a href="#experience">📈 EXPERIENCE</a>
+    <a href="#education">🎓 EDUCATION</a>
+    <a href="#certifications">🏆 CERTIFICATIONS</a>
+    <a href="#get-in-touch">📞 GET IN TOUCH</a>
   </div>
 
   <div class="contact-bar">
     <p>
       📍 Nairobi, Kenya | 
-      💬 <a href="https://whatsapp.com" target="_blank" style="color: #FFFFFF !important; font-weight: bold;">Instant Chat</a> | 
-      📧 <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; font-weight: bold;">Book Consulting Call</a> | 
-      💼 <a href="https://linkedin.com" target="_blank" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">LinkedIn Profile</a>
+      💬 <a href="https://whatsapp.com" target="_blank" style="color: #FFFFFF !important; font-weight: bold;">WhatsApp Chat</a> | 
+      📧 <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; font-weight: bold;">Email Consultation</a> | 
+      💼 <a href="https://linkedin.com" target="_blank" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">LinkedIn</a>
     </p>
   </div>
 </div>
@@ -239,64 +234,51 @@
 <!-- SCROLLING CONTENT LAYER -->
 <div class="scroll-content">
 
-<div id="summary" class="content-card">
-  <h2>🚀 Core Solutions Portfolio</h2>
+<!-- 1. ABOUT CARD -->
+<div id="about" class="content-card">
+  <h2>👤 About & Value Proposition</h2>
   <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Stop guessing. Start growing. I turn your raw enterprise data into clear dashboards and smart analytics that turn complex numbers into simple next steps.</p>
-  
   <p style="font-size: 18px; color: #23272A; font-weight: 700; margin: 15px 0 20px 0; line-height: 1.4; font-style: italic;">"You collect the data. I find the money and operational efficiencies hidden inside it."</p>
-  
-  <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 25px; opacity: 0.3;">
-  
-  <h3 style="margin-top: 0 !important;">💡 Consulting Engagement Matrix</h3>
-  <p style="line-height: 1.45; font-size: 17px; color: #1A1D20; margin-bottom: 15px;">I partner with organizations across two distinct target operational tracks to solve specific analytics problems without corporate overhead:</p>
-  
+  <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
+  <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with extensive experience supporting Monitoring, Evaluation, Accountability and Learning (MEL), research, and development programs. Specialized in quantitative and qualitative analysis, database validation, and building centralized business intelligence frameworks that translate messy field research targets into clear institutional insights.</p>
+</div>
+
+<!-- 2. SERVICES CARD -->
+<div id="services" class="content-card skills-bg-card">
+  <h2>💼 Operational Consulting Services</h2>
+  <h3 style="margin-top: 0 !important;">Data Packages I Offer:</h3>
   <ul>
-    <li><span class="badge-pill">Freelance & Consultancy Contracts</span> <b>Immediate ROI & Project Scope:</b> I optimize your business conversion rates, engineer automated customer sales pipelines, and clean up messy, disconnected program databases on a project-by-project basis.</li>
-    <li><span class="badge-pill">Full-Time Institutional Growth</span> <b>Scalability & Culture Alignment:</b> I build long-term scalable data pipelines, design centralized business intelligence frameworks, and drive cross-department operations.</li>
+    <li><span class="skill-title">Business Intelligence & Sales Analysis:</span> Engineering interactive Power BI and Advanced Excel dashboard suites to audit real-time revenue targets, monitor project status, and optimize shift parameters.</li>
+    <li><span class="skill-title">MEL Systems & Data Architecture:</span> Constructing indicator logs, target tracking registers, and quality assurance checkpoints for program verification.</li>
+    <li><span class="skill-title">Database Reconciliation & Auditing:</span> Running strict diagnostic sweeps to isolate structural entry gaps and inconsistencies across complex biometric, CRM, and payroll databases.</li>
+    <li><span class="skill-title">Field Operations & Digital Scripting:</span> Scripting logical digital surveys (KoboCollect/SurveyCTO), coordinating remote enumerator actions, and synthesizing qualitative thematic reports.</li>
   </ul>
 </div>
 
-<div id="capabilities" class="content-card skills-bg-card">
-  <h2>📊 Strategic Analytics & Field Systems</h2>
-  <h3 style="margin-top: 0 !important;">Operational Consulting Specializations</h3>
-  <ul>
-    <li><span class="skill-title">Business Intelligence & Sales Analysis:</span> Building automated Power BI and Excel dashboards to track real-time revenue targets, shift performance, and performance patterns.</li>
-    <li><span class="skill-title">MEL Systems & Data Architecture:</span> Designing indicator tracking logs, managing quality assurance layers, and translating field research targets into insights.</li>
-    <li><span class="skill-title">Data Validation & Reconciliation:</span> Identifying structural entry gaps, inconsistencies, and discrepancies across complex biometric, CRM, and financial databases.</li>
-    <li><span class="skill-title">Field Operations Coordination:</span> Scripting digital forms (KoboCollect/SurveyCTO), supervising large enumerator operations, and documenting qualitative thematic insights.</li>
-    <li><span class="skill-title">Documentation & Learning:</span> Synthesizing research evidence, documenting lessons learned, managing knowledge networks, and implementing strict data protection workflows.</li>
-  </ul>
-</div>
-
-<div id="tools-proficiency" class="content-card">
-  <h2>🛠️ Specialized Solutions & Tools Matrix</h2>
+<!-- 3. PROJECTS SHOWCASE CARD -->
+<div id="projects" class="content-card">
+  <h2>📊 Strategic Projects Portfolio</h2>
+  <h3 style="margin-top: 0 !important;">Production-Ready Analytics & Dashboards</h3>
+  <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; margin-bottom: 15px;">A selection of data systems designed to optimize business operations, increase sales visibility, and automate reporting metrics:</p>
   
-  <h3 style="margin-top: 0 !important;">Business Intelligence & Advanced Analytics</h3>
   <ul>
-    <li><span class="skill-title">Power BI Architecture:</span> Building automated corporate dashboards, real-time KPI tracking models, volume forecasting engines, and call-centre shift optimizations.</li>
-    <li><span class="skill-title">Stata Scripting & Biostatistics:</span> Advanced quantitative research scripting, regression modeling, biostatistical evidence synthesis, and large-scale survey data cleansing.</li>
-    <li><span class="skill-title">Advanced Microsoft Excel:</span> Designing complex algorithmic payroll engines for 350+ FTE, biometric check sheet validations, automated lookup scripts, and database reconciliations.</li>
-    <li><span class="skill-title">R Programming & SPSS:</span> Implementing descriptive dataset workflows, healthcare program summaries, qualitative data metrics, and graphic data visualizations.</li>
-    <li><span class="skill-title">SQL & Python Data Science:</span> Formulating back-end relational database management routines, data cleaning pipelines, and structured problem-solving models.</li>
-  </ul>
-
-  <h3>Mobile Data Collection & Operational Operations</h3>
-  <ul>
-    <li><span class="skill-title">KoboCollect & SurveyCTO:</span> Building field questionnaires with complex digital validation logic, automated conditions, and structured mobile data capture modules.</li>
-    <li><span class="skill-title">Enterprise Ecosystems:</span> Integrating analytics workflows across CRM platforms, telephony metrics logs, Microsoft Teams, PowerPoint, and Excel.</li>
+    <li><span class="skill-title">Enterprise Sales & Attendance Dashboard (Power BI):</span> Fully automated reporting suite built to monitor cross-project capacity planning and performance forecasting. <i>[Project Assets Coming Soon]</i></li>
+    <li><span class="skill-title">Biostatistical Health Survey Pipeline (Stata):</span> Custom advanced regression scripts engineered for massive data cleaning, outlier isolation, and quantitative evidence synthesis. <i>[Project Assets Coming Soon]</i></li>
+    <li><span class="skill-title">Algorithmic Payroll & Database Reconciliation Engine (Excel):</span> Advanced data macro matrix optimized for multi-project validation and compliance checks for 350+ FTE. <i>[Project Assets Coming Soon]</i></li>
   </ul>
 </div>
 
+<!-- 4. EXPERIENCE CARD -->
 <div id="experience" class="content-card">
-  <h2>💼 Consulting & Analytics Engagement History</h2>
+  <h2>📈 Consulting & Analytics Engagement History</h2>
 
-  <h3 style="margin-top: 5px !important;">📍 PASGR - African Youth Pathways to Systems Change (AYPS)</h3>
+  <h3 style="margin-top: 0 !important;">📍 PASGR - African Youth Pathways to Systems Change (AYPS)</h3>
   <span class="job-meta">Field Coordinator | Research, Data Quality & Monitoring Track — (Jun 2026 - Aug 2026)</span>
   <ul>
     <li>Coordinated large-scale data operations, supervising enumerator deployment, field research communication, and strict protocol tracking.</li>
     <li>Designed and delivered field briefings on digital survey methodology, research ethics validation, and quantitative/qualitative data capture tools.</li>
     <li>Managed live database auditing, monitoring real-time digital entries for completeness, logic consistency, and entry gaps.</li>
-    <li>Engineered post-field documentation workflows, data validation, qualitative coding metrics, and thematic research synthesis.</li>
+    <li>Headed post-field documentation workflows, data validation, qualitative coding metrics, and thematic research synthesis.</li>
   </ul>
 
   <h3>📍 Hamasisha Africa</h3>
@@ -318,7 +300,7 @@
   </ul>
 
   <h3>📍 SGS Kenya</h3>
-  <span class="job-meta">Data Systems Specialist (Internship Contract) — (Nov 2023 - Jan 2024)</span>
+  <span class="job-meta">Data Systems Specialist (Instutional Internship) — (Nov 2023 - Jan 2024)</span>
   <ul>
     <li>Supported institutional databases by structuring routine data collections, compilation pipelines, and database management engines.</li>
     <li>Executed rigorous descriptive statistical sweeps and designed Excel-based reporting toolsets to eliminate data gaps.</li>
@@ -337,26 +319,44 @@
   </ul>
 
   <h3>📍 JKUAT - School of Computing and Information Technology (SCIT)</h3>
-  <span class="job-meta">IBM Data Science Specialist (Applied Training) — (Aug 2021 - Dec 2021)</span>
+  <span class="job-meta">IBM Data Science Specialist (Applied Attachment Track) — (Aug 2021 - Dec 2021)</span>
   <ul>
     <li>Engineered foundational data routines, building exploration models and analytical dashboards during an intensive SCIT industry partnership track.</li>
   </ul>
 </div>
 
-<div id="education" class="content-card education-bg-card">
-  <h2>🎓 Academic Credentials & Strategic Accreditations</h2>
-  <h3 style="margin-top: 5px !important;">Academic Background</h3>
+<!-- 5. EDUCATION CARD -->
+<div id="education" class="content-card">
+  <h2>🎓 Academic Background</h2>
+  <h3 style="margin-top: 0 !important;">Degrees</h3>
   <ul>
     <li><span class="skill-title">Master of Science in Data Science</span> | Open University of Kenya <i>(In Progress | Expected 2028)</i></li>
     <li><span class="skill-title">Bachelor Of Science in Biostatistics</span> | Jomo Kenyatta University of Agriculture and Technology (JKUAT)</li>
   </ul>
+</div>
 
-  <h3>Strategic Accreditations</h3>
+<!-- 6. CERTIFICATIONS CARD -->
+<div id="certifications" class="content-card">
+  <h2>🏆 Professional Accreditations</h2>
+  <h3 style="margin-top: 0 !important;">Specialized Certifications</h3>
   <ul>
     <li><b>MEAL Essentials Professional Certificate</b> – DisasterReady / Humanitarian Leadership Academy</li>
     <li><b>Project Management Essentials</b> – DisasterReady</li>
     <li><b>IBM Data Science, Artificial Intelligence & Machine Learning Certificate</b></li>
   </ul>
+</div>
+
+<!-- 7. GET IN TOUCH CALL TO ACTION CARD -->
+<div id="get-in-touch" class="content-card">
+  <h2>📞 Connect & Book Services</h2>
+  <p style="font-size: 18px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.45;">Let's transform your data pipelines. Book a consultation or send an inquiry to initiate a specialized project engagement.</p>
+  
+  <p style="line-height: 1.6; font-size: 16px; color: #1A1D20; margin-bottom: 25px;">Whether you need customized Power BI data models, an automated sales audit dashboard, or robust biostatistical monitoring structures, click below to initiate immediate data workflows:</p>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="mailto:hednaogutuh@gmail.com" style="background-color: #23272A !important; color: #FFD200 !important; padding: 15px 30px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 16px; display: inline-block; margin: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">✉️ Book Service Consultation</a>
+    <a href="https://whatsapp.com" target="_blank" style="background-color: #23272A !important; color: #FFFFFF !important; padding: 15px 30px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 16px; display: inline-block; margin: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">💬 Start Slack/WhatsApp Sync</a>
+  </div>
 </div>
 
 </div> <!-- Closes scroll-content layout engine -->
