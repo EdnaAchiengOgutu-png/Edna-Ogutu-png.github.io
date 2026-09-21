@@ -18,7 +18,7 @@
   }
 
   body { 
-    background-color: #1A488E !important; 
+    background-color: #D2F7FF !important; 
     margin: 0 !important;
     padding: 0 !important;
   }
