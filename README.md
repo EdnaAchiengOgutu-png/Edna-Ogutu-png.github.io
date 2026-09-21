@@ -51,7 +51,7 @@
     border-radius: 8px 8px 0 0;
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     width: 100% !important;
     box-sizing: border-box !important;
     display: flex !important;
@@ -61,15 +61,6 @@
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: inline-block !important; } 
   .header-block p { color: #E5E7EB !important; margin: 0 !important; font-size: 14px; font-weight: bold; display: inline-block !important; }
-
-  /* Standard Icon Settings for Header text alignment */
-  .header-icon {
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
-    margin-right: 4px;
-    margin-left: 8px;
-  }
 
   /* Navigation Ribbon Strip */
   .navbar { 
@@ -136,21 +127,6 @@
     background-position: center !important;
   }
 
-  /* Subject Card Icons formatting */
-  .card-icon {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-    margin-right: 8px;
-  }
-
-  .inline-icon {
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
-    margin-right: 6px;
-  }
-
   /* Typographic controls with flush top alignment overrides */
   .content-card > h2:first-child, .content-card > div:first-child { margin-top: 0 !important; padding-top: 0 !important; }
   
@@ -215,22 +191,22 @@
 
 <div class="portfolio-container">
 
-<!-- FIXED CONTAINER BLOCK WITH STANDARD SVG VECTOR BADGES -->
+<!-- FIXED CONTAINER BLOCK WITH INTEGRATED SYSTEM ICONS -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu</h1>
     <p>
-      <img class="header-icon" src="https://iconify.design" alt="Location" /> Nairobi, Kenya | 
-      <img class="header-icon" src="https://iconify.design" alt="Email" /> <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; text-decoration: none;">hednaogutuh@gmail.com</a> | 
-      <img class="header-icon" src="https://iconify.design" alt="LinkedIn" /> <a href="https://linkedin.com" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
+      📍 Nairobi, Kenya | 
+      📧 <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; text-decoration: none;">hednaogutuh@gmail.com</a> | 
+      💼 <a href="https://linkedin.com" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
     </p>
   </div>
 
   <div class="navbar">
-    <a href="#summary"><img class="inline-icon" src="https://iconify.design" /> Home</a>
-    <a href="#skills"><img class="inline-icon" src="https://iconify.design" /> Skills</a>
-    <a href="#experience"><img class="inline-icon" src="https://iconify.design" /> Experience</a>
-    <a href="#education"><img class="inline-icon" src="https://iconify.design" /> Education</a>
+    <a href="#summary">🏠 HOME</a>
+    <a href="#skills">🛠️ SKILLS</a>
+    <a href="#experience">💼 EXPERIENCE</a>
+    <a href="#education">🎓 EDUCATION</a>
   </div>
 </div>
 
@@ -238,16 +214,15 @@
 <div class="scroll-content">
 
 <div id="summary" class="content-card">
-  <h2><img class="card-icon" src="https://iconify.design" /> Professional Summary & Strategy</h2>
+  <h2>📋 Professional Summary & Strategy</h2>
   <p style="font-size: 18px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.4;">Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</p>
   <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
   <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
-  <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500; margin-top: 10px;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
+  <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
 </div>
 
 <div id="skills" class="content-card skills-bg-card">
-  <h2><img class="card-icon" src="https://iconify.design" /> Core Expertise & Technical Skills</h2>
-  
+  <h2>📊 Core Expertise & Technical Skills</h2>
   <h3 style="margin-top: 0 !important;">Core Areas of Expertise</h3>
   <ul>
     <li><span class="skill-title">MEL & Program Monitoring:</span> Program monitoring | Indicator & target tracking | Monitoring data collection | Field monitoring | Progress tracking | Evidence generation</li>
@@ -263,6 +238,10 @@
     <li><span class="skill-title">Data Collection & Reporting:</span> KoboCollect | SurveyCTO | Digital survey platforms | Microsoft Word | PowerPoint | Teams | Outlook</li>
   </ul>
 </div>
+
+
+
+
 
 <div id="experience" class="content-card">
   <h2><img class="card-icon" src="https://iconify.design" /> Professional Experience</h2>
