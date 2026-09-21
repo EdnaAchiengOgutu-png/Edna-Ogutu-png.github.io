@@ -28,7 +28,7 @@
     display: none !important;
   }
   
-  /* MASTER FIXED TOP HEADER WRAPPER - COMPRESSED */
+  /* MASTER FIXED TOP HEADER WRAPPER */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
@@ -36,7 +36,7 @@
     width: 100% !important;
     z-index: 999999 !important; 
     background-color: #D2F7FF !important; 
-    padding: 10px 4% 0 4% !important; /* Reduced top gap margin */
+    padding: 15px 4% 0 4% !important; 
     box-sizing: border-box !important;
   }
 
@@ -52,7 +52,7 @@
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
-    padding: 12px 30px !important; /* Slimmer inner padding */
+    padding: 12px 40px !important; 
     border-radius: 8px 8px 0 0;
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
@@ -65,7 +65,7 @@
   /* Navigation Ribbon Strip */
   .navbar { 
     background-color: #23272A !important; 
-    padding: 10px 30px !important; /* Slimmer inner padding */
+    padding: 10px 40px !important; 
     margin: 0 !important;
     text-align: left !important; 
     width: 100% !important;
@@ -88,7 +88,7 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR - CLOSED BOTTOM GAP */
+  /* FIXED BOTTOM FROZEN BAR */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
@@ -96,13 +96,13 @@
     width: 100% !important;
     z-index: 999999 !important;
     background-color: #D2F7FF !important; 
-    padding: 0 4% 10px 4% !important; /* Brought down closer to the bottom edge */
+    padding: 0 4% 10px 4% !important; 
     box-sizing: border-box !important;
   }
 
   .footer-bar {
     background-color: #23272A !important;
-    padding: 8px 30px !important; /* Slimmer inner padding */
+    padding: 8px 30px !important; 
     border-radius: 8px;
     width: 100% !important;
     box-sizing: border-box !important;
@@ -117,30 +117,32 @@
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer: CLOSED UPPER AND LOWER GAPS */
+  /* Fluid Scrolling Content Layer Layout - OPTIMIZED WITH EXTRA BOTTOM CUSHION FOR RESPONSIVENESS */
   .scroll-content {
-    margin-top: 125px !important; /* Brought up significantly from 155px to eliminate the top gap */
-    padding: 0 4% 55px 4% !important; /* Tightened bottom cushion spacing above footer */
+    margin-top: 115px !important; /* Pulls cards tighter right up to top header */
+    padding: 0 4% 75px 4% !important; /* Fixed bottom padding buffer room for frozen footer */
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* Section Content Cards */
+  /* Section Content Cards: INTEGRATED WITH INTUITIVE INNER HEIGHT AUTO-SCROLL CONTROLS */
   .content-card {
     background-color: #97B2DE !important; 
-    padding: 25px 35px !important; /* Compact interior card layout padding */
+    padding: 25px 35px !important; 
     border-radius: 8px;
-    margin-bottom: 20px !important; 
+    margin-bottom: 10px !important; 
     box-shadow: 0 4px 14px rgba(0,0,0,0.12);
     position: relative;
-    overflow: hidden;
-    scroll-margin-top: 145px !important; 
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
     display: none !important; 
+    
+    /* THE SMART CUSHION FIX: Automatically adds a scrollbar inside the card if text or forms are too tall */
+    max-height: calc(100vh - 195px) !important; 
+    overflow-y: auto !important; 
   }
 
   /* THE ENGINE LINK: Show only the checked tab card */
