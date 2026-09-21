@@ -5,11 +5,12 @@
   }
   
   /* Overrides GitHub's secret default wrapper settings to allow full width stretch */
-  .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body {
+  html, body, .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body, .portfolio-container, .scroll-content, div, section, main {
     max-width: 100% !important;
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
+    box-sizing: border-box !important;
   }
 
   body, h1, h2, h3, p, a, li, span, div { 
@@ -22,14 +23,14 @@
     padding: 0 !important;
   }
   
-  /* MASTER FIXED WRAPPER - FORCED ON THE ABSOLUTE TOP HIGHEST LAYER */
+  /* MASTER FIXED WRAPPER - HIGHEST LAYER */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     width: 100% !important;
-    z-index: 999999 !important; /* Extremely high depth layout tier so cards scroll underneath */
-    background-color: #1A488E !important; /* Prevents text from bleeding through the blue margins */
+    z-index: 999999 !important; 
+    background-color: #1A488E !important; 
     padding: 20px 4% 5px 4% !important;
     box-sizing: border-box !important;
   }
@@ -61,6 +62,15 @@
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: inline-block !important; } 
   .header-block p { color: #E5E7EB !important; margin: 0 !important; font-size: 14px; font-weight: bold; display: inline-block !important; }
 
+  /* Standard Icon Settings for Header text alignment */
+  .header-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-left: 8px;
+  }
+
   /* Navigation Ribbon Strip */
   .navbar { 
     background-color: #23272A !important; 
@@ -85,9 +95,9 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* Fluid Scrolling Content Layer Layout - POSITIONED SAFELY BELOW EXTENDED FIX DEPTH HEADER */
+  /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
-    margin-top: 220px !important; /* Safe padding buffer so your page loads cleanly below the strip */
+    margin-top: 220px !important; 
     padding: 0 4% 40px 4% !important; 
     box-sizing: border-box !important;
     width: 100% !important;
@@ -104,7 +114,7 @@
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 200px !important; /* Shifts text section target alignment cleanly below the bar */
+    scroll-margin-top: 200px !important; 
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -126,7 +136,22 @@
     background-position: center !important;
   }
 
-  /* Typographic text layout controls with flush top alignment overrides */
+  /* Subject Card Icons formatting */
+  .card-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+
+  .inline-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+
+  /* Typographic controls with flush top alignment overrides */
   .content-card > h2:first-child, .content-card > div:first-child { margin-top: 0 !important; padding-top: 0 !important; }
   
   h2 { 
@@ -190,34 +215,22 @@
 
 <div class="portfolio-container">
 
-<!-- FIXED CONTAINER BLOCK - RE-ENGINEERED MASTER WRAPPER CLASS -->
+<!-- FIXED CONTAINER BLOCK WITH STANDARD SVG VECTOR BADGES -->
 <div class="master-sticky-header">
   <div class="header-block">
-
-
-
-
-
-
-
-    
-     <div class="header-block">
     <h1>Edna Ogutu</h1>
     <p>
-      📍 Nairobi, Kenya | 
-      <img width="20" height="20" style="vertical-align: middle; margin-right: 4px;" alt="Email" src="https://github.com/user-attachments/assets/6ffcba67-e8d8-4364-b88c-08223ec6bebd" /> 
-      <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; text-decoration: none;">hednaogutuh@gmail.com</a> | 
-      <img width="20" height="20" style="vertical-align: middle; margin-right: 4px;" alt="LinkedIn" src="https://github.com/user-attachments/assets/6eee4214-7a0c-4280-af8c-4be004c35b2a" /> 
-      <a href="https://www.linkedin.com/in/edna-achieng-ogutu/" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
+      <img class="header-icon" src="https://iconify.design" alt="Location" /> Nairobi, Kenya | 
+      <img class="header-icon" src="https://iconify.design" alt="Email" /> <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; text-decoration: none;">hednaogutuh@gmail.com</a> | 
+      <img class="header-icon" src="https://iconify.design" alt="LinkedIn" /> <a href="https://linkedin.com" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
     </p>
   </div>
 
-
   <div class="navbar">
-    <a href="#summary">🏠 Home</a>
-    <a href="#skills">🛠️ Skills</a>
-    <a href="#experience">💼 Experience</a>
-    <a href="#education">🎓 Education</a>
+    <a href="#summary"><img class="inline-icon" src="https://iconify.design" /> Home</a>
+    <a href="#skills"><img class="inline-icon" src="https://iconify.design" /> Skills</a>
+    <a href="#experience"><img class="inline-icon" src="https://iconify.design" /> Experience</a>
+    <a href="#education"><img class="inline-icon" src="https://iconify.design" /> Education</a>
   </div>
 </div>
 
@@ -225,15 +238,15 @@
 <div class="scroll-content">
 
 <div id="summary" class="content-card">
-  <h2>📋 Professional Summary & Strategy</h2>
-  <p style="font-size: 19px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.4;">Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</p>
+  <h2><img class="card-icon" src="https://iconify.design" /> Professional Summary & Strategy</h2>
+  <p style="font-size: 18px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.4;">Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</p>
   <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
-  <p style="line-height: 1.7; font-size: 17px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
-  <p style="line-height: 1.7; font-size: 17px; color: #1A1D20; font-weight: 500;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
+  <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
+  <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500; margin-top: 10px;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
 </div>
 
 <div id="skills" class="content-card skills-bg-card">
-  <h2>🛠️ Core Expertise & Technical Skills</h2>
+  <h2><img class="card-icon" src="https://iconify.design" /> Core Expertise & Technical Skills</h2>
   
   <h3 style="margin-top: 0 !important;">Core Areas of Expertise</h3>
   <ul>
@@ -252,9 +265,9 @@
 </div>
 
 <div id="experience" class="content-card">
-   <h2>💼 Professional Experience</h2>
+  <h2><img class="card-icon" src="https://iconify.design" /> Professional Experience</h2>
 
-  <h3 style="margin-top: 5px !important;">📍 PASGR - African Youth Pathways to Systems Change (AYPS)</h3>
+  <h3 style="margin-top: 5px !important;"> PASGR - African Youth Pathways to Systems Change (AYPS)</h3>
   <span class="job-meta">Field Coordinator | Research, Data Quality & Monitoring Support (Jun 2026 - Aug 2026)</span>
   <ul>
     <li>Coordinated field implementation, including enumerator deployment, field communication, progress monitoring, and adherence to approved study procedures.</li>
@@ -266,20 +279,20 @@
     <li>Coordinated enumerator attendance and daily payment administration, maintaining accurate participation records and supporting timely disbursement.</li>
   </ul>
 
-  <h3>📍 Hamasisha Africa</h3>
+  <h3> Hamasisha Africa</h3>
   <span class="job-meta">Research & Data Operations Analyst (Remote - Project-Based Consultancy) | (Mar 2022 - Apr 2026)</span>
   <ul>
-    <li>Supported monitoring, evaluation and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
-    <li>Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics and data-quality requirements.</li>
-    <li>Supported recruitment, orientation, deployment and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.</li>
-    <li>Supported the design and refinement of structured questionnaires, digital data-collection tools and qualitative interview guides.</li>
-    <li>Conducted and supported KIIs and FGDs, including participant engagement, field coordination, documentation and qualitative data organization.</li>
-    <li>Performed data cleaning, validation, coding and quantitative and qualitative analysis, contributing to interpretation of findings.</li>
-    <li>Prepared research reports, monitoring summaries, presentations and evidence briefs for program and research teams.</li>
-    <li>Maintained research documentation and supported ethical research, confidentiality, data protection and accurate field-team records.</li>
+    <li>Supported monitoring, evaluation, and research activities across youth empowerment and community development programs, including baseline and monitoring studies.</li>
+    <li>Coordinated and supervised field teams, providing guidance on questionnaires, field procedures, research ethics, and data-quality requirements.</li>
+    <li>Supported recruitment, orientation, deployment, and day-to-day coordination of field teams while monitoring progress against agreed schedules and targets.</li>
+    <li>Supported the design and refinement of structured questionnaires, digital data-collection tools, and qualitative interview guides.</li>
+    <li>Conducted and support/designed KIIs and FGDs, including participant engagement, field coordination, documentation, and qualitative data organization.</li>
+    <li>Performed data cleaning, validation, coding, and quantitative and qualitative analysis, contributing to interpretation of findings.</li>
+    <li>Prepared research reports, monitoring summaries, presentations, and evidence briefs for program and research teams.</li>
+    <li>Maintained research documentation and supported ethical research, data protection, and accurate field-team records.</li>
   </ul>
 
-  <h3>📍 Calltronix Kenya Limited</h3>
+  <h3> Calltronix Kenya Limited</h3>
   <span class="job-meta">Data Analyst (Contract) | (Jan 2025 - Feb 2026)</span>
   <ul>
     <li>Provided analytical and operational support across 37+ customer and workforce programs, using data to monitor performance and support operational decision-making.</li>
@@ -291,7 +304,7 @@
     <li>Partnered with HR and Finance to validate timesheets, reconcile payroll information, and prepare operational and compliance reports.</li>
   </ul>
 
-  <h3>📍 SGS Kenya</h3>
+  <h3> SGS Kenya</h3>
   <span class="job-meta">Data Officer Intern | (Nov 2023 - Jan 2024)</span>
   <ul>
     <li>Supported data collection, compilation, cleaning, validation, and database management for operational and research data.</li>
@@ -300,7 +313,7 @@
     <li>Performed descriptive analysis and supported data visualization for internal reporting and decision-making.</li>
   </ul>
 
-  <h3>📍 GAIN-AGRA Project</h3>
+  <h3> GAIN-AGRA Project</h3>
   <span class="job-meta">Research Assistant - Nutrition Survey Project (Project-Based) | (Apr 2023 - May 2023)</span>
   <ul>
     <li>Implemented household surveys using structured digital data-collection tools and approved field procedures.</li>
@@ -309,7 +322,7 @@
     <li>Supported field reporting, data cleaning, and preparation of collected data for analysis.</li>
   </ul>
 
-  <h3>📍 Adaptive Model for Research and Empowerment in Communities (AMREC)</h3>
+  <h3> Adaptive Model for Research and Empowerment in Communities (AMREC)</h3>
   <span class="job-meta">Research Analyst – Intern | (Jan 2023 - Mar 2023)</span>
   <ul>
     <li>Analyzed health research and program datasets using Stata and SPSS to generate statistical summaries and research outputs.</li>
@@ -318,7 +331,7 @@
     <li>Assisted research and program teams with interpretation and synthesis of quantitative findings.</li>
   </ul>
 
-  <h3>📍 JKUAT - School of Computing and Information Technology (SCIT)</h3>
+  <h3> JKUAT - School of Computing and Information Technology (SCIT)</h3>
   <span class="job-meta">IBM Data Science - Attachment Program | (Aug 2021 - Dec 2021)</span>
   <ul>
     <li>Completed a structured four-month IBM Data Science learning program delivered in partnership with JKUAT's School of Computing and Information Technology.</li>
@@ -328,8 +341,7 @@
 </div>
 
 <div id="education" class="content-card education-bg-card">
-  <h2>🎓 Education & Certifications</h2>
-
+  <h2><img class="card-icon" src="https://iconify.design" /> Education & Certifications</h2>
   <h3 style="margin-top: 5px !important;">Education</h3>
   <ul>
     <li><span class="skill-title">Master of Science in Data Science</span> | Open University of Kenya <i>(In Progress | Expected 2028)</i></li>
