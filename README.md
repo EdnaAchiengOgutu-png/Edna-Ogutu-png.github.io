@@ -47,29 +47,22 @@
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
-    padding: 15px 40px !important; 
+    padding: 20px 40px 10px 40px !important; /* Open padding slightly for stack alignment */
     border-radius: 8px 8px 0 0;
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     width: 100% !important;
     box-sizing: border-box !important;
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    flex-wrap: wrap !important;
   }
-  .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: inline-block !important; } 
-  .header-block p { color: #E5E7EB !important; margin: 0 !important; font-size: 14px; font-weight: bold; display: inline-block !important; }
+  .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 28px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
   /* Navigation Ribbon Strip */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 30px !important; 
-    border-radius: 0 0 8px 8px;
     margin: 0 !important;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     width: 100% !important;
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
@@ -86,9 +79,24 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* Fluid Scrolling Content Layer Layout */
+  /* NEW: Stretched Bottom Ribbon for Contact Information Bar */
+  .contact-bar {
+    background-color: #23272A !important;
+    padding: 12px 40px !important;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    width: 100% !important;
+    box-sizing: border-box !important;
+    border-left: 8px solid #FFD200;
+    border-top: 1px solid #3A3F44;
+  }
+  .contact-bar p { color: #E5E7EB !important; margin: 0 !important; font-size: 15px; font-weight: bold; }
+
+  /* Fluid Scrolling Content Layer Layout - SHIFTED TO LOWER BUFFER TO COMPENSATE STACK BAR HEIGHT */
   .scroll-content {
-    margin-top: 220px !important; 
+    margin-top: 240px !important; 
     padding: 0 4% 40px 4% !important; 
     box-sizing: border-box !important;
     width: 100% !important;
@@ -96,7 +104,7 @@
     display: block !important;
   }
 
-  /* Section Content Cards: EDGE TO EDGE STRETCH */
+  /* Section Content Cards */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 30px 40px !important; 
@@ -105,7 +113,7 @@
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 200px !important; 
+    scroll-margin-top: 220px !important; 
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -191,15 +199,10 @@
 
 <div class="portfolio-container">
 
-<!-- FIXED CONTAINER BLOCK WITH INTEGRATED SYSTEM ICONS -->
+<!-- FIXED CONTAINER BLOCK - REARRANGED ORDER LAYOUT FRAME -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu</h1>
-    <p>
-      📍 Nairobi, Kenya | 
-      📧 <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; text-decoration: none;">hednaogutuh@gmail.com</a> | 
-      💼 <a href="https://linkedin.com" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
-    </p>
   </div>
 
   <div class="navbar">
@@ -207,6 +210,14 @@
     <a href="#skills">🛠️ SKILLS</a>
     <a href="#experience">💼 EXPERIENCE</a>
     <a href="#education">🎓 EDUCATION</a>
+  </div>
+
+  <div class="contact-bar">
+    <p>
+      📍 Nairobi, Kenya | 
+      📧 <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; text-decoration: none;">hednaogutuh@gmail.com</a> | 
+      💼 <a href="https://linkedin.com" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
+    </p>
   </div>
 </div>
 
@@ -218,7 +229,7 @@
   <p style="font-size: 18px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.4;">Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</p>
   <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
   <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
-  <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
+  <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500; margin-top: 10px;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
 </div>
 
 <div id="skills" class="content-card skills-bg-card">
