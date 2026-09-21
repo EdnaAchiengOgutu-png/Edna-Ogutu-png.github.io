@@ -4,7 +4,7 @@
     display: none !important;
   }
   
-  /* Overrides GitHub's secret default wrapper settings to allow full width stretch */
+  /* Overrides GitHub's secret default wrapper settings to force absolute edge-to-edge stretch */
   html, body, .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body, .portfolio-container, .scroll-content, div, section, main {
     max-width: 100% !important;
     width: 100% !important;
@@ -28,59 +28,59 @@
     display: none !important;
   }
   
-  /* MASTER FIXED TOP HEADER WRAPPER */
+  /* FIXED TOP HEADER WRAPPER - LOCKED FLUSH TO THE ABSOLUTE TOP EDGE */
   .master-sticky-header {
     position: fixed !important;
-    top: 0 !important;
+    top: 0 !important; /* Forces the container to touch the very top edge */
     left: 0 !important;
     width: 100% !important;
     z-index: 999999 !important; 
     background-color: #D2F7FF !important; 
-    padding: 15px 4% 0 4% !important; 
+    padding: 0 !important; /* Removed padding to maximize horizontal stretch */
     box-sizing: border-box !important;
   }
 
   .portfolio-container {
     width: 100% !important;
     max-width: 100% !important;
-    margin: 0 auto !important;
+    margin: 0 !important;
     box-sizing: border-box !important;
     padding: 0 !important;
   }
 
-  /* Main Profile Block Header Content Box */
+  /* Main Profile Block Header Content Box - Full Width Stretch */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
-    padding: 12px 40px !important; 
-    border-radius: 8px 8px 0 0;
+    padding: 15px 40px !important; 
+    border-radius: 0 !important; /* Removed rounded edges to snap flush to screen boundaries */
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     width: 100% !important;
     box-sizing: border-box !important;
   }
-  .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 24px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
+  .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip */
+  /* Navigation Ribbon Strip - Full Width Stretch */
   .navbar { 
     background-color: #23272A !important; 
-    padding: 10px 40px !important; 
+    padding: 12px 40px !important; 
     margin: 0 !important;
     text-align: left !important; 
     width: 100% !important;
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44; 
-    border-radius: 0 0 8px 8px; 
+    border-radius: 0 !important; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
   
   .navbar label { 
     color: #FFFFFF !important; 
-    margin-right: 22px; 
+    margin-right: 25px; 
     font-weight: 800; 
-    font-size: 12px; 
+    font-size: 13px; 
     text-transform: uppercase;
     letter-spacing: 0.5px;
     cursor: pointer !important;
@@ -88,22 +88,22 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR */
+  /* FIXED BOTTOM FROZEN BAR - LOCKED FLUSH TO THE ABSOLUTE BASE DECK */
   .fixed-footer-container {
     position: fixed !important;
-    bottom: 0 !important;
+    bottom: 0 !important; /* Forces the footer to touch the very bottom edge */
     left: 0 !important;
     width: 100% !important;
     z-index: 999999 !important;
     background-color: #D2F7FF !important; 
-    padding: 0 4% 10px 4% !important; 
+    padding: 0 !important; /* Removed padding to maximize horizontal stretch */
     box-sizing: border-box !important;
   }
 
   .footer-bar {
     background-color: #23272A !important;
-    padding: 8px 30px !important; 
-    border-radius: 8px;
+    padding: 10px 40px !important; 
+    border-radius: 0 !important; 
     width: 100% !important;
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
@@ -117,32 +117,32 @@
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer Layout - OPTIMIZED WITH EXTRA BOTTOM CUSHION FOR RESPONSIVENESS */
+  /* Fluid Scrolling Content Layer Layout - SHIFTED FOR PERFECT GAP DISPLACEMENT */
   .scroll-content {
-    margin-top: 115px !important; /* Pulls cards tighter right up to top header */
-    padding: 0 4% 75px 4% !important; /* Fixed bottom padding buffer room for frozen footer */
+    margin-top: 130px !important; /* Clean distance room directly beneath the navbar */
+    padding: 0 0 75px 0 !important; /* Clean bottom cushion above footer */
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* Section Content Cards: INTEGRATED WITH INTUITIVE INNER HEIGHT AUTO-SCROLL CONTROLS */
+  /* Section Content Cards: TRUE WIDESCREEN STRETCH EXECUTED */
   .content-card {
     background-color: #97B2DE !important; 
-    padding: 25px 35px !important; 
-    border-radius: 8px;
-    margin-bottom: 10px !important; 
-    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    padding: 35px 45px !important; 
+    border-radius: 0 !important; /* Snaps flush horizontally against the viewport borders */
+    margin-bottom: 0 !important; 
+    box-shadow: none !important; /* Clean background blending */
     position: relative;
+    overflow: hidden;
+    scroll-margin-top: 150px !important; 
     width: 100% !important;
-    max-width: 100% !important;
+    max-width: 100% !important; /* Stretches 100% edge-to-edge horizontally */
     box-sizing: border-box !important;
     display: none !important; 
-    
-    /* THE SMART CUSHION FIX: Automatically adds a scrollbar inside the card if text or forms are too tall */
-    max-height: calc(100vh - 195px) !important; 
-    overflow-y: auto !important; 
+    max-height: none !important; /* Removed restriction to allow normal reading flow */
+    overflow-y: visible !important;
   }
 
   /* THE ENGINE LINK: Show only the checked tab card */
@@ -178,17 +178,17 @@
 
   /* Typographic controls with flush top alignment overrides */
   .content-card > h2:first-child, .content-card > div:first-child { margin-top: 0 !important; padding-top: 0 !important; }
-  h2 { color: #23272A !important; font-size: 24px; font-weight: 900; margin: 0 0 15px 0 !important; padding-bottom: 8px; border-bottom: 4px solid #23272A; text-transform: uppercase; letter-spacing: 1px; display: block !important; }
-  h3 { color: #111314 !important; font-size: 20px; font-weight: 900; margin-top: 18px !important; margin-bottom: 5px !important; padding-top: 0 !important; display: block !important; }
+  h2 { color: #23272A !important; font-size: 26px; font-weight: 900; margin: 0 0 20px 0 !important; padding-bottom: 10px; border-bottom: 4px solid #23272A; text-transform: uppercase; letter-spacing: 1px; display: block !important; }
+  h3 { color: #111314 !important; font-size: 21px; font-weight: 900; margin-top: 22px !important; margin-bottom: 6px !important; padding-top: 0 !important; display: block !important; }
   h2 + h3, .content-card > h3:first-of-type { margin-top: 5px !important; }
-  .job-meta { color: #23272A !important; font-style: normal; font-size: 14px; margin-top: 0 !important; margin-bottom: 12px !important; display: block; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
+  .job-meta { color: #23272A !important; font-style: normal; font-size: 15px; margin-top: 0 !important; margin-bottom: 14px !important; display: block; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
 
   /* COMPRESSED READABILITY TEXT METRICS */
   ul { padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 2px !important; }
-  li { margin-top: 0 !important; margin-bottom: 4px !important; line-height: 1.35 !important; color: #1A1D20 !important; font-size: 15.5px; font-weight: 500; } 
-  p { margin-top: 0 !important; margin-bottom: 6px !important; line-height: 1.35 !important; }
-  .skill-title { font-weight: 700; color: #1A488E; font-size: 16px; }
-  .badge-pill { background-color: #23272A; color: #FFD200; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; display: inline-block; margin-right: 5px; }
+  li { margin-top: 0 !important; margin-bottom: 4px !important; line-height: 1.35 !important; color: #1A1D20 !important; font-size: 16px; font-weight: 500; } 
+  p { margin-top: 0 !important; margin-bottom: 8px !important; line-height: 1.35 !important; }
+  .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
+  .badge-pill { background-color: #23272A; color: #FFD200; padding: 3px 10px; border-radius: 20px; font-size: 13px; font-weight: bold; display: inline-block; margin-right: 5px; }
 </style>
 
 <div class="portfolio-container">
