@@ -31,7 +31,7 @@
     width: 100% !important;
     z-index: 999999 !important; 
     background-color: #1A488E !important; 
-    padding: 20px 4% 5px 4% !important;
+    padding: 20px 4% 5px 4% !important; /* Controlled 4% outer layout padding */
     box-sizing: border-box !important;
   }
 
@@ -57,7 +57,7 @@
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 28px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip: THE STRATEGIC SEVEN-PAGE SEQUENCING */
+  /* Navigation Ribbon Strip */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 40px !important; 
@@ -80,7 +80,7 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* Contact Information Bar: ALIGNED TO THE FAR RIGHT */
+  /* Contact Information Bar */
   .contact-bar {
     background-color: #23272A !important;
     padding: 12px 40px !important;
@@ -96,20 +96,20 @@
   .contact-bar a { color: #FFFFFF !important; text-decoration: none !important; }
   .contact-bar a:hover { color: #FFD200 !important; text-decoration: underline !important; }
 
-  /* Fluid Scrolling Content Layer Layout */
+  /* Fluid Scrolling Content Layer Layout - MATCHES 4% HORIZONTAL PADDING FOR PERFECT ALIGNMENT */
   .scroll-content {
     margin-top: 240px !important; 
-    padding: 0 4% 40px 4% !important; 
+    padding: 0 4% 40px 4% !important; /* Forces scroll cards to align 100% with top frozen header bar edges */
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* Section Content Cards */
+  /* Section Content Cards: UNIFIED DESIGN RULES Across Entire Framework */
   .content-card {
     background-color: #97B2DE !important; 
-    padding: 30px 40px !important; 
+    padding: 35px 45px !important; /* Structured symmetrical internal text padding */
     border-radius: 8px;
     margin-bottom: 35px !important; 
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
@@ -120,14 +120,6 @@
     max-width: 100% !important;
     box-sizing: border-box !important;
     display: block !important;
-  }
-
-  /* Background Grid Elements */
-  .skills-bg-card {
-    background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
-                url('https://dreamstime.com') !important;
-    background-size: cover !important;
-    background-position: center !important;
   }
 
   /* Typographic controls with flush top alignment overrides */
@@ -170,7 +162,7 @@
     letter-spacing: 0.5px; 
   }
 
-  /* COMPRESSED SENTENCE & PARAGRAPH SPACING OVERRIDES */
+  /* COMPRESSED READABILITY TEXT METRICS */
   ul { 
     padding-left: 25px !important; 
     margin-top: 2px !important; 
@@ -178,8 +170,8 @@
   }
   li { 
     margin-top: 0 !important;
-    margin-bottom: 4px !important; 
-    line-height: 1.35 !important;  
+    margin-bottom: 5px !important; 
+    line-height: 1.4 !important;  
     color: #1A1D20 !important; 
     font-size: 16px; 
     font-weight: 500; 
@@ -187,7 +179,7 @@
   p {
     margin-top: 0 !important;
     margin-bottom: 8px !important; 
-    line-height: 1.35 !important;
+    line-height: 1.4 !important;
   }
   .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
   
@@ -205,7 +197,7 @@
 
 <div class="portfolio-container">
 
-<!-- FIXED COMPACT NAVIGATION HEADER BLOCK WITH 7 STRATEGIC TRACKS -->
+<!-- FIXED TOP HEADER MODULE -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu | Enterprise Solutions Consultant</h1>
@@ -240,10 +232,11 @@
   <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Stop guessing. Start growing. I turn your raw enterprise data into clear dashboards and smart analytics that turn complex numbers into simple next steps.</p>
   <p style="font-size: 18px; color: #23272A; font-weight: 700; margin: 15px 0 20px 0; line-height: 1.4; font-style: italic;">"You collect the data. I find the money and operational efficiencies hidden inside it."</p>
   <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
-  <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with extensive experience supporting Monitoring, Evaluation, Accountability and Learning (MEL), research, and development programs. Specialized in quantitative and qualitative analysis, database validation, and building centralized business intelligence frameworks that translate messy field research targets into clear institutional insights.</p>
+  <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with extensive experience supporting Monitoring, Evaluation, Accountability and Learning (MEL), research, and development programs. Specialized in quantitative and qualitative analysis, database validation, and building centralized business intelligence frameworks that translate messy field research targets into clear institutional insights.</p>
 </div>
+
 <!-- 2. SERVICES CARD -->
-<div id="services" class="content-card skills-bg-card">
+<div id="services" class="content-card">
   <h2>💼 Operational Consulting Services</h2>
   <h3 style="margin-top: 0 !important;">Data Packages I Offer:</h3>
   <ul>
@@ -254,7 +247,6 @@
     <li><span class="skill-title">Documentation & Learning:</span> Synthesizing research evidence, documenting lessons learned, managing knowledge networks, and implementing strict data protection workflows.</li>
   </ul>
 </div>
-
 <!-- 3. PROJECTS SHOWCASE CARD -->
 <div id="projects" class="content-card">
   <h2>📊 Strategic Projects Portfolio</h2>
@@ -309,7 +301,6 @@
     <li>Scripted structured mobile survey tools, qualitative research modules, and Key Informant Interview (KII) tracking logs.</li>
     <li>Delivered end-to-end data processing, handling data cleaning pipelines, validation criteria, and qualitative analysis reports for stakeholders.</li>
   </ul>
-</div>
   <h3>📍 Calltronix Kenya Limited</h3>
   <span class="job-meta">Workforce Data Analyst (Corporate Contract) — (Jan 2025 - Feb 2026)</span>
   <ul>
@@ -366,53 +357,53 @@
   </ul>
 </div>
 
-<!-- 8. GET IN TOUCH ROYED-STYLE ACTIVE LIVE EMAIL SUBMISSION ENGINE -->
+<!-- 8. GET IN TOUCH ACTIVE SUBMISSION ENGINE - SYMMETRIC SPLIT ENGINE LAYOUT -->
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
-  <form action="https://formspree.io/f/xzezeanr" method="POST" style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
+  <form action="https://formspree.io" method="POST" style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
     <!-- LEFT SIDE DETAILS COLUMN PANEL -->
-    <div style="flex: 1; min-width: 320px; box-sizing: border-box;">
-      <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px;">Get in touch</span>
-      <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important;">Let's talk</h2>
-      <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 30px;">Request a data solutions session below. I confirm by email within one business day with a meeting link and any prep notes.</p>
+    <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
+      <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get in touch</span>
+      <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important; text-align: left !important;">Let's talk</h2>
+      <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 30px; text-align: left !important;">Request a data solutions session below. I confirm by email within one business day with a meeting link and any prep notes.</p>
       
       <!-- Box Info Fragment 1 -->
-      <div style="background-color: #F8FAFC; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #E2E8F0;">
-        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A; display: block;">How booking works</h4>
-        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important;">Suggest your target slots below. When you hit submit, the operational data is packaged and securely sent directly to my workspace email inbox.</p>
+      <div style="background-color: #F8FAFC; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #E2E8F0; width: 100%; box-sizing: border-box;">
+        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A; display: block; text-align: left !important;">How booking works</h4>
+        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important; text-align: left !important;">Suggest your target slots below. When you hit submit, the operational data is packaged and securely sent directly to my workspace email inbox.</p>
       </div>
       
       <!-- Box Info Fragment 2 -->
-      <div style="background-color: #F8FAFC; padding: 20px; border-radius: 8px; border: 1px solid #E2E8F0;">
-        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A; display: block;">Prefer direct messaging?</h4>
-        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important;">Utilize the floating WhatsApp sync portal button on the right column frame for real-time consultation.</p>
+      <div style="background-color: #F8FAFC; padding: 20px; border-radius: 8px; border: 1px solid #E2E8F0; width: 100%; box-sizing: border-box;">
+        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A; display: block; text-align: left !important;">Prefer direct messaging?</h4>
+        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important; text-align: left !important;">Utilize the floating WhatsApp sync portal button on the right column frame for real-time consultation.</p>
       </div>
     </div>
     
     <!-- RIGHT SIDE ACTIVE TYPEABLE BOOKING FORM CONTAINER -->
-    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box;">
+    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important;">
       
       <!-- Form Input Row 1 -->
-      <div style="display: flex; gap: 20px; margin-bottom: 20px; width: 100%;">
+      <div style="display: flex; gap: 20px; margin-bottom: 20px; width: 100%; box-sizing: border-box;">
         <div style="flex: 1;">
-          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">Full name</label>
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Full name</label>
           <input type="text" name="Client Name" placeholder="Enter name" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
         </div>
         <div style="flex: 1;">
-          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">Email address</label>
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Email address</label>
           <input type="email" name="Client Email" placeholder="name@company.com" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
         </div>
       </div>
       
       <!-- Form Input Row 2 -->
-      <div style="display: flex; gap: 20px; margin-bottom: 20px; width: 100%;">
+      <div style="display: flex; gap: 20px; margin-bottom: 20px; width: 100%; box-sizing: border-box;">
         <div style="flex: 1;">
-          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">Preferred date</label>
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Preferred date</label>
           <input type="text" name="Requested Date" placeholder="dd/mm/yyyy" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
         </div>
         <div style="flex: 1;">
-          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">What is this about?</label>
-          <select name="Consultancy Scope" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;">
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">What is this about?</label>
+          <select name="Consultancy Scope" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px; height: 45px;">
             <option value="">Select a consultancy topic</option>
             <option value="Business Intelligence & Power BI Dashboards">Business Intelligence & Power BI Dashboards</option>
             <option value="Advanced Excel Automation & Reconciliation">Advanced Excel Automation & Reconciliation</option>
@@ -423,21 +414,15 @@
       </div>
       
       <!-- Form Input Row 3 -->
-      <div style="margin-bottom: 20px; width: 50%;">
-        <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">Preferred time</label>
+      <div style="margin-bottom: 20px; width: 50%; box-sizing: border-box;">
+        <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Preferred time</label>
         <input type="text" name="Requested Time" placeholder="e.g., 2:00 PM EAT" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
       </div>
       
-      <!-- Form Input Row 4 -->
-      <div style="margin-bottom: 25px; width: 100%;">
-        <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">Tell me a little more</label>
-        <textarea name="Project Context Details" placeholder="Provide a line or two of context: the target data challenge, your timeline, and what a successful outcome looks like..." rows="3" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px; resize: none;"></textarea>
-      </div>
-
       <!-- TRANSMISSION SUBMIT BUTTONS -->
-      <div style="text-align: center; display: flex; gap: 15px; width: 100%;">
-        <button type="submit" style="flex: 1; background-color: #1A488E !important; color: #FFFFFF !important; padding: 14px 20px !important; border: none !important; border-radius: 6px; font-weight: bold; font-size: 14px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">✉️ Submit Booking Request</button>
-        <a href="https://whatsapp.com" target="_blank" style="flex: 1; background-color: #23272A !important; color: #FFD200 !important; padding: 14px 20px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center; line-height: 1.2;">Sync via WhatsApp</a>
+      <div style="text-align: center; display: flex; gap: 15px; width: 100%; box-sizing: border-box;">
+        <button type="submit" style="flex: 1; background-color: #1A488E !important; color: #FFFFFF !important; padding: 14px 20px !important; border: none !important; border-radius: 6px; font-weight: bold; font-size: 14px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center; height: 45px;">✉️ Submit Booking Request</button>
+        <a href="https://whatsapp.com" target="_blank" style="flex: 1; background-color: #23272A !important; color: #FFD200 !important; padding: 14px 20px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center; line-height: 45px; height: 45px; box-sizing: border-box;">Sync via WhatsApp</a>
       </div>
       
     </div>
