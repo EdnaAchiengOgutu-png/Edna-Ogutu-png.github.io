@@ -365,7 +365,7 @@
   </ul>
 </div>
 
-<!-- 8. GET IN TOUCH ACTIVE SUBMISSION ENGINE - SYMMETRIC SPLIT ENGINE LAYOUT -->
+<!-- 8. GET IN TOUCH ACTIVE SUBMISSION ENGINE - FIXED FORMSPREE GRAPH CONTAINER -->
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
   <form action="https://formspree.io" method="POST" style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
