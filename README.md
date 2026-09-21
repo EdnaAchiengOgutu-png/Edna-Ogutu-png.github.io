@@ -33,17 +33,17 @@
     box-sizing: border-box !important;
   }
 
-  /* Main Profile Block Header Content: Centered & Compact Width */
+  /* Main Profile Block Header Content: FULL SCREEN WIDE MODE RESTORED */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
     padding: 15px 40px !important; 
     border-radius: 6px 6px 0 0;
-    margin: 0 auto !important; 
+    margin-bottom: 0px !important; 
     border-left: 8px solid #FFD200;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     width: 100% !important;
-    max-width: 950px !important; /* Keeps the top panel compact */
+    max-width: 100% !important; /* Expanded edge-to-edge */
     box-sizing: border-box !important;
     display: flex !important;
     justify-content: space-between !important;
@@ -53,16 +53,16 @@
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: inline-block !important; } 
   .header-block p { color: #E5E7EB !important; margin: 0 !important; font-size: 14px; font-weight: bold; display: inline-block !important; }
 
-  /* Menu Navigation Links Ribbon Strip: Centered & Compact Width */
+  /* Menu Navigation Links Ribbon Strip: FULL SCREEN WIDE MODE RESTORED */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 30px !important; 
     border-radius: 0 0 6px 6px;
-    margin: 0 auto 10px auto !important;
+    margin-bottom: 10px;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     width: 100% !important;
-    max-width: 950px !important; /* Matches header block width */
+    max-width: 100% !important; /* Expanded edge-to-edge */
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44; 
@@ -88,18 +88,18 @@
     display: block !important;
   }
 
-  /* Cards are smaller in width and centered, but layout background stays full-length */
+  /* FULL SCREEN WIDE CONTAINER CARDS RESTORED WITH OPTIMIZED TEXT GAP LAYOUT */
   .content-card {
     background-color: #97B2DE !important; 
-    padding: 30px 40px !important; /* Muted inner padding for a compact feel */
+    padding: 30px 40px !important; 
     border-radius: 8px;
-    margin: 0 auto 35px auto !important; /* Centering command: auto left and right margins */
+    margin-bottom: 35px !important; 
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
     scroll-margin-top: 190px !important; 
     width: 100% !important;
-    max-width: 950px !important; /* Cards are now smaller and compact in width */
+    max-width: 100% !important; /* Stretches cards wide to fit screen layout exactly */
     box-sizing: border-box !important;
     display: block !important;
   }
@@ -167,15 +167,15 @@
   }
   li { 
     margin-top: 0 !important;
-    margin-bottom: 4px !important; /* Compresses the empty vertical spaces between points */
-    line-height: 1.35 !important;  /* Pulls lines within the same sentence closer together */
+    margin-bottom: 4px !important; /* Compresses empty spaces between bullet items */
+    line-height: 1.35 !important;  /* Pulls lines within the same sentence closer */
     color: #1A1D20 !important; 
     font-size: 16px; 
     font-weight: 500; 
   } 
   p {
     margin-top: 0 !important;
-    margin-bottom: 8px !important; /* Tightens space between consecutive paragraphs */
+    margin-bottom: 8px !important; /* Tightens paragraph clusters */
     line-height: 1.35 !important;
   }
   .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
@@ -185,7 +185,13 @@
 
 <!-- FIXED CONTAINER BLOCK -->
 <div class="fixed-header-container">
-  <div class="header-block">
+
+
+
+
+
+
+
 
     
     <h1>Edna Ogutu</h1>
