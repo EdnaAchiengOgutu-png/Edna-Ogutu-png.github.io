@@ -70,11 +70,11 @@
   }
   .navbar a { 
     color: #FFFFFF !important; 
-    margin-right: 25px; /* Adjusted spacing to tightly fit all 7 navigation elements */
+    margin-right: 25px; 
     margin-left: 0 !important;
     text-decoration: none !important; 
     font-weight: 800; 
-    font-size: 13px; /* Slightly scaled for broad multi-link desktop viewports */
+    font-size: 13px; 
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
@@ -252,9 +252,9 @@
     <li><span class="skill-title">MEL Systems & Data Architecture:</span> Constructing indicator logs, target tracking registers, and quality assurance checkpoints for program verification.</li>
     <li><span class="skill-title">Database Reconciliation & Auditing:</span> Running strict diagnostic sweeps to isolate structural entry gaps and inconsistencies across complex biometric, CRM, and payroll databases.</li>
     <li><span class="skill-title">Field Operations & Digital Scripting:</span> Scripting logical digital surveys (KoboCollect/SurveyCTO), coordinating remote enumerator actions, and synthesizing qualitative thematic reports.</li>
+    <li><span class="skill-title">Documentation & Learning:</span> Synthesizing research evidence, documenting lessons learned, managing knowledge networks, and implementing strict data protection workflows.</li>
   </ul>
 </div>
-
 <!-- 3. PROJECTS SHOWCASE CARD -->
 <div id="projects" class="content-card">
   <h2>📊 Strategic Projects Portfolio</h2>
@@ -268,7 +268,27 @@
   </ul>
 </div>
 
-<!-- 4. EXPERIENCE CARD -->
+<!-- 4. TOOLS SHOWCASE MATRIC MATRIX -->
+<div id="tools-proficiency" class="content-card">
+  <h2>🛠️ Specialized Solutions & Tools Matrix</h2>
+  
+  <h3 style="margin-top: 0 !important;">Business Intelligence & Advanced Analytics</h3>
+  <ul>
+    <li><span class="skill-title">Power BI Architecture:</span> Building automated corporate dashboards, real-time KPI tracking models, volume forecasting engines, and call-centre shift optimizations.</li>
+    <li><span class="skill-title">Stata Scripting & Biostatistics:</span> Advanced quantitative research scripting, regression modeling, biostatistical evidence synthesis, and large-scale survey data cleansing.</li>
+    <li><span class="skill-title">Advanced Microsoft Excel:</span> Designing complex algorithmic payroll engines for 350+ FTE, biometric check sheet validations, automated lookup scripts, and database reconciliations.</li>
+    <li><span class="skill-title">R Programming & SPSS:</span> Implementing descriptive dataset workflows, healthcare program summaries, qualitative data metrics, and graphic data visualizations.</li>
+    <li><span class="skill-title">SQL & Python Data Science:</span> Formulating back-end relational database management routines, data cleaning pipelines, and structured problem-solving models.</li>
+  </ul>
+
+  <h3>Mobile Data Collection & Operational Operations</h3>
+  <ul>
+    <li><span class="skill-title">KoboCollect & SurveyCTO:</span> Building field questionnaires with complex digital validation logic, automated conditions, and structured mobile data capture modules.</li>
+    <li><span class="skill-title">Enterprise Ecosystems:</span> Integrating analytics workflows across CRM platforms, telephony metrics logs, Microsoft Teams, PowerPoint, and Excel.</li>
+  </ul>
+</div>
+
+<!-- 5. EXPERIENCE CARD -->
 <div id="experience" class="content-card">
   <h2>📈 Consulting & Analytics Engagement History</h2>
 
@@ -300,7 +320,7 @@
   </ul>
 
   <h3>📍 SGS Kenya</h3>
-  <span class="job-meta">Data Systems Specialist (Instutional Internship) — (Nov 2023 - Jan 2024)</span>
+  <span class="job-meta">Data Systems Specialist (Institutional Internship) — (Nov 2023 - Jan 2024)</span>
   <ul>
     <li>Supported institutional databases by structuring routine data collections, compilation pipelines, and database management engines.</li>
     <li>Executed rigorous descriptive statistical sweeps and designed Excel-based reporting toolsets to eliminate data gaps.</li>
@@ -325,7 +345,7 @@
   </ul>
 </div>
 
-<!-- 5. EDUCATION CARD -->
+<!-- 6. EDUCATION CARD -->
 <div id="education" class="content-card">
   <h2>🎓 Academic Background</h2>
   <h3 style="margin-top: 0 !important;">Degrees</h3>
@@ -335,7 +355,7 @@
   </ul>
 </div>
 
-<!-- 6. CERTIFICATIONS CARD -->
+<!-- 7. CERTIFICATIONS CARD -->
 <div id="certifications" class="content-card">
   <h2>🏆 Professional Accreditations</h2>
   <h3 style="margin-top: 0 !important;">Specialized Certifications</h3>
@@ -346,18 +366,27 @@
   </ul>
 </div>
 
-<!-- 7. GET IN TOUCH CALL TO ACTION CARD -->
-<div id="get-in-touch" class="content-card">
-  <h2>📞 Connect & Book Services</h2>
-  <p style="font-size: 18px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.45;">Let's transform your data pipelines. Book a consultation or send an inquiry to initiate a specialized project engagement.</p>
-  
-  <p style="line-height: 1.6; font-size: 16px; color: #1A1D20; margin-bottom: 25px;">Whether you need customized Power BI data models, an automated sales audit dashboard, or robust biostatistical monitoring structures, click below to initiate immediate data workflows:</p>
-
-  <div style="text-align: center; margin-top: 20px;">
-    <a href="mailto:hednaogutuh@gmail.com" style="background-color: #23272A !important; color: #FFD200 !important; padding: 15px 30px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 16px; display: inline-block; margin: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">✉️ Book Service Consultation</a>
-    <a href="https://whatsapp.com" target="_blank" style="background-color: #23272A !important; color: #FFFFFF !important; padding: 15px 30px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 16px; display: inline-block; margin: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">💬 Start Slack/WhatsApp Sync</a>
-  </div>
-</div>
-
-</div> <!-- Closes scroll-content layout engine -->
-</div> <!-- Closes portfolio-container outer window -->
+<!-- 8. GET IN TOUCH ROYED-STYLE BOOKING ENGINE CONTAINER CARD -->
+<div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important;">
+  <div style="display: flex; flex-wrap: wrap; gap: 40px; margin-top: 15px;">
+    
+    <!-- LEFT SIDE DETAILS COLUMN PANEL -->
+    <div style="flex: 1; min-width: 320px;">
+      <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px;">Get in touch</span>
+      <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important;">Let's talk</h2>
+      <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 30px;">Request a data solutions session below. I confirm by email within one business day with a meeting link and any prep notes.</p>
+      
+      <!-- Box Info Fragment 1 -->
+      <div style="background-color: #F7FAFC; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #E2E8F0;">
+        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A;">How booking works</h4>
+        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important;">You suggest a date and time slot below that fits your business schedule. Times are evaluated in EAT (Nairobi).</p>
+      </div>
+      
+      <!-- Box Info Fragment 2 -->
+      <div style="background-color: #F7FAFC; padding: 20px; border-radius: 8px; border: 1px solid #E2E8F0;">
+        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A;">Prefer direct email?</h4>
+        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important;">Use the instant sync link below for complex requests, project RFPs, or anything that does not fit a form.</p>
+      </div>
+    </div>
+    
+    <!-- RIGHT SIDE INTERACTIVE BOOKING CONTAINER CARD -->
