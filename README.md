@@ -28,14 +28,14 @@
     display: none !important;
   }
   
-  /* MASTER FIXED TOP HEADER WRAPPER - LOCKED TO THE HIGHEST LAYER LAYER */
+  /* MASTER FIXED TOP HEADER WRAPPER - MAXIMUM LAYER PRIORITY */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
-    z-index: 999999 !important; /* Kept at maximum priority layer */
+    z-index: 999999 !important; 
     background-color: #D2F7FF !important; 
     padding: 0 !important;
     margin: 0 !important;
@@ -92,14 +92,14 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR - SHIFTED TO A LOWER LAYER LAYER TO PREVENT SCREEN BLOCKING */
+  /* FIXED BOTTOM FROZEN BAR - RESTORED TO FOREFRONT INTERACTION LAYER */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
-    z-index: 10 !important; /* Dropped layer ensures content flows on top of this block gracefully */
+    z-index: 99999 !important; /* Brought to the absolute front layer so it is fully visible and clickable */
     background-color: #D2F7FF !important; 
     padding: 0 !important;
     box-sizing: border-box !important;
@@ -133,7 +133,7 @@
     display: block !important;
   }
 
-  /* Section Content Cards - LOCKED TO THE FOREFRONT VIEW LAYER */
+  /* Section Content Cards - MID LAYER BALANCE CONFIGURATION */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px 45px !important; 
@@ -150,7 +150,7 @@
     box-sizing: border-box !important;
     display: none !important; 
     overflow-y: visible !important;
-    z-index: 999 !important; /* High layer brings card text cleanly over the background footer blocks */
+    z-index: 100 !important; /* Balanced layer prevents cards from overriding the active footer bar */
   }
 
   /* THE ENGINE LINK: Show only the checked tab card */
