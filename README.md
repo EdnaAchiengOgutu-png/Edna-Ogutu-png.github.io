@@ -18,7 +18,7 @@
   }
 
   body { 
-    background-color: #D2F7FF !important; 
+    background-color: #D2F7FF !important; /* THE REFRESHED NEW SKY BLUE BACKGROUND ENGINE */
     margin: 0 !important;
     padding: 0 !important;
   }
@@ -35,8 +35,8 @@
     left: 0 !important;
     width: 100% !important;
     z-index: 999999 !important; 
-    background-color: #D2F7FF !important; 
-    padding: 20px 4% 0 4% !important; /* Stripped bottom padding to thin out top stack */
+    background-color: #D2F7FF !important; /* Matches outer sky blue environment canvas wrapper margins */
+    padding: 20px 4% 0 4% !important; 
     box-sizing: border-box !important;
   }
 
@@ -56,7 +56,7 @@
     border-radius: 8px 8px 0 0;
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     width: 100% !important;
     box-sizing: border-box !important;
   }
@@ -72,8 +72,8 @@
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44; 
-    border-radius: 0 0 8px 8px; /* Clean rounded edge directly under the navigation links */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    border-radius: 0 0 8px 8px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
   
   .navbar label { 
@@ -88,39 +88,39 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* THE NEW FIXED BOTTOM FROZEN BAR: Ultra-Thin, Continuous Ribbon Asset */
+  /* FIXED BOTTOM FROZEN BAR: Matches top sky blue container spacing context */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
     left: 0 !important;
     width: 100% !important;
     z-index: 999999 !important;
-    background-color: #D2F7FF !important;
-    padding: 0 4% 15px 4% !important; /* Bottom pad holds bar tight above screen deck */
+    background-color: #D2F7FF !important; /* Blends seamlessly with the outer canvas color box environment */
+    padding: 0 4% 15px 4% !important; 
     box-sizing: border-box !important;
   }
 
   .footer-bar {
     background-color: #23272A !important;
-    padding: 10px 40px !important; /* Reduced vertical thickness to stay ultra-thin */
+    padding: 10px 40px !important; 
     border-radius: 8px;
     width: 100% !important;
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
-    border-top: 3px solid #FFD200; /* Beautiful gold top divider line framework */
+    border-top: 3px solid #FFD200; 
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    box-shadow: 0 -4px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.15);
   }
   .footer-bar p { color: #E5E7EB !important; margin: 0 !important; font-size: 14px; font-weight: bold; }
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer Layout: Added bottom margin buffer so footer never hides text */
+  /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
-    margin-top: 155px !important; /* Even tighter vertical layout pull up against top ribbon */
-    padding: 0 4% 75px 4% !important; /* Bottom cushion prevents the frozen footer from covering card text */
+    margin-top: 155px !important; 
+    padding: 0 4% 75px 4% !important; 
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
@@ -133,10 +133,10 @@
     padding: 30px 40px !important; 
     border-radius: 8px;
     margin-bottom: 35px !important; 
-    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 175px !important; /* Pinpoint link anchor scrolling target offset alignment */
+    scroll-margin-top: 175px !important; 
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -185,7 +185,7 @@
   ul { padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 2px !important; }
   li { margin-top: 0 !important; margin-bottom: 4px !important; line-height: 1.4 !important; color: #1A1D20 !important; font-size: 16px; font-weight: 500; } 
   p { margin-top: 0 !important; margin-bottom: 8px !important; line-height: 1.4 !important; }
-  .skill-title { font-weight: 700; color: #D2F7FF; font-size: 16.5px; }
+  .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
   .badge-pill { background-color: #23272A; color: #FFD200; padding: 3px 10px; border-radius: 20px; font-size: 13px; font-weight: bold; display: inline-block; margin-right: 5px; }
 </style>
 
@@ -200,7 +200,7 @@
 <input type="radio" name="page-tabs" id="tab-certifications" class="tab-toggle" />
 <input type="radio" name="page-tabs" id="tab-get-in-touch" class="tab-toggle" />
 
-<!-- FIXED TOP HEADER STRIP PANEL - EXTREMELY COMPACT -->
+<!-- FIXED TOP HEADER STRIP PANEL -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu | Enterprise Solutions Consultant</h1>
@@ -265,6 +265,26 @@
 </div>
 
 <!-- 4. TOOLS SHOWCASE MATRIX -->
+<div id="tools-proficiency" class="content-card">
+  <h2>🛠️ Specialized Solutions & Tools Matrix</h2>
+  
+  <h3 style="margin-top: 0 !important;">Business Intelligence & Advanced Analytics</h3>
+  <ul>
+    <li><span class="skill-title">Power BI Architecture:</span> Building automated corporate dashboards, real-time KPI tracking models, volume forecasting engines, and call-centre shift optimizations.</li>
+    <li><span class="skill-title">Stata Scripting & Biostatistics:</span> Advanced quantitative research scripting, regression modeling, biostatistical evidence synthesis, and large-scale survey data cleansing.</li>
+    <li><span class="skill-title">Advanced Microsoft Excel:</span> Designing complex algorithmic payroll engines for 350+ FTE, biometric check sheet validations, automated lookup scripts, and database reconciliations.</li>
+    <li><span class="skill-title">R Programming & SPSS:</span> Implementing descriptive dataset workflows, healthcare program summaries, qualitative data metrics, and graphic data visualizations.</li>
+    <li><span class="skill-title">SQL & Python Data Science:</span> Formulating back-end relational database management routines, data cleaning pipelines, and structured problem-solving models.</li>
+  </ul>
+
+  <h3>Mobile Data Collection & Field Systems</h3>
+  <ul>
+    <li><span class="skill-title">KoboCollect & SurveyCTO:</span> Building field questionnaires with complex digital validation logic, automated conditions, and structured mobile data capture modules.</li>
+    <li><span class="skill-title">Enterprise Ecosystems:</span> Integrating analytics workflows across CRM platforms, telephony metrics logs, Microsoft Teams, PowerPoint, and Excel.</li>
+  </ul>
+</div>
+
+<!-- 5. EXPERIENCE CARD -->
 <div id="experience" class="content-card">
   <h2>📈 Consulting & Analytics Engagement History</h2>
 
@@ -285,6 +305,7 @@
     <li>Scripted structured mobile survey tools, qualitative research modules, and Key Informant Interview (KII) tracking logs.</li>
     <li>Delivered end-to-end data processing, handling data cleaning pipelines, validation criteria, and qualitative analysis reports for stakeholders.</li>
   </ul>
+
   <h3>📍 Calltronix Kenya Limited</h3>
   <span class="job-meta">Workforce Data Analyst (Corporate Contract) — (Jan 2025 - Feb 2026)</span>
   <ul>
@@ -320,7 +341,7 @@
   </ul>
 </div>
 
-<!-- 5. EDUCATION CARD -->
+<!-- 6. EDUCATION CARD -->
 <div id="education" class="content-card">
   <h2>🎓 Academic Background</h2>
   <h3 style="margin-top: 0 !important;">Degrees</h3>
@@ -330,7 +351,7 @@
   </ul>
 </div>
 
-<!-- 6. CERTIFICATIONS CARD -->
+<!-- 7. CERTIFICATIONS CARD -->
 <div id="certifications" class="content-card">
   <h2>🏆 Professional Accreditations</h2>
   <h3 style="margin-top: 0 !important;">Specialized Certifications</h3>
@@ -341,7 +362,7 @@
   </ul>
 </div>
 
-<!-- 7. GET IN TOUCH ACTIVE SUBMISSION ENGINE - SYMMETRIC SPLIT ENGINE LAYOUT -->
+<!-- 8. GET IN TOUCH ACTIVE SUBMISSION ENGINE - SYMMETRIC SPLIT ENGINE LAYOUT -->
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
   <form action="https://formspree.io" method="POST" style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
@@ -409,7 +430,7 @@
         <textarea name="Project Context Details" placeholder="Provide a line or two of context: the target data challenge, your timeline, and what a successful outcome looks like..." rows="3" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px; resize: none;"></textarea>
       </div>
 
-    <!-- TRANSMISSION SUBMIT BUTTONS -->
+      <!-- TRANSMISSION SUBMIT BUTTONS -->
       <div style="text-align: center; display: flex; gap: 15px; width: 100%; box-sizing: border-box;">
         <button type="submit" style="flex: 1; background-color: #1A488E !important; color: #FFFFFF !important; padding: 14px 20px !important; border: none !important; border-radius: 6px; font-weight: bold; font-size: 14px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center; height: 45px;">✉️ Submit Booking Request</button>
         <a href="https://whatsapp.com" target="_blank" style="flex: 1; background-color: #23272A !important; color: #FFD200 !important; padding: 14px 20px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center; line-height: 45px; height: 45px; box-sizing: border-box;">Sync via WhatsApp</a>
