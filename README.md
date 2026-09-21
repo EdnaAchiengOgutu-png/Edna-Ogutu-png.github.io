@@ -216,10 +216,10 @@
 
   <div class="contact-bar">
     <p>
-      📍 Nairobi, Kenya | 
-      💬 <a href="https://whatsapp.com" target="_blank" style="color: #FFFFFF !important; font-weight: bold;">+254741937074</a> | 
-      📧 <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; font-weight: bold;">hednaogutuh@gmail.com</a> | 
-      💼 <a href="https://linkedin.com" target="_blank" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
+       Nairobi, Kenya | 
+       <a href="https://whatsapp.com" target="_blank" style="color: #FFFFFF !important; font-weight: bold;">+254741937074</a> | 
+       <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; font-weight: bold;">hednaogutuh@gmail.com</a> | 
+       <a href="https://linkedin.com" target="_blank" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
     </p>
   </div>
 </div>
@@ -228,7 +228,7 @@
 <div class="scroll-content">
 
 <div id="summary" class="content-card">
-  <h2>📋 Professional Summary & Strategy</h2>
+  <h2> Professional Summary & Strategy</h2>
   <p style="font-size: 18px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.4;">Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</p>
   <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
   <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
