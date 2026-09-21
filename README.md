@@ -32,12 +32,12 @@
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
+    left: 0 !important;   
+    right: 0 !important;  
     width: 100% !important;
     z-index: 999999 !important; 
     background-color: #D2F7FF !important; 
-    padding: 0 !important;
+    padding: 0 !important; 
     margin: 0 !important;
     box-sizing: border-box !important;
   }
@@ -58,7 +58,7 @@
     border-radius: 0 !important; 
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
-    border-top: 4px solid #FFD200 !important; 
+    border-top: 4px solid #FFD200 !important; /* Forces signature gold on the absolute top outer edge */
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     width: 100% !important;
     box-sizing: border-box !important;
@@ -75,7 +75,7 @@
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44; 
-    border-bottom: 4px solid #FFD200 !important; 
+    border-bottom: 4px solid #FFD200 !important; /* Forces signature gold on the absolute bottom outer edge */
     border-radius: 0 !important; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
@@ -92,14 +92,14 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR - RESTORED TO FOREFRONT INTERACTION LAYER OVER CARDS */
+  /* FIXED BOTTOM FROZEN BAR - FRAMES THE BOTTOM ACCENT INTERFACE PERMANENTLY */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
-    z-index: 99999 !important; /* Locks footer as the forefront layer to prevent card overlap blocks */
+    z-index: 999999 !important; /* Forces bar to sit securely in front on all tabs */
     background-color: #D2F7FF !important; 
     padding: 0 !important;
     box-sizing: border-box !important;
@@ -123,7 +123,7 @@
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer Layout */
+  /* Fluid Scrolling Content Layer Layout - SHIFTED SPACES BALANCED */
   .scroll-content {
     margin-top: 142px !important; 
     padding: 15px 0 75px 0 !important; 
@@ -131,9 +131,12 @@
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
+    
+    /* THE SMART CUSHION BUFFER: Keeps short tabs open wide enough to cleanly reveal your footer bar layout */
+    min-height: calc(100vh - 220px) !important; 
   }
 
-  /* Section Content Cards - BALANCED UNDER FOREFRONT LAYER ELEMENTS */
+  /* Content Cards with Clean Horizontal Side Gaps */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px 45px !important; 
@@ -150,10 +153,10 @@
     box-sizing: border-box !important;
     display: none !important; 
     overflow-y: visible !important;
-    z-index: 100 !important; /* Mid-layer value lets panels scroll cleanly behind headers and footers */
+    z-index: 100 !important; 
   }
 
-  /* THE ACTIVE CSS TAB SWITCH ENGINE: Show only the checked card */
+  /* THE ENGINE LINK: Show only the checked tab card */
   #tab-about:checked ~ .scroll-content #about,
   #tab-services:checked ~ .scroll-content #services,
   #tab-projects:checked ~ .scroll-content #projects,
@@ -227,7 +230,15 @@
   </div>
 </div>
 
-<!-- SCROLLING CONTENT LAYER VIEWPORT -->
+<!-- FIXED BOTTOM FROZEN BAR PERMANENTLY FRAMING THE BASE EXPLICITLY -->
+<div class="fixed-footer-container">
+  <div class="footer-bar">
+    <p>📍 <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
+    <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
+  </div>
+</div>
+
+<!-- Fluid Scrolling Content Layer Layout -->
 <div class="scroll-content">
 
 <!-- 1. ABOUT CARD -->
