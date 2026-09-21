@@ -208,10 +208,10 @@
   </div>
 
   <div class="navbar">
-    <a href="#summary">🏠 HOME</a>
-    <a href="#skills">🛠️ SKILLS</a>
-    <a href="#experience">💼 EXPERIENCE</a>
-    <a href="#education">🎓 EDUCATION</a>
+    <a href="#summary"> HOME</a>
+    <a href="#skills"> SKILLS</a>
+    <a href="#experience"> EXPERIENCE</a>
+    <a href="#education"> EDUCATION</a>
   </div>
 
   <div class="contact-bar">
