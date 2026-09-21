@@ -47,7 +47,7 @@
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
-    padding: 20px 40px 10px 40px !important; /* Open padding slightly for stack alignment */
+    padding: 20px 40px 10px 40px !important; 
     border-radius: 8px 8px 0 0;
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
@@ -57,12 +57,12 @@
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 28px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip */
+  /* Navigation Ribbon Strip: ALIGNED TO THE FAR LEFT */
   .navbar { 
     background-color: #23272A !important; 
-    padding: 12px 30px !important; 
+    padding: 12px 40px !important; /* Adjusted to align with padding of header-block */
     margin: 0 !important;
-    text-align: center;
+    text-align: left !important; /* FORCED LEFT ALIGNMENT */
     width: 100% !important;
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
@@ -70,7 +70,8 @@
   }
   .navbar a { 
     color: #FFFFFF !important; 
-    margin: 0 35px; 
+    margin-right: 45px; /* Spacing between left-aligned items */
+    margin-left: 0 !important;
     text-decoration: none !important; 
     font-weight: 800; 
     font-size: 15px; 
@@ -79,14 +80,13 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* NEW: Stretched Bottom Ribbon for Contact Information Bar */
+  /* Contact Information Bar: ALIGNED TO THE FAR RIGHT */
   .contact-bar {
     background-color: #23272A !important;
     padding: 12px 40px !important;
     border-radius: 0 0 8px 8px;
     margin-bottom: 10px;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    text-align: right !important; /* FORCED RIGHT ALIGNMENT */
     width: 100% !important;
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
@@ -94,7 +94,7 @@
   }
   .contact-bar p { color: #E5E7EB !important; margin: 0 !important; font-size: 15px; font-weight: bold; }
 
-  /* Fluid Scrolling Content Layer Layout - SHIFTED TO LOWER BUFFER TO COMPENSATE STACK BAR HEIGHT */
+  /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
     margin-top: 240px !important; 
     padding: 0 4% 40px 4% !important; 
@@ -113,7 +113,7 @@
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 220px !important; 
+    scroll-margin-top: 250px !important; /* Tweak scroll-margin to fit new layout */
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -199,7 +199,7 @@
 
 <div class="portfolio-container">
 
-<!-- FIXED CONTAINER BLOCK - REARRANGED ORDER LAYOUT FRAME -->
+<!-- FIXED CONTAINER BLOCK - ALIGNMENT STACK -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu</h1>
@@ -229,7 +229,7 @@
   <p style="font-size: 18px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.4;">Data Analyst & Statistician | Data Management, Reconciliation & BI | Excel, Power BI, SQL, Python, R & Stata | Turning complex data into reliable insights and practical decisions</p>
   <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
   <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with experience supporting Monitoring, Evaluation, Accountability and Learning, research and development programs through data collection, data quality assurance, data management, statistical analysis, reporting, and field coordination.</p>
-  <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500; margin-top: 10px;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
+  <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Trained in Biostatistics with hands-on experience across the research and program cycle, including digital data collection, field-team coordination, data validation, monitoring progress against targets, evidence generation, and reporting. Experienced in analyzing quantitative and qualitative data, identifying data gaps and inconsistencies, and translating program and research data into accurate reports, summaries, and visualizations. Combines strong statistical and analytical capability with practical development-sector and field research experience.</p>
 </div>
 
 <div id="skills" class="content-card skills-bg-card">
