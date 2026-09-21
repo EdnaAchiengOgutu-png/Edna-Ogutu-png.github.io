@@ -18,7 +18,7 @@
   }
 
   body { 
-    background-color: #D2F7FF !important; /* THE REFRESHED NEW SKY BLUE BACKGROUND ENGINE */
+    background-color: #D2F7FF !important; 
     margin: 0 !important;
     padding: 0 !important;
   }
@@ -28,15 +28,15 @@
     display: none !important;
   }
   
-  /* MASTER FIXED TOP HEADER WRAPPER */
+  /* MASTER FIXED TOP HEADER WRAPPER - COMPRESSED */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     width: 100% !important;
     z-index: 999999 !important; 
-    background-color: #D2F7FF !important; /* Matches outer sky blue environment canvas wrapper margins */
-    padding: 20px 4% 0 4% !important; 
+    background-color: #D2F7FF !important; 
+    padding: 10px 4% 0 4% !important; /* Reduced top gap margin */
     box-sizing: border-box !important;
   }
 
@@ -52,7 +52,7 @@
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
-    padding: 15px 40px !important; 
+    padding: 12px 30px !important; /* Slimmer inner padding */
     border-radius: 8px 8px 0 0;
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
@@ -60,12 +60,12 @@
     width: 100% !important;
     box-sizing: border-box !important;
   }
-  .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
+  .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 24px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
   /* Navigation Ribbon Strip */
   .navbar { 
     background-color: #23272A !important; 
-    padding: 12px 40px !important; 
+    padding: 10px 30px !important; /* Slimmer inner padding */
     margin: 0 !important;
     text-align: left !important; 
     width: 100% !important;
@@ -78,9 +78,9 @@
   
   .navbar label { 
     color: #FFFFFF !important; 
-    margin-right: 25px; 
+    margin-right: 22px; 
     font-weight: 800; 
-    font-size: 13px; 
+    font-size: 12px; 
     text-transform: uppercase;
     letter-spacing: 0.5px;
     cursor: pointer !important;
@@ -88,21 +88,21 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR: Matches top sky blue container spacing context */
+  /* FIXED BOTTOM FROZEN BAR - CLOSED BOTTOM GAP */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
     left: 0 !important;
     width: 100% !important;
     z-index: 999999 !important;
-    background-color: #D2F7FF !important; /* Blends seamlessly with the outer canvas color box environment */
-    padding: 0 4% 15px 4% !important; 
+    background-color: #D2F7FF !important; 
+    padding: 0 4% 10px 4% !important; /* Brought down closer to the bottom edge */
     box-sizing: border-box !important;
   }
 
   .footer-bar {
     background-color: #23272A !important;
-    padding: 10px 40px !important; 
+    padding: 8px 30px !important; /* Slimmer inner padding */
     border-radius: 8px;
     width: 100% !important;
     box-sizing: border-box !important;
@@ -117,10 +117,10 @@
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer Layout */
+  /* Fluid Scrolling Content Layer: CLOSED UPPER AND LOWER GAPS */
   .scroll-content {
-    margin-top: 155px !important; 
-    padding: 0 4% 75px 4% !important; 
+    margin-top: 125px !important; /* Brought up significantly from 155px to eliminate the top gap */
+    padding: 0 4% 55px 4% !important; /* Tightened bottom cushion spacing above footer */
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
@@ -130,13 +130,13 @@
   /* Section Content Cards */
   .content-card {
     background-color: #97B2DE !important; 
-    padding: 30px 40px !important; 
+    padding: 25px 35px !important; /* Compact interior card layout padding */
     border-radius: 8px;
-    margin-bottom: 35px !important; 
+    margin-bottom: 20px !important; 
     box-shadow: 0 4px 14px rgba(0,0,0,0.12);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 175px !important; 
+    scroll-margin-top: 145px !important; 
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -176,17 +176,17 @@
 
   /* Typographic controls with flush top alignment overrides */
   .content-card > h2:first-child, .content-card > div:first-child { margin-top: 0 !important; padding-top: 0 !important; }
-  h2 { color: #23272A !important; font-size: 26px; font-weight: 900; margin: 0 0 20px 0 !important; padding-bottom: 10px; border-bottom: 4px solid #23272A; text-transform: uppercase; letter-spacing: 1px; display: block !important; }
-  h3 { color: #111314 !important; font-size: 21px; font-weight: 900; margin-top: 22px !important; margin-bottom: 6px !important; padding-top: 0 !important; display: block !important; }
+  h2 { color: #23272A !important; font-size: 24px; font-weight: 900; margin: 0 0 15px 0 !important; padding-bottom: 8px; border-bottom: 4px solid #23272A; text-transform: uppercase; letter-spacing: 1px; display: block !important; }
+  h3 { color: #111314 !important; font-size: 20px; font-weight: 900; margin-top: 18px !important; margin-bottom: 5px !important; padding-top: 0 !important; display: block !important; }
   h2 + h3, .content-card > h3:first-of-type { margin-top: 5px !important; }
-  .job-meta { color: #23272A !important; font-style: normal; font-size: 15px; margin-top: 0 !important; margin-bottom: 14px !important; display: block; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
+  .job-meta { color: #23272A !important; font-style: normal; font-size: 14px; margin-top: 0 !important; margin-bottom: 12px !important; display: block; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
 
   /* COMPRESSED READABILITY TEXT METRICS */
   ul { padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 2px !important; }
-  li { margin-top: 0 !important; margin-bottom: 4px !important; line-height: 1.4 !important; color: #1A1D20 !important; font-size: 16px; font-weight: 500; } 
-  p { margin-top: 0 !important; margin-bottom: 8px !important; line-height: 1.4 !important; }
-  .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
-  .badge-pill { background-color: #23272A; color: #FFD200; padding: 3px 10px; border-radius: 20px; font-size: 13px; font-weight: bold; display: inline-block; margin-right: 5px; }
+  li { margin-top: 0 !important; margin-bottom: 4px !important; line-height: 1.35 !important; color: #1A1D20 !important; font-size: 15.5px; font-weight: 500; } 
+  p { margin-top: 0 !important; margin-bottom: 6px !important; line-height: 1.35 !important; }
+  .skill-title { font-weight: 700; color: #1A488E; font-size: 16px; }
+  .badge-pill { background-color: #23272A; color: #FFD200; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; display: inline-block; margin-right: 5px; }
 </style>
 
 <div class="portfolio-container">
