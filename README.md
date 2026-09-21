@@ -4,13 +4,12 @@
     display: none !important;
   }
   
-  /* Forces the outer website background to remain 100% full length edge-to-edge */
-  html, body, .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body, .portfolio-container, .scroll-content, div, section, main {
+  /* Overrides GitHub's secret default wrapper settings to allow full width stretch */
+  .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body {
     max-width: 100% !important;
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
-    box-sizing: border-box !important;
   }
 
   body, h1, h2, h3, p, a, li, span, div { 
@@ -18,10 +17,12 @@
   }
 
   body { 
-    background-color: #1A488E !important; /* Continuous full-length royal blue background */
+    background-color: #1A488E !important; 
+    margin: 0 !important;
+    padding: 0 !important;
   }
   
-  /* Top Fixed Header Layout Box container */
+  /* FIXED COMPACT TOP LAYOUT LAYER - FORCED FULL SCREEN WIDTH */
   .fixed-header-container {
     position: fixed !important;
     top: 0 !important;
@@ -29,21 +30,28 @@
     width: 100% !important;
     z-index: 9999 !important;
     background-color: #1A488E !important; 
-    padding: 20px 2% 5px 2% !important; 
+    padding: 20px 4% 5px 4% !important;
     box-sizing: border-box !important;
   }
 
-  /* Main Profile Block Header Content: FULL SCREEN WIDE MODE RESTORED */
+  .portfolio-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+  }
+
+  /* Main Profile Block Header Content Box */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
     padding: 15px 40px !important; 
-    border-radius: 6px 6px 0 0;
-    margin-bottom: 0px !important; 
+    border-radius: 8px 8px 0 0;
+    margin: 0 !important; 
     border-left: 8px solid #FFD200;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     width: 100% !important;
-    max-width: 100% !important; /* Expanded edge-to-edge */
     box-sizing: border-box !important;
     display: flex !important;
     justify-content: space-between !important;
@@ -53,16 +61,15 @@
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: inline-block !important; } 
   .header-block p { color: #E5E7EB !important; margin: 0 !important; font-size: 14px; font-weight: bold; display: inline-block !important; }
 
-  /* Menu Navigation Links Ribbon Strip: FULL SCREEN WIDE MODE RESTORED */
+  /* Navigation Ribbon Strip */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 30px !important; 
-    border-radius: 0 0 6px 6px;
-    margin-bottom: 10px;
+    border-radius: 0 0 8px 8px;
+    margin: 0 !important;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     width: 100% !important;
-    max-width: 100% !important; /* Expanded edge-to-edge */
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44; 
@@ -78,28 +85,28 @@
   }
   .navbar a:hover { color: #FFD200 !important; }
 
-  /* Fluid Scrolling Content Layer Layout */
+  /* Fluid Scrolling Content Layer Layout - SHIFTED DOWN SO IT NEVER HIDES */
   .scroll-content {
-    margin-top: 170px !important; 
-    padding: 0 2% 40px 2% !important; 
+    margin-top: 200px !important; /* Fixed padding buffer so cards load below the header */
+    padding: 0 4% 40px 4% !important; 
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* FULL SCREEN WIDE CONTAINER CARDS RESTORED WITH OPTIMIZED TEXT GAP LAYOUT */
+  /* Section Content Cards: FULL SCREEN WIDE MODE ONLY */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 30px 40px !important; 
     border-radius: 8px;
-    margin-bottom: 35px !important; 
+    margin-bottom: 35px !important; /* Clean structural blue separation gaps */
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 190px !important; 
+    scroll-margin-top: 220px !important; /* Prevents overlap when clicking links */
     width: 100% !important;
-    max-width: 100% !important; /* Stretches cards wide to fit screen layout exactly */
+    max-width: 100% !important;
     box-sizing: border-box !important;
     display: block !important;
   }
@@ -167,15 +174,15 @@
   }
   li { 
     margin-top: 0 !important;
-    margin-bottom: 4px !important; /* Compresses empty spaces between bullet items */
-    line-height: 1.35 !important;  /* Pulls lines within the same sentence closer */
+    margin-bottom: 4px !important; 
+    line-height: 1.35 !important;  
     color: #1A1D20 !important; 
     font-size: 16px; 
     font-weight: 500; 
   } 
   p {
     margin-top: 0 !important;
-    margin-bottom: 8px !important; /* Tightens paragraph clusters */
+    margin-bottom: 8px !important; 
     line-height: 1.35 !important;
   }
   .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
@@ -185,7 +192,7 @@
 
 <!-- FIXED CONTAINER BLOCK -->
 <div class="fixed-header-container">
-
+  <div class="header-block">
 
 
 
