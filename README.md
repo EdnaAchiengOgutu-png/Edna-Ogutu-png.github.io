@@ -201,7 +201,7 @@
 
 <div class="portfolio-container">
 
-<!-- FIXED CONTAINER BLOCK - DYNAMIC SHORTCUTS ENABLED -->
+<!-- FIXED CONTAINER BLOCK -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu</h1>
@@ -217,7 +217,7 @@
   <div class="contact-bar">
     <p>
       📍 Nairobi, Kenya | 
-      💬 <a href="https://wa.me" target="_blank" style="color: #FFFFFF !important; font-weight: bold;">+254741937074</a> | 
+      💬 <a href="https://whatsapp.com" target="_blank" style="color: #FFFFFF !important; font-weight: bold;">+254741937074</a> | 
       📧 <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; font-weight: bold;">hednaogutuh@gmail.com</a> | 
       💼 <a href="https://linkedin.com" target="_blank" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">Connect on LinkedIn</a>
     </p>
