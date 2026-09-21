@@ -28,14 +28,14 @@
     display: none !important;
   }
   
-  /* MASTER FIXED TOP HEADER WRAPPER - LOCKED FLUSH TO THE ABSOLUTE EDGES */
+  /* MASTER FIXED TOP HEADER WRAPPER - LOCKED TO THE HIGHEST LAYER LAYER */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
-    z-index: 999999 !important; 
+    z-index: 999999 !important; /* Kept at maximum priority layer */
     background-color: #D2F7FF !important; 
     padding: 0 !important;
     margin: 0 !important;
@@ -58,7 +58,7 @@
     border-radius: 0 !important; 
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
-    border-top: 4px solid #FFD200 !important; /* Forces signature gold on the absolute top outer edge */
+    border-top: 4px solid #FFD200 !important; 
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     width: 100% !important;
     box-sizing: border-box !important;
@@ -75,12 +75,11 @@
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44; 
-    border-bottom: 4px solid #FFD200 !important; /* Forces signature gold on the absolute bottom outer edge */
+    border-bottom: 4px solid #FFD200 !important; 
     border-radius: 0 !important; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
   
-  /* Style labels to look like clickable buttons */
   .navbar label { 
     color: #FFFFFF !important; 
     margin-right: 25px; 
@@ -93,14 +92,14 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR - FULL WIDTH STRETCH */
+  /* FIXED BOTTOM FROZEN BAR - SHIFTED TO A LOWER LAYER LAYER TO PREVENT SCREEN BLOCKING */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
-    z-index: 999999 !important;
+    z-index: 10 !important; /* Dropped layer ensures content flows on top of this block gracefully */
     background-color: #D2F7FF !important; 
     padding: 0 !important;
     box-sizing: border-box !important;
@@ -126,34 +125,35 @@
 
   /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
-    margin-top: 142px !important; /* Perfect distance buffer room beneath fixed header bar */
-    padding: 15px 0 75px 0 !important; /* Fixed bottom padding cushion above footer */
+    margin-top: 142px !important; 
+    padding: 15px 0 75px 0 !important; 
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* Section Content Cards: INTEGRATED WITH CHOSEN SIDE BREATHING GAPS */
+  /* Section Content Cards - LOCKED TO THE FOREFRONT VIEW LAYER */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px 45px !important; 
-    border-radius: 8px; /* Elegant standalone card aesthetic */
-    margin-left: 20px !important; /* Left spacing gap */
-    margin-right: 20px !important; /* Right spacing gap */
+    border-radius: 8px; 
+    margin-left: 20px !important; 
+    margin-right: 20px !important; 
     margin-bottom: 0 !important; 
     box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
     position: relative;
     overflow: hidden;
     scroll-margin-top: 150px !important; 
-    width: calc(100% - 40px) !important; /* Math compensation prevents clipping */
+    width: calc(100% - 40px) !important; 
     max-width: calc(100% - 40px) !important; 
     box-sizing: border-box !important;
-    display: none !important; /* Hides cards by default for active tab switching */
+    display: none !important; 
     overflow-y: visible !important;
+    z-index: 999 !important; /* High layer brings card text cleanly over the background footer blocks */
   }
 
-  /* THE ACTIVE CSS TAB SWITCH ENGINE: Show only the checked card */
+  /* THE ENGINE LINK: Show only the checked tab card */
   #tab-about:checked ~ .scroll-content #about,
   #tab-services:checked ~ .scroll-content #services,
   #tab-projects:checked ~ .scroll-content #projects,
@@ -224,17 +224,6 @@
     <label for="tab-education">🎓 EDUCATION</label>
     <label for="tab-certifications">🏆 CERTIFICATIONS</label>
     <label for="tab-get-in-touch">📞 GET IN TOUCH</label>
-  </div>
-</div>
-
-<!-- FIXED BOTTOM FROZEN BAR -->
-<div class="fixed-footer-container">
-  <div class="footer-bar">
-<!-- FIXED BOTTOM FROZEN BAR -->
-<div class="fixed-footer-container">
-  <div class="footer-bar">
-    <p>📍 <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
-    <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
   </div>
 </div>
 
@@ -409,3 +398,4 @@
 
 </div> <!-- Closes scroll-content layout engine -->
 </div> <!-- Closes portfolio-container outer window -->
+
