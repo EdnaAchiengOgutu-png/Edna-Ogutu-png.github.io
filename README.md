@@ -62,7 +62,7 @@
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip: TURNED INTO INTERACTIVE TAB TRIGGERS */
+  /* Navigation Ribbon Strip: TAB TRIGGERS */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 40px !important; 
@@ -87,25 +87,27 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* Contact Information Bar: ALIGNED TO THE FAR RIGHT */
+  /* Contact Information Bar: CLEANED LEFT/RIGHT SPLIT GRID FOR SYMMETRY */
   .contact-bar {
     background-color: #23272A !important;
     padding: 12px 40px !important;
     border-radius: 0 0 8px 8px;
     margin-bottom: 10px;
-    text-align: right !important; 
     width: 100% !important;
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44;
+    display: flex !important;
+    justify-content: space-between !important; /* Forces location left, LinkedIn right */
+    align-items: center !important;
   }
   .contact-bar p { color: #E5E7EB !important; margin: 0 !important; font-size: 15px; font-weight: bold; }
-  .contact-bar a { color: #FFFFFF !important; text-decoration: none !important; }
-  .contact-bar a:hover { color: #FFD200 !important; text-decoration: underline !important; }
+  .contact-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
+  .contact-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer Layout */
+  /* Fluid Scrolling Content Layer: CLOSED GAP SPACING BUFFER */
   .scroll-content {
-    margin-top: 240px !important; 
+    margin-top: 185px !important; /* Compressed down from 240px to drop the empty space gap */
     padding: 0 4% 40px 4% !important; 
     box-sizing: border-box !important;
     width: 100% !important;
@@ -113,7 +115,7 @@
     display: block !important;
   }
 
-  /* Section Content Cards: HIDDEN BY DEFAULT FOR TAB CONTROLS */
+  /* Section Content Cards */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 30px 40px !important; 
@@ -125,7 +127,7 @@
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
-    display: none !important; /* Forces cards out of view unless selected */
+    display: none !important; 
   }
 
   /* THE ENGINE LINK: Show only the checked tab card */
@@ -136,7 +138,7 @@
   #tab-education:checked ~ .scroll-content #education,
   #tab-certifications:checked ~ .scroll-content #certifications,
   #tab-get-in-touch:checked ~ .scroll-content #get-in-touch {
-    display: block !important; /* Spits active panel into preview window */
+    display: block !important; 
   }
 
   /* Highlight Active Menu Label Item */
@@ -166,7 +168,7 @@
   h2 + h3, .content-card > h3:first-of-type { margin-top: 5px !important; }
   .job-meta { color: #23272A !important; font-style: normal; font-size: 15px; margin-top: 0 !important; margin-bottom: 14px !important; display: block; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
 
-  /* COMPRESSED SPACING */
+  /* COMPRESSED READABILITY TEXT METRICS */
   ul { padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 2px !important; }
   li { margin-top: 0 !important; margin-bottom: 4px !important; line-height: 1.35 !important; color: #1A1D20 !important; font-size: 16px; font-weight: 500; } 
   p { margin-top: 0 !important; margin-bottom: 8px !important; line-height: 1.35 !important; }
@@ -176,7 +178,7 @@
 
 <div class="portfolio-container">
 
-<!-- MASTER CSS REGISTER RADIO BUTTONS (About checked by default) -->
+<!-- MASTER CSS REGISTER RADIO BUTTONS -->
 <input type="radio" name="page-tabs" id="tab-about" class="tab-toggle" checked />
 <input type="radio" name="page-tabs" id="tab-services" class="tab-toggle" />
 <input type="radio" name="page-tabs" id="tab-projects" class="tab-toggle" />
@@ -202,12 +204,8 @@
   </div>
 
   <div class="contact-bar">
-    <p>
-      📍 Nairobi, Kenya | 
-      💬 <a href="https://whatsapp.com" target="_blank" style="color: #FFFFFF !important; font-weight: bold;">WhatsApp Chat</a> | 
-      📧 <a href="mailto:hednaogutuh@gmail.com" style="color: #FFFFFF !important; font-weight: bold;">Email Consultation</a> | 
-      💼 <a href="https://linkedin.com" target="_blank" style="color: #FFD200 !important; text-decoration: underline; font-weight: bold;">LinkedIn</a>
-    </p>
+    <p>📍 Nairobi, Kenya</p>
+    <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
   </div>
 </div>
 
