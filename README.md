@@ -28,16 +28,16 @@
     display: none !important;
   }
   
-  /* Forces top frozen ribbon header to ignore all container limits and stretch wall-to-wall */
+  /* MASTER FIXED TOP HEADER WRAPPER - LOCKED FLUSH TO THE ABSOLUTE EDGES */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
-    left: 0 !important;   
-    right: 0 !important;  
+    left: 0 !important;
+    right: 0 !important;
     width: 100% !important;
     z-index: 999999 !important; 
     background-color: #D2F7FF !important; 
-    padding: 0 !important; 
+    padding: 0 !important;
     margin: 0 !important;
     box-sizing: border-box !important;
   }
@@ -50,7 +50,7 @@
     padding: 0 !important;
   }
 
-  /* Main Profile Block Header Content Box - FIXED WITH OUTER GOLD TOP BORDER */
+  /* Main Profile Block Header Content Box - Full Width Stretch with Outer Gold Top Border */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
@@ -65,7 +65,7 @@
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip - FIXED WITH OUTER GOLD BOTTOM BORDER */
+  /* Navigation Ribbon Strip - Full Width Stretch with Outer Gold Bottom Border */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 40px !important; 
@@ -80,6 +80,7 @@
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
   
+  /* Style labels to look like clickable buttons */
   .navbar label { 
     color: #FFFFFF !important; 
     margin-right: 25px; 
@@ -92,11 +93,12 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR */
+  /* FIXED BOTTOM FROZEN BAR - FULL WIDTH STRETCH */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
     left: 0 !important;
+    right: 0 !important;
     width: 100% !important;
     z-index: 999999 !important;
     background-color: #D2F7FF !important; 
@@ -124,34 +126,34 @@
 
   /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
-    margin-top: 142px !important; /* Adjusted by a couple pixels to perfectly clear the new outer bottom border */
-    padding: 15px 0 75px 0 !important; 
+    margin-top: 142px !important; /* Perfect distance buffer room beneath fixed header bar */
+    padding: 15px 0 75px 0 !important; /* Fixed bottom padding cushion above footer */
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
   }
 
-  /* Content Cards with Clean Horizontal Side Gaps */
+  /* Section Content Cards: INTEGRATED WITH CHOSEN SIDE BREATHING GAPS */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px 45px !important; 
-    border-radius: 8px; 
-    margin-left: 20px !important; 
-    margin-right: 20px !important; 
+    border-radius: 8px; /* Elegant standalone card aesthetic */
+    margin-left: 20px !important; /* Left spacing gap */
+    margin-right: 20px !important; /* Right spacing gap */
     margin-bottom: 0 !important; 
     box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
     position: relative;
     overflow: hidden;
     scroll-margin-top: 150px !important; 
-    width: calc(100% - 40px) !important; 
+    width: calc(100% - 40px) !important; /* Math compensation prevents clipping */
     max-width: calc(100% - 40px) !important; 
     box-sizing: border-box !important;
-    display: none !important; 
+    display: none !important; /* Hides cards by default for active tab switching */
     overflow-y: visible !important;
   }
 
-  /* THE ENGINE LINK: Show only the checked tab card */
+  /* THE ACTIVE CSS TAB SWITCH ENGINE: Show only the checked card */
   #tab-about:checked ~ .scroll-content #about,
   #tab-services:checked ~ .scroll-content #services,
   #tab-projects:checked ~ .scroll-content #projects,
@@ -225,14 +227,27 @@
   </div>
 </div>
 
-
-
+<!-- FIXED BOTTOM FROZEN BAR -->
+<div class="fixed-footer-container">
+  <div class="footer-bar">
 <!-- FIXED BOTTOM FROZEN BAR -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
     <p>📍 <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
     <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
   </div>
+</div>
+
+<!-- SCROLLING CONTENT LAYER VIEWPORT -->
+<div class="scroll-content">
+
+<!-- 1. ABOUT CARD -->
+<div id="about" class="content-card">
+  <h2>👤 About & Value Proposition</h2>
+  <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Stop guessing. Start growing. I turn your raw enterprise data into clear dashboards and smart analytics that turn complex numbers into simple next steps.</p>
+  <p style="font-size: 18px; color: #23272A; font-weight: 700; margin: 12px 0 15px 0; line-height: 1.4; font-style: italic;">"You collect the data. I find the money and operational efficiencies hidden inside it."</p>
+  <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
+  <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with extensive experience supporting Monitoring, Evaluation, Accountability and Learning (MEL), research, and development programs. Specialized in quantitative and qualitative analysis, database validation, and building centralized business intelligence frameworks that translate messy field research targets into clear institutional insights.</p>
 </div>
 
 <!-- 2. SERVICES CARD -->
@@ -261,7 +276,7 @@
   </ul>
 </div>
 
-<!-- 4. TOOLS SHOWCASE MATRIX -->
+<!-- 4. TOOLS PROFICIENCY MATRIX MODULE -->
 <div id="tools-proficiency" class="content-card">
   <h2>🛠️ Specialized Solutions & Tools Matrix</h2>
   
@@ -298,11 +313,10 @@
   <span class="job-meta">Research & Data Operations Consultant (Remote - Project Contract) — (Mar 2022 - Apr 2026)</span>
   <ul>
     <li>Architected monitoring, evaluation, and research layers for community development frameworks, delivering baseline metrics and evidence synthesis.</li>
-    <li>Managed cross-functional field operations, training and directing field squads on digital questionnaires and rigorous quality control checks.</li>
+    <li>Managed cross-functional field operations, training and directing field squads on digital questionnaires and portfolio checks.</li>
     <li>Scripted structured mobile survey tools, qualitative research modules, and Key Informant Interview (KII) tracking logs.</li>
     <li>Delivered end-to-end data processing, handling data cleaning pipelines, validation criteria, and qualitative analysis reports for stakeholders.</li>
   </ul>
-
   <h3>📍 Calltronix Kenya Limited</h3>
   <span class="job-meta">Workforce Data Analyst (Corporate Contract) — (Jan 2025 - Feb 2026)</span>
   <ul>
@@ -363,7 +377,7 @@
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
-       <!-- LEFT SIDE DETAILS COLUMN PANEL -->
+    <!-- LEFT SIDE DETAILS COLUMN PANEL -->
     <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
       <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get in touch</span>
       <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important; text-align: left !important;">Let's talk</h2>
