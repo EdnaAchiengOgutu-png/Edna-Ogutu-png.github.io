@@ -92,14 +92,14 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR - RESTORED TO FOREFRONT INTERACTION LAYER */
+  /* FIXED BOTTOM FROZEN BAR - RESTORED TO FOREFRONT INTERACTION LAYER OVER CARDS */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
-    z-index: 99999 !important; /* Brought to the absolute front layer so it is fully visible and clickable */
+    z-index: 99999 !important; /* Locks footer as the forefront layer to prevent card overlap blocks */
     background-color: #D2F7FF !important; 
     padding: 0 !important;
     box-sizing: border-box !important;
@@ -133,7 +133,7 @@
     display: block !important;
   }
 
-  /* Section Content Cards - MID LAYER BALANCE CONFIGURATION */
+  /* Section Content Cards - BALANCED UNDER FOREFRONT LAYER ELEMENTS */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px 45px !important; 
@@ -150,10 +150,10 @@
     box-sizing: border-box !important;
     display: none !important; 
     overflow-y: visible !important;
-    z-index: 100 !important; /* Balanced layer prevents cards from overriding the active footer bar */
+    z-index: 100 !important; /* Mid-layer value lets panels scroll cleanly behind headers and footers */
   }
 
-  /* THE ENGINE LINK: Show only the checked tab card */
+  /* THE ACTIVE CSS TAB SWITCH ENGINE: Show only the checked card */
   #tab-about:checked ~ .scroll-content #about,
   #tab-services:checked ~ .scroll-content #services,
   #tab-projects:checked ~ .scroll-content #projects,
@@ -344,7 +344,7 @@
 <!-- 6. EDUCATION CARD -->
 <div id="education" class="content-card">
   <h2>🎓 Academic Background</h2>
-  <h3 style="margin-top: 0 !important;">Degrees</h3>
+  <h3>Degrees</h3>
   <ul>
     <li><span class="skill-title">Master of Science in Data Science</span> | Open University of Kenya <i>(In Progress | Expected 2028)</i></li>
     <li><span class="skill-title">Bachelor Of Science in Biostatistics</span> | Jomo Kenyatta University of Agriculture and Technology (JKUAT)</li>
@@ -354,7 +354,7 @@
 <!-- 7. CERTIFICATIONS CARD -->
 <div id="certifications" class="content-card">
   <h2>🏆 Professional Accreditations</h2>
-  <h3 style="margin-top: 0 !important;">Specialized Certifications</h3>
+  <h3>Specialized Certifications</h3>
   <ul>
     <li><b>MEAL Essentials Professional Certificate</b> – DisasterReady / Humanitarian Leadership Academy</li>
     <li><b>Project Management Essentials</b> – DisasterReady</li>
