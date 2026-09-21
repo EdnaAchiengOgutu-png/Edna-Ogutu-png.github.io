@@ -35,7 +35,7 @@
     left: 0 !important;
     width: 100% !important;
     z-index: 999999 !important; 
-    background-color: #1A488E !important; 
+    background-color: #D2F7FF !important; 
     padding: 20px 4% 0 4% !important; /* Stripped bottom padding to thin out top stack */
     box-sizing: border-box !important;
   }
@@ -95,7 +95,7 @@
     left: 0 !important;
     width: 100% !important;
     z-index: 999999 !important;
-    background-color: #1A488E !important;
+    background-color: #D2F7FF !important;
     padding: 0 4% 15px 4% !important; /* Bottom pad holds bar tight above screen deck */
     box-sizing: border-box !important;
   }
@@ -185,7 +185,7 @@
   ul { padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 2px !important; }
   li { margin-top: 0 !important; margin-bottom: 4px !important; line-height: 1.4 !important; color: #1A1D20 !important; font-size: 16px; font-weight: 500; } 
   p { margin-top: 0 !important; margin-bottom: 8px !important; line-height: 1.4 !important; }
-  .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
+  .skill-title { font-weight: 700; color: #D2F7FF; font-size: 16.5px; }
   .badge-pill { background-color: #23272A; color: #FFD200; padding: 3px 10px; border-radius: 20px; font-size: 13px; font-weight: bold; display: inline-block; margin-right: 5px; }
 </style>
 
