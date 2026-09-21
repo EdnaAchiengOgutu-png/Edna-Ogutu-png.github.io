@@ -365,10 +365,14 @@
   </ul>
 </div>
 
-<!-- 8. GET IN TOUCH ACTIVE SUBMISSION ENGINE - LOGIC ALIGNED FOR DIRECT REDIRECTS -->
+<!-- 8. GET IN TOUCH ACTIVE SUBMISSION ENGINE - ROUTED VIA THE RELIABLE FORMSPARK FORWARDER -->
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
-  <form action="https://formspree.io" method="post" style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
+  <form action="https://submit-form.com" method="POST" style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
+    <!-- Formspark Settings: Forwards submissions straight to you and routes users back to your site -->
+    <input type="hidden" name="_to" value="hednaogutuh@gmail.com" />
+    <input type="hidden" name="_redirect" value="https://github.io" />
+
     <!-- LEFT SIDE DETAILS COLUMN PANEL -->
     <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
       <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get in touch</span>
@@ -395,11 +399,11 @@
       <div style="display: flex; gap: 20px; margin-bottom: 20px; width: 100%; box-sizing: border-box;">
         <div style="flex: 1;">
           <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Full name</label>
-          <input type="text" name="Client Name" placeholder="Enter name" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
+          <input type="text" name="name" placeholder="Enter name" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
         </div>
         <div style="flex: 1;">
           <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Email address</label>
-          <input type="email" name="Client Email" placeholder="name@company.com" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
+          <input type="email" name="email" placeholder="name@company.com" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
         </div>
       </div>
       
@@ -407,11 +411,11 @@
       <div style="display: flex; gap: 20px; margin-bottom: 20px; width: 100%; box-sizing: border-box;">
         <div style="flex: 1;">
           <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Preferred date</label>
-          <input type="text" name="Requested Date" placeholder="dd/mm/yyyy" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
+          <input type="text" name="date" placeholder="dd/mm/yyyy" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
         </div>
         <div style="flex: 1;">
           <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">What is this about?</label>
-          <select name="Consultancy Scope" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px; height: 45px;">
+          <select name="topic" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px; height: 45px;">
             <option value="">Select a consultancy topic</option>
             <option value="Business Intelligence & Power BI Dashboards">Business Intelligence & Power BI Dashboards</option>
             <option value="Advanced Excel Automation & Reconciliation">Advanced Excel Automation & Reconciliation</option>
@@ -424,13 +428,13 @@
       <!-- Form Input Row 3 -->
       <div style="margin-bottom: 20px; width: 50%; box-sizing: border-box;">
         <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Preferred time</label>
-        <input type="text" name="Requested Time" placeholder="e.g., 2:00 PM EAT" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
+        <input type="text" name="time" placeholder="e.g., 2:00 PM EAT" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px;" />
       </div>
       
       <!-- Form Input Row 4 -->
       <div style="margin-bottom: 25px; width: 100%; box-sizing: border-box;">
         <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px; text-align: left !important;">Tell me a little more</label>
-        <textarea name="Project Context Details" placeholder="Provide a line or two of context: the target data challenge, your timeline, and what a successful outcome looks like..." rows="3" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px; resize: none;"></textarea>
+        <textarea name="message" placeholder="Provide a line or two of context: the target data challenge, your timeline, and what a successful outcome looks like..." rows="3" required style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #FFFFFF; color: #23272A; font-size: 14px; resize: none;"></textarea>
       </div>
 
       <!-- TRANSMISSION SUBMIT BUTTONS -->
