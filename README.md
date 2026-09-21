@@ -95,7 +95,7 @@
     display: block !important;
   }
 
-  /* Section Content Cards: FULL SCREEN WIDE MODE ONLY */
+  /* Section Content Cards: FULL SCREEN WIDE MODE WITH CLEAN ANCHOR OFFSET ELEMENT */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 30px 40px !important; 
@@ -104,7 +104,7 @@
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 220px !important; /* Prevents overlap when clicking links */
+    scroll-margin-top: 170px !important; /* FIXED POSITION OFFSET: Masks upper cards cleanly behind bar */
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -192,7 +192,7 @@
 
 <!-- FIXED CONTAINER BLOCK -->
 <div class="fixed-header-container">
-  <div class="header-block">
+
 
 
 
