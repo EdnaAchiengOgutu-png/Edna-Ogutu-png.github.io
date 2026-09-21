@@ -28,7 +28,7 @@
     display: none !important;
   }
   
-  /* MASTER FIXED TOP HEADER WRAPPER - LOCKED FLUSH TO THE ABSOLUTE TOP EDGE */
+  /* MASTER FIXED TOP HEADER WRAPPER */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
@@ -36,14 +36,14 @@
     width: 100% !important;
     z-index: 999999 !important; 
     background-color: #D2F7FF !important; 
-    padding: 0 !important;
+    padding: 20px 4% 0 4% !important; 
     box-sizing: border-box !important;
   }
 
   .portfolio-container {
     width: 100% !important;
     max-width: 100% !important;
-    margin: 0 !important;
+    margin: 0 auto !important;
     box-sizing: border-box !important;
     padding: 0 !important;
   }
@@ -62,7 +62,7 @@
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip - Full Width Stretch */
+  /* Navigation Ribbon Strip */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 40px !important; 
@@ -88,7 +88,7 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR - INCLUDES WHATSAPP IN THE STREAMLINED FORMAT */
+  /* FIXED BOTTOM FROZEN BAR - UNIFIED TEXT COLOR METRICS ATTACHED */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
@@ -113,7 +113,8 @@
     align-items: center !important;
     box-shadow: 0 -4px 15px rgba(0,0,0,0.15);
   }
-  .footer-bar p { color: #E5E7EB !important; margin: 0 !important; font-size: 14px; font-weight: bold; }
+  .footer-bar p { color: #FFFFFF !important; margin: 0 !important; font-size: 14px; font-weight: bold; }
+  .footer-bar span.footer-highlight { color: #FFD200 !important; font-weight: bold; } /* New structural class enforces high-converting gold format */
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
@@ -220,10 +221,10 @@
   </div>
 </div>
 
-<!-- FIXED BOTTOM FROZEN BAR WITH WHATSAPP INCLUDED -->
+<!-- FIXED BOTTOM FROZEN BAR WITH FULL BRAND COLOR HARMONY INTEGRATED -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
-    <p>📍 Nairobi, Kenya | 💬 <a href="https://whatsapp.com" target="_blank" style="color: #FFD200 !important; text-decoration: none;">WhatsApp: +254 741 937074</a></p>
+    <p>📍 <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
     <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
   </div>
 </div>
