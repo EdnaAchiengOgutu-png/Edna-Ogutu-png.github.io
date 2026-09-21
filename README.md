@@ -242,7 +242,6 @@
   <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
   <p style="line-height: 1.35; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with extensive experience supporting Monitoring, Evaluation, Accountability and Learning (MEL), research, and development programs. Specialized in quantitative and qualitative analysis, database validation, and building centralized business intelligence frameworks that translate messy field research targets into clear institutional insights.</p>
 </div>
-
 <!-- 2. SERVICES CARD -->
 <div id="services" class="content-card skills-bg-card">
   <h2>💼 Operational Consulting Services</h2>
@@ -255,6 +254,7 @@
     <li><span class="skill-title">Documentation & Learning:</span> Synthesizing research evidence, documenting lessons learned, managing knowledge networks, and implementing strict data protection workflows.</li>
   </ul>
 </div>
+
 <!-- 3. PROJECTS SHOWCASE CARD -->
 <div id="projects" class="content-card">
   <h2>📊 Strategic Projects Portfolio</h2>
@@ -268,7 +268,7 @@
   </ul>
 </div>
 
-<!-- 4. TOOLS SHOWCASE MATRIC MATRIX -->
+<!-- 4. TOOLS SHOWCASE MATRIX -->
 <div id="tools-proficiency" class="content-card">
   <h2>🛠️ Specialized Solutions & Tools Matrix</h2>
   
@@ -281,7 +281,7 @@
     <li><span class="skill-title">SQL & Python Data Science:</span> Formulating back-end relational database management routines, data cleaning pipelines, and structured problem-solving models.</li>
   </ul>
 
-  <h3>Mobile Data Collection & Operational Operations</h3>
+  <h3>Mobile Data Collection & Field Systems</h3>
   <ul>
     <li><span class="skill-title">KoboCollect & SurveyCTO:</span> Building field questionnaires with complex digital validation logic, automated conditions, and structured mobile data capture modules.</li>
     <li><span class="skill-title">Enterprise Ecosystems:</span> Integrating analytics workflows across CRM platforms, telephony metrics logs, Microsoft Teams, PowerPoint, and Excel.</li>
@@ -309,7 +309,7 @@
     <li>Scripted structured mobile survey tools, qualitative research modules, and Key Informant Interview (KII) tracking logs.</li>
     <li>Delivered end-to-end data processing, handling data cleaning pipelines, validation criteria, and qualitative analysis reports for stakeholders.</li>
   </ul>
-
+</div>
   <h3>📍 Calltronix Kenya Limited</h3>
   <span class="job-meta">Workforce Data Analyst (Corporate Contract) — (Jan 2025 - Feb 2026)</span>
   <ul>
@@ -366,27 +366,79 @@
   </ul>
 </div>
 
-<!-- 8. GET IN TOUCH ROYED-STYLE BOOKING ENGINE CONTAINER CARD -->
-<div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important;">
-  <div style="display: flex; flex-wrap: wrap; gap: 40px; margin-top: 15px;">
+<!-- 8. GET IN TOUCH ROYED-STYLE BOOKING ENGINE COMPLETELY FIXED CONTAINER CARD -->
+<div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
+  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box;">
     
     <!-- LEFT SIDE DETAILS COLUMN PANEL -->
-    <div style="flex: 1; min-width: 320px;">
+    <div style="flex: 1; min-width: 320px; box-sizing: border-box;">
       <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px;">Get in touch</span>
-      <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important;">Let's talk</h2>
+      <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important;">Let's talk</h2>
       <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 30px;">Request a data solutions session below. I confirm by email within one business day with a meeting link and any prep notes.</p>
       
       <!-- Box Info Fragment 1 -->
-      <div style="background-color: #F7FAFC; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #E2E8F0;">
-        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A;">How booking works</h4>
+      <div style="background-color: #F8FAFC; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #E2E8F0;">
+        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A; display: block;">How booking works</h4>
         <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important;">You suggest a date and time slot below that fits your business schedule. Times are evaluated in EAT (Nairobi).</p>
       </div>
       
       <!-- Box Info Fragment 2 -->
-      <div style="background-color: #F7FAFC; padding: 20px; border-radius: 8px; border: 1px solid #E2E8F0;">
-        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A;">Prefer direct email?</h4>
+      <div style="background-color: #F8FAFC; padding: 20px; border-radius: 8px; border: 1px solid #E2E8F0;">
+        <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: bold; color: #23272A; display: block;">Prefer direct email?</h4>
         <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #4A5568 !important;">Use the instant sync link below for complex requests, project RFPs, or anything that does not fit a form.</p>
       </div>
     </div>
     
-    <!-- RIGHT SIDE INTERACTIVE BOOKING CONTAINER CARD -->
+    <!-- RIGHT SIDE INTERACTIVE BOOKING FORM CONTAINER -->
+    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box;">
+      
+      <!-- Form Input Row 1 -->
+      <div style="display: flex; gap: 20px; margin-bottom: 20px; width: 100%;">
+        <div style="flex: 1;">
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">Full name</label>
+          <input type="text" placeholder="Enter name" style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #F8FAFC; color: #23272A; font-size: 14px;" disabled />
+        </div>
+        <div style="flex: 1;">
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">Email address</label>
+          <input type="email" placeholder="name@company.com" style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #F8FAFC; color: #23272A; font-size: 14px;" disabled />
+        </div>
+      </div>
+      
+      <!-- Form Input Row 2 -->
+      <div style="display: flex; gap: 20px; margin-bottom: 20px; width: 100%;">
+        <div style="flex: 1;">
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">Preferred date</label>
+          <input type="text" placeholder="dd/mm/yyyy" style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #F8FAFC; color: #23272A; font-size: 14px;" disabled />
+        </div>
+        <div style="flex: 1;">
+          <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">What is this about?</label>
+          <select style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #F8FAFC; color: #718096; font-size: 14px;" disabled>
+            <option>Select a consultancy topic</option>
+          </select>
+        </div>
+      </div>
+      
+      <!-- Form Input Row 3 -->
+      <div style="margin-bottom: 20px; width: 50%;">
+        <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">Preferred time</label>
+        <input type="text" placeholder="--:--" style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #F8FAFC; color: #23272A; font-size: 14px;" disabled />
+      </div>
+      
+      <!-- Form Input Row 4 -->
+      <div style="margin-bottom: 25px; width: 100%;">
+        <label style="display: block; font-size: 13px; font-weight: bold; color: #4A5568; margin-bottom: 6px;">Tell me a little more</label>
+        <textarea placeholder="Provide a line or two of context: the target data challenge, whether it is for you or an organization, and what a successful outcome looks like..." rows="3" style="width: 100%; padding: 12px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; background-color: #F8FAFC; color: #23272A; font-size: 14px; resize: none;" disabled></textarea>
+      </div>
+
+      <!-- INTERACTIVE SUBMIT ACTION BUTTONS -->
+      <div style="text-align: center; display: flex; gap: 15px; width: 100%;">
+        <a href="mailto:hednaogutuh@://gmail.com" style="flex: 1; background-color: #1A488E !important; color: #FFFFFF !important; padding: 14px 20px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">Analyse Email Request</a>
+        <a href="https://whatsapp.com" target="_blank" style="flex: 1; background-color: #23272A !important; color: #FFD200 !important; padding: 14px 20px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">Sync via WhatsApp</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+</div> <!-- Closes scroll-content layout engine -->
+</div> <!-- Closes portfolio-container outer window -->
