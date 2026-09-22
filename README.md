@@ -225,8 +225,8 @@
     <label for="tab-projects"> Projects</label>
     <label for="tab-experience"> Experience</label>
     <label for="tab-education"> Education</label>
-    <label for="tab-certifications"> Certification</label>
-    <label for="tab-get-in-touch"> Get In Touch</label>
+    <label for="tab-certifications"> Certifications</label>
+    <label for="tab-get-in-touch"> Get-In-Touch</label>
   </div>
 </div>
 
@@ -363,13 +363,13 @@
   </ul>
 </div>
 
-<!-- 7. Certification CARD -->
+<!-- 7. Certifications CARD -->
 <div id="certifications" class="content-card">
   <h2> Professional Accreditations</h2>
   <h3>Specialized Certifications</h3>
   <ul>
-    <li><b>MEAL Essentials Professional Certificate</b> – DisasterReady / Humanitarian Leadership Academy</li>
-    <li><b>Project Management Essentials</b> – DisasterReady</li>
+    <li><b>MEAL Essentials Professional Certificate</b> - DisasterReady / Humanitarian Leadership Academy</li>
+    <li><b>Project Management Essentials</b> - DisasterReady</li>
     <li><b>IBM Data Science, Artificial Intelligence & Machine Learning Certificate</b></li>
   </ul>
 </div>
@@ -380,7 +380,7 @@
     
     <!-- LEFT SIDE DETAILS COLUMN PANEL -->
     <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
-      <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get in touch</span>
+      <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get-in-touch</span>
       <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important; text-align: left !important;">Let's talk</h2>
       <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 30px; text-align: left !important;">Request a data solutions session below. I confirm by email within one business day with a meeting link and any prep notes.</p>
       
@@ -396,12 +396,12 @@
       
       <!-- Specialized Single Focus Email Portal Card -->
       <div style="border: 2px dashed #CBD5E0; border-radius: 8px; padding: 25px; background-color: #F8FAFC; text-align: center !important; width: 100%; box-sizing: border-box;">
-        <span style="font-size: 40px; display: block; margin-bottom: 10px; text-align: center !important;">📧</span>
-        <h4 style="margin: 0 0 8px 0; font-size: 18px; font-weight: bold; color: #23272A; text-align: center !important;">Secure Enterprise Email Hub</h4>
+        <span style="font-size: 40px; display: block; margin-bottom: 10px; text-align: center !important;"></span>
+        <h4 style="margin: 0 0 8px 0; font-size: 18px; font-weight: bold; color: #23272A; text-align: center !important;">Secure Email Hub</h4>
         <p style="margin: 0 0 20px 0; font-size: 15px; font-weight: bold; color: #1A488E; text-align: center !important;">hednaogutuh@gmail.com</p>
         <p style="margin: 0 0 25px 0; font-size: 14px; line-height: 1.45; color: #4A5568; text-align: center !important;">Click below to automatically generate an explicit analytics project proposal brief directly inside your default mail app securely.</p>
         
-        <a href="mailto:hednaogutuh@://gmail.com" style="background-color: #1A488E !important; color: #FFFFFF !important; padding: 15px 30px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(26,72,142,0.2); text-transform: uppercase; letter-spacing: 0.5px; text-align: center !important;">✉️ Launch Project Inquiry</a>
+        <a href="mailto:hednaogutuh@://gmail.com" style="background-color: #1A488E !important; color: #FFFFFF !important; padding: 15px 30px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(26,72,142,0.2); text-transform: uppercase; letter-spacing: 0.5px; text-align: center !important;"> Launch Project Inquiry</a>
       </div>
       
     </div>
