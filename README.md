@@ -220,21 +220,21 @@
   </div>
 
   <div class="navbar">
-    <label for="tab-about">🏠 ABOUT</label>
-    <label for="tab-services">💼 SERVICES</label>
-    <label for="tab-projects">📊 PROJECTS</label>
-    <label for="tab-experience">📈 EXPERIENCE</label>
-    <label for="tab-education">🎓 EDUCATION</label>
-    <label for="tab-certifications">🏆 CERTIFICATIONS</label>
-    <label for="tab-get-in-touch">📞 GET IN TOUCH</label>
+    <label for="tab-about"> ABOUT</label>
+    <label for="tab-services"> SERVICES</label>
+    <label for="tab-projects"> PROJECTS</label>
+    <label for="tab-experience"> EXPERIENCE</label>
+    <label for="tab-education"> EDUCATION</label>
+    <label for="tab-certifications"> CERTIFICATIONS</label>
+    <label for="tab-get-in-touch"> GET IN TOUCH</label>
   </div>
 </div>
 
 <!-- FIXED BOTTOM FROZEN BAR PERMANENTLY FRAMING THE BASE EXPLICITLY -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
-    <p>📍 <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
-    <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
+    <p> <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
+    <p> <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
   </div>
 </div>
 
@@ -243,7 +243,7 @@
 
 <!-- 1. ABOUT CARD -->
 <div id="about" class="content-card">
-  <h2>👤 About & Value Proposition</h2>
+  <h2> About & Value Proposition</h2>
   <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Stop guessing. Start growing. I turn your raw enterprise data into clear dashboards and smart analytics that turn complex numbers into simple next steps.</p>
   <p style="font-size: 18px; color: #23272A; font-weight: 700; margin: 12px 0 15px 0; line-height: 1.4; font-style: italic;">"You collect the data. I find the money and operational efficiencies hidden inside it."</p>
   <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
@@ -252,7 +252,7 @@
 
 <!-- 2. SERVICES CARD -->
 <div id="services" class="content-card skills-bg-card">
-  <h2>💼 Operational Consulting Services</h2>
+  <h2> Operational Consulting Services</h2>
   <h3 style="margin-top: 0 !important;">Data Packages I Offer:</h3>
   <ul>
     <li><span class="skill-title">Business Intelligence & Sales Analysis:</span> Engineering interactive Power BI and Advanced Excel dashboard suites to audit real-time revenue targets, monitor project status, and optimize shift parameters.</li>
@@ -265,7 +265,7 @@
 
 <!-- 3. PROJECTS SHOWCASE CARD -->
 <div id="projects" class="content-card">
-  <h2>📊 Strategic Projects Portfolio</h2>
+  <h2> Strategic Projects Portfolio</h2>
   <h3 style="margin-top: 0 !important;">Production-Ready Analytics & Dashboards</h3>
   <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; margin-bottom: 15px;">A selection of data systems designed to optimize business operations, increase sales visibility, and automate reporting metrics:</p>
   
@@ -278,7 +278,7 @@
 
 <!-- 4. TOOLS PROFICIENCY MATRIX MODULE -->
 <div id="tools-proficiency" class="content-card">
-  <h2>🛠️ Specialized Solutions & Tools Matrix</h2>
+  <h2> Specialized Solutions & Tools Matrix</h2>
   
   <h3 style="margin-top: 0 !important;">Business Intelligence & Advanced Analytics</h3>
   <ul>
@@ -299,10 +299,10 @@
 
 <!-- 5. EXPERIENCE CARD -->
 <div id="experience" class="content-card">
-  <h2>📈 Consulting & Analytics Engagement History</h2>
+  <h2> Consulting & Analytics Engagement History</h2>
 
-  <h3 style="margin-top: 0 !important;">📍 PASGR - African Youth Pathways to Systems Change (AYPS)</h3>
-  <span class="job-meta">Field Coordinator | Research, Data Quality & Monitoring Track — (Jun 2026 - Aug 2026)</span>
+  <h3 style="margin-top: 0 !important;"> PASGR - African Youth Pathways to Systems Change (AYPS)</h3>
+  <span class="job-meta">Field Coordinator | Research, Data Quality & Monitoring Track - (Jun 2026 - Aug 2026)</span>
   <ul>
     <li>Coordinated large-scale data operations, supervising enumerator deployment, field research communication, and strict protocol tracking.</li>
     <li>Designed and delivered field briefings on digital survey methodology, research ethics validation, and quantitative/qualitative data capture tools.</li>
@@ -310,16 +310,16 @@
     <li>Headed post-field documentation workflows, data validation, qualitative coding metrics, and thematic research synthesis.</li>
   </ul>
 
-  <h3>📍 Hamasisha Africa</h3>
-  <span class="job-meta">Research & Data Operations Consultant (Remote - Project Contract) — (Mar 2022 - Apr 2026)</span>
+  <h3> Hamasisha Africa</h3>
+  <span class="job-meta">Research & Data Operations Consultant (Remote - Project Contract) - (Mar 2022 - Apr 2026)</span>
   <ul>
     <li>Architected monitoring, evaluation, and research layers for community development frameworks, delivering baseline metrics and evidence synthesis.</li>
     <li>Managed cross-functional field operations, training and directing field squads on digital questionnaires and portfolio checks.</li>
     <li>Scripted structured mobile survey tools, qualitative research modules, and Key Informant Interview (KII) tracking logs.</li>
     <li>Delivered end-to-end data processing, handling data cleaning pipelines, validation criteria, and qualitative analysis reports for stakeholders.</li>
   </ul>
-  <h3>📍 Calltronix Kenya Limited</h3>
-  <span class="job-meta">Workforce Data Analyst (Corporate Contract) — (Jan 2025 - Feb 2026)</span>
+  <h3> Calltronix Kenya Limited</h3>
+  <span class="job-meta">Workforce Data Analyst (Corporate Contract) - (Jan 2025 - Feb 2026)</span>
   <ul>
     <li>Provided enterprise intelligence across 37+ customer programs, translating biometric, CRM, and telephony logs into actionable decisions.</li>
     <li>Designed and automated scalable Power BI and Advanced Excel dashboards, cutting routine operations reporting turnaround times by 80%.</li>
@@ -327,27 +327,27 @@
     <li>Executed volume capacity forecasting and schedule optimization metrics to maximize workforce resource allocations.</li>
   </ul>
 
-  <h3>📍 SGS Kenya</h3>
-  <span class="job-meta">Data Systems Specialist (Institutional Internship) — (Nov 2023 - Jan 2024)</span>
+  <h3> SGS Kenya</h3>
+  <span class="job-meta">Data Systems Specialist (Institutional Internship) - (Nov 2023 - Jan 2024)</span>
   <ul>
     <li>Supported institutional databases by structuring routine data collections, compilation pipelines, and database management engines.</li>
     <li>Executed rigorous descriptive statistical sweeps and designed Excel-based reporting toolsets to eliminate data gaps.</li>
   </ul>
 
-  <h3>📍 GAIN-AGRA Project</h3>
-  <span class="job-meta">Research Analytics Assistant (Project Contract) — (Apr 2023 - May 2023)</span>
+  <h3> GAIN-AGRA Project</h3>
+  <span class="job-meta">Research Analytics Assistant (Project Contract) - (Apr 2023 - May 2023)</span>
   <ul>
     <li>Deployed digital survey frameworks for household research metrics, validating entry completeness directly on the field.</li>
   </ul>
 
-  <h3>📍 Adaptive Model for Research and Empowerment in Communities (AMREC)</h3>
-  <span class="job-meta">Research Systems Analyst (Internship Contract) — (Jan 2023 - Mar 2023)</span>
+  <h3> Adaptive Model for Research and Empowerment in Communities (AMREC)</h3>
+  <span class="job-meta">Research Systems Analyst (Internship Contract) - (Jan 2023 - Mar 2023)</span>
   <ul>
     <li>Analyzed health research datasets inside Stata and SPSS to produce validated data summaries and statistical reports.</li>
   </ul>
 
-  <h3>📍 JKUAT - School of Computing and Information Technology (SCIT)</h3>
-  <span class="job-meta">IBM Data Science Specialist (Applied Attachment Track) — (Aug 2021 - Dec 2021)</span>
+  <h3> JKUAT - School of Computing and Information Technology (SCIT)</h3>
+  <span class="job-meta">IBM Data Science Specialist (Applied Attachment Track) - (Aug 2021 - Dec 2021)</span>
   <ul>
     <li>Engineered foundational data routines, building exploration models and analytical dashboards during an intensive SCIT industry partnership track.</li>
   </ul>
@@ -355,7 +355,7 @@
 
 <!-- 6. EDUCATION CARD -->
 <div id="education" class="content-card">
-  <h2>🎓 Academic Background</h2>
+  <h2> Academic Background</h2>
   <h3>Degrees</h3>
   <ul>
     <li><span class="skill-title">Master of Science in Data Science</span> | Open University of Kenya <i>(In Progress | Expected 2028)</i></li>
@@ -365,7 +365,7 @@
 
 <!-- 7. CERTIFICATIONS CARD -->
 <div id="certifications" class="content-card">
-  <h2>🏆 Professional Accreditations</h2>
+  <h2> Professional Accreditations</h2>
   <h3>Specialized Certifications</h3>
   <ul>
     <li><b>MEAL Essentials Professional Certificate</b> – DisasterReady / Humanitarian Leadership Academy</li>
