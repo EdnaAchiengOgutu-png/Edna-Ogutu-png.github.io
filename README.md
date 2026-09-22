@@ -216,25 +216,25 @@
 <!-- FIXED TOP HEADER STRIP PANEL -->
 <div class="master-sticky-header">
   <div class="header-block">
-    <h1>Edna Ogutu | Enterprise Solutions Consultant</h1>
+    <h1>Edna Ogutu | KenData insights Consultant</h1>
   </div>
 
   <div class="navbar">
-    <label for="tab-about"> ABOUT</label>
-    <label for="tab-services"> SERVICES</label>
-    <label for="tab-projects"> PROJECTS</label>
-    <label for="tab-experience"> EXPERIENCE</label>
-    <label for="tab-education"> EDUCATION</label>
-    <label for="tab-certifications"> CERTIFICATIONS</label>
-    <label for="tab-get-in-touch"> GET IN TOUCH</label>
+    <label for="tab-about"> About</label>
+    <label for="tab-services"> Services</label>
+    <label for="tab-projects"> Projects</label>
+    <label for="tab-experience"> Experience</label>
+    <label for="tab-education"> Education</label>
+    <label for="tab-certifications"> Certification</label>
+    <label for="tab-get-in-touch"> Get In Touch</label>
   </div>
 </div>
 
 <!-- FIXED BOTTOM FROZEN BAR PERMANENTLY FRAMING THE BASE EXPLICITLY -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
-    <p> <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
-    <p> <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
+    <p> <span class="footer-highlight">Nairobi, Kenya</span> |  <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
+    <p> <a href="https://www.linkedin.com/in/edna-achieng-ogutu/" target="_blank">Connect on LinkedIn</a></p>
   </div>
 </div>
 
