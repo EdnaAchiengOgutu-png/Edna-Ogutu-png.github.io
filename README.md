@@ -58,7 +58,7 @@
     border-radius: 0 !important; 
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
-    border-top: 4px solid #FFD200 !important; /* Forces signature gold on the absolute top outer edge */
+    border-top: 4px solid #FFD200 !important; 
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     width: 100% !important;
     box-sizing: border-box !important;
@@ -75,7 +75,7 @@
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44; 
-    border-bottom: 4px solid #FFD200 !important; /* Forces signature gold on the absolute bottom outer edge */
+    border-bottom: 4px solid #FFD200 !important; 
     border-radius: 0 !important; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
@@ -92,14 +92,14 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR - FRAMES THE BOTTOM ACCENT INTERFACE PERMANENTLY */
+  /* FIXED BOTTOM FROZEN BAR */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
-    z-index: 999999 !important; /* Forces bar to sit securely in front on all tabs */
+    z-index: 99999 !important; 
     background-color: #D2F7FF !important; 
     padding: 0 !important;
     box-sizing: border-box !important;
@@ -123,7 +123,7 @@
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer Layout - SHIFTED SPACES BALANCED */
+  /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
     margin-top: 142px !important; 
     padding: 15px 0 75px 0 !important; 
@@ -131,8 +131,6 @@
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
-    
-    /* THE SMART CUSHION BUFFER: Keeps short tabs open wide enough to cleanly reveal your footer bar layout */
     min-height: calc(100vh - 220px) !important; 
   }
 
@@ -216,17 +214,17 @@
 <!-- FIXED TOP HEADER STRIP PANEL -->
 <div class="master-sticky-header">
   <div class="header-block">
-    <h1>Edna Ogutu | KenData insights Consultant</h1>
+    <h1>Edna Ogutu | Enterprise Solutions Consultant</h1>
   </div>
 
   <div class="navbar">
-    <label for="tab-about"> About</label>
-    <label for="tab-services"> Services</label>
-    <label for="tab-projects"> Projects</label>
-    <label for="tab-experience"> Experience</label>
-    <label for="tab-education"> Education</label>
-    <label for="tab-certifications"> Certifications</label>
-    <label for="tab-get-in-touch"> Get-In-Touch</label>
+    <label for="tab-about"> ABOUT</label>
+    <label for="tab-services"> SERVICES</label>
+    <label for="tab-projects"> PROJECTS</label>
+    <label for="tab-experience"> EXPERIENCE</label>
+    <label for="tab-education"> EDUCATION</label>
+    <label for="tab-certifications"> CERTIFICATIONS</label>
+    <label for="tab-get-in-touch"> GET IN TOUCH</label>
   </div>
 </div>
 
@@ -238,7 +236,6 @@
   </div>
 </div>
 
-<!-- Fluid Scrolling Content Layer Layout -->
 <div class="scroll-content">
 
 <!-- 1. About CARD -->
