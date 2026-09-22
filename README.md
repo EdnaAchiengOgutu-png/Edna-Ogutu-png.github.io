@@ -241,7 +241,7 @@
 <!-- Fluid Scrolling Content Layer Layout -->
 <div class="scroll-content">
 
-<!-- 1. ABOUT CARD -->
+<!-- 1. About CARD -->
 <div id="about" class="content-card">
   <h2> About & Value Proposition</h2>
   <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Stop guessing. Start growing. I turn your raw enterprise data into clear dashboards and smart analytics that turn complex numbers into simple next steps.</p>
@@ -250,7 +250,7 @@
   <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with extensive experience supporting Monitoring, Evaluation, Accountability and Learning (MEL), research, and development programs. Specialized in quantitative and qualitative analysis, database validation, and building centralized business intelligence frameworks that translate messy field research targets into clear institutional insights.</p>
 </div>
 
-<!-- 2. SERVICES CARD -->
+<!-- 2. Services CARD -->
 <div id="services" class="content-card skills-bg-card">
   <h2> Operational Consulting Services</h2>
   <h3 style="margin-top: 0 !important;">Data Packages I Offer:</h3>
@@ -263,7 +263,7 @@
   </ul>
 </div>
 
-<!-- 3. PROJECTS SHOWCASE CARD -->
+<!-- 3. Projects SHOWCASE CARD -->
 <div id="projects" class="content-card">
   <h2> Strategic Projects Portfolio</h2>
   <h3 style="margin-top: 0 !important;">Production-Ready Analytics & Dashboards</h3>
@@ -297,7 +297,7 @@
 </div>
 
 
-<!-- 5. EXPERIENCE CARD -->
+<!-- 5. Experience CARD -->
 <div id="experience" class="content-card">
   <h2> Consulting & Analytics Engagement History</h2>
 
@@ -353,7 +353,7 @@
   </ul>
 </div>
 
-<!-- 6. EDUCATION CARD -->
+<!-- 6. Education CARD -->
 <div id="education" class="content-card">
   <h2> Academic Background</h2>
   <h3>Degrees</h3>
@@ -363,7 +363,7 @@
   </ul>
 </div>
 
-<!-- 7. CERTIFICATIONS CARD -->
+<!-- 7. Certification CARD -->
 <div id="certifications" class="content-card">
   <h2> Professional Accreditations</h2>
   <h3>Specialized Certifications</h3>
@@ -374,7 +374,7 @@
   </ul>
 </div>
 
-<!-- 8. GET IN TOUCH ACTIVE SUBMISSION ENGINE - ZERO-WARNING HIGHEST-CONVERTING LINK BOX -->
+<!-- 8. Get-In-Touch ACTIVE SUBMISSION ENGINE - ZERO-WARNING HIGHEST-CONVERTING LINK BOX -->
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
