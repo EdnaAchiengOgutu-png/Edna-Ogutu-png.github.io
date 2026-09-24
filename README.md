@@ -245,9 +245,9 @@
 <div id="about" class="content-card" style="padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start;">
     
-    <!-- LEFT PANEL: UNBLOCKABLE SECURE CLOUD HEADSHOT -->
+     <!-- LEFT PANEL: YOUR EXACT IMAGE LINE NESTED HERE -->
     <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
-      <img src="https://github.com" alt="Edna Ogutu Corporate Headshot" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: block;" />
+      <img width="800" height="800" alt="Edna Profile Picture" src="https://github.com/user-attachments/assets/62b0b9d5-e0d9-4ec6-8bea-983be601e6d6" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: block;" />
     </div>
     
     <!-- RIGHT PANEL: CONTENT & VALUE PROPOSITION -->
