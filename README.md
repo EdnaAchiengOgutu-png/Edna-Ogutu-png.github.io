@@ -125,7 +125,7 @@
 
   /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
-    margin-top: 130px !important; 
+    margin-top: 125px !important; 
     padding: 15px 0 75px 0 !important; 
     box-sizing: border-box !important;
     width: 100% !important;
