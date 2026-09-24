@@ -937,7 +937,6 @@
         <summary style="font-weight: bold; color: #23272A;">🛠️ 11. Technical Implementation</summary>
         <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Formulated complex financial DAX measures using security intelligence parameters (`TOTALYTD`, `DIVIDE`, `CALCULATE`) to optimize large database query calculations.</p>
       </details>
-
       <!-- 12. FILES / REPRODUCIBILITY -->
       <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
         <summary style="font-weight: bold; color: #23272A;">📂 12. Files / Reproducibility</summary>
@@ -952,31 +951,14 @@
 
     </div>
   </details>
-</div> <!-- Closes the master projects card wrapper -->
-<p style="font-size: 14px; font-style: italic; color: #23272A; margin: 0; font-weight: 500;">📌 Note: Live interactive dashboard panel embeds and asset documentation registers for this workforce system are compiling on the master track.</p>
-</div> <!-- Closes the master projects card wrapper -->
 
-<!-- THE CSS ENGINE LINK RULES: This controls how cards display dynamically -->
-<style>
-  #tab-about:checked ~ .scroll-content #about,
-  #tab-services:checked ~ .scroll-content #services,
-  #tab-projects:checked ~ .scroll-content #projects,
-  #tab-experience:checked ~ .scroll-content #experience,
-  #tab-education:checked ~ .scroll-content #education,
-  #tab-certifications:checked ~ .scroll-content #certifications,
-  #tab-get-in-touch:checked ~ .scroll-content #get-in-touch {
-    display: block !important;
-  }
-</style>
-
-
-
-
+  <p style="font-size: 14px; font-style: italic; color: #23272A; margin: 20px 0 0 0; font-weight: 500;">📌 Note: Live interactive dashboard panel embeds and asset documentation registers for this workforce system are compiling on the master track.</p>
+</div> <!-- Closes the master projects card wrapper safely -->
 
 <!-- 4. TOOLS PROFICIENCY MATRIX MODULE -->
 <div id="tools-proficiency" class="content-card">
   <h2>🛠️ Specialized Solutions & Tools Matrix</h2>
-  
+
   <h3 style="margin-top: 0 !important;">Business Intelligence & Advanced Analytics</h3>
   <ul>
     <li><span class="skill-title">Power BI Architecture:</span> Building automated corporate dashboards, real-time KPI tracking models, volume forecasting engines, and call-centre shift optimizations.</li>
