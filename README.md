@@ -131,6 +131,8 @@
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
+    
+    /* THE SMART CUSHION BUFFER: Keeps short tabs open wide enough to cleanly reveal your footer bar layout */
     min-height: calc(100vh - 220px) !important; 
   }
 
@@ -259,6 +261,93 @@
     
   </div>
 </div>
+<!-- 2. SERVICES CARD -->
+<div id="services" class="content-card skills-bg-card">
+  <h2>💼 Operational Consulting Services</h2>
+  <h3 style="margin-top: 0 !important;">Data Packages I Offer:</h3>
+  <ul>
+    <li><span class="skill-title">Business Intelligence & Sales Analysis:</span> Engineering interactive Power BI and Advanced Excel dashboard suites to audit real-time revenue targets, monitor project status, and optimize shift parameters.</li>
+    <li><span class="skill-title">MEL Systems & Data Architecture:</span> Constructing indicator logs, target tracking registers, and quality assurance checkpoints for program verification.</li>
+    <li><span class="skill-title">Database Reconciliation & Auditing:</span> Running strict diagnostic sweeps to isolate structural entry gaps and inconsistencies across complex biometric, CRM, and payroll databases.</li>
+    <li><span class="skill-title">Field Operations & Digital Scripting:</span> Scripting logical digital surveys (KoboCollect/SurveyCTO), coordinating remote enumerator actions, and synthesizing qualitative thematic reports.</li>
+    <li><span class="skill-title">Documentation & Learning:</span> Synthesizing research evidence, documenting lessons learned, managing knowledge networks, and implementing strict data protection workflows.</li>
+  </ul>
+</div>
+
+<!-- 3. PROJECTS SHOWCASE CARD - IMMACULATE RESPONSIVE VIEWPORT ENGINE -->
+<div id="projects" class="content-card">
+  <h2>📊 Strategic Projects Portfolio</h2>
+  <h3 style="margin-top: 0 !important;">Production-Ready Analytics & Dashboards</h3>
+  <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; margin-bottom: 20px;">A documentation of architectural data pipelines designed to optimize business operations, increase organizational visibility, and automate enterprise reporting metrics:</p>
+  
+  <!-- THE HORIZONTAL RESPONSIVE PROTECTION LAYER: Prevents table cells from spilling over borders -->
+  <div style="width: 100% !important; overflow-x: auto !important; margin-bottom: 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+    <table style="width: 100% !important; min-width: 900px !important; border-collapse: collapse !important; background-color: #FFFFFF !important; color: #23272A !important; font-size: 13.5px !important; margin: 0;">
+      <thead>
+        <tr style="background-color: #23272A !important; color: #FFFFFF !important; font-weight: bold;">
+          <th style="padding: 14px 10px; border-right: 1px solid #3A3F44; text-align: center; width: 4%;">#</th>
+          <th style="padding: 14px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 22%;">Project</th>
+          <th style="padding: 14px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 16%;">Main Tools</th>
+          <th style="padding: 14px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 22%;">Core KPIs / Metrics</th>
+          <th style="padding: 14px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 18%;">What It Proves</th>
+          <th style="padding: 14px 12px; text-align: left; width: 18%;">Targeting / Marketability</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background-color: #FFFFFF;">
+          <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0; font-weight: bold; text-align: center; color: #4A5568;">1</td>
+          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0; font-weight: bold; color: #1A488E; font-size: 14.5px;">Workforce / HR Analytics</td>
+          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0; line-height: 1.5; color: #2D3748;">
+            <b>• Excel</b><br>
+            • Power Query<br>
+            <b>• Power BI</b><br>
+            • DAX Modeling
+          </td>
+          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0; line-height: 1.5; color: #2D3748;">
+            • Headcount & Attrition<br>
+            • Turnover / Retention Rate<br>
+            • Absenteeism Dynamics<br>
+            • Average Salary & Tenures<br>
+            • Gender / Dept Composition
+          </td>
+          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0; line-height: 1.5; color: #2D3748;">
+            • Advanced ETL Cleaning<br>
+            • Star Schema Modeling<br>
+            • Business Intelligence<br>
+            • Executive Insights
+          </td>
+          <td style="padding: 14px 12px; border-bottom: 1px solid #E2E8F0; line-height: 1.5; font-weight: bold; color: #2D3748;">
+            • Data Analyst<br>
+            • BI Architect Consultant<br>
+            • People Analytics Lead
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p style="font-size: 14px; font-style: italic; color: #23272A; margin: 0; font-weight: 500;">📌 Note: Live interactive dashboard panel embeds and asset documentation registers for this workforce system are compiling on the master track.</p>
+</div>
+
+<!-- 4. TOOLS PROFICIENCY MATRIX MODULE -->
+<div id="tools-proficiency" class="content-card">
+  <h2>🛠️ Specialized Solutions & Tools Matrix</h2>
+  
+  <h3 style="margin-top: 0 !important;">Business Intelligence & Advanced Analytics</h3>
+  <ul>
+    <li><span class="skill-title">Power BI Architecture:</span> Building automated corporate dashboards, real-time KPI tracking models, volume forecasting engines, and call-centre shift optimizations.</li>
+    <li><span class="skill-title">Stata Scripting & Biostatistics:</span> Advanced quantitative research scripting, regression modeling, biostatistical evidence synthesis, and large-scale survey data cleansing.</li>
+    <li><span class="skill-title">Advanced Microsoft Excel:</span> Designing complex algorithmic payroll engines for 350+ FTE, biometric check sheet validations, automated lookup scripts, and database reconciliations.</li>
+    <li><span class="skill-title">R Programming & SPSS:</span> Implementing descriptive dataset workflows, healthcare program summaries, qualitative data metrics, and graphic data visualizations.</li>
+    <li><span class="skill-title">SQL & Python Data Science:</span> Formulating back-end relational database management routines, data cleaning pipelines, and structured problem-solving models.</li>
+  </ul>
+
+  <h3>Mobile Data Collection & Field Systems</h3>
+  <ul>
+    <li><span class="skill-title">KoboCollect & SurveyCTO:</span> Building field questionnaires with complex digital validation logic, automated conditions, and structured mobile data capture modules.</li>
+    <li><span class="skill-title">Enterprise Ecosystems:</span> Integrating analytics workflows across CRM platforms, telephony metrics logs, Microsoft Teams, PowerPoint, and Excel.</li>
+  </ul>
+</div>
 <!-- 5. EXPERIENCE CARD -->
 <div id="experience" class="content-card">
   <h2>📈 Consulting & Analytics Engagement History</h2>
@@ -337,7 +426,7 @@
   </ul>
 </div>
 
-<!-- 8. GET IN TOUCH - SECURE ENTERPRISE LINK BLOCKS -->
+<!-- 8. GET IN TOUCH ACTIVE SUBMISSION ENGINE - ZERO-WARNING HIGHEST-CONVERTING LINK BOX -->
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
