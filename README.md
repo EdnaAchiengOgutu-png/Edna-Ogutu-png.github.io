@@ -249,13 +249,6 @@
 <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
   <img width="800" height="800" alt="Edna Profile Picture" src="https://github.com/user-attachments/assets/a92b595d-0340-4e3d-8fe7-1e028fc79a89" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
 </div>
-
-
-
-
-
-   
-
     
     <!-- RIGHT PANEL: CONTENT & VALUE PROPOSITION -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
@@ -269,37 +262,6 @@
   </div>
 </div>
 
-<!-- FIXED BOTTOM FROZEN BAR PERMANENTLY FRAMING THE BASE -->
-<div class="fixed-footer-container">
-  <div class="footer-bar">
-    <p>📍 <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
-    <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
-  </div>
-</div>
-
-<!-- Fluid Scrolling Content Layer Layout -->
-<div class="scroll-content">
-
-<!-- 1. ABOUT CARD - SPLIT TWO COLUMN GRID (IMAGE LEFT | TEXT RIGHT) -->
-<div id="about" class="content-card" style="padding: 40px !important;">
-  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start;">
-    
-    <!-- LEFT PANEL: UNBLOCKABLE SECURE PORTRAIT CONTAINER WITH CORRECT IMAGE LINK -->
-    <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
-      <img src="https://github.com" alt="Edna Ogutu Corporate Headshot" style="width: 100% !important; max-width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
-    </div>
-    
-    <!-- RIGHT PANEL: CONTENT & VALUE PROPOSITION -->
-    <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
-      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;">👤 About & Value Proposition</h2>
-      <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Stop guessing. Start growing. I turn your raw enterprise data into clear dashboards and smart analytics that turn complex numbers into simple next steps.</p>
-      <p style="font-size: 18px; color: #23272A; font-weight: 700; margin: 12px 0 15px 0; line-height: 1.4; font-style: italic;">"You collect the data. I find the money and operational efficiencies hidden inside it."</p>
-      <hr style="border: 0; height: 1px; background: #23272A; margin-bottom: 20px; opacity: 0.3;">
-      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500;">Statistician and Data Analyst with extensive experience supporting Monitoring, Evaluation, Accountability and Learning (MEL), research, and development programs. Specialized in quantitative and qualitative analysis, database validation, and building centralized business intelligence frameworks that translate messy field research targets into clear institutional insights.</p>
-    </div>
-    
-  </div>
-</div>
 <!-- 2. SERVICES CARD -->
 <div id="services" class="content-card skills-bg-card">
   <h2>💼 Operational Consulting Services</h2>
