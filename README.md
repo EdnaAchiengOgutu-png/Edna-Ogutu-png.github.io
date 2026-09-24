@@ -277,6 +277,7 @@
 
 
 
+
 <!-- 3. PROJECTS SHOWCASE CARD - INTERACTIVE MULTI-PROJECT ACCORDION HUB -->
 <div id="projects" class="content-card" style="padding: 40px !important;">
   <h2>📊 Strategic Projects Portfolio</h2>
@@ -474,21 +475,6 @@
       </details>
 
       <!-- 12. FILES / REPRODUCIBILITY -->
-      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
-        <summary style="font-weight: bold; color: #23272A;">📂 12. Files / Reproducibility</summary>
-        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">All cleaning code algorithms, SQL script files, and Python validation scripts are securely tracked inside the `project-3-reconciliation` workspace folder paths.</p>
-      </details>
-
-      <!-- 13. SKILLS DEMONSTRATED -->
-      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 0px; cursor: pointer;">
-        <summary style="font-weight: bold; color: #23272A;">🏆 13. Skills Demonstrated</summary>
-        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Database quality assurance auditing, system reconciliation engineering, automated error detection script writing, and enterprise data governance tracks.</p>
-      </details>
-
-    </div>
-  </details>
-
-        <!-- 12. FILES / REPRODUCIBILITY -->
       <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
         <summary style="font-weight: bold; color: #23272A;">📂 12. Files / Reproducibility</summary>
         <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">All cleaning code algorithms, SQL script files, and Python validation scripts are securely tracked inside the `project-3-reconciliation` workspace folder paths.</p>
