@@ -278,6 +278,11 @@
 
 
 
+
+
+
+
+
 <!-- 3. PROJECTS SHOWCASE CARD - INTERACTIVE MULTI-PROJECT ACCORDION HUB -->
 <div id="projects" class="content-card" style="padding: 40px !important;">
   <h2>📊 Strategic Projects Portfolio</h2>
@@ -948,12 +953,6 @@
     </div>
   </details>
 </div> <!-- Closes the master projects card wrapper -->
-
-
-
-
-
-
   <p style="font-size: 14px; font-style: italic; color: #23272A; margin: 0; font-weight: 500;">📌 Note: Live interactive dashboard panel embeds and asset documentation registers for this workforce system are compiling on the master track.</p>
 </div>
 
