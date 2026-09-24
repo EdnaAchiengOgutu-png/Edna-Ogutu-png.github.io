@@ -4,7 +4,7 @@
     display: none !important;
   }
   
-  /* Overrides GitHub's default wrapper padding parameters to unlock true edge-to-edge stretch */
+  /* Overrides GitHub's secret default wrapper settings to force absolute edge-to-edge stretch */
   html, body, .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body, .portfolio-container, .scroll-content, div, section, main {
     max-width: 100% !important;
     width: 100% !important;
@@ -28,7 +28,7 @@
     display: none !important;
   }
   
-  /* MASTER FIXED TOP HEADER WRAPPER - MAXIMUM CEILING LAYER PRIORITY */
+  /* MASTER FIXED TOP HEADER WRAPPER - MAXIMUM LAYER PRIORITY */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
@@ -50,7 +50,7 @@
     padding: 0 !important;
   }
 
-  /* Main Profile Block Header Content Box - Edge-to-Edge with Gold Top Border Accent */
+  /* Main Profile Block Header Content Box - Full Width Stretch with Outer Gold Top Border */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
@@ -65,7 +65,7 @@
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip - Edge-to-Edge with Gold Bottom Border Accent */
+  /* Navigation Ribbon Strip - Full Width Stretch with Outer Gold Bottom Border */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 40px !important; 
@@ -92,7 +92,7 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR - PERMANENTLY VISIBLE FOREFRONT LAYER CONTAINER */
+  /* FIXED BOTTOM FROZEN BAR */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
@@ -123,7 +123,7 @@
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Scrolling Content Layout Core Layer Workspace */
+  /* Fluid Scrolling Content Layer Layout */
   .scroll-content {
     margin-top: 142px !important; 
     padding: 15px 0 75px 0 !important; 
@@ -134,7 +134,7 @@
     min-height: calc(100vh - 220px) !important; 
   }
 
-  /* Content Cards Layout Parameters - Features Symmetrical Floating Side Gaps */
+  /* Content Cards with Clean Horizontal Side Gaps */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px 45px !important; 
@@ -154,7 +154,7 @@
     z-index: 100 !important; 
   }
 
-  /* PURE CSS MECHANISM SWITCH: Toggles the targeted active tab into display view */
+  /* THE ENGINE LINK: Show only the checked tab card */
   #tab-about:checked ~ .scroll-content #about,
   #tab-services:checked ~ .scroll-content #services,
   #tab-projects:checked ~ .scroll-content #projects,
@@ -165,7 +165,7 @@
     display: block !important; 
   }
 
-  /* Highlights active menu labels inside the navbar array */
+  /* Highlight Active Menu Label Item */
   #tab-about:checked ~ .master-sticky-header .navbar label[for="tab-about"],
   #tab-services:checked ~ .master-sticky-header .navbar label[for="tab-services"],
   #tab-projects:checked ~ .master-sticky-header .navbar label[for="tab-projects"],
@@ -177,7 +177,7 @@
     border-bottom: 2px solid #FFD200;
   }
 
-  /* Background Grid Graphical Canvas Elements */
+  /* Background Grid Elements */
   .skills-bg-card {
     background: linear-gradient(rgba(151, 178, 222, 0.94), rgba(151, 178, 222, 0.94)), 
                 url('https://dreamstime.com') !important;
@@ -185,22 +185,24 @@
     background-position: center !important;
   }
 
-  /* Typography metrics controllers */
+  /* Typographic controls with flush top alignment overrides */
   .content-card > h2:first-child, .content-card > div:first-child { margin-top: 0 !important; padding-top: 0 !important; }
   h2 { color: #23272A !important; font-size: 26px; font-weight: 900; margin: 0 0 20px 0 !important; padding-bottom: 10px; border-bottom: 4px solid #23272A; text-transform: uppercase; letter-spacing: 1px; display: block !important; }
   h3 { color: #111314 !important; font-size: 21px; font-weight: 900; margin-top: 22px !important; margin-bottom: 6px !important; padding-top: 0 !important; display: block !important; }
   h2 + h3, .content-card > h3:first-of-type { margin-top: 5px !important; }
   .job-meta { color: #23272A !important; font-style: normal; font-size: 15px; margin-top: 0 !important; margin-bottom: 14px !important; display: block; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
 
+  /* COMPRESSED READABILITY TEXT METRICS */
   ul { padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 2px !important; }
   li { margin-top: 0 !important; margin-bottom: 4px !important; line-height: 1.35 !important; color: #1A1D20 !important; font-size: 16px; font-weight: 500; } 
   p { margin-top: 0 !important; margin-bottom: 8px !important; line-height: 1.35 !important; }
   .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
+  .badge-pill { background-color: #23272A; color: #FFD200; padding: 3px 10px; border-radius: 20px; font-size: 13px; font-weight: bold; display: inline-block; margin-right: 5px; }
 </style>
 
 <div class="portfolio-container">
 
-<!-- MASTER REGISTER INPUT RADIO CONTROLLERS -->
+<!-- MASTER CSS REGISTER RADIO BUTTONS -->
 <input type="radio" name="page-tabs" id="tab-about" class="tab-toggle" checked />
 <input type="radio" name="page-tabs" id="tab-services" class="tab-toggle" />
 <input type="radio" name="page-tabs" id="tab-projects" class="tab-toggle" />
@@ -209,7 +211,7 @@
 <input type="radio" name="page-tabs" id="tab-certifications" class="tab-toggle" />
 <input type="radio" name="page-tabs" id="tab-get-in-touch" class="tab-toggle" />
 
-<!-- FIXED EDGE-TO-EDGE TOP HEADER BLOCK AND NAVIGATION CONTROL BAR -->
+<!-- FIXED TOP HEADER STRIP PANEL -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Ogutu | Enterprise Solutions Consultant</h1>
@@ -225,7 +227,8 @@
     <label for="tab-get-in-touch">📞 GET IN TOUCH</label>
   </div>
 </div>
-<!-- FIXED EDGE-TO-EDGE BOTTOM FROZEN FOOTER BAR -->
+
+<!-- FIXED BOTTOM FROZEN BAR PERMANENTLY FRAMING THE BASE EXPLICITLY -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
     <p>📍 <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
@@ -233,8 +236,9 @@
   </div>
 </div>
 
-<!-- SCROLLING CONTENT LAYER VIEWPORT -->
 <div class="scroll-content">
+
+
 
 <!-- 1. ABOUT CARD - SPLIT TWO COLUMN GRID (IMAGE LEFT | TEXT RIGHT) -->
 <div id="about" class="content-card" style="padding: 40px !important;">
