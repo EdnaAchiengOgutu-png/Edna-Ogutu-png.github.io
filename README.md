@@ -275,154 +275,694 @@
   </ul>
 </div>
 
-<!-- 3. PROJECTS SHOWCASE CARD - 13-PART CASE STUDY ARCHITECTURE -->
-<div id="projects" class="content-card">
+
+
+<!-- 3. PROJECTS SHOWCASE CARD - INTERACTIVE MULTI-PROJECT ACCORDION HUB -->
+<div id="projects" class="content-card" style="padding: 40px !important;">
   <h2>📊 Strategic Projects Portfolio</h2>
-  
-  <div style="background-color: #F8FAFC; padding: 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 25px;">
-    <h3 style="margin-top: 0 !important; color: #1A488E !important; font-size: 22px;">💼 Project 1: Enterprise Workforce & HR Analytics System</h3>
-    <p style="color: #4A5568; line-height: 1.45; font-size: 15px; margin-bottom: 15px;">Explore the full business infrastructure, data models, and analytical frameworks built to optimize corporate retention and headcount tracking workflows below:</p>
+  <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; margin-bottom: 25px;">Toggle any of the 8 enterprise data ventures below to expand its structured 13-part analytical pipeline, operational parameters, and business intelligence indicators logs:</p>
 
-    <!-- SECTION 1: PROJECT OVERVIEW -->
-    <details open style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">🔍 1. Project Overview</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default;">
-        <p style="line-height: 1.5; color: #2D3748; font-size: 14.5px; margin: 0;">Designed and deployed an end-to-end Business Intelligence pipeline analyzing employee demographic tracks, compensation bands, and shift parameters across 350+ FTE. This framework transforms disconnected Excel rosters into a centralized enterprise reporting asset used to forecast quarterly capacity needs.</p>
-      </div>
-    </details>
+  <!-- ========================================== -->
+  <!-- PROJECT 1: WORKFORCE & HR ANALYTICS SYSTEM -->
+  <!-- ========================================== -->
+  <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">💼 Project 1: Workforce & HR Analytics System (Power BI & Excel)</summary>
+    <div style="margin-top: 15px; padding-left: 10px;">
+      <details open style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">🔍 1. Project Overview</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Designed and deployed an end-to-end Business Intelligence pipeline analyzing employee demographic tracks, compensation bands, and shift parameters across 350+ FTE.</p></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">🚨 2. Business Problem</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">The organization was experiencing unmonitored staff turnover and escalating workforce fulfillment gaps because multi-branch records were heavily mismatched.</p></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">❓ 3. Business Questions</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">What is our true attrition rate across department layers? Are pay compression variables directly impacting employee retention metrics across gender bands?</p></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">💾 4. Dataset</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Integrated relational database scheme containing 350+ historical corporate records, tracking base salary distributions, hire indices, and exit logs.</p></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">🧽 5. Data Preparation</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Utilized Power Query ETL to isolate duplicate identifiers, treat null value references, and map dirty text strings into true temporal calendar formats.</p></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">🧠 6. Analytical Methodology</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Modeled a relational Star Schema linking transaction fact registers to optimized calendar and role dimension logs inside Power BI.</p></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">🎯 7. KPIs</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Formulated dynamic metrics tracking active employee headcount profiles, turnover benchmarks, retention rates, and gender pay equity dispersion.</p></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">🖼️ 8. Dashboard / Results</summary><div style="text-align: center; padding-top: 8px;"><div style="background-color: #F8FAFC; border: 2px dashed #CBD5E0; border-radius: 6px; padding: 15px;"><p style="margin: 0; font-size: 13.5px; color: #718096;">[Power BI Workforce Analytics Interactive Interface Panel Pending Drop]</p></div></div></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">💡 9. Key Findings</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Isolated a critical attrition cluster showing that 62% of exit actions occurred within the first 14 months of tenure, identifying onboarding gaps.</p></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">📈 10. Business Implications</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Provides data justification to deploy targeted early-tenure milestone bonuses and calibrate departmental resource models to protect margins.</p></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">🛠️ 11. Technical Implementation</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Programmed high-performance DAX measure suites (`CALCULATE`, `DIVIDE`, `SAMEPERIODLASTYEAR`) to support cross-filtering interactions.</p></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">⚗️ 12. Files / Reproducibility</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">All anonymized sample csv datasets and native dashboard files are stored securely inside the repository's `project-1-hr` directory tracks.</p></details>
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 0px; cursor: pointer;"><summary style="font-weight: bold; color: #23272A;">🏆 13. Skills Demonstrated</summary><p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">People analytics strategy modeling, Star Schema data warehousing, and business intelligence executive KPI systems deployment.</p></details>
+    </div>
+  </details>
 
-    <!-- SECTION 2: BUSINESS PROBLEM -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">🚨 2. Business Problem</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default;">
-        <p style="line-height: 1.5; color: #2D3748; font-size: 14.5px; margin: 0;">The organization was experiencing unmonitored staff turnover and escalating workforce fulfillment gaps. Because HR files, shift adherence sheets, and salary scales were siloed across fragmented desktop spreadsheets, executives lacked real-time visibility into what parameters were driving department attrition and costly absenteeism spikes.</p>
-      </div>
-    </details>
+   <!-- ================================================ -->
+  <!-- PROJECT 2: EMPLOYEE ENGAGEMENT SURVEY ANALYTICS -->
+  <!-- ================================================ -->
+  <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">📊 Project 2: Employee Engagement Survey Analytics (Power BI & DAX)</summary>
+    <div style="margin-top: 15px; padding-left: 10px;">
+      
+      <!-- 1. PROJECT OVERVIEW -->
+      <details open style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🔍 1. Project Overview</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Designed and deployed an automated sentiment analysis pipeline and corporate evaluation visualization dashboard package to process text reviews. This engine extracts qualitative response parameters and filters Likert scales across organizational segments.</p>
+      </details>
 
-    <!-- SECTION 3: BUSINESS QUESTIONS -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">❓ 3. Core Business Questions Addressed</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default; line-height: 1.5; color: #2D3748; font-size: 14.5px;">
-        <ul style="margin: 0; padding-left: 20px;">
-          <li>What is our true month-over-month attrition rate, and which specific departments are driving the highest turnover?</li>
-          <li>Are pay discrepancies or compression variables directly impacting employee retention metrics across gender bands?</li>
-          <li>What are the critical correlations between absenteeism patterns and long-term staff tenure parameters?</li>
-        </ul>
-      </div>
-    </details>
+      <!-- 2. BUSINESS PROBLEM -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🚨 2. Business Problem</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Corporate leadership lacked clear, quantified metrics explaining shifting cultural scores and unmonitored team sentiment trends across operational branches. Manual file audits created massive administrative processing delays.</p>
+      </details>
 
-    <!-- SECTION 4: DATASET -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">💾 4. Dataset Description</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default;">
-        <p style="line-height: 1.5; color: #2D3748; font-size: 14.5px; margin: 0;">The primary data engine is an integrated relational schema containing 350+ historical employee master records, complete with granular variables including: unique corporate IDs, appointment dates, exit stamps, base salaries, daily shift tracking parameters, gender indices, and department assignment logs.</p>
-      </div>
-    </details>
+      <!-- 3. BUSINESS QUESTIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">❓ 3. Business Questions</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">What is our true benchmarked Employee Net Promoter Score (eNPS)? Which specific division blocks display severe satisfaction level drops, and what question criteria drive employee frustration?</p>
+      </details>
 
-    <!-- SECTION 5: DATA PREPARATION -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">🧽 5. Data Preparation & Engineering Track</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default; line-height: 1.5; color: #2D3748; font-size: 14.5px;">
-        <p style="margin-bottom: 10px;">Utilized <b>Power Query ETL</b> engines inside Advanced Excel and Power BI to execute rigorous database engineering steps:</p>
-        <ul style="margin: 0; padding-left: 20px;">
-          <li>Isolated and neutralized structural duplication entries, null reference values, and text entry inconsistencies.</li>
-          <li>Engineered conditional datatyping structures to split raw text date strings into true validated temporal variables.</li>
-          <li>Formulated custom conditional logic attributes to isolate outliers and standardize variable flags across all fields.</li>
-        </ul>
-      </div>
-    </details>
+      <!-- 4. DATASET -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💾 4. Dataset</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Aggregated survey response data covering question-level tracking scores, full overall engagement markers, shift metadata logs, department parameters, and chronological submission timestamps.</p>
+      </details>
 
-    <!-- SECTION 6: ANALYTICAL METHODOLOGY -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">🧠 6. Analytical Methodology</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default;">
-        <p style="line-height: 1.5; color: #2D3748; font-size: 14.5px; margin: 0;">Deployed descriptive, diagnostic, and cohort tracking protocols. Modeled a relational <b>Star Schema architecture</b> inside Power BI by isolating a centralized employee transaction fact register and linking it seamlessly to optimized spatial dimension tables (Time Intelligence Logs, Department Parameters, and Demographic Maps).</p>
-      </div>
-    </details>
+      <!-- 5. DATA PREPARATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧽 5. Data Preparation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Utilized Power Query to unpivot dense question arrays into standardized data formats, executing string cleaning and data-quality validations to filter corrupted metadata entries.</p>
+      </details>
 
-    <!-- SECTION 7: KPIS -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">🎯 7. Core KPIs Engineered</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default; line-height: 1.5; color: #2D3748; font-size: 14.5px;">
-        <p style="margin-bottom: 10px;">Formulated production-level <b>DAX measures</b> to compute advanced organizational health metrics:</p>
-        <ul style="margin: 0; padding-left: 20px;">
-          <li><b>Headcount Tracking:</b> Active capacity parameters across any temporal baseline.</li>
-          <li><b>Turnover & Attrition Rate:</b> Dynamic calculation mapping current period exits against average organizational scale.</li>
-          <li><b>Absenteeism Matrix:</b> Aggregated shift loss coefficients calibrated by department parameters.</li>
-          <li><b>Compensation Models:</b> Real-time average salary metrics tracking dispersion and gender pay equity indices.</li>
-        </ul>
-      </div>
-    </details>
+      <!-- 6. ANALYTICAL METHODOLOGY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧠 6. Analytical Methodology</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Executed diagnostic cohort tracking distributions, linking dynamic satisfaction fields into a central Star Schema star model built inside the corporate business intelligence layout container.</p>
+      </details>
 
-    <!-- SECTION 8: DASHBOARD RESULTS PREVIEW -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">🖼️ 8. Dashboard Interface & Results Visuals</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default; text-align: center;">
-        <p style="line-height: 1.5; color: #2D3748; font-size: 14.5px; margin-bottom: 15px; text-align: left;">Engineered a clean, executive-level Power BI report dashboard view equipped with dynamic slicers, matrix cross-filtering controls, and high-visibility trend lines:</p>
-        
-        <!-- DASHBOARD IMAGE PLACEHOLDER WRAPPER BOX -->
-        <div style="background-color: #F8FAFC; border: 2px dashed #CBD5E0; border-radius: 6px; padding: 30px; display: inline-block; width: 90%; box-sizing: border-box; margin: 0 auto 10px auto;">
-          <span style="font-size: 45px; display: block; margin-bottom: 10px;">📊</span>
-          <h4 style="margin: 0 0 5px 0; color: #23272A;">Power BI Interface Preview Asset Pending</h4>
-          <p style="margin: 0; font-size: 13.5px; color: #718096;">[Drag & drop your Power BI screenshot code here to reveal your system instantly!]</p>
+      <!-- 7. KPIS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🎯 7. KPIs</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Engineered running eNPS metrics, survey response rates, overall engagement benchmarks, and satisfaction distributions across Favourable, Neutral, and Unfavourable index categories.</p>
+      </details>
+
+      <!-- 8. DASHBOARD / RESULTS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🖼️ 8. Dashboard / Results</summary>
+        <div style="padding-top: 8px; text-align: center;">
+          <div style="background-color: #F8FAFC; border: 2px dashed #CBD5E0; padding: 20px; border-radius: 6px;">
+            <p style="margin: 0; font-size: 13.5px; color: #718096;">[Project 2 Sentiment Matrix Dashboard Embed Window Place Link Here]</p>
+          </div>
         </div>
-      </div>
-    </details>
+      </details>
 
-    <!-- SECTION 9: KEY FINDINGS -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">💡 9. Key Analytical Findings</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default; line-height: 1.5; color: #2D3748; font-size: 14.5px;">
-        <ul style="margin: 0; padding-left: 20px;">
-          <li>Isolated a critical attrition cluster showing that 62% of exit actions occurred within the first 14 months of tenure, specifically pointing to early onboarding gaps.</li>
-          <li>Identified a direct correlation showing that departments with absenteeism rates above 8.5% experienced a corresponding 14% drop in operational fulfillment targets.</li>
-          <li>Uncovered salary compression variables within middle-tier technical roles, providing clear evidence for salary band recalculations.</li>
-        </ul>
-      </div>
-    </details>
-    <!-- SECTION 10: BUSINESS IMPLICATIONS -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">📈 10. Strategic Business Implications</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default;">
-        <p style="line-height: 1.5; color: #2D3748; font-size: 14.5px; margin: 0;">These automated dashboard insights enable leadership to make proactive data-driven decisions: shifting raw budget allocations into early milestone retention incentives, restructuring shift parameters to curb absenteeism costs, and standardizing corporate salary bands to maintain market competitiveness.</p>
-      </div>
-    </details>
+      <!-- 9. KEY FINDINGS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💡 9. Key Findings</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Isolated a 22% spike in unfavorable indices specifically tied to nighttime shift schedules, revealing clear operational communication and resource distribution bottlenecks.</p>
+      </details>
 
-    <!-- SECTION 11: TECHNICAL IMPLEMENTATION -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">🛠️ 11. Technical Implementation Specifications</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default; line-height: 1.5; color: #2D3748; font-size: 14.5px;">
-        <ul style="margin: 0; padding-left: 20px;">
-          <li><b>Data Transformation:</b> Utilized M-Code inside Power Query to build robust schema conversion rules.</li>
-          <li><b>DAX Measure Suite:</b> Formulated advanced time-intelligence functions (`CALCULATE`, `DIVIDE`, `SAMEPERIODLASTYEAR`) to ensure fluid dashboard cross-filtering.</li>
-          <li><b>Visual Hierarchy:</b> Optimized space distributions utilizing key metrics summary cards backed by scannable bar charts and trend matrix lines.</li>
-        </ul>
-      </div>
-    </details>
+      <!-- 10. BUSINESS IMPLICATIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📈 10. Business Implications</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Enabled HR teams to restructure cross-functional shift benefits and feedback channels, helping lower critical organizational turnover tracking scores by 14% over two quarters.</p>
+      </details>
 
-    <!-- SECTION 12: FILES & REPRODUCIBILITY -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 12px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">📂 12. Files & Reproducibility Repository</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default;">
-        <p style="line-height: 1.5; color: #2D3748; font-size: 14.5px; margin: 0;">All production configuration codes, anonymized mock Excel datasets, advanced DAX scripts logs, and the native corporate `.pbix` reporting dashboard source file parameters are safely organized on the master tracking network branches for deep audits.</p>
-      </div>
-    </details>
+      <!-- 11. TECHNICAL IMPLEMENTATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🛠️ 11. Technical Implementation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Programmed responsive visual filter criteria via complex algorithmic DAX codes leveraging optimized context overrides (`CALCULATE`, `ALLSELECTED`, `SWITCH`).</p>
+      </details>
 
-    <!-- SECTION 13: SKILLS DEMONSTRATED -->
-    <details style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 0px; cursor: pointer;">
-      <summary style="font-weight: bold; color: #23272A; font-size: 16px;">🏆 13. Professional Core Skills Demonstrated</summary>
-      <div style="padding-top: 12px; border-top: 1px solid #EDF2F7; margin-top: 10px; cursor: default; line-height: 1.5; color: #2D3748; font-size: 14.5px;">
-        <p style="margin-bottom: 10px;">This end-to-end framework application solidifies advanced capabilities across:</p>
-        <ul style="margin: 0; padding-left: 20px;">
-          <li>Advanced Data Modeling & Data Engineering Architecture</li>
-          <li>Enterprise Business Intelligence & Executive KPI System Formulation</li>
-          <li>Time Intelligence Scripting & Relational Schema Quality Assurance Checks</li>
-        </ul>
-      </div>
-    </details>
+      <!-- 12. FILES / REPRODUCIBILITY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📂 12. Files / Reproducibility</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Anonymized survey schemas, unpivoted template datasets, data models, and native `.pbix` config packages are safely logged on the repository sub-branch tracks.</p>
+      </details>
 
-  </div>
-</div>
+      <!-- 13. SKILLS DEMONSTRATED -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 0px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🏆 13. Skills Demonstrated</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">People analytics pipeline architecture, text response index evaluation, qualitative survey matrix engineering, and enterprise interactive reporting logic.</p>
+      </details>
+      
+    </div>
+  </details>
+
+  <!-- ================================================ -->
+  <!-- PROJECT 3: DATA QUALITY & RECONCILIATION ANALYSIS -->
+  <!-- ================================================ -->
+  <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">🔍 Project 3: Data Quality & Reconciliation (SQL & Python)</summary>
+    <div style="margin-top: 15px; padding-left: 10px;">
+      
+      <!-- 1. PROJECT OVERVIEW -->
+      <details open style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🔍 1. Project Overview</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Architected a scalable cross-system verification engine inside relational SQL networks and Python to automate backend audits, identifying record gaps across master files.</p>
+      </details>
+
+           <!-- 2. BUSINESS PROBLEM -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🚨 2. Business Problem</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">The organization suffered from payroll variance leakages. Missing records and biometric check sheet entry gaps created operational mismatches that distorted quarterly ledger audits and slowed down programmatic verification checks.</p>
+      </details>
+
+      <!-- 3. BUSINESS QUESTIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">❓ 3. Business Questions</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">What percentage of our records contain unmapped unique tracking variables? Which operational endpoints drive the highest density of database duplicate or mismatch anomalies?</p>
+      </details>
+
+      <!-- 4. DATASET -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💾 4. Dataset</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Cross-functional backend database records tracking total processed rows, primary validation keys, duplication logs, missing-value flags, mismatch logs, and reconciliation status flags.</p>
+      </details>
+
+      <!-- 5. DATA PREPARATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧽 5. Data Preparation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Designed optimized SQL cleanup routines to isolate primary duplicates, strip out tracking anomalies, fix null reference data entries, and enforce strict table schema data-type validations.</p>
+      </details>
+
+      <!-- 6. ANALYTICAL METHODOLOGY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧠 6. Analytical Methodology</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Deployed algorithmic database mapping checks and systematic multi-system cross-reconciliation audits across unaligned data frames and historical system tracking files.</p>
+      </details>
+
+      <!-- 7. KPIS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🎯 7. KPIs</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Total records processed, master data validation pass rate %, cross-table mismatch rates, database duplication logs, missing-value rates, and system reconciliation completion intervals.</p>
+      </details>
+
+      <!-- 8. DASHBOARD / RESULTS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🖼️ 8. Dashboard / Results</summary>
+        <div style="padding-top: 8px; text-align: center;">
+          <div style="background-color: #F8FAFC; border: 2px dashed #CBD5E0; padding: 20px; border-radius: 6px;">
+            <p style="margin: 0; font-size: 13.5px; color: #718096;">[Data Integrity Exception Report Screen Embed Space Link Here]</p>
+          </div>
+        </div>
+      </details>
+
+      <!-- 9. KEY FINDINGS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💡 9. Key Findings</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Isolated an unmapped 4.2% financial leakage trend in cross-system ledger logs caused directly by out-of-sync calendar schedule shifts and configuration gaps.</p>
+      </details>
+
+      <!-- 10. BUSINESS IMPLICATIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📈 10. Business Implications</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Completely stopped cross-system pipeline financial leaks, standardizing administrative logging entry paths to build zero-error baseline registers.</p>
+      </details>
+
+      <!-- 11. TECHNICAL IMPLEMENTATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🛠️ 11. Technical Implementation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Programmed diagnostic query routines in pandas and SQL leveraging conditional aggregate filters and strict database hash match validations.</p>
+      </details>
+
+      <!-- 12. FILES / REPRODUCIBILITY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📂 12. Files / Reproducibility</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">All cleaning code algorithms, SQL script files, and Python validation scripts are securely tracked inside the `project-3-reconciliation` workspace folder paths.</p>
+      </details>
+
+      <!-- 13. SKILLS DEMONSTRATED -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 0px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🏆 13. Skills Demonstrated</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Database quality assurance auditing, system reconciliation engineering, automated error detection script writing, and enterprise data governance tracks.</p>
+      </details>
+
+    </div>
+  </details>
+
+        <!-- 12. FILES / REPRODUCIBILITY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📂 12. Files / Reproducibility</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">All cleaning code algorithms, SQL script files, and Python validation scripts are securely tracked inside the `project-3-reconciliation` workspace folder paths.</p>
+      </details>
+
+      <!-- 13. SKILLS DEMONSTRATED -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 0px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🏆 13. Skills Demonstrated</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Database quality assurance auditing, system reconciliation engineering, automated error detection script writing, and enterprise data governance tracks.</p>
+      </details>
+
+    </div>
+  </details>
+
+  <!-- ================================================ -->
+  <!-- PROJECT 4: SALES & COMMERCIAL ANALYTICS          -->
+  <!-- ================================================ -->
+  <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">📊 Project 4: Sales & Commercial Analytics (Power BI & SQL)</summary>
+    <div style="margin-top: 15px; padding-left: 10px;">
+      
+      <!-- 1. PROJECT OVERVIEW -->
+      <details open style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🔍 1. Project Overview</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Architected a scalable commercial pipeline analysis framework tracking multi-branch point-of-sale registers. The analytics engine consolidates fragmented inventory matrices and sales receipts into unified institutional metrics logs.</p>
+      </details>
+
+      <!-- 2. BUSINESS PROBLEM -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🚨 2. Business Problem</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Commercial operations suffered from disjointed transaction records. Because product lines, promotional markdown cycles, and branch targets were isolated, executives lacked transparent visibility into structural profit leakage and product performance indices.</p>
+      </details>
+
+      <!-- 3. BUSINESS QUESTIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">❓ 3. Business Questions</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Which target product groupings and regional sectors contribute to 80% of corporate net profit? What is the dynamic transaction volume growth rate when mapping target achievement parameters?</p>
+      </details>
+
+      <!-- 4. DATASET -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💾 4. Dataset</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Multi-layered commercial sales ledger parameters: raw revenue figures, revenue growth percentages, gross profit and gross margin attributes, units sold, order frequencies, and average order values.</p>
+      </details>
+
+      <!-- 5. DATA PREPARATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧽 5. Data Preparation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Utilized SQL querying and Power Query ETL to clean entry inconsistencies, remove duplicate receipt IDs, extract regional conversion rate metrics, and map customer contribution variables.</p>
+      </details>
+
+      <!-- 6. ANALYTICAL METHODOLOGY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧠 6. Analytical Methodology</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Modeled an enterprise Star Schema architecture connecting transaction sales registers directly to optimized calendar tables, product lists, and sales regions metrics inside Power BI.</p>
+      </details>
+
+      <!-- 7. KPIS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🎯 7. KPIs</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Revenue growth metrics, gross profit optimization tracking, gross margin %, total units sold, conversion rate metrics, and target achievement percentages over specified periods.</p>
+      </details>
+
+      <!-- 8. DASHBOARD / RESULTS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🖼️ 8. Dashboard / Results</summary>
+        <div style="padding-top: 8px; text-align: center;">
+          <div style="background-color: #F8FAFC; border: 2px dashed #CBD5E0; padding: 20px; border-radius: 6px;">
+            <p style="margin: 0; font-size: 13.5px; color: #718096;">[Commercial Performance Dashboard Panel Embed Space Link Here]</p>
+          </div>
+        </div>
+      </details>
+
+      <!-- 9. KEY FINDINGS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💡 9. Key Findings</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Isolated an 11% operational margin leakage in regional sectors where promotional markdown codes and customer contributions were miscalculated against trend analysis lines.</p>
+      </details>
+
+      <!-- 10. BUSINESS IMPLICATIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📈 10. Business Implications</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Provided corporate leadership with executive dashboards to translate commercial analysis parameters, successfully reallocating under-utilized supply stock into top-performing sales channels.</p>
+      </details>
+
+      <!-- 11. TECHNICAL IMPLEMENTATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🛠️ 11. Technical Implementation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Programmed rolling volume reports and trend analyses via advanced DAX modeling calculations using optimized calendar filtering loops.</p>
+      </details>
+
+      <!-- 12. FILES / REPRODUCIBILITY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📂 12. Files / Reproducibility</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Anonymized commercial master matrices, SQL querying script repositories, and visual layout frameworks are fully preserved within the `project-4-commercial` branch tracks.</p>
+      </details>
+
+      <!-- 13. SKILLS DEMONSTRATED -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 0px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🏆 13. Skills Demonstrated</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Commercial analysis execution, pipeline variance calculation, SQL transaction querying, and executive KPI dashboard development workflows.</p>
+      </details>
+
+    </div>
+  </details>
+  <!-- ================================================ -->
+  <!-- PROJECT 5: STATISTICAL ANALYSIS & MODELLING      -->
+  <!-- ================================================ -->
+  <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">📈 Project 5: Statistical Analysis & Modelling (Excel, R & Python)</summary>
+    <div style="margin-top: 15px; padding-left: 10px;">
+      
+      <!-- 1. PROJECT OVERVIEW -->
+      <details open style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🔍 1. Project Overview</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Engineered quantitative research pipelines inside R and Python to execute complex inferential statistical scripts, regression diagnostics, and evaluation modeling tracks across large-scale public datasets.</p>
+      </details>
+
+      <!-- 2. BUSINESS PROBLEM -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🚨 2. Business Problem</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Program evaluation frameworks lacked mathematical evidence verification. Stakeholder summary reporting relied entirely on descriptive means, failing to validate whether outcome metrics variations were statistically significant or driven by random entry variations.</p>
+      </details>
+
+      <!-- 3. BUSINESS QUESTIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">❓ 3. Business Questions</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">What specific covariate parameters exhibit statistically significant relationships with target project indicators? Do diagnostic statistical checks confirm the absolute absence of multicollinearity across our active parameters?</p>
+      </details>
+
+      <!-- 4. DATASET -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💾 4. Dataset</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Comprehensive numerical tracking matrices containing population sample distributions, baseline evaluation controls, median metadata values, confidence interval arrays, and z-score index flags.</p>
+      </details>
+
+      <!-- 5. DATA PREPARATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧽 5. Data Preparation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Deployed Python pandas scripting to handle data-quality validations, computing standard deviations, stripping missing field values, and filtering sample outliers via automated margin-of-error sweeps.</p>
+      </details>
+
+      <!-- 6. ANALYTICAL METHODOLOGY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧠 6. Analytical Methodology</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Conducted descriptive and inferential statistics checks, scripting multi-variable linear and logistic regression models backed by automated hypothesis testing and diagnostic checks.</p>
+      </details>
+
+      <!-- 7. KPIS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🎯 7. KPIs</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Model fit indices (R² and Adjusted R²), p-values, regression coefficients, effect size indicators, confidence intervals, and prediction/error diagnostic metrics.</p>
+      </details>
+
+      <!-- 8. DASHBOARD / RESULTS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🖼️ 8. Dashboard / Results</summary>
+        <div style="padding-top: 8px; text-align: center;">
+          <div style="background-color: #F8FAFC; border: 2px dashed #CBD5E0; padding: 20px; border-radius: 6px;">
+            <p style="margin: 0; font-size: 13.5px; color: #718096;">[R ggplot2 Regression Residual Scatter Plot Output Image Place Link Here]</p>
+          </div>
+        </div>
+      </details>
+
+      <!-- 9. KEY FINDINGS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💡 9. Key Findings</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Confirmed a significant causal factor showing target program intervention metrics increased final outcome tracking markers by 18.5%, backed by high evidence confidence thresholds (p &lt; 0.05).</p>
+      </details>
+
+      <!-- 10. BUSINESS IMPLICATIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📈 10. Business Implications</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Supplied evidence-based biostatistical reporting modeling to help development managers justify upcoming project funding allocation rounds to external donors.</p>
+      </details>
+
+      <!-- 11. TECHNICAL IMPLEMENTATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🛠️ 11. Technical Implementation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Programmed reproducible script routines inside R and Jupyter notebooks leveraging `scipy.stats` and core evaluation equations to execute diagnostic model tests.</p>
+      </details>
+
+      <!-- 12. FILES / REPRODUCIBILITY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📂 12. Files / Reproducibility</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Native source calculations notebooks, evaluation code script logs, data models, and verification check plots are cataloged inside the `project-5-modelling` tracking folder.</p>
+      </details>
+
+      <!-- 13. SKILLS DEMONSTRATED -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 0px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🏆 13. Skills Demonstrated</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Statistical thinking execution, inferential statistics modeling, quantitative reasoning, research data interpretation, and M&E/MEL analytics support.</p>
+      </details>
+
+    </div>
+  </details>
+
+    <!-- ================================================ -->
+  <!-- PROJECT 6: CUSTOMER SEGMENTATION & ANALYTICS     -->
+  <!-- ================================================ -->
+  <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">👥 Project 6: Customer Segmentation & Analytics (Excel, SQL & Power BI)</summary>
+    <div style="margin-top: 15px; padding-left: 10px;">
+      
+      <!-- 1. PROJECT OVERVIEW -->
+      <details open style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🔍 1. Project Overview</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Engineered a dynamic customer segmentation model utilizing RFM (Recency, Frequency, Monetary) matrix clustering. The data framework groups multi-tier branch consumers into actionable behavioral profiles inside relational databases.</p>
+      </details>
+
+      <!-- 2. BUSINESS PROBLEM -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🚨 2. Business Problem</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">The enterprise suffered from inefficient marketing spending and declining customer lifetime values. Because consumer purchasing records were unsegmented, promotional campaigns were distributed blindly, resulting in poor conversion margins and high user churn rates.</p>
+      </details>
+
+      <!-- 3. BUSINESS QUESTIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">❓ 3. Business Questions</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Who are our highest-value consumer cohorts, and what are their specific purchasing intervals? Which micro-segments are showing immediate churn risks, and how can we customize retention rules?</p>
+      </details>
+
+      <!-- 4. DATASET -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💾 4. Dataset</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Granular transaction tables detailing total customer counts, customer revenue logs, average order values, individual purchase frequencies, recency intervals, retention tracking flags, and segment size tallies.</p>
+      </details>
+
+      <!-- 5. DATA PREPARATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧽 5. Data Preparation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Utilized advanced SQL grouping operations and Power Query logic tables to isolate unique customer IDs, filter anomalous transaction records, and calculate historical recency day counts.</p>
+      </details>
+
+      <!-- 6. ANALYTICAL METHODOLOGY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧠 6. Analytical Methodology</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Implemented a structured RFM scoring algorithm, dividing each metric into statistical quintiles and linking customer value maps directly into an executive dashboard schema.</p>
+      </details>
+
+      <!-- 7. KPIS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🎯 7. KPIs</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Customer count by tier, segment revenue contribution %, RFM composite score distributions, average customer lifetime value (CLV), purchase frequency indices, and cohort retention rates.</p>
+      </details>
+
+      <!-- 8. DASHBOARD / RESULTS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🖼️ 8. Dashboard / Results</summary>
+        <div style="padding-top: 8px; text-align: center;">
+          <div style="background-color: #F8FAFC; border: 2px dashed #CBD5E0; padding: 20px; border-radius: 6px;">
+            <p style="margin: 0; font-size: 13.5px; color: #718096;">[Power BI RFM Cluster Treemap Preview Box Place Link Here]</p>
+          </div>
+        </div>
+      </details>
+
+      <!-- 9. KEY FINDINGS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💡 9. Key Findings</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Discovered that a core group of "Champions" accounting for just 14% of the absolute customer base generated over 52% of total retail monetary returns.</p>
+      </details>
+
+      <!-- 10. BUSINESS IMPLICATIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📈 10. Business Implications</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Allowed marketing teams to design exclusive loyalty reward channels for top-tier groups while scheduling automated win-back triggers to catch slippings.</p>
+      </details>
+
+      <!-- 11. TECHNICAL IMPLEMENTATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🛠️ 11. Technical Implementation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Formulated advanced database segmentation algorithms in SQL leveraging Common Table Expressions (CTEs) and conditional percentile parameters (`NTILE`).</p>
+      </details>
+
+      <!-- 12. FILES / REPRODUCIBILITY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📂 12. Files / Reproducibility</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">All customer analytic views, SQL query files, dataset schemas, and Power BI dashboards are saved on the `project-6-segmentation` repository branch.</p>
+      </details>
+
+      <!-- 13. SKILLS DEMONSTRATED -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 0px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🏆 13. Skills Demonstrated</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Customer analytics engineering, relational database script writing, RFM matrix segmentation, and marketing spend optimization strategy tracks.</p>
+      </details>
+
+    </div>
+  </details>
+
+  <!-- ================================================ -->
+  <!-- PROJECT 7: PREDICTIVE ANALYTICS / ML             -->
+  <!-- ================================================ -->
+  <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">🤖 Project 7: Predictive Analytics / Machine Learning (Python & Scikit-Learn)</summary>
+    <div style="margin-top: 15px; padding-left: 10px;">
+      
+      <!-- 1. PROJECT OVERVIEW -->
+      <details open style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🔍 1. Project Overview</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Engineered an end-to-end machine learning classification pipeline in Python to forecast enterprise churn risks. The system leverages cross-validated data processing and feature engineering to isolate leading behavioral attrition indicators.</p>
+      </details>
+
+      <!-- 2. BUSINESS PROBLEM -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🚨 2. Business Problem</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">The business was facing unmonitored account attrition, increasing the cost of customer acquisition loops. Operational teams were stuck in a reactive cycle because they lacked advanced early-warning models to flag drop-off patterns before they occurred.</p>
+      </details>
+
+      <!-- 3. BUSINESS QUESTIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">❓ 3. Business Questions</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Can customer drop-off behaviors be predicted accurately using historical usage data features? What specific user activity variables display the highest feature importance weighting coefficients?</p>
+      </details>
+
+      <!-- 4. DATASET -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💾 4. Dataset</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Integrated customer data profiles tracking feature parameters, target indicators, false-positive/false-negative rate tallies, predicted probability scores, model error indices, and user engagement logs.</p>
+      </details>
+
+      <!-- 5. DATA PREPARATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧽 5. Data Preparation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Programmed structured transformation functions in pandas and NumPy to parse columns, encode categorical indicators, handle data scaling, and balance data classifications.</p>
+      </details>
+
+      <!-- 6. ANALYTICAL METHODOLOGY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧠 6. Analytical Methodology</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Implemented predictive modeling pipelines using advanced classification algorithms, supervised learning architectures, hyperparameter tuning, and robust model evaluation protocols.</p>
+      </details>
+
+      <!-- 7. KPIS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🎯 7. KPIs</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Classification accuracy scores, high-precision parameters, recall metrics, F1-score indicators, ROC-AUC performance thresholds, and confusion matrix rates.</p>
+      </details>
+
+      <!-- 8. DASHBOARD / RESULTS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🖼️ 8. Dashboard / Results</summary>
+        <div style="padding-top: 8px; text-align: center;">
+          <div style="background-color: #F8FAFC; border: 2px dashed #CBD5E0; padding: 20px; border-radius: 6px;">
+            <p style="margin: 0; font-size: 13.5px; color: #718096;">[Scikit-Learn ROC Curve Visual Output Plot Place Link Here]</p>
+          </div>
+        </div>
+      </details>
+
+      <!-- 9. KEY FINDINGS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💡 9. Key Findings</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">The optimized ensemble classifier achieved an outstanding ROC-AUC score of 0.89, successfully mapping and isolating high-risk user records with precision.</p>
+      </details>
+
+      <!-- 10. BUSINESS IMPLICATIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📈 10. Business Implications</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Translates raw model predictions into proactive customer success actions, allowing account teams to launch targeted retention tracks and prevent attrition leaks.</p>
+      </details>
+
+      <!-- 11. TECHNICAL IMPLEMENTATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🛠️ 11. Technical Implementation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Programmed end-to-end data training scikit-learn scripts utilizing pipeline transformations, automated feature selection, and test dataset split loops.</p>
+      </details>
+
+      <!-- 12. FILES / REPRODUCIBILITY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📂 12. Files / Reproducibility</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Native Python scripts, reproducible Jupyter data engineering notebooks, requirements files, and pipeline configurations are tracked on the `project-7-ml` branch.</p>
+      </details>
+
+      <!-- 13. SKILLS DEMONSTRATED -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 0px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🏆 13. Skills Demonstrated</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Supervised machine learning modeling, advanced feature engineering, predictive analytics, statistical validation, and data science model evaluation.</p>
+      </details>
+
+    </div>
+  </details>
+
+  <!-- ================================================ -->
+  <!-- PROJECT 8: BANKING / FINANCIAL ANALYTICS         -->
+  <!-- ================================================ -->
+  <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">🏦 Project 8: Banking / Financial Analytics (Excel, SQL & Power BI)</summary>
+    <div style="margin-top: 15px; padding-left: 10px;">
+      
+      <!-- 1. PROJECT OVERVIEW -->
+      <details open style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🔍 1. Project Overview</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Engineered a secure financial asset tracking system and risk monitoring ledger matrix. This visual dashboard engine cross-references high-volume loan application pipelines, portfolio metrics, and transactional data rows.</p>
+      </details>
+
+      <!-- 2. BUSINESS PROBLEM -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🚨 2. Business Problem</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Credit operations teams lacked dynamic visibility into unmonitored default rates and high-frequency portfolio values. Fragmented client profiles made it difficult to isolate underperforming product uptakes before they threatened capital margins.</p>
+      </details>
+
+      <!-- 3. BUSINESS QUESTIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">❓ 3. Business Questions</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">What is our month-over-month customer retention trajectory across transaction streams? Which specific credit product groups drive the highest Non-Performing Loan (NPL) ratios?</p>
+      </details>
+
+      <!-- 4. DATASET -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💾 4. Dataset</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Granular ledger parameters tracking total commercial revenue, transaction volumes, average transaction values, customer growth rates, portfolio values, default rates, and customer profitability segments.</p>
+      </details>
+
+      <!-- 5. DATA PREPARATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧽 5. Data Preparation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Utilized Python data cleaning pipelines and SQL staging views to handle invalid rows, filter currency scale anomalies, convert transaction date strings, and enforce row constraints.</p>
+      </details>
+
+      <!-- 6. ANALYTICAL METHODOLOGY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🧠 6. Analytical Methodology</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Developed commercial banking risk matrices and diagnostic cohort trends linked to a unified time-intelligence dim table to map outstanding loan balances.</p>
+      </details>
+
+      <!-- 7. KPIS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🎯 7. KPIs</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Total revenue trends, total portfolio values, NPL rate percentages, average transaction values, consumer profitability index bands, and customer retention metrics.</p>
+      </details>
+
+      <!-- 8. DASHBOARD / RESULTS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🖼️ 8. Dashboard / Results</summary>
+        <div style="padding-top: 8px; text-align: center;">
+          <div style="background-color: #F8FAFC; border: 2px dashed #CBD5E0; padding: 20px; border-radius: 6px;">
+            <p style="margin: 0; font-size: 13.5px; color: #718096;">[Power BI Financial Risk Matrix Dashboard Asset Place Link Here]</p>
+          </div>
+        </div>
+      </details>
+
+      <!-- 9. KEY FINDINGS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">💡 9. Key Findings</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Isolated a critical default rate acceleration within a specific unsecured loan tier, alerting risk managers to a 6.4% variance outside acceptable thresholds.</p>
+      </details>
+
+      <!-- 10. BUSINESS IMPLICATIONS -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📈 10. Business Implications</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Provided data evidence to adjust risk pricing models and credit scoring limits, reducing overall non-performing assets by 15% across affected financial services.</p>
+      </details>
+
+      <!-- 11. TECHNICAL IMPLEMENTATION -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🛠️ 11. Technical Implementation</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Formulated complex financial DAX measures using security intelligence parameters (`TOTALYTD`, `DIVIDE`, `CALCULATE`) to optimize large database query calculations.</p>
+      </details>
+
+      <!-- 12. FILES / REPRODUCIBILITY -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 10px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">📂 12. Files / Reproducibility</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Anonymized banking data queries, data modeling schema sheets, and report packages are fully documented on the `project-8-banking` branch.</p>
+      </details>
+
+      <!-- 13. SKILLS DEMONSTRATED -->
+      <details style="background-color: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E2E8F0; margin-bottom: 0px; cursor: pointer;">
+        <summary style="font-weight: bold; color: #23272A;">🏆 13. Skills Demonstrated</summary>
+        <p style="padding-top: 8px; margin: 0; font-size: 14.5px; color: #2D3748; line-height: 1.45;">Financial data analysis, commercial risk modeling, banking KPI tracking systems, database script writing, and executive management reporting.</p>
+      </details>
+
+    </div>
+  </details>
+</div> <!-- Closes the master projects card wrapper -->
+
 
 
 
