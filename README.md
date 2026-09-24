@@ -953,8 +953,23 @@
     </div>
   </details>
 </div> <!-- Closes the master projects card wrapper -->
-  <p style="font-size: 14px; font-style: italic; color: #23272A; margin: 0; font-weight: 500;">📌 Note: Live interactive dashboard panel embeds and asset documentation registers for this workforce system are compiling on the master track.</p>
-</div>
+<p style="font-size: 14px; font-style: italic; color: #23272A; margin: 0; font-weight: 500;">📌 Note: Live interactive dashboard panel embeds and asset documentation registers for this workforce system are compiling on the master track.</p>
+</div> <!-- Closes the master projects card wrapper -->
+
+<!-- THE CSS ENGINE LINK RULES: This controls how cards display dynamically -->
+<style>
+  #tab-about:checked ~ .scroll-content #about,
+  #tab-services:checked ~ .scroll-content #services,
+  #tab-projects:checked ~ .scroll-content #projects,
+  #tab-experience:checked ~ .scroll-content #experience,
+  #tab-education:checked ~ .scroll-content #education,
+  #tab-certifications:checked ~ .scroll-content #certifications,
+  #tab-get-in-touch:checked ~ .scroll-content #get-in-touch {
+    display: block !important;
+  }
+</style>
+
+
 
 
 
