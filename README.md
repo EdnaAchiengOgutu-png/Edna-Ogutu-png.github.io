@@ -123,31 +123,36 @@
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-  /* Fluid Scrolling Content Layer Layout */
+
+
+  /* Fluid Scrolling Content Layer Layout - Calibrated to tighten the top gap metrics */
   .scroll-content {
-    margin-top: 95px !important; 
-    padding: 15px 0 75px 0 !important; 
+    margin-top: 72px !important; /* Draws your blue cards up up beautifully underneath the bar */
+    padding: 10px 0 75px 0 !important; 
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
+    min-height: calc(100vh - 180px) !important; 
+  }
     
     /* THE SMART CUSHION BUFFER: Keeps short tabs open wide enough to cleanly reveal your footer bar layout */
     min-height: calc(100vh - 220px) !important; 
   }
 
-  /* Content Cards with Clean Horizontal Side Gaps */
+    /* Content Cards Layout Parameters */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px 45px !important; 
     border-radius: 8px; 
     margin-left: 20px !important; 
     margin-right: 20px !important; 
+    margin-top: 0 !important; /* Forces cards flush to eliminate whitespace gaps */
     margin-bottom: 0 !important; 
     box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 110px !important; 
+    scroll-margin-top: 100px !important; 
     width: calc(100% - 40px) !important; 
     max-width: calc(100% - 40px) !important; 
     box-sizing: border-box !important;
@@ -155,6 +160,7 @@
     overflow-y: visible !important;
     z-index: 100 !important; 
   }
+
 
  /* PURE CSS TAB SWITCH MECHANISM */
   #tab-home:checked ~ .scroll-content #home,
