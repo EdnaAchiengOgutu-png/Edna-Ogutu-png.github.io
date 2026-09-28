@@ -435,27 +435,27 @@
   <h3 style="margin-top: 0 !important;">Professional Experience</h3>
   <p style="line-height: 1.45; font-size: 15.5px; color: #1A1D20; margin-bottom: 25px;">My experience spans data analytics, workforce analytics, research, data management and quantitative analysis across research, business and development-focused environments.</p>
 
-  <h3> Data Analyst — Infotrak Research & Consulting</h3>
-  <span class="job-meta">Active Engagement — (2026)</span>
+  <h3> Data Analyst - Infotrak Research & Consulting</h3>
+  <span class="job-meta">Active Engagement - (2026)</span>
   <ul>
     <li>Working with research and business data across data management, validation, statistical analysis, reporting and analytical outputs.</li>
     <li>Supporting the transformation of raw data into reliable information for research and decision-making.</li>
   </ul>
 
-  <h3> Workforce & Data Analyst — Calltronix Kenya Ltd</h3>
-  <span class="job-meta">Corporate Operations — (2024–2025)</span>
+  <h3> Workforce & Data Analyst - Calltronix Kenya Ltd</h3>
+  <span class="job-meta">Corporate Operations - (2024–2025)</span>
   <ul>
     <li>Analysed workforce, HR, finance and operational data to support employee management, payroll validation, productivity analysis and reporting.</li>
     <li>Worked across multiple operational data sources to reconcile information and produce reliable analytical outputs.</li>
   </ul>
 
-  <h3> Data & Research Analyst — Hamasisha Africa</h3>
-  <span class="job-meta">Research Systems Analyst Track — (2025)</span>
+  <h3> Data & Research Analyst - Hamasisha Africa</h3>
+  <span class="job-meta">Research Systems Analyst Track - (2025)</span>
   <ul>
     <li>Supported quantitative research through data preparation, analysis, interpretation and reporting, contributing to evidence generation and research-related decision-making.</li>
   </ul>
 
-   <h3> Research, MEAL & Data Assignments — Various Projects</h3>
+   <h3> Research, MEAL & Data Assignments - Various Projects</h3>
   <span class="job-meta">Independent Field Consultations Track</span>
   <ul>
     <li>Undertook research, monitoring, evaluation and data-related assignments involving quantitative data collection, data quality, analysis, reporting and field-based information management.</li>
@@ -471,10 +471,10 @@
   <h2> Education</h2>
   
   <h3> Master of Science in Data Science</h3>
-  <span class="job-meta">Open University of Kenya — (Ongoing)</span>
+  <span class="job-meta">Open University of Kenya - (Ongoing)</span>
   
   <h3> BSc Biostatistics</h3>
-  <span class="job-meta">Jomo Kenyatta University of Agriculture and Technology (JKUAT) — (2022 | Second Class Upper)</span>
+  <span class="job-meta">Jomo Kenyatta University of Agriculture and Technology (JKUAT) - (2022 | Second Class Upper)</span>
   
   <p style="line-height: 1.5; font-size: 15px; color: #1A1D20; font-weight: 500; margin-top: 15px; background: rgba(255,255,255,0.4); padding: 15px; border-radius: 6px;"><b> Academic Foundation Matrix:</b> Academic foundation in biostatistics, statistical analysis, quantitative methods, research methodology and data analysis.</p>
 </div>
