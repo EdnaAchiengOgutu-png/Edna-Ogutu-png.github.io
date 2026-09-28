@@ -306,6 +306,7 @@
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
 <div id="services" class="content-card skills-bg-card">
+
   <h2> What I Do</h2>
   <ul>
     <li><span class="skill-title">Data Analytics:</span> Transforming structured data into meaningful insights, trends, and performance indicators.</li>
