@@ -136,7 +136,7 @@
 
   /* Content Cards Layout Parameters */
   .content-card {
-    background-color: #97B2DE !important; 
+    background-color: #D2F7FF !important; 
     padding: 35px 45px !important; 
     border-radius: 8px; 
     margin-left: 20px !important; 
@@ -220,7 +220,7 @@
 <!-- FIXED EDGE-TO-EDGE TOP HEADER BLOCK AND NAVIGATION CONTROL BAR -->
 <div class="master-sticky-header">
   <div class="header-block">
-    <h1>Edna Achieng Ogutu</h1>
+    <h1>Edna Ogutu</h1>
   </div>
 
   <div class="navbar">
@@ -239,7 +239,7 @@
 <div class="fixed-footer-container">
   <div class="footer-bar">
     <p> <span class="footer-highlight">Nairobi, Kenya</span> |  <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
-    <p> <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
+    <p> <a href="https://www.linkedin.com/in/edna-achieng-ogutu/" target="_blank">Connect on LinkedIn</a></p>
   </div>
 </div>
 
