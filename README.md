@@ -241,6 +241,7 @@
     <label for="tab-get-in-touch">📞 GET IN TOUCH</label>
   </div>
 </div>
+
 <!-- FIXED EDGE-TO-EDGE BOTTOM FROZEN FOOTER BAR -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
@@ -250,6 +251,7 @@
 </div>
 
 <div class="scroll-content">
+
 
 
 <!-- ================================================ -->
