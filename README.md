@@ -4,7 +4,7 @@
     display: none !important;
   }
   
-  /* Overrides GitHub's secret default wrapper settings to force absolute edge-to-edge stretch */
+  /* Overrides GitHub's default wrapper padding parameters to force true edge-to-edge stretch */
   html, body, .wrapper, #main_content, .main-content, #content, .container-lg, .markdown-body, .portfolio-container, .scroll-content, div, section, main {
     max-width: 100% !important;
     width: 100% !important;
@@ -28,7 +28,7 @@
     display: none !important;
   }
   
-  /* MASTER FIXED TOP HEADER WRAPPER - MAXIMUM LAYER PRIORITY */
+  /* MASTER FIXED TOP HEADER WRAPPER - MAXIMUM CEILING LAYER PRIORITY */
   .master-sticky-header {
     position: fixed !important;
     top: 0 !important;
@@ -36,7 +36,7 @@
     right: 0 !important;  
     width: 100% !important;
     z-index: 999999 !important; 
-    background-color: #D2F7FF !important; 
+    background-color: #23272A !important; 
     padding: 0 !important; 
     margin: 0 !important;
     box-sizing: border-box !important;
@@ -50,7 +50,7 @@
     padding: 0 !important;
   }
 
-  /* Main Profile Block Header Content Box - Full Width Stretch with Outer Gold Top Border */
+  /* Main Profile Block Header Content Box - Full Width Stretch with Outer Gold Top Border Accent */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
@@ -58,14 +58,14 @@
     border-radius: 0 !important; 
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
-    border-top: 4px solid #FFD200 !important; /* Forces signature gold on the absolute top outer edge */
+    border-top: 4px solid #FFD200 !important; 
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     width: 100% !important;
     box-sizing: border-box !important;
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip - Full Width Stretch with Outer Gold Bottom Border */
+  /* Navigation Ribbon Strip - Full Width Stretch with Outer Gold Bottom Border Accent */
   .navbar { 
     background-color: #23272A !important; 
     padding: 12px 40px !important; 
@@ -75,16 +75,16 @@
     box-sizing: border-box !important;
     border-left: 8px solid #FFD200;
     border-top: 1px solid #3A3F44; 
-    border-bottom: 4px solid #FFD200 !important; /* Forces signature gold on the absolute bottom outer edge */
+    border-bottom: 4px solid #FFD200 !important; 
     border-radius: 0 !important; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   }
   
   .navbar label { 
     color: #FFFFFF !important; 
-    margin-right: 25px; 
+    margin-right: 20px; 
     font-weight: 800; 
-    font-size: 13px; 
+    font-size: 12px; 
     text-transform: uppercase;
     letter-spacing: 0.5px;
     cursor: pointer !important;
@@ -92,7 +92,7 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN BAR - PERMANENTLY FRAMES THE BASE EXPLICITLY */
+  /* FIXED BOTTOM FROZEN FOOTER BAR */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
@@ -123,11 +123,9 @@
   .footer-bar a { color: #FFD200 !important; text-decoration: underline !important; font-weight: bold; }
   .footer-bar a:hover { color: #FFFFFF !important; }
 
-
-
-  /* Fluid Scrolling Content Layer Layout - Calibrated to tighten the top gap metrics */
+  /* Scrolling Content Layout Core Layer Workspace - Tightened Top Margin */
   .scroll-content {
-    margin-top: 72px !important; /* Draws your blue cards up up beautifully underneath the bar */
+    margin-top: 72px !important; 
     padding: 10px 0 75px 0 !important; 
     box-sizing: border-box !important;
     width: 100% !important;
@@ -135,24 +133,20 @@
     display: block !important;
     min-height: calc(100vh - 180px) !important; 
   }
-    
-    /* THE SMART CUSHION BUFFER: Keeps short tabs open wide enough to cleanly reveal your footer bar layout */
-    min-height: calc(100vh - 220px) !important; 
-  }
 
-    /* Content Cards Layout Parameters */
+  /* Content Cards Layout Parameters */
   .content-card {
     background-color: #97B2DE !important; 
     padding: 35px 45px !important; 
     border-radius: 8px; 
     margin-left: 20px !important; 
     margin-right: 20px !important; 
-    margin-top: 0 !important; /* Forces cards flush to eliminate whitespace gaps */
+    margin-top: 0 !important;
     margin-bottom: 0 !important; 
     box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
     position: relative;
     overflow: hidden;
-    scroll-margin-top: 100px !important; 
+    scroll-margin-top: 150px !important; 
     width: calc(100% - 40px) !important; 
     max-width: calc(100% - 40px) !important; 
     box-sizing: border-box !important;
@@ -160,7 +154,8 @@
     overflow-y: visible !important;
     z-index: 100 !important; 
   }
-  /* THE PURE CSS INTERACTIVE ENGINE RULES: Connects nav buttons to view cards */
+
+  /* PURE CSS TAB SWITCH MECHANISM - CONNECTS NAV BUTTONS TO CARDS */
   #tab-home:checked ~ .scroll-content #home,
   #tab-about:checked ~ .scroll-content #about,
   #tab-services:checked ~ .scroll-content #services,
@@ -172,7 +167,6 @@
   #tab-get-in-touch:checked ~ .scroll-content #get-in-touch {
     display: block !important; 
   }
-
 
   /* Highlights active menu labels inside the navbar array */
   #tab-home:checked ~ .master-sticky-header .navbar label[for="tab-home"],
@@ -241,7 +235,6 @@
     <label for="tab-get-in-touch">📞 GET IN TOUCH</label>
   </div>
 </div>
-
 <!-- FIXED EDGE-TO-EDGE BOTTOM FROZEN FOOTER BAR -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
@@ -252,19 +245,16 @@
 
 <div class="scroll-content">
 
-
-
 <!-- ================================================ -->
 <!-- 1. HOME CARD                                     -->
 <!-- ================================================ -->
 <div id="home" class="content-card" style="padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start;">
     
-   <!-- LEFT PANEL: UNBLOCKABLE SECURE PORTRAIT CONTAINER WITH RECENT CORRECT LINK -->
-<div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
-  <img width="800" height="800" alt="Edna Profile Picture" src="data.png" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
-</div>
-
+    <!-- LEFT PANEL: CUSTOM DATA GRAPHIC CONTAINER -->
+    <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
+      <img width="488" height="277" alt="data" src="data.png" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
+    </div>
     
     <!-- RIGHT PANEL: HOME BRIEF CONTENT -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
@@ -280,21 +270,18 @@
   </div>
 </div>
 
-
-
 <!-- ================================================ -->
 <!-- 2. ABOUT CARD                                    -->
 <!-- ================================================ -->
 <div id="about" class="content-card" style="padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start;">
     
-   <!-- LEFT PANEL: UNBLOCKABLE SECURE PORTRAIT CONTAINER WITH RECENT CORRECT LINK -->
-<div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
-  <img width="800" height="800" alt="Edna Profile Picture" src="Edna Profile Picture.png" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
-</div>
-
+    <!-- LEFT PANEL: PORTRAIT CONTAINER WITH CORRECT LINK -->
+    <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
+      <img width="800" height="800" alt="Edna Profile Picture" src="Edna Profile Picture.png" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
+    </div>
     
-    <!-- RIGHT PANEL: ABOUT & VALUE PROPOSITION CONTENT -->
+    <!-- RIGHT PANEL: ABOUT & VALUE PROPOSITION -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
       <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;">👤 About Me</h2>
       <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">I am a Statistician and Data Analyst focused on transforming data into reliable, understandable and useful insights.</p>
@@ -313,6 +300,8 @@
     
   </div>
 </div>
+
+
 
 
 <!-- ================================================ -->
