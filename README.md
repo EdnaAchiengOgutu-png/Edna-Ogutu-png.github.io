@@ -260,7 +260,7 @@
     <!-- RIGHT PANEL: HOME BRIEF CONTENT -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
       <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;"> Welcome</h2>
-      <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Edna Achieng Ogutu</p>
+      <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Edna Ogutu</p>
       <p style="font-size: 18px; color: #1A488E; font-weight: 700; margin-bottom: 15px;">Statistician | Data Analyst | Business Intelligence | Data Science</p>
       <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 15px;">Turning data into reliable insights and better decisions.</p>
       <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">I am a Statistician and Data Analyst with a background in Biostatistics and experience working with workforce, research, operational, survey, and business data. I combine data management, statistical analysisc, and business intelligence to transform data into reliable information, meaningful insights, and decision-ready reporting.</p>
@@ -315,7 +315,7 @@
     <li><span class="skill-title">Statistical & Research Analytics:</span> Applying statistical methods to quantitative, survey, and research data to generate evidence-based insights.</li>
     <li><span class="skill-title">Advanced Analytics:</span> Customer segmentation, predictive modelling, and other advanced analytical approaches.</li>
   </ul>
-  <p style="margin-top: 20px; font-weight: bold;"><label for="tab-projects" style="color: #D2F7FF; cursor: pointer; text-decoration: underline;">View My Projects →</label></p>
+  <p style="margin-top: 20px; font-weight: bold;"><label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline;">View My Projects →</label></p>
 </div>
 
 <!-- ================================================ -->
@@ -329,11 +329,11 @@
   <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
     <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 1. Workforce & HR Analytics</summary>
     <div style="margin-top: 15px; padding-left: 10px;">
-      <p><b> Synopsis:</b> Developed an interactive workforce analytics solution to transform structured employee data into management-ready insights on workforce composition, departmental distribution, salary patterns, employee performance, workforce trends and attrition. The project demonstrates practical application of data preparation, analytical modelling, KPI development and interactive visualisation to support workforce monitoring and management reporting.</p>
+      <p><b> Synopsis:</b> Developed an interactive workforce analytics solution to transform structured employee data into management-ready insights on workforce composition, departmental distribution, salary patterns, employee performance, workforce trends and attrition. The project demonstrates practical application of data preparation, analytical modelling, KPI development, and interactive visualisation to support workforce monitoring and management reporting.</p>
       <p><b> Analytical Focus:</b> Workforce composition and distribution | Department and role analysis | Salary and compensation patterns | Employee performance | Workforce trends | Attrition and workforce stability</p>
       <p><b> Tools Stack:</b> Excel | Power Query | Power BI | DAX | Statistical Analysis</p>
       <p><b> Key Output:</b> Interactive Power BI workforce dashboard with filtering and drill-down capabilities.</p>
-      <p><b> Analytical Value:</b> Provides a consolidated view of workforce characteristics and trends to support workforce monitoring, management reporting and identification of areas requiring further analysis.</p>
+      <p><b> Analytical Value:</b> Provides a consolidated view of workforce characteristics and trends to support workforce monitoring, management reporting, and identification of areas requiring further analysis.</p>
     </div>
   </details>
 
