@@ -246,40 +246,45 @@
 
 <div class="scroll-content">
 
+<div class="scroll-content">
+
 <!-- ================================================ -->
 <!-- 1. HOME CARD                                     -->
 <!-- ================================================ -->
 <div id="home" class="content-card" style="padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start;">
+    
+    <!-- LEFT PANEL: PORTRAIT FRAME -->
     <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
-      <img src="https://github.com" alt="Edna Ogutu Corporate Portrait" style="width: 100% !important; max-width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
+      <img width="800" height="800" alt="Edna Profile Picture" src="https://github.com" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
     </div>
+    
+    <!-- RIGHT PANEL: HOME BRIEF CONTENT -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
-      <h2>🏠 Home</h2>
-      <p style="font-size: 22px; color: #111314; font-weight: 800; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Edna Achieng Ogutu</p>
+      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;">🏠 Welcome</h2>
+      <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Edna Achieng Ogutu</p>
       <p style="font-size: 18px; color: #1A488E; font-weight: 700; margin-bottom: 15px;">Statistician | Data Analyst | Business Intelligence | Data Science</p>
-      <p style="font-size: 16px; font-weight: bold; margin-bottom: 12px; color: #23272A;">Turning data into reliable insights and better decisions.</p>
-      <p>I am a Statistician and Data Analyst with a background in Biostatistics and experience working with workforce, research, operational, survey and business data.</p>
-      <p>I combine data management, statistical analysis and business intelligence to transform data into reliable information, meaningful insights and decision-ready reporting.</p>
-      <p style="margin-top: 25px; font-weight: bold;">👉 Click the navbar menu selectors above to explore: <label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline;">View Projects</label> | <label for="tab-services" style="color: #1A488E; cursor: pointer; text-decoration: underline;">Explore Services</label> | <label for="tab-get-in-touch" style="color: #1A488E; cursor: pointer; text-decoration: underline;">Get in Touch</label></p>
+      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 15px;">Turning data into reliable insights and better decisions.</p>
+      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">I am a Statistician and Data Analyst with a background in Biostatistics and experience working with workforce, research, operational, survey and business data. I combine data management, statistical analysis and business intelligence to transform data into reliable information, meaningful insights and decision-ready reporting.</p>
+      
+      <p style="margin-top: 25px; font-weight: bold; font-size: 15px;">👉 Explore My Portfolio: <label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">View Projects</label> | <label for="tab-services" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Explore Services</label> | <label for="tab-get-in-touch" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Get in Touch</label></p>
     </div>
+    
   </div>
 </div>
 
-<!-- ================================================ -->
 <!-- ================================================ -->
 <!-- 2. ABOUT CARD                                    -->
 <!-- ================================================ -->
 <div id="about" class="content-card" style="padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start;">
     
-   <!-- LEFT PANEL: UNBLOCKABLE SECURE PORTRAIT CONTAINER WITH RECENT CORRECT LINK -->
-<div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
-  <img width="800" height="800" alt="Edna Profile Picture" src="https://github.com/user-attachments/assets/a92b595d-0340-4e3d-8fe7-1e028fc79a89" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
-</div>
-
+    <!-- LEFT PANEL: UNBLOCKABLE SECURE PORTRAIT CONTAINER -->
+    <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
+      <img width="800" height="800" alt="Edna Profile Picture" src="https://github.com" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
+    </div>
     
-    <!-- RIGHT PANEL: CONTENT & VALUE PROPOSITION -->
+    <!-- RIGHT PANEL: ABOUT & VALUE PROPOSITION CONTENT -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
       <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;">👤 About Me</h2>
       <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">I am a Statistician and Data Analyst focused on transforming data into reliable, understandable and useful insights.</p>
@@ -298,7 +303,6 @@
     
   </div>
 </div>
-
 
 
 <!-- ================================================ -->
