@@ -251,8 +251,6 @@
 
 <div class="scroll-content">
 
-<div class="scroll-content">
-
 
 <!-- ================================================ -->
 <!-- 1. HOME CARD                                     -->
