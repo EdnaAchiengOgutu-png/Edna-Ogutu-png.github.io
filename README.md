@@ -224,22 +224,22 @@
   </div>
 
   <div class="navbar">
-    <label for="tab-home">🏠 HOME</label>
-    <label for="tab-about">👤 ABOUT</label>
-    <label for="tab-services">💼 SERVICES</label>
-    <label for="tab-projects">📊 PROJECTS</label>
-    <label for="tab-portfolio">📈 PORTFOLIO</label>
-    <label for="tab-experience">💼 EXPERIENCE</label>
-    <label for="tab-education">🎓 EDUCATION</label>
-    <label for="tab-certifications">🏆 CERTIFICATIONS</label>
-    <label for="tab-get-in-touch">📞 GET IN TOUCH</label>
+    <label for="tab-home"> HOME</label>
+    <label for="tab-about"> ABOUT</label>
+    <label for="tab-services"> SERVICES</label>
+    <label for="tab-projects"> PROJECTS</label>
+    <label for="tab-portfolio"> PORTFOLIO</label>
+    <label for="tab-experience"> EXPERIENCE</label>
+    <label for="tab-education"> EDUCATION</label>
+    <label for="tab-certifications"> CERTIFICATIONS</label>
+    <label for="tab-get-in-touch"> GET IN TOUCH</label>
   </div>
 </div>
 <!-- FIXED EDGE-TO-EDGE BOTTOM FROZEN FOOTER BAR -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
-    <p>📍 <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
-    <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
+    <p> <span class="footer-highlight">Nairobi, Kenya</span> |  <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
+    <p> <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
   </div>
 </div>
 
@@ -253,18 +253,18 @@
     
     <!-- LEFT PANEL: CUSTOM DATA GRAPHIC CONTAINER -->
     <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
-      <img width="488" height="277" alt="data" src="data.png" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
+      <img width="800" height="800" alt="data" src="data.png" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
     </div>
     
     <!-- RIGHT PANEL: HOME BRIEF CONTENT -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
-      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;">🏠 Welcome</h2>
+      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;"> Welcome</h2>
       <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Edna Achieng Ogutu</p>
       <p style="font-size: 18px; color: #1A488E; font-weight: 700; margin-bottom: 15px;">Statistician | Data Analyst | Business Intelligence | Data Science</p>
       <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 15px;">Turning data into reliable insights and better decisions.</p>
       <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">I am a Statistician and Data Analyst with a background in Biostatistics and experience working with workforce, research, operational, survey and business data. I combine data management, statistical analysis and business intelligence to transform data into reliable information, meaningful insights and decision-ready reporting.</p>
       
-      <p style="margin-top: 25px; font-weight: bold; font-size: 15px;">👉 Explore My Portfolio: <label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">View Projects</label> | <label for="tab-services" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Explore Services</label> | <label for="tab-get-in-touch" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Get in Touch</label></p>
+      <p style="margin-top: 25px; font-weight: bold; font-size: 15px;"> Explore My Portfolio: <label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">View Projects</label> | <label for="tab-services" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Explore Services</label> | <label for="tab-get-in-touch" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Get in Touch</label></p>
     </div>
     
   </div>
@@ -283,19 +283,19 @@
     
     <!-- RIGHT PANEL: ABOUT & VALUE PROPOSITION -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
-      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;">👤 About Me</h2>
+      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;"> About Me</h2>
       <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">I am a Statistician and Data Analyst focused on transforming data into reliable, understandable and useful insights.</p>
       <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 15px;">My work combines data management, statistical analysis, business intelligence and research analytics. I work across the analytical process—from preparing and validating data to analysing, visualising and communicating results.</p>
       <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">I believe effective analytics starts with reliable data. My approach is therefore centred on understanding the data, asking the right questions and producing outputs that are both technically sound and useful to decision-makers.</p>
       
-      <h3 style="margin-top: 22px !important; margin-bottom: 6px !important; font-size: 21px; font-weight: 900; color: #111314 !important;">🎯 Core Areas</h3>
+      <h3 style="margin-top: 22px !important; margin-bottom: 6px !important; font-size: 21px; font-weight: 900; color: #111314 !important;"> Core Areas</h3>
       <ul style="padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 15px !important;">
         <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Data Analytics:</span> Exploratory analysis, KPI development, trends and performance analysis.</li>
         <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Data Management:</span> Data cleaning, validation, reconciliation and preparation.</li>
         <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Statistics:</span> Descriptive and inferential analysis, statistical testing and modelling.</li>
         <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Business Intelligence:</span> Dashboards, visualisation and management reporting.</li>
       </ul>
-      <p style="font-size: 15px; color: #1A488E; font-weight: bold; margin: 0;">🧰 Tools: Excel | Power Query | Power BI | DAX | SQL | Python | R | STATA | SPSS</p>
+      <p style="font-size: 15px; color: #1A488E; font-weight: bold; margin: 0;"> Tools: Excel | Power Query | Power BI | DAX | SQL | Python | R | STATA | SPSS</p>
     </div>
     
   </div>
@@ -308,7 +308,7 @@
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
 <div id="services" class="content-card skills-bg-card">
-  <h2>💼 What I Do</h2>
+  <h2> What I Do</h2>
   <ul>
     <li><span class="skill-title">Data Analytics:</span> Transforming structured data into meaningful insights, trends and performance indicators.</li>
     <li><span class="skill-title">Data Management & Quality:</span> Cleaning, validating, reconciling and preparing data for reliable analysis and reporting.</li>
@@ -323,42 +323,42 @@
 <!-- 4. PROJECTS CARD                                 -->
 <!-- ================================================ -->
 <div id="projects" class="content-card">
-  <h2>📊 Selected Projects</h2>
+  <h2> Selected Projects</h2>
   <p style="margin-bottom: 25px;">A selection of analytical projects demonstrating my capabilities across data management, business intelligence, statistics and advanced analytics. Expand below to read project frameworks:</p>
 
   <!-- PROJECT 1 -->
   <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;">💼 1. Workforce & HR Analytics</summary>
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 1. Workforce & HR Analytics</summary>
     <div style="margin-top: 15px; padding-left: 10px;">
-      <p><b>📝 Synopsis:</b> Developed an interactive workforce analytics solution to transform structured employee data into management-ready insights on workforce composition, departmental distribution, salary patterns, employee performance, workforce trends and attrition. The project demonstrates practical application of data preparation, analytical modelling, KPI development and interactive visualisation to support workforce monitoring and management reporting.</p>
-      <p><b>🔍 Analytical Focus:</b> Workforce composition and distribution | Department and role analysis | Salary and compensation patterns | Employee performance | Workforce trends | Attrition and workforce stability</p>
-      <p><b>⚙️ Tools Stack:</b> Excel | Power Query | Power BI | DAX | Statistical Analysis</p>
-      <p><b>🖥️ Key Output:</b> Interactive Power BI workforce dashboard with filtering and drill-down capabilities.</p>
-      <p><b>📈 Analytical Value:</b> Provides a consolidated view of workforce characteristics and trends to support workforce monitoring, management reporting and identification of areas requiring further analysis.</p>
+      <p><b> Synopsis:</b> Developed an interactive workforce analytics solution to transform structured employee data into management-ready insights on workforce composition, departmental distribution, salary patterns, employee performance, workforce trends and attrition. The project demonstrates practical application of data preparation, analytical modelling, KPI development and interactive visualisation to support workforce monitoring and management reporting.</p>
+      <p><b> Analytical Focus:</b> Workforce composition and distribution | Department and role analysis | Salary and compensation patterns | Employee performance | Workforce trends | Attrition and workforce stability</p>
+      <p><b> Tools Stack:</b> Excel | Power Query | Power BI | DAX | Statistical Analysis</p>
+      <p><b> Key Output:</b> Interactive Power BI workforce dashboard with filtering and drill-down capabilities.</p>
+      <p><b> Analytical Value:</b> Provides a consolidated view of workforce characteristics and trends to support workforce monitoring, management reporting and identification of areas requiring further analysis.</p>
     </div>
   </details>
 
   <!-- PROJECT 2 -->
   <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;">🧽 2. Data Quality & Reconciliation</summary>
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 2. Data Quality & Reconciliation</summary>
     <div style="margin-top: 15px; padding-left: 10px;">
-      <p><b>📝 Synopsis:</b> Developed a data quality and reconciliation solution to combine information from multiple sources, identify inconsistencies, validate records and prepare reliable datasets for reporting and analysis. The project demonstrates practical application of data cleaning, transformation, matching and validation techniques when working with incomplete, duplicated and inconsistent information.</p>
-      <p><b>🔍 Analytical Focus:</b> Data completeness and consistency | Duplicate and missing-record identification | Cross-source record matching | Data validation and reconciliation | Standardisation and transformation | Data quality assessment</p>
-      <p><b>⚙️ Tools Stack:</b> Excel | Power Query | SQL | Python | Statistical Analysis</p>
-      <p><b>🖥️ Key Output:</b> A validated and reconciled analytical dataset supported by data-quality checks and exception reporting.</p>
-      <p><b>📈 Analytical Value:</b> Improves the reliability and usability of data by identifying and resolving quality issues before information is used for reporting, analysis or decision-making.</p>
+      <p><b> Synopsis:</b> Developed a data quality and reconciliation solution to combine information from multiple sources, identify inconsistencies, validate records and prepare reliable datasets for reporting and analysis. The project demonstrates practical application of data cleaning, transformation, matching and validation techniques when working with incomplete, duplicated and inconsistent information.</p>
+      <p><b> Analytical Focus:</b> Data completeness and consistency | Duplicate and missing-record identification | Cross-source record matching | Data validation and reconciliation | Standardisation and transformation | Data quality assessment</p>
+      <p><b> Tools Stack:</b> Excel | Power Query | SQL | Python | Statistical Analysis</p>
+      <p><b> Key Output:</b> A validated and reconciled analytical dataset supported by data-quality checks and exception reporting.</p>
+      <p><b> Analytical Value:</b> Improves the reliability and usability of data by identifying and resolving quality issues before information is used for reporting, analysis or decision-making.</p>
     </div>
   </details>
 
   <!-- PROJECT 3 -->
   <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;">📊 3. Employee Engagement & Statistical Analytics</summary>
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 3. Employee Engagement & Statistical Analytics</summary>
     <div style="margin-top: 15px; padding-left: 10px;">
-      <p><b>🎯 Synopsis:</b> Developed an employee survey analytics solution to examine engagement patterns, response behaviour and relationships across key employee characteristics. The project demonstrates the application of statistical analysis, survey analytics and data visualisation to transform quantitative survey data into interpretable evidence and actionable insights.</p>
-      <p><b>🔍 Analytical Focus:</b> Employee engagement patterns | Survey response analysis | Engagement across employee groups | Relationships between key variables | Descriptive and inferential statistics | Statistical interpretation and visualisation</p>
-      <p><b>🛠️ Tools:</b> Excel | Power Query | Power BI | Python/R | Statistical Analysis</p>
-      <p><b>🖥️ Key Output:</b> Interactive employee engagement dashboard supported by statistical analysis of survey responses and key employee characteristics.</p>
-      <p><b>📈 Analytical Value:</b> Provides a structured view of employee engagement patterns and statistical relationships to support evidence-based workforce analysis and identify areas requiring further investigation.</p>
+      <p><b> Synopsis:</b> Developed an employee survey analytics solution to examine engagement patterns, response behaviour and relationships across key employee characteristics. The project demonstrates the application of statistical analysis, survey analytics and data visualisation to transform quantitative survey data into interpretable evidence and actionable insights.</p>
+      <p><b> Analytical Focus:</b> Employee engagement patterns | Survey response analysis | Engagement across employee groups | Relationships between key variables | Descriptive and inferential statistics | Statistical interpretation and visualisation</p>
+      <p><b> Tools:</b> Excel | Power Query | Power BI | Python/R | Statistical Analysis</p>
+      <p><b> Key Output:</b> Interactive employee engagement dashboard supported by statistical analysis of survey responses and key employee characteristics.</p>
+      <p><b> Analytical Value:</b> Provides a structured view of employee engagement patterns and statistical relationships to support evidence-based workforce analysis and identify areas requiring further investigation.</p>
     </div>
   </details>
 
@@ -366,11 +366,11 @@
   <details style="background-color: #F8FAFC; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px;">
     <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;">📊 4. Customer & Commercial Predictive Analytics</summary>
     <div style="margin-top: 15px; padding-left: 10px;">
-      <p><b>🎯 Synopsis:</b> Developed an end-to-end customer and commercial analytics solution to examine customer behaviour, commercial performance and customer segments while applying predictive analytical techniques. The project demonstrates progression from descriptive and diagnostic analysis to segmentation and predictive modelling using structured business data.</p>
-      <p><b>🔍 Analytical Focus:</b> Customer behaviour and purchasing patterns | Sales and commercial performance | Customer segmentation | Customer value and retention patterns | Predictive modelling | Model evaluation and interpretation</p>
-      <p><b>🛠️ Tools:</b> Excel | SQL | Python | Power BI | scikit-learn</p>
-      <p><b>🖥️ Key Output:</b> Interactive commercial analytics dashboard supported by customer segmentation and predictive modelling outputs.</p>
-      <p><b>📈 Analytical Value:</b> Combines business intelligence and advanced analytics to identify customer patterns, segment customers and generate evidence that can support commercial analysis and customer-focused decision-making.</p>
+      <p><b> Synopsis:</b> Developed an end-to-end customer and commercial analytics solution to examine customer behaviour, commercial performance and customer segments while applying predictive analytical techniques. The project demonstrates progression from descriptive and diagnostic analysis to segmentation and predictive modelling using structured business data.</p>
+      <p><b> Analytical Focus:</b> Customer behaviour and purchasing patterns | Sales and commercial performance | Customer segmentation | Customer value and retention patterns | Predictive modelling | Model evaluation and interpretation</p>
+      <p><b> Tools:</b> Excel | SQL | Python | Power BI | scikit-learn</p>
+      <p><b> Key Output:</b> Interactive commercial analytics dashboard supported by customer segmentation and predictive modelling outputs.</p>
+      <p><b> Analytical Value:</b> Combines business intelligence and advanced analytics to identify customer patterns, segment customers and generate evidence that can support commercial analysis and customer-focused decision-making.</p>
     </div>
   </details>
 </div> <!-- Closes the master projects card wrapper safely -->
@@ -379,7 +379,7 @@
 <!-- 5. PORTFOLIO CARD                                -->
 <!-- ================================================ -->
 <div id="portfolio-hub" class="content-card">
-  <h2>📈 Enterprise Portfolio Directory</h2>
+  <h2> Enterprise Portfolio Directory</h2>
   <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; margin-bottom: 25px;">A metric tracking directory summarizing alignment profiles and operational capability targets for my core data modules:</p>
   
   <div style="width: 100% !important; overflow-x: auto !important; margin-bottom: 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
@@ -431,66 +431,66 @@
 <!-- 6. EXPERIENCE CARD                               -->
 <!-- ================================================ -->
 <div id="experience" class="content-card">
-  <h2>💼 Experience</h2>
+  <h2> Experience</h2>
   <h3 style="margin-top: 0 !important;">Professional Experience</h3>
   <p style="line-height: 1.45; font-size: 15.5px; color: #1A1D20; margin-bottom: 25px;">My experience spans data analytics, workforce analytics, research, data management and quantitative analysis across research, business and development-focused environments.</p>
 
-  <h3>📍 Data Analyst — Infotrak Research & Consulting</h3>
+  <h3> Data Analyst — Infotrak Research & Consulting</h3>
   <span class="job-meta">Active Engagement — (2026)</span>
   <ul>
     <li>Working with research and business data across data management, validation, statistical analysis, reporting and analytical outputs.</li>
     <li>Supporting the transformation of raw data into reliable information for research and decision-making.</li>
   </ul>
 
-  <h3>📍 Workforce & Data Analyst — Calltronix Kenya Ltd</h3>
+  <h3> Workforce & Data Analyst — Calltronix Kenya Ltd</h3>
   <span class="job-meta">Corporate Operations — (2024–2025)</span>
   <ul>
     <li>Analysed workforce, HR, finance and operational data to support employee management, payroll validation, productivity analysis and reporting.</li>
     <li>Worked across multiple operational data sources to reconcile information and produce reliable analytical outputs.</li>
   </ul>
 
-  <h3>📍 Data & Research Analyst — Hamasisha Africa</h3>
+  <h3> Data & Research Analyst — Hamasisha Africa</h3>
   <span class="job-meta">Research Systems Analyst Track — (2025)</span>
   <ul>
     <li>Supported quantitative research through data preparation, analysis, interpretation and reporting, contributing to evidence generation and research-related decision-making.</li>
   </ul>
 
-   <h3>📍 Research, MEAL & Data Assignments — Various Projects</h3>
+   <h3> Research, MEAL & Data Assignments — Various Projects</h3>
   <span class="job-meta">Independent Field Consultations Track</span>
   <ul>
     <li>Undertook research, monitoring, evaluation and data-related assignments involving quantitative data collection, data quality, analysis, reporting and field-based information management.</li>
   </ul>
   
-  <p style="margin-top: 25px; font-weight: bold; color: #1A488E;">🎯 Professional Focus Track: Data Analytics | Statistics | Business Intelligence | Data Management | Research Analytics | Workforce Analytics</p>
+  <p style="margin-top: 25px; font-weight: bold; color: #1A488E;"> Professional Focus Track: Data Analytics | Statistics | Business Intelligence | Data Management | Research Analytics | Workforce Analytics</p>
 </div>
 
 <!-- ================================================ -->
 <!-- 7. EDUCATION CARD                                -->
 <!-- ================================================ -->
 <div id="education" class="content-card">
-  <h2>🎓 Education</h2>
+  <h2> Education</h2>
   
-  <h3>📍 Master of Science in Data Science</h3>
+  <h3> Master of Science in Data Science</h3>
   <span class="job-meta">Open University of Kenya — (Ongoing)</span>
   
-  <h3>📍 BSc Biostatistics</h3>
+  <h3> BSc Biostatistics</h3>
   <span class="job-meta">Jomo Kenyatta University of Agriculture and Technology (JKUAT) — (2022 | Second Class Upper)</span>
   
-  <p style="line-height: 1.5; font-size: 15px; color: #1A1D20; font-weight: 500; margin-top: 15px; background: rgba(255,255,255,0.4); padding: 15px; border-radius: 6px;"><b>📚 Academic Foundation Matrix:</b> Academic foundation in biostatistics, statistical analysis, quantitative methods, research methodology and data analysis.</p>
+  <p style="line-height: 1.5; font-size: 15px; color: #1A1D20; font-weight: 500; margin-top: 15px; background: rgba(255,255,255,0.4); padding: 15px; border-radius: 6px;"><b> Academic Foundation Matrix:</b> Academic foundation in biostatistics, statistical analysis, quantitative methods, research methodology and data analysis.</p>
 </div>
 
 <!-- ================================================ -->
 <!-- 8. CERTIFICATIONS CARD                           -->
 <!-- ================================================ -->
 <div id="certifications" class="content-card">
-  <h2>🏆 Certifications & Professional Development</h2>
+  <h2> Certifications & Professional Development</h2>
   <ul>
     <li><span class="skill-title">IBM Data Science & AI:</span> Training in data science and AI-related analytical concepts and practical data workflows.</li>
     <li><span class="skill-title">MEAL Essentials Professional Certificate:</span> Professional development in Monitoring, Evaluation, Accountability and Learning.</li>
   </ul>
   
   <div style="background-color: rgba(23, 27, 28, 0.05); padding: 15px; border-radius: 6px; margin-top: 20px; border-left: 4px solid #1A488E;">
-    <h4 style="margin: 0 0 5px 0; color: #23272A; font-weight: bold;">🔄 Continuous Learning Track Focus</h4>
+    <h4 style="margin: 0 0 5px 0; color: #23272A; font-weight: bold;"> Continuous Learning Track Focus</h4>
     <p style="margin: 0; font-size: 14px; color: #1A488E; font-weight: bold;">Data Analytics | Statistics | Business Intelligence | Data Science | Research Analytics</p>
   </div>
 </div>
