@@ -160,9 +160,7 @@
     overflow-y: visible !important;
     z-index: 100 !important; 
   }
-
-
- /* PURE CSS TAB SWITCH MECHANISM */
+  /* THE PURE CSS INTERACTIVE ENGINE RULES: Connects nav buttons to view cards */
   #tab-home:checked ~ .scroll-content #home,
   #tab-about:checked ~ .scroll-content #about,
   #tab-services:checked ~ .scroll-content #services,
@@ -174,6 +172,7 @@
   #tab-get-in-touch:checked ~ .scroll-content #get-in-touch {
     display: block !important; 
   }
+
 
   /* Highlights active menu labels inside the navbar array */
   #tab-home:checked ~ .master-sticky-header .navbar label[for="tab-home"],
