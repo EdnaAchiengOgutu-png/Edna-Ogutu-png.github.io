@@ -235,6 +235,7 @@
     <label for="tab-get-in-touch"> GET IN TOUCH</label>
   </div>
 </div>
+
 <!-- FIXED EDGE-TO-EDGE BOTTOM FROZEN FOOTER BAR -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
@@ -262,7 +263,7 @@
       <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Edna Achieng Ogutu</p>
       <p style="font-size: 18px; color: #1A488E; font-weight: 700; margin-bottom: 15px;">Statistician | Data Analyst | Business Intelligence | Data Science</p>
       <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 15px;">Turning data into reliable insights and better decisions.</p>
-      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">I am a Statistician and Data Analyst with a background in Biostatistics and experience working with workforce, research, operational, survey and business data. I combine data management, statistical analysis and business intelligence to transform data into reliable information, meaningful insights and decision-ready reporting.</p>
+      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">I am a Statistician and Data Analyst with a background in Biostatistics and experience working with workforce, research, operational, survey, and business data. I combine data management, statistical analysisc, and business intelligence to transform data into reliable information, meaningful insights, and decision-ready reporting.</p>
       
       <p style="margin-top: 25px; font-weight: bold; font-size: 15px;"> Explore My Portfolio: <label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">View Projects</label> | <label for="tab-services" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Explore Services</label> | <label for="tab-get-in-touch" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Get in Touch</label></p>
     </div>
@@ -284,13 +285,13 @@
     <!-- RIGHT PANEL: ABOUT & VALUE PROPOSITION -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
       <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;"> About Me</h2>
-      <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">I am a Statistician and Data Analyst focused on transforming data into reliable, understandable and useful insights.</p>
-      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 15px;">My work combines data management, statistical analysis, business intelligence and research analytics. I work across the analytical process—from preparing and validating data to analysing, visualising and communicating results.</p>
+      <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">I am a Statistician and Data Analyst focused on transforming data into reliable, understandable, and useful insights.</p>
+      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 15px;">My work combines data management, statistical analysis, business intelligence, and research analytics. I work across the analytical process—from preparing and validating data to analysing, visualising and communicating results.</p>
       <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">I believe effective analytics starts with reliable data. My approach is therefore centred on understanding the data, asking the right questions and producing outputs that are both technically sound and useful to decision-makers.</p>
       
       <h3 style="margin-top: 22px !important; margin-bottom: 6px !important; font-size: 21px; font-weight: 900; color: #111314 !important;"> Core Areas</h3>
       <ul style="padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 15px !important;">
-        <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Data Analytics:</span> Exploratory analysis, KPI development, trends and performance analysis.</li>
+        <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Data Analytics:</span> Exploratory analysis, KPI development, trends, and performance analysis.</li>
         <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Data Management:</span> Data cleaning, validation, reconciliation and preparation.</li>
         <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Statistics:</span> Descriptive and inferential analysis, statistical testing and modelling.</li>
         <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Business Intelligence:</span> Dashboards, visualisation and management reporting.</li>
@@ -301,22 +302,19 @@
   </div>
 </div>
 
-
-
-
 <!-- ================================================ -->
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
 <div id="services" class="content-card skills-bg-card">
   <h2> What I Do</h2>
   <ul>
-    <li><span class="skill-title">Data Analytics:</span> Transforming structured data into meaningful insights, trends and performance indicators.</li>
-    <li><span class="skill-title">Data Management & Quality:</span> Cleaning, validating, reconciling and preparing data for reliable analysis and reporting.</li>
-    <li><span class="skill-title">Business Intelligence:</span> Developing interactive dashboards, KPI reports and data visualisations for decision support.</li>
-    <li><span class="skill-title">Statistical & Research Analytics:</span> Applying statistical methods to quantitative, survey and research data to generate evidence-based insights.</li>
-    <li><span class="skill-title">Advanced Analytics:</span> Customer segmentation, predictive modelling and other advanced analytical approaches.</li>
+    <li><span class="skill-title">Data Analytics:</span> Transforming structured data into meaningful insights, trends, and performance indicators.</li>
+    <li><span class="skill-title">Data Management & Quality:</span> Cleaning, validating, reconciling, and preparing data for reliable analysis and reporting.</li>
+    <li><span class="skill-title">Business Intelligence:</span> Developing interactive dashboards, KPI reports, and data visualisations for decision support.</li>
+    <li><span class="skill-title">Statistical & Research Analytics:</span> Applying statistical methods to quantitative, survey, and research data to generate evidence-based insights.</li>
+    <li><span class="skill-title">Advanced Analytics:</span> Customer segmentation, predictive modelling, and other advanced analytical approaches.</li>
   </ul>
-  <p style="margin-top: 20px; font-weight: bold;"><label for="tab-projects" style="color: #23272A; cursor: pointer; text-decoration: underline;">View My Projects →</label></p>
+  <p style="margin-top: 20px; font-weight: bold;"><label for="tab-projects" style="color: #D2F7FF; cursor: pointer; text-decoration: underline;">View My Projects →</label></p>
 </div>
 
 <!-- ================================================ -->
