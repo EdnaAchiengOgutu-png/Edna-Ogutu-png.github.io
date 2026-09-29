@@ -50,11 +50,11 @@
     padding: 0 !important;
   }
 
-  /* Main Profile Block Header Content Box - Full Width Stretch with Outer Gold Top Border Accent */
+  /* Main Profile Block Header Content Box - Height reduced to make the bar compact */
   .header-block { 
     background-color: #23272A !important; 
     color: #FFFFFF !important; 
-    padding: 15px 40px !important; 
+    padding: 8px 40px !important; /* Reduced vertical padding */
     border-radius: 0 !important; 
     margin: 0 !important; 
     border-left: 8px solid #FFD200;
@@ -65,10 +65,10 @@
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
-  /* Navigation Ribbon Strip - Full Width Stretch with Outer Gold Bottom Border Accent */
+  /* Navigation Ribbon Strip - Padding tightened down */
   .navbar { 
     background-color: #23272A !important; 
-    padding: 12px 40px !important; 
+    padding: 8px 40px !important; /* Tightened from 12px down to 8px */
     margin: 0 !important;
     text-align: left !important; 
     width: 100% !important;
@@ -134,17 +134,17 @@
     min-height: calc(100vh - 160px) !important; 
   }
 
-  /* Content Cards Layout Parameters - Reverted to Uniform Deep Sky Blue Background with High-Contrast Multi-Layer Edge Shadows */
+
+    /* Content Cards Layout Parameters - Text top-aligned via tightened internal padding */
   .content-card {
-    background-color: #D2F7FF !important; 
-    padding: 35px 45px !important; 
+    background-color: #97B2DE !important; 
+    padding: 10px 45px 35px 45px !important; /* Top padding reduced to 10px to align words to the top */
     border-radius: 12px !important; 
     margin-left: 20px !important; 
     margin-right: 20px !important; 
     margin-top: 0 !important;
     margin-bottom: 0 !important; 
     border: 2px solid #23272A !important;
-    /* INTENSE MULTI-LAYERED DEEP EDGE DROPSHADOWS */
     box-shadow: 0 10px 25px rgba(0,0,0,0.15), 0 4px 10px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.2) !important;
     position: relative;
     overflow: hidden;
@@ -156,6 +156,8 @@
     overflow-y: visible !important;
     z-index: 100 !important; 
   }
+
+
 
   /* PURE CSS TAB SWITCH MECHANISM - CONNECTS NAV BUTTONS TO CARDS */
   #tab-home:checked ~ .scroll-content #home,
