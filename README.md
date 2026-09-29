@@ -278,7 +278,7 @@
     
     <!-- LEFT PANEL: UNBLOCKABLE SECURE PORTRAIT CONTAINER -->
     <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
-      <img width="800" height="800" alt="Edna Profile Picture" src="https://github.com" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
+      <img width="800" height="800" alt="Edna Profile Picture" src="Edna Profile Picture.png" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
     </div>
     
     <!-- RIGHT PANEL: VALUE PROPOSITION EXECS SUMMARY -->
@@ -299,13 +299,13 @@
       
       <!-- BOX 1: DATA ANALYTICS -->
       <div style="background-color: rgba(255,255,255,0.45); padding: 18px 22px; border-radius: 8px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 10px rgba(0,0,0,0.02);">
-        <span style="font-weight: 800; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 6px;">📈 Data Analytics & Modeling</span>
+        <span style="font-weight: 800; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 6px;"> Data Analytics & Modeling</span>
         <p style="font-size: 14.5px; margin: 0; line-height: 1.45; color: #2D3748; font-weight: 500;">Designing custom KPI matrix systems, executing exploratory data analysis (EDA), trend forecasting, and diagnostic performance tracking.</p>
       </div>
 
       <!-- BOX 2: DATA ENGINEERING -->
       <div style="background-color: rgba(255,255,255,0.45); padding: 18px 22px; border-radius: 8px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 10px rgba(0,0,0,0.02);">
-        <span style="font-weight: 800; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 6px;">🧽 Data Engineering & Management</span>
+        <span style="font-weight: 800; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 6px;"> Data Engineering & Management</span>
         <p style="font-size: 14.5px; margin: 0; line-height: 1.45; color: #2D3748; font-weight: 500;">Building automated data cleaning pipelines, cross-source record validation, system reconciliation, and database preparation tracks.</p>
       </div>
 
@@ -317,15 +317,17 @@
 
       <!-- BOX 4: BUSINESS INTELLIGENCE -->
       <div style="background-color: rgba(255,255,255,0.45); padding: 18px 22px; border-radius: 8px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 10px rgba(0,0,0,0.02);">
-        <span style="font-weight: 800; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 6px;">💻 Business Intelligence Systems</span>
+        <span style="font-weight: 800; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 6px;"> Business Intelligence Systems</span>
         <p style="font-size: 14.5px; margin: 0; line-height: 1.45; color: #2D3748; font-weight: 500;">Developing responsive, enterprise-grade data dashboards, interactive corporate visual maps, and executive management report frameworks.</p>
       </div>
 
     </div>
 
+    
+
     <!-- TOOLSTACK CONTAINER STRIP -->
-    <div style="background-color: #23272A; padding: 16px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
-      <span style="font-size: 15px; color: #FFFFFF; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 4px;">🛠️ Data Analytical Tools Mastered</span>
+    <div style="background-color: #1A488E; padding: 16px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
+      <span style="font-size: 15px; color: #FFFFFF; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 4px;"> Data Analytical Tools Mastered</span>
       <p style="font-size: 15px; color: #FFD200; font-weight: 800; margin: 0; letter-spacing: 0.5px;">Excel | Power Query | Power BI | DAX | SQL | Python | R | STATA | SPSS</p>
     </div>
 
