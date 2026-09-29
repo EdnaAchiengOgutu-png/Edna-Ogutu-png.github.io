@@ -136,7 +136,7 @@
 
   /* Content Cards Layout Parameters - Reverted to Uniform Deep Sky Blue Background with High-Contrast Multi-Layer Edge Shadows */
   .content-card {
-    background-color: #97B2DE !important; 
+    background-color: #D2F7FF !important; 
     padding: 35px 45px !important; 
     border-radius: 12px !important; 
     margin-left: 20px !important; 
