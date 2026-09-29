@@ -271,32 +271,66 @@
 <!-- ================================================ -->
 <!-- 2. ABOUT CARD                                    -->
 <!-- ================================================ -->
-<div id="about" class="content-card" style="padding: 40px !important;">
-  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start;">
+<div id="about" class="content-card" style="padding: 30px 40px !important;">
+  
+  <!-- TOP INTRODUCTORY SECTION: SPLIT GRID PANEL -->
+  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start; margin-bottom: 25px !important;">
     
     <!-- LEFT PANEL: UNBLOCKABLE SECURE PORTRAIT CONTAINER -->
     <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
-      <img width="800" height="800" alt="Edna Profile Picture" src="Edna Profile Picture.png" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
+      <img width="800" height="800" alt="Edna Profile Picture" src="https://github.com" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
     </div>
     
-    <!-- RIGHT PANEL: ABOUT PROPOSITION CONTENT -->
+    <!-- RIGHT PANEL: VALUE PROPOSITION EXECS SUMMARY -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
-      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;"> About Me</h2>
+      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 12px 0 !important; padding-bottom: 6px !important; text-transform: uppercase !important; display: block !important;">👤 About Me</h2>
       <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">I bridge the structural gap between messy, multi-source raw data and high-stakes executive strategy.</p>
-      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 15px;">My approach is centered on building high-integrity validation checks at the collection source, ensuring that every predictive model, regression script, or visualization dashboard is mathematically sound, audit-ready, and immediately actionable for corporate decision-makers.</p>
-      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">Operating across the entire analytical pipeline—from executing rigorous data cleaning and cross-system reconciliations to formulating diagnostic models and interactive reporting systems—I transform complex numbers into simple, strategic next steps. I believe effective analytics begins with absolute data quality, requiring the right analytical questions to generate long-term operational efficiencies.</p>
-      
-      <h3 style="margin-top: 22px !important; margin-bottom: 6px !important; font-size: 21px; font-weight: 900; color: #111314 !important;"> Core Execution Domains</h3>
-      <ul style="padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 15px !important;">
-        <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Data Analytics & Modeling:</span> Designing custom KPI matrix systems, executing exploratory data analysis (EDA), trend forecasting, and diagnostic performance tracking.</li>
-        <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Data Engineering & Management:</span> Building automated data cleaning pipelines, cross-source record validation, system reconciliation, and database preparation tracks.</li>
-        <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Statistical Inference & Research:</span> Deployed descriptive and inferential statistics, multivariable regression modeling, diagnostic testing, and empirical evidence synthesis.</li>
-        <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Business Intelligence Systems:</span> Developing responsive, enterprise-grade data dashboards, interactive corporate visual maps, and executive management report frameworks.</li>
-      </ul>
-      <p style="font-size: 15px; color: #1A488E; font-weight: bold; margin: 0;"> Data Analytical Tools Mastered: Excel | Power Query | Power BI | DAX | SQL | Python | R | STATA | SPSS</p>
+      <p style="line-height: 1.45; font-size: 16px; color: #2D3748; font-weight: 500; margin-bottom: 15px;">My approach is centered on building high-integrity validation checks at the collection source, ensuring that every predictive model, regression script, or visualization dashboard is mathematically sound, audit-ready, and immediately actionable for corporate decision-makers.</p>
+      <p style="line-height: 1.45; font-size: 16px; color: #2D3748; font-weight: 500; margin-bottom: 0;">Operating across the entire analytical pipeline—from executing rigorous data cleaning and cross-system reconciliations to formulating diagnostic models and interactive reporting systems—I transform complex numbers into simple, strategic next steps. I believe effective analytics begins with absolute data quality, requiring the right analytical questions to generate long-term operational efficiencies.</p>
     </div>
     
   </div>
+
+  <!-- LOWER SECTION: FULL WIDTH ALIGNED COMPETENCIES MATRIX GRID -->
+  <div style="width: 100%; box-sizing: border-box; margin-top: 20px !important;">
+    <h3 style="margin-top: 0 !important; margin-bottom: 15px !important; font-size: 21px; font-weight: 900; color: #23272A !important; border-bottom: 2px solid rgba(35,39,42,0.15); padding-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px;">🎯 Core Execution Domains</h3>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 20px; width: 100%; box-sizing: border-box; margin-bottom: 25px;">
+      
+      <!-- BOX 1: DATA ANALYTICS -->
+      <div style="background-color: rgba(255,255,255,0.45); padding: 18px 22px; border-radius: 8px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 10px rgba(0,0,0,0.02);">
+        <span style="font-weight: 800; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 6px;">📈 Data Analytics & Modeling</span>
+        <p style="font-size: 14.5px; margin: 0; line-height: 1.45; color: #2D3748; font-weight: 500;">Designing custom KPI matrix systems, executing exploratory data analysis (EDA), trend forecasting, and diagnostic performance tracking.</p>
+      </div>
+
+      <!-- BOX 2: DATA ENGINEERING -->
+      <div style="background-color: rgba(255,255,255,0.45); padding: 18px 22px; border-radius: 8px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 10px rgba(0,0,0,0.02);">
+        <span style="font-weight: 800; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 6px;">🧽 Data Engineering & Management</span>
+        <p style="font-size: 14.5px; margin: 0; line-height: 1.45; color: #2D3748; font-weight: 500;">Building automated data cleaning pipelines, cross-source record validation, system reconciliation, and database preparation tracks.</p>
+      </div>
+
+      <!-- BOX 3: STATISTICAL INFERENCE -->
+      <div style="background-color: rgba(255,255,255,0.45); padding: 18px 22px; border-radius: 8px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 10px rgba(0,0,0,0.02);">
+        <span style="font-weight: 800; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 6px;">🔬 Statistical Inference & Research</span>
+        <p style="font-size: 14.5px; margin: 0; line-height: 1.45; color: #2D3748; font-weight: 500;">Deployed descriptive and inferential statistics, multivariable regression modeling, diagnostic testing, and empirical evidence synthesis.</p>
+      </div>
+
+      <!-- BOX 4: BUSINESS INTELLIGENCE -->
+      <div style="background-color: rgba(255,255,255,0.45); padding: 18px 22px; border-radius: 8px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 10px rgba(0,0,0,0.02);">
+        <span style="font-weight: 800; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 6px;">💻 Business Intelligence Systems</span>
+        <p style="font-size: 14.5px; margin: 0; line-height: 1.45; color: #2D3748; font-weight: 500;">Developing responsive, enterprise-grade data dashboards, interactive corporate visual maps, and executive management report frameworks.</p>
+      </div>
+
+    </div>
+
+    <!-- TOOLSTACK CONTAINER STRIP -->
+    <div style="background-color: #23272A; padding: 16px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
+      <span style="font-size: 15px; color: #FFFFFF; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 4px;">🛠️ Data Analytical Tools Mastered</span>
+      <p style="font-size: 15px; color: #FFD200; font-weight: 800; margin: 0; letter-spacing: 0.5px;">Excel | Power Query | Power BI | DAX | SQL | Python | R | STATA | SPSS</p>
+    </div>
+
+  </div>
+
 </div>
 
 <!-- ================================================ -->
