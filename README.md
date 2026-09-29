@@ -49,18 +49,21 @@
     padding: 0 !important;
   }
 
-  /* Main Profile Block Header Content Box - Height reduced to make the bar compact */
-  .header-block { 
-    background-color: #23272A !important; 
-    color: #FFFFFF !important; 
-    padding: 8px 20px !important; /* Reduced vertical padding */
-    border-radius: 0 !important; 
-    margin: 0 !important; 
-    border-left: 8px solid #FFD200;
-    border-top: 4px solid #FFD200 !important; 
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    width: 100% !important;
-    box-sizing: border-box !important;
+ /* Main Profile Block Header Content Box - Edge-to-edge width, minimized vertical height */
+.header-block { 
+  background-color: #23272A !important; 
+  color: #FFFFFF !important; 
+  padding: 4px 20px !important; /* Cut top/bottom padding in half (from 8px to 4px) */
+  border-radius: 0 !important; 
+  margin: 0 !important; 
+  border-left: 8px solid #FFD200;
+  border-top: 3px solid #FFD200 !important; /* Slightly thinner top border to match the compact look */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  width: 100% !important; /* Keeps it stretching fully to the edges of the screen */
+  height: auto !important; /* Allows it to shrink down completely to fit just the text */
+  line-height: 1.2 !important; /* Tightens the spacing of the text inside */
+  box-sizing: border-box !important;
+
   }
   .header-block h1 { color: #FFFFFF !important; margin: 0 !important; font-size: 26px; font-weight: 900; display: block !important; width: 100%; text-align: left; } 
 
