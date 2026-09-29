@@ -325,14 +325,8 @@
     </div>
 
     <!-- TOOLSTACK CONTAINER STRIP -->
-    <div style="background-color: #D2F7FF; padding: 25px 45px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
-      <span style="font-size: 15px; color: #000000; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 4px;"> Data Analytical Tools Mastered</span>
-      <p style="font-size: 15px; color: #FFD200; font-weight: 800; margin: 0; letter-spacing: 0.5px;">Excel | Power Query | Power BI | DAX | SQL | Python | R | STATA | SPSS</p>
+     <p style="font-size: 15px; color: #1A488E; font-weight: bold; margin: 0;"> Data Analytical Tools Mastered: Excel | Power Query | Power BI | DAX | SQL | Python | R | STATA | SPSS</p>
     </div>
-
-  </div>
-
-</div>
 
 <!-- ================================================ -->
 <!-- 3. SERVICES CARD                                 -->
