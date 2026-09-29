@@ -547,15 +547,12 @@
       <p style="line-height: 1.5; font-size: 15px; color: #4A5568 !important; margin-bottom: 25px; text-align: left !important;">I am open to consulting engagements, project-based assignments, and corporate team positions involving data analytics, statistics, business intelligence, data management, research analytics, and workforce analysis. Whether you need support troubleshooting a messy database, automating your executive KPI tracking metrics, or turning field research data into decision-ready insights, I am interested in discussing your operational goals.</p>
     </div>
     
-    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 45px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center; text-align: center !important;">
+  <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 45px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center; text-align: center !important;">
       <div style="border: 2px dashed #CBD5E0; border-radius: 8px; padding: 25px; background-color: #F8FAFC; text-align: center !important; width: 100%; box-sizing: border-box;">
         <span style="font-size: 40px; display: block; margin-bottom: 10px; text-align: center !important;">📧</span>
-        <h4 style="margin: 0 0 8px 0; font-size: 18px; font-weight: bold; color: #23272A; text-align: center !important;">📬 Secure Project Routing Portal</h4>
+        <h4 style="margin: 0 0 8px 0; font-size: 18px; font-weight: bold; color: #23272A; text-align: center !important;">Launch Project Inquiry</h4>
         <p style="margin: 0 0 20px 0; font-size: 15px; font-weight: bold; color: #1A488E; text-align: center !important;">hednaogutuh@gmail.com</p>
-        <p style="margin: 0 0 25px 0; font-size: 14px; line-height: 1.45; color: #4A5568; text-align: center !important;">Click the launcher button below to automatically generate an explicit analytics project proposal brief directly inside your default mail application securely over an encrypted channel with zero browser warnings.</p>
-        <p style="margin: 0 0 20px 0; font-size: 14px; font-weight: bold; color: #23272A;">Professional Networks: <a href="https://linkedin.com" target="_blank" style="color: #1A488E; text-decoration: underline;">Connect on LinkedIn</a> | <a href="https://github.com" target="_blank" style="color: #1A488E; text-decoration: underline;">Audit My Repository on GitHub</a></p>
-
-                <p style="margin: 0 0 20px 0; font-size: 14px; font-weight: bold; color: #23272A; text-align: center !important;">Professional Networks: <a href="https://linkedin.com" target="_blank" style="color: #1A488E; text-decoration: underline;">Connect on LinkedIn</a> | <a href="https://github.com" target="_blank" style="color: #1A488E; text-decoration: underline;">Audit My Repository on GitHub</a></p>
+        <p style="margin: 0 0 25px 0; font-size: 14px; line-height: 1.45; color: #4A5568; text-align: center !important;">Click below to automatically generate an explicit analytics project proposal brief directly inside your default mail app securely.</p>
         <a href="mailto:hednaogutuh@://gmail.com" style="background-color: #1A488E !important; color: #FFFFFF !important; padding: 15px 30px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(26,72,142,0.2); text-transform: uppercase; letter-spacing: 0.5px; text-align: center !important;">✉️ Submit Proposal Brief</a>
       </div>
     </div>
@@ -565,6 +562,3 @@
 
 </div> <!-- Closes scroll-content layout engine -->
 </div> <!-- Closes portfolio-container outer window -->
-
-
-
