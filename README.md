@@ -73,7 +73,7 @@
   padding: 6px 40px !important; /* Tightened vertical padding to make it slim */
   margin: 0 !important;
   text-align: left !important; 
-  width: 80% !important;
+  width: 100% !important;
   box-sizing: border-box !important;
   border-left: 8px solid #FFD200;
   border-top: 1px solid #3A3F44; 
@@ -130,8 +130,8 @@
     margin-top: 105px !important; 
     padding: 8px 0 65px 0 !important; 
     box-sizing: border-box !important;
-    width: 80% !important;
-    max-width: 80% !important;
+    width: 100% !important;
+    max-width: 100% !important;
     display: block !important;
     min-height: calc(100vh - 140px) !important; 
   }
