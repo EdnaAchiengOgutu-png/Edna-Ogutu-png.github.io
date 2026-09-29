@@ -215,9 +215,8 @@
 <!-- FIXED EDGE-TO-EDGE TOP HEADER BLOCK AND NAVIGATION CONTROL BAR -->
 <div class="master-sticky-header">
   <div class="header-block">
-    <h1>Edna Achieng Ogutu</h1>
+    <h1>Edna Ogutu | KenData Consultanat</h1>
   </div>
-
   <div class="navbar">
     <label for="tab-home"> HOME</label>
     <label for="tab-about"> ABOUT</label>
