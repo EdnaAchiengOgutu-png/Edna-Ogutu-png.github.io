@@ -480,8 +480,6 @@
 <div id="certifications" class="content-card">
   <h2> Certifications & Professional Development</h2>
   <ul>
-  
-    
     <li><span class="skill-title">IBM Data Science & AI Professional:</span> Validated industry training in data science operations, machine learning classification, predictive algorithms, and Python data analysis workflows.</li>
     <li><span class="skill-title">MEAL Essentials Professional Certificate (DisasterReady / Humanitarian Leadership Academy):</span> Specialized global certification in Monitoring, Evaluation, Accountability, and Learning systems.</li>
   </ul>
