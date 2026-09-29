@@ -186,19 +186,49 @@
     border-bottom: 2px solid #FFD200;
   }
 
-  /* Typography metrics controllers */
-  .content-card > h2:first-child, .content-card > div:first-child { margin-top: 0 !important; padding-top: 0 !important; }
-  h2 { color: #23272A !important; font-size: 26px; font-weight: 900; margin: 0 0 20px 0 !important; padding-bottom: 10px; border-bottom: 4px solid #23272A; text-transform: uppercase; letter-spacing: 1px; display: block !important; }
-  h3 { color: #111314 !important; font-size: 21px; font-weight: 900; margin-top: 22px !important; margin-bottom: 6px !important; padding-top: 0 !important; display: block !important; }
-  h2 + h3, .content-card > h3:first-of-type { margin-top: 5px !important; }
-  .job-meta { color: #23272A !important; font-style: normal; font-size: 15px; margin-top: 0 !important; margin-bottom: 14px !important; display: block; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
+   /* TYPOGRAPHY METRICS ENGINE: Standardized across all page panels */
+  .content-card > h2:first-child, .content-card > div:first-child { 
+    margin-top: 0 !important; 
+    padding-top: 0 !important; 
+  }
+  
+  /* MAIN TITLES: Boldest layer, brought tightly close to descriptions */
+  h2 { 
+    color: #23272A !important; 
+    font-size: 26px !important; 
+    font-weight: 900 !important; /* Maximum bold highlight weight */
+    margin: 0 0 5px 0 !important; /* Drastically reduced from 20px down to 5px to pull content up */
+    padding-bottom: 6px !important; 
+    border-bottom: 4px solid #23272A; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+    display: block !important; 
+  }
+  
+  /* SUB TITLES: Kept noticeably lighter than the main titles to prevent visual competition */
+  h3 { 
+    color: #111314 !important; 
+    font-size: 19px !important; 
+    font-weight: 700 !important; /* Lighter than main H2 titles for perfect visual hierarchy */
+    margin-top: 14px !important; 
+    margin-bottom: 4px !important; 
+    padding-top: 0 !important; 
+    display: block !important; 
+  }
+  
+  h2 + h3, .content-card > h3:first-of-type { 
+    margin-top: 4px !important; 
+  }
+  
+  /* PARAGRAPH CONTENT: Brought flush with tight margins */
+  p { 
+    margin-top: 0 !important; 
+    margin-bottom: 10px !important; 
+    line-height: 1.45 !important; 
+    font-size: 15.5px !important; 
+    color: #1A1D20 !important; 
+  }
 
-  ul { padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 2px !important; }
-  li { margin-top: 0 !important; margin-bottom: 6px !important; line-height: 1.4 !important; color: #1A1D20 !important; font-size: 15.5px; font-weight: 500; } 
-  p { margin-top: 0 !important; margin-bottom: 12px !important; line-height: 1.45 !important; font-size: 15.5px; color: #1A1D20 !important; }
-  .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
-  .area-badge { background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 13.5px; padding: 4px 12px; border-radius: 4px; display: inline-block; margin-bottom: 8px; }
-</style>
 
 <div class="portfolio-container">
 
