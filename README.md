@@ -279,7 +279,7 @@
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: center !important; margin-bottom: 25px !important;">
     
     <!-- LEFT PANEL: DATA GRAPHIC CONTAINER (REDUCED TO MATCH COMPACT PORTFOLIO DESIGN) -->
-    <div style="flex: 0.5; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
+    <div style="flex: 0.5; min-width: 280px; max-width: 380px; box-sizing: border-box; margin: 0 auto !important;">
       <img width="800" height="800" alt="data" src="data.png" style="width: 100% !important; height: 100% !important; aspect-ratio: 1 / 1 !important; object-fit: cover !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
     </div>
     
@@ -347,6 +347,7 @@
       <span style="font-size: 14.5px !important; color: #FFFFFF !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
         Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; DAX &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; R &nbsp;|&nbsp; STATA &nbsp;|&nbsp; SPSS
       </span>
+      </ul>
     </div>
      </div>
 
