@@ -248,19 +248,21 @@
 <div id="home" class="content-card" style="padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start;">
     
-    <!-- LEFT PANEL: DATA GRAPHIC CANVAS CONTAINER (SQUARE FRAME) -->
-    <div style="flex: 0.8; min-width: 160px; max-width: 200px; box-sizing: border-box; margin: 0 auto !important;">
+    <!-- LEFT PANEL: DATA GRAPHIC CANVAS CONTAINER (COMPACT FRAME SCALE) -->
+    <div style="flex: 0.5; min-width: 180px; max-width: 210px; box-sizing: border-box; margin: 0 auto !important;">
       <img width="800" height="800" alt="data" src="data.png" style="width: 100% !important; height: 100% !important; aspect-ratio: 1 / 1 !important; object-fit: cover !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
     </div>
     
-    <!-- RIGHT PANEL: NAME & HEADLINES (VERTICALLY CENTERED FOR BALANCED SPACING) -->
-    <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; align-self: center !important; text-align: left !important;">
+    <!-- RIGHT PANEL: NAME & HEADLINES (VERTICALLY CENTERED WITH TIGHT RESOLVED WIDTH) -->
+    <div style="flex: 1.8; min-width: 300px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; align-self: center !important; text-align: left !important;">
       <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 12px 0 !important; padding-bottom: 6px !important; text-transform: uppercase !important; display: block !important;">🏠 Home</h2>
       <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Edna Achieng Ogutu</p>
       <p style="font-size: 18px; color: #1A488E; font-weight: 700; margin-bottom: 15px;">Statistician | Data Analyst | Business Intelligence | Data Science | Workforce Analytics</p>
       <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: bold; margin-bottom: 0;">I engineer robust data pipelines, statistical frameworks, and automated dashboards that eliminate operational reporting blind spots, protect corporate budgets, and drive decision-ready intelligence.</p>
     </div>
+    
   </div>
+
   <!-- TEXT BLOCK AUTOMATICALLY FLOWING ENTIRELY BELOW THE IMAGE ROW -->
   <div style="width: 100%; box-sizing: border-box; text-align: left !important; margin-top: 25px !important;">
     <p style="line-height: 1.45; font-size: 15.5px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">I am a Statistician and Data Analyst with a deep background in Biostatistics and experience working with workforce tracking metrics, research diagnostics, operational flows, survey matrices, and commercial business data. By bridging the gap between raw data complexity and executive strategy, I combine advanced data management, descriptive and inferential statistics, and modern business intelligence to transform disorganized data streams into high-integrity information, clear operational insights, and decision-ready executive reporting.</p>
@@ -269,6 +271,7 @@
   </div>
 
 </div>
+
 
 
 <!-- ================================================ -->
