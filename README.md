@@ -92,14 +92,14 @@
   }
   .navbar label:hover { color: #FFD200 !important; }
 
-  /* FIXED BOTTOM FROZEN FOOTER BAR */
+  /* FIXED BOTTOM FROZEN FOOTER BAR - FORCED MAXIMUM PRIORITY LAYER */
   .fixed-footer-container {
     position: fixed !important;
     bottom: 0 !important;
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
-    z-index: 999999 !important; 
+    z-index: 9999999 !important; 
     background-color: #D2F7FF !important; 
     padding: 0 !important;
     box-sizing: border-box !important;
@@ -116,7 +116,7 @@
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    box-shadow: 0 -4px 15px rgba(0,0,0,0.15);
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.25) !important;
   }
   .footer-bar p { color: #FFFFFF !important; margin: 0 !important; font-size: 14px; font-weight: bold; }
   .footer-bar span.footer-highlight { color: #FFD200 !important; font-weight: bold; }
@@ -126,25 +126,26 @@
   /* Scrolling Content Layout Core Layer Workspace - Tightened Top Spacing Option */
   .scroll-content {
     margin-top: 72px !important; 
-    padding: 10px 0 75px 0 !important; 
+    padding: 10px 0 95px 0 !important; 
     box-sizing: border-box !important;
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
-    min-height: calc(100vh - 180px) !important; 
+    min-height: calc(100vh - 160px) !important; 
   }
 
-  /* Content Cards Layout Parameters - Configured with Premium Soft Slate Inner Panels (#F8FAFC) */
+  /* Content Cards Layout Parameters - Reverted to Uniform Deep Sky Blue Background with High-Contrast Multi-Layer Edge Shadows */
   .content-card {
-    background-color: #F8FAFC !important; 
+    background-color: #97B2DE !important; 
     padding: 35px 45px !important; 
-    border-radius: 8px; 
+    border-radius: 12px !important; 
     margin-left: 20px !important; 
     margin-right: 20px !important; 
     margin-top: 0 !important;
     margin-bottom: 0 !important; 
-    border: 3px solid #D2F7FF !important; 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.06) !important;
+    border: 2px solid #23272A !important;
+    /* INTENSE MULTI-LAYERED DEEP EDGE DROPSHADOWS */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15), 0 4px 10px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.2) !important;
     position: relative;
     overflow: hidden;
     scroll-margin-top: 150px !important; 
@@ -192,7 +193,7 @@
 
   ul { padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 2px !important; }
   li { margin-top: 0 !important; margin-bottom: 6px !important; line-height: 1.4 !important; color: #1A1D20 !important; font-size: 15.5px; font-weight: 500; } 
-  p { margin-top: 0 !important; margin-bottom: 12px !important; line-height: 1.45 !important; font-size: 15.5px; color: #23272A !important; }
+  p { margin-top: 0 !important; margin-bottom: 12px !important; line-height: 1.45 !important; font-size: 15.5px; color: #1A1D20 !important; }
   .skill-title { font-weight: 700; color: #1A488E; font-size: 16.5px; }
   .area-badge { background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 13.5px; padding: 4px 12px; border-radius: 4px; display: inline-block; margin-bottom: 8px; }
 </style>
@@ -210,7 +211,7 @@
 <input type="radio" name="page-tabs" id="tab-certifications" class="tab-toggle" />
 <input type="radio" name="page-tabs" id="tab-get-in-touch" class="tab-toggle" />
 
-<!-- FIXED TOP NAV RIBBON CONTROLLER -->
+<!-- FIXED EDGE-TO-EDGE TOP HEADER BLOCK AND NAVIGATION CONTROL BAR -->
 <div class="master-sticky-header">
   <div class="header-block">
     <h1>Edna Achieng Ogutu</h1>
@@ -228,6 +229,13 @@
     <label for="tab-get-in-touch">📞 GET IN TOUCH</label>
   </div>
 </div>
+<!-- FIXED EDGE-TO-EDGE BOTTOM FROZEN FOOTER BAR -->
+<div class="fixed-footer-container">
+  <div class="footer-bar">
+    <p>📍 <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
+    <p>💼 <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
+  </div>
+</div>
 
 <div class="scroll-content">
 
@@ -239,7 +247,7 @@
     
     <!-- LEFT PANEL: DATA GRAPHIC CANVAS CONTAINER -->
     <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
-      <img width="488" height="277" alt="data" src="data.png" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
+      <img width="488" height="277" alt="data" src="https://github.com" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
     </div>
     
     <!-- RIGHT PANEL: HOME BRIEF CONTENT -->
@@ -248,7 +256,7 @@
       <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Edna Achieng Ogutu</p>
       <p style="font-size: 18px; color: #1A488E; font-weight: 700; margin-bottom: 15px;">Statistician | Data Analyst | Business Intelligence | Data Science | Workforce Analytics</p>
       <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: bold; margin-bottom: 15px;">I engineer robust data pipelines, statistical frameworks, and automated dashboards that eliminate operational reporting blind spots, protect corporate budgets, and drive decision-ready intelligence.</p>
-      <p style="line-height: 1.45; font-size: 15.5px; color: #2D3748; font-weight: 500; margin-bottom: 20px;">I am a Statistician and Data Analyst with a deep background in Biostatistics and experience working with workforce tracking metrics, research diagnostics, operational flows, survey matrices, and commercial business data. By bridging the gap between raw data complexity and executive strategy, I combine advanced data management, descriptive and inferential statistics, and modern business intelligence to transform disorganized data streams into high-integrity information, clear operational insights, and decision-ready executive reporting.</p>
+      <p style="line-height: 1.45; font-size: 15.5px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">I am a Statistician and Data Analyst with a deep background in Biostatistics and experience working with workforce tracking metrics, research diagnostics, operational flows, survey matrices, and commercial business data. By bridging the gap between raw data complexity and executive strategy, I combine advanced data management, descriptive and inferential statistics, and modern business intelligence to transform disorganized data streams into high-integrity information, clear operational insights, and decision-ready executive reporting.</p>
       
       <p style="margin-top: 25px; font-weight: bold; font-size: 15px; color: #23272A;">👉 Explore My Portfolio: <label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">View Selected Projects Frameworks</label> | <label for="tab-services" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Explore Specialized Analytics Services</label> | <label for="tab-get-in-touch" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Schedule a Data Solutions Consultation Session</label></p>
     </div>
@@ -264,22 +272,22 @@
     
     <!-- LEFT PANEL: UNBLOCKABLE SECURE PORTRAIT CONTAINER -->
     <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
-      <img width="800" height="800" alt="Edna Profile Picture" src="Edna Profile Picture.png" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
+      <img width="800" height="800" alt="Edna Profile Picture" src="https://github.com" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
     </div>
     
-    <!-- RIGHT PANEL: ABOUT & VALUE PROPOSITION CONTENT -->
+    <!-- RIGHT PANEL: ABOUT PROPOSITION CONTENT -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; text-align: left !important;">
       <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 20px 0 !important; padding-bottom: 10px !important; text-transform: uppercase !important; display: block !important;">👤 About Me</h2>
       <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">I bridge the structural gap between messy, multi-source raw data and high-stakes executive strategy.</p>
-      <p style="line-height: 1.45; font-size: 16px; color: #2D3748; font-weight: 500; margin-bottom: 15px;">My approach is centered on building high-integrity validation checks at the collection source, ensuring that every predictive model, regression script, or visualization dashboard is mathematically sound, audit-ready, and immediately actionable for corporate decision-makers.</p>
-      <p style="line-height: 1.45; font-size: 16px; color: #2D3748; font-weight: 500; margin-bottom: 20px;">Operating across the entire analytical pipeline—from executing rigorous data cleaning and cross-system reconciliations to formulating diagnostic models and interactive reporting systems—I transform complex numbers into simple, strategic next steps. I believe effective analytics begins with absolute data quality, requiring the right analytical questions to generate long-term operational efficiencies.</p>
+      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 15px;">My approach is centered on building high-integrity validation checks at the collection source, ensuring that every predictive model, regression script, or visualization dashboard is mathematically sound, audit-ready, and immediately actionable for corporate decision-makers.</p>
+      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">Operating across the entire analytical pipeline—from executing rigorous data cleaning and cross-system reconciliations to formulating diagnostic models and interactive reporting systems—I transform complex numbers into simple, strategic next steps. I believe effective analytics begins with absolute data quality, requiring the right analytical questions to generate long-term operational efficiencies.</p>
       
       <h3 style="margin-top: 22px !important; margin-bottom: 6px !important; font-size: 21px; font-weight: 900; color: #111314 !important;">🎯 Core Execution Domains</h3>
       <ul style="padding-left: 25px !important; margin-top: 2px !important; margin-bottom: 15px !important;">
-        <li style="margin-bottom: 6px !important; line-height: 1.4 !important; font-size: 15.5px; color: #2D3748;"><span class="skill-title">Data Analytics & Modeling:</span> Designing custom KPI matrix systems, executing exploratory data analysis (EDA), trend forecasting, and diagnostic performance tracking.</li>
-        <li style="margin-bottom: 6px !important; line-height: 1.4 !important; font-size: 15.5px; color: #2D3748;"><span class="skill-title">Data Engineering & Management:</span> Building automated data cleaning pipelines, cross-source record validation, system reconciliation, and database preparation tracks.</li>
-        <li style="margin-bottom: 6px !important; line-height: 1.4 !important; font-size: 15.5px; color: #2D3748;"><span class="skill-title">Statistical Inference & Research:</span> Deployed descriptive and inferential statistics, multivariable regression modeling, diagnostic testing, and empirical evidence synthesis.</li>
-        <li style="margin-bottom: 6px !important; line-height: 1.4 !important; font-size: 15.5px; color: #2D3748;"><span class="skill-title">Business Intelligence Systems:</span> Developing responsive, enterprise-grade data dashboards, interactive corporate visual maps, and executive management report frameworks.</li>
+        <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Data Analytics & Modeling:</span> Designing custom KPI matrix systems, executing exploratory data analysis (EDA), trend forecasting, and diagnostic performance tracking.</li>
+        <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Data Engineering & Management:</span> Building automated data cleaning pipelines, cross-source record validation, system reconciliation, and database preparation tracks.</li>
+        <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Statistical Inference & Research:</span> Deployed descriptive and inferential statistics, multivariable regression modeling, diagnostic testing, and empirical evidence synthesis.</li>
+        <li style="margin-bottom: 4px !important; line-height: 1.35 !important; font-size: 16px;"><span class="skill-title">Business Intelligence Systems:</span> Developing responsive, enterprise-grade data dashboards, interactive corporate visual maps, and executive management report frameworks.</li>
       </ul>
       <p style="font-size: 15px; color: #1A488E; font-weight: bold; margin: 0;">🧰 Enterprise Toolstack Mastered: Excel | Power Query | Power BI | DAX | SQL | Python | R | STATA | SPSS</p>
     </div>
@@ -298,7 +306,7 @@
     <li><span class="skill-title">Database Validation & Auditing:</span> Implementing automated cleaning routines and cross-system ledger reconciliation to eliminate duplicate tracking records, fix syntax discrepancies, and isolate data leakages.</li>
     <li><span class="skill-title">Executive Business Intelligence:</span> Engineering responsive Power BI and Advanced Excel dashboard suites equipped with dynamic filtering and deep drill-down analytics for live decision support.</li>
     <li><span class="skill-title">Statistical & Research Analytics:</span> Applying advanced quantitative methods, population sampling controls, and experimental regressions to survey and field research data to output sound, evidence-based reporting.</li>
-    <li><span class="skill-title">Advanced Commercial Analytics:</span> Deploying customer behavioral segmentation matrices, RFM clustering profiles, supervised machine learning pipelines, and predictive risk modeling.</li>
+        <li><span class="skill-title">Advanced Commercial Analytics:</span> Deploying customer behavioral segmentation matrices, RFM clustering profiles, supervised machine learning pipelines, and predictive risk modeling.</li>
   </ul>
   <p style="margin-top: 25px; font-weight: bold;"><label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline;">👉 Review the Live Infrastructure Systems Powered by These Services →</label></p>
 </div>
@@ -377,23 +385,23 @@
         <tr style="background-color: #FFFFFF; border-bottom: 1px solid #E2E8F0;">
           <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">1</td>
           <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Workforce & HR Analytics</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, Power Query, Power BI, DAX</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Headcount, Department Distribution, Attrition Rate</td>
+          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0;">Excel, Power Query, Power BI, DAX</td>
+          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0;">Headcount, Department Distribution, Attrition Rate</td>
           <td style="padding: 14px 12px; font-weight: 500;">Analytical Modelling, KPI Development, Corporate Management Reporting</td>
         </tr>
         <tr style="background-color: #F8FAFC; border-bottom: 1px solid #E2E8F0;">
           <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">2</td>
           <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Data Quality & Reconciliation</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, Power Query, SQL, Python</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Record Completeness, Duplicate Tracking, Gaps Validation</td>
+          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0;">Excel, Power Query, SQL, Python</td>
+          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0;">Record Completeness, Duplicate Tracking, Gaps Validation</td>
           <td style="padding: 14px 12px; font-weight: 500;">Cross-Source Record Matching, Dataset Cleaning, Exception Reporting</td>
         </tr>
         <tr style="background-color: #FFFFFF; border-bottom: 1px solid #E2E8F0;">
           <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">3</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Employee Survey Analytics</td>
+                    <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Employee Survey Analytics</td>
           <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, Power BI, Python, R</td>
           <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Engagement Score, Response Rates, Variable Correlations</td>
-                    <td style="padding: 14px 12px; font-weight: 500;">Inferential Statistics, Survey Array Processing, Evidence-Based Insights</td>
+          <td style="padding: 14px 12px; font-weight: 500;">Inferential Statistics, Survey Array Processing, Evidence-Based Insights</td>
         </tr>
         <tr style="background-color: #F8FAFC; border-bottom: 0;">
           <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">4</td>
@@ -406,61 +414,6 @@
     </table>
   </div>
 </div>
-
-
-<!-- PORTFOLIO CARD                                -->
-<!-- ================================================ -->
-<div id="portfolio-hub" class="content-card">
-  <h2> Enterprise Portfolio Directory</h2>
-  <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; margin-bottom: 25px;">A metric tracking directory summarizing alignment profiles and operational capability targets for my core data modules:</p>
-  
-  <div style="width: 100% !important; overflow-x: auto !important; margin-bottom: 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
-    <table style="width: 100% !important; min-width: 950px !important; border-collapse: collapse !important; background-color: #FFFFFF !important; color: #23272A !important; font-size: 13.5px !important; margin: 0;">
-      <thead>
-        <tr style="background-color: #23272A !important; color: #FFFFFF !important; font-weight: bold;">
-          <th style="padding: 14px 10px; border-right: 1px solid #3A3F44; text-align: center; width: 4%;">#</th>
-          <th style="padding: 14px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 22%;">Venture Track Name Focus</th>
-          <th style="padding: 14px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 18%;">Specialized Tools Stack</th>
-          <th style="padding: 14px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 26%;">Core Enterprise Metrics Deployed</th>
-          <th style="padding: 14px 12px; text-align: left; width: 30%;">Target Operational Capability Value</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr style="background-color: #FFFFFF; border-bottom: 1px solid #E2E8F0;">
-          <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">1</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Workforce & HR Analytics</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, Power Query, Power BI, DAX</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Headcount, Department Distribution, Attrition Rate</td>
-          <td style="padding: 14px 12px; font-weight: 500;">Analytical Modelling, KPI Development, Corporate Management Reporting</td>
-        </tr>
-        <tr style="background-color: #F8FAFC; border-bottom: 1px solid #E2E8F0;">
-          <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">2</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Data Quality & Reconciliation</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, Power Query, SQL, Python</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Record Completeness, Duplicate Tracking, Gaps Validation</td>
-          <td style="padding: 14px 12px; font-weight: 500;">Cross-Source Record Matching, Dataset Cleaning, Exception Reporting</td>
-        </tr>
-        <tr style="background-color: #FFFFFF; border-bottom: 1px solid #E2E8F0;">
-          <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">3</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Employee Survey Analytics</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, Power BI, Python, R</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Engagement Score, Response Rates, Variable Correlations</td>
-          <td style="padding: 14px 12px; font-weight: 500;">Inferential Statistics, Survey Array Processing, Evidence-Based Insights</td>
-        </tr>
-        <tr style="background-color: #F8FAFC; border-bottom: 1px solid #E2E8F0;">
-          <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">4</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Customer & Commercial Analytics</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, SQL, Python, Power BI, scikit-learn</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Purchasing Patterns, CLV, Predictive Churn Probability</td>
-          <td style="padding: 14px 12px; font-weight: 500;">Customer Behavior Segmentation, Supervised ML, Business Intelligence Support</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-
-
 
 <!-- ================================================ -->
 <!-- 6. EXPERIENCE CARD                               -->
@@ -547,7 +500,7 @@
       <p style="line-height: 1.5; font-size: 15px; color: #4A5568 !important; margin-bottom: 25px; text-align: left !important;">I am open to consulting engagements, project-based assignments, and corporate team positions involving data analytics, statistics, business intelligence, data management, research analytics, and workforce analysis. Whether you need support troubleshooting a messy database, automating your executive KPI tracking metrics, or turning field research data into decision-ready insights, I am interested in discussing your operational goals.</p>
     </div>
     
-  <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 45px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center; text-align: center !important;">
+    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 45px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center; text-align: center !important;">
       <div style="border: 2px dashed #CBD5E0; border-radius: 8px; padding: 25px; background-color: #F8FAFC; text-align: center !important; width: 100%; box-sizing: border-box;">
         <span style="font-size: 40px; display: block; margin-bottom: 10px; text-align: center !important;">📧</span>
         <h4 style="margin: 0 0 8px 0; font-size: 18px; font-weight: bold; color: #23272A; text-align: center !important;">Launch Project Inquiry</h4>
@@ -562,3 +515,7 @@
 
 </div> <!-- Closes scroll-content layout engine -->
 </div> <!-- Closes portfolio-container outer window -->
+
+
+
+
