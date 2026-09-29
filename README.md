@@ -125,7 +125,7 @@
 
   /* Scrolling Content Layout Core Layer Workspace - Tightened Top Spacing Option */
   .scroll-content {
-    margin-top: 72px !important; 
+    margin-top: 115px !important; 
     padding: 10px 0 95px 0 !important; 
     box-sizing: border-box !important;
     width: 100% !important;
@@ -233,7 +233,7 @@
 <div class="fixed-footer-container">
   <div class="footer-bar">
     <p> <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
-    <p> <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a></p>
+    <p> <a href="https://www.linkedin.com/in/edna-achieng-ogutu/" target="_blank">Connect on LinkedIn</a></p>
   </div>
 </div>
 
@@ -479,6 +479,7 @@
 <div id="certifications" class="content-card">
   <h2> Certifications & Professional Development</h2>
   <ul>
+    
     <li><span class="skill-title">IBM Data Science & AI Professional:</span> Validated industry training in data science operations, machine learning classification, predictive algorithms, and Python data analysis workflows.</li>
     <li><span class="skill-title">MEAL Essentials Professional Certificate (DisasterReady / Humanitarian Leadership Academy):</span> Specialized global certification in Monitoring, Evaluation, Accountability, and Learning systems.</li>
   </ul>
