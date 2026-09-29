@@ -245,39 +245,29 @@
 <!-- ================================================ -->
 <!-- 1. HOME CARD                                     -->
 <!-- ================================================ -->
-<div id="home" class="content-card" style="padding: 30px 40px !important;">
-  
-  <!-- TOP INTRODUCTORY SECTION: SQUARE IMAGE SIDE-BY-SIDE WITH HEADLINES -->
-  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start; margin-bottom: 20px !important;">
+<div id="home" class="content-card" style="padding: 40px !important;">
+  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start;">
     
     <!-- LEFT PANEL: DATA GRAPHIC CANVAS CONTAINER (SQUARE FRAME) -->
     <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
       <img width="800" height="800" alt="data" src="data.png" style="width: 100% !important; height: 100% !important; aspect-ratio: 1 / 1 !important; object-fit: cover !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
     </div>
     
-    <!-- RIGHT PANEL: NAME & BOLD STRATEGIC INTRO HOOKS -->
+    <!-- RIGHT PANEL: NAME & HEADLINES -->
     <div style="flex: 1.5; min-width: 340px; box-sizing: border-box; padding: 0 !important; margin: -5px 0 0 0 !important; text-align: left !important;">
-      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 12px 0 !important; padding-bottom: 6px !important; text-transform: uppercase !important; display: block !important;"> Home</h2>
+      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 12px 0 !important; padding-bottom: 6px !important; text-transform: uppercase !important; display: block !important;">🏠 Home</h2>
       <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Edna Achieng Ogutu</p>
-      <p style="font-size: 18px; color: #1A488E; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Statistician | Data Analyst | Business Intelligence | Data Science | Workforce Analytics</p>
-      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: bold; margin: 0;">I engineer robust data pipelines, statistical frameworks, and automated dashboards that eliminate operational reporting blind spots, protect corporate budgets, and drive decision-ready intelligence.</p>
+      <p style="font-size: 18px; color: #1A488E; font-weight: 700; margin-bottom: 15px;">Statistician | Data Analyst | Business Intelligence | Data Science | Workforce Analytics</p>
+      <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; font-weight: bold; margin-bottom: 0;">I engineer robust data pipelines, statistical frameworks, and automated dashboards that eliminate operational reporting blind spots, protect corporate budgets, and drive decision-ready intelligence.</p>
     </div>
     
   </div>
 
-  <!-- LOWER SECTION: FULL WIDTH RUNNING BIOGRAPHY AND ACTION BUTTON STRIP -->
-  <div style="width: 100%; box-sizing: border-box; text-align: left !important; margin-top: 10px !important;">
-    <p style="line-height: 1.5; font-size: 15.5px; color: #2D3748; font-weight: 500; margin-bottom: 25px;">I am a Statistician and Data Analyst with a deep background in Biostatistics and experience working with workforce tracking metrics, research diagnostics, operational flows, survey matrices, and commercial business data. By bridging the gap between raw data complexity and executive strategy, I combine advanced data management, descriptive and inferential statistics, and modern business intelligence to transform disorganized data streams into high-integrity information, clear operational insights, and decision-ready executive reporting.</p>
+  <!-- TEXT BLOCK REPOSITIONED TO AUTOMATICALLY FLOW ENTIRELY BELOW THE IMAGE ROW -->
+  <div style="width: 100%; box-sizing: border-box; text-align: left !important; margin-top: 25px !important;">
+    <p style="line-height: 1.45; font-size: 15.5px; color: #1A1D20; font-weight: 500; margin-bottom: 20px;">I am a Statistician and Data Analyst with a deep background in Biostatistics and experience working with workforce tracking metrics, research diagnostics, operational flows, survey matrices, and commercial business data. By bridging the gap between raw data complexity and executive strategy, I combine advanced data management, descriptive and inferential statistics, and modern business intelligence to transform disorganized data streams into high-integrity information, clear operational insights, and decision-ready executive reporting.</p>
     
-    <!-- PREMIUM INTERACTIVE NAVIGATION CONTROL BAR -->
-    <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
-      <p style="font-size: 15px; color: #FFFFFF; font-weight: bold; margin: 0; letter-spacing: 0.5px;">
-         Explore My Portfolio to Review Live Enterprise Solutions: 
-        <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 800; margin-left: 10px;">View Selected Projects Frameworks</label> | 
-        <label for="tab-services" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 800; margin-left: 5px;">Explore Specialized Analytics Services</label> | 
-        <label for="tab-get-in-touch" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 800; margin-left: 5px;">Schedule a Consultation Session</label>
-      </p>
-    </div>
+    <p style="margin-top: 20px; font-weight: bold; font-size: 15px; color: #23272A;">👉 Explore My Portfolio: <label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">View Selected Projects Frameworks</label> | <label for="tab-services" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Explore Specialized Analytics Services</label> | <label for="tab-get-in-touch" style="color: #1A488E; cursor: pointer; text-decoration: underline; font-weight: bold;">Schedule a Data Solutions Consultation Session</label></p>
   </div>
 
 </div>
