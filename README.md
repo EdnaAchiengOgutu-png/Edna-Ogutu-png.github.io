@@ -281,7 +281,7 @@
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; align-items: flex-start; margin-bottom: 25px !important;">
     
     <!-- LEFT PANEL: UNBLOCKABLE SECURE PORTRAIT CONTAINER -->
-    <div style="flex: 0.8; min-width: 260px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
+    <div style="flex: 0.8; min-width: 300px; max-width: 320px; box-sizing: border-box; margin: 0 auto !important;">
       <img width="800" height="800" alt="data" src="data.png" style="width: 100% !important; height: auto !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
     </div>
     
