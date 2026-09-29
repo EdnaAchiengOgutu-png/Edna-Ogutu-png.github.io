@@ -125,7 +125,7 @@
 
   /* Scrolling Content Layout Core Layer Workspace - Tightened Top Spacing Option */
   .scroll-content {
-    margin-top: 125px !important; 
+    margin-top: 120px !important; 
     padding: 10px 0 95px 0 !important; 
     box-sizing: border-box !important;
     width: 100% !important;
