@@ -322,13 +322,11 @@
       </div>
 
     </div>
-
-
-    
+    </div>
 
     <!-- TOOLSTACK CONTAINER STRIP -->
     <div style="background-color: #D2F7FF; padding: 16px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
-      <span style="font-size: 15px; color: #FFFFFF; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 4px;"> Data Analytical Tools Mastered</span>
+      <span style="font-size: 15px; color: #FFD200; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 4px;"> Data Analytical Tools Mastered</span>
       <p style="font-size: 15px; color: #FFD200; font-weight: 800; margin: 0; letter-spacing: 0.5px;">Excel | Power Query | Power BI | DAX | SQL | Python | R | STATA | SPSS</p>
     </div>
 
