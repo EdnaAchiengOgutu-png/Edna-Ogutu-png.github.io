@@ -158,10 +158,7 @@
     overflow-y: visible !important;
     z-index: 100 !important; 
   }
-
-
-
-  /* PURE CSS TAB SWITCH MECHANISM - CONNECTS NAV BUTTONS TO CARDS */
+  /* PURE CSS TAB SWITCH ENGINE RULES: Connects button selectors to views */
   #tab-home:checked ~ .scroll-content #home,
   #tab-about:checked ~ .scroll-content #about,
   #tab-services:checked ~ .scroll-content #services,
@@ -173,7 +170,6 @@
   #tab-get-in-touch:checked ~ .scroll-content #get-in-touch {
     display: block !important; 
   }
-
   /* Highlights active menu labels inside the navbar array */
   #tab-home:checked ~ .master-sticky-header .navbar label[for="tab-home"],
   #tab-about:checked ~ .master-sticky-header .navbar label[for="tab-about"],
