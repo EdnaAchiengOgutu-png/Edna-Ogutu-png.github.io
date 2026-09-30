@@ -366,8 +366,8 @@
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
 <div id="services" class="content-card" style="padding: 25px 45px 35px 45px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Operational Consulting Menu</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Substituting manual error with high-integrity automation to protect corporate budgets and optimize scaling loops:</p>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Consulting Services</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 22px; font-weight: bold; color: #23272A; line-height: 1.35;">Substituting manual error with high-integrity automation to protect corporate budgets and optimize scaling loops:</p>
   
   <!-- EXECUTIVE 2-COLUMN COMMERCIAL GRID FRAMEWORK -->
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 25px; align-items: stretch !important;">
@@ -377,7 +377,7 @@
       <div>
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
           <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">01</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase; letter-spacing: 0.3px;">Enterprise Data Analytics</h3>
+          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase; letter-spacing: 0.3px;">Data Analytics</h3>
         </div>
         <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.45;">I engineer scalable analytics frameworks that bridge the gap between complex enterprise operations and clear corporate strategy.</p>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
@@ -407,7 +407,7 @@
       <div>
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
           <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">03</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase; letter-spacing: 0.3px;">Executive Business Intelligence</h3>
+          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase; letter-spacing: 0.3px;">Business Intelligence</h3>
         </div>
         <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.45;">I build high-impact visualization ecosystems that democratize data access and drive rapid executive decision-making.</p>
       </div>
