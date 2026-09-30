@@ -366,9 +366,9 @@
 <!-- ================================================ -->
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
-<div id="services" class="content-card" style="padding: 35px !important;">
-  <h2>💼 Operational Consulting Menu</h2>
-  <p style="margin-bottom: 30px; font-size: 16px; font-weight: bold; color: #23272A; line-height: 1.45;">Substituting manual error with high-integrity automation to protect budgets and optimize scaling:</p>
+<div id="services" class="content-card" style="padding: 20px !important;">
+  <h2> Operational Consulting Menu</h2>
+  <p style="margin-bottom: 20px; font-size: 16px; font-weight: bold; color: #23272A; line-height: 1.45;">Substituting manual error with high-integrity automation to protect budgets and optimize scaling:</p>
   
   <!-- EXECUTIVE 2-COLUMN COMMERCIAL GRID FRAMEWORK -->
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 20px; width: 100%; box-sizing: border-box; margin-bottom: 35px;">
@@ -381,8 +381,8 @@
           <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Enterprise Data Analytics</h3>
         </div>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;">📊 Commercial Insights: <span style="font-weight: 500; color: #2D3748;">Transforms fragmented data streams into clear, localized growth and market opportunities.</span></li>
-          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;">📈 KPI Benchmarking: <span style="font-weight: 500; color: #2D3748;">Maps multi-departmental pipelines into high-visibility dashboards to track business health.</span></li>
+          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Commercial Insights: <span style="font-weight: 500; color: #2D3748;">Transforms fragmented data streams into clear, localized growth and market opportunities.</span></li>
+          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> KPI Benchmarking: <span style="font-weight: 500; color: #2D3748;">Maps multi-departmental pipelines into high-visibility dashboards to track business health.</span></li>
         </ul>
       </div>
     </div>
@@ -395,8 +395,8 @@
           <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Database Validation & Auditing</h3>
         </div>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;">🧼 Automated Cleaning: <span style="font-weight: 500; color: #2D3748;">Deploys validation check scripts to instantly repair structural database syntax anomalies.</span></li>
-          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;">🛡️ Risk Mitigation: <span style="font-weight: 500; color: #2D3748;">Performs automated ledger reconciliation to fully eliminate tracking duplicates and data leakage.</span></li>
+          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Automated Cleaning: <span style="font-weight: 500; color: #2D3748;">Deploys validation check scripts to instantly repair structural database syntax anomalies.</span></li>
+          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Risk Mitigation: <span style="font-weight: 500; color: #2D3748;">Performs automated ledger reconciliation to fully eliminate tracking duplicates and data leakage.</span></li>
         </ul>
       </div>
     </div>
@@ -409,8 +409,8 @@
           <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Executive Business Intelligence</h3>
         </div>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;">💻 Power BI Engineering: <span style="font-weight: 500; color: #2D3748;">Builds responsive interactive reporting layouts tailored for rapid C-suite corporate oversight.</span></li>
-          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;">⚡ Live Drill-Downs: <span style="font-weight: 500; color: #2D3748;">Integrates dynamic parameters and filtering criteria for clean, completely friction-free reporting.</span></li>
+          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Power BI Engineering: <span style="font-weight: 500; color: #2D3748;">Builds responsive interactive reporting layouts tailored for rapid C-suite corporate oversight.</span></li>
+          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Live Drill-Downs: <span style="font-weight: 500; color: #2D3748;">Integrates dynamic parameters and filtering criteria for clean, completely friction-free reporting.</span></li>
         </ul>
       </div>
     </div>
@@ -423,8 +423,8 @@
           <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Advanced Commercial Analytics</h3>
         </div>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;">👥 RFM Clustering: <span style="font-weight: 500; color: #2D3748;">Deploys customer segmentation matrices to map frequency, value tracking, and retention parameters.</span></li>
-          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;">🔮 Predictive Forecasting: <span style="font-weight: 500; color: #2D3748;">Constructs machine learning models to isolate churn risks and safeguard recurring client revenue.</span></li>
+          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> RFM Clustering: <span style="font-weight: 500; color: #2D3748;">Deploys customer segmentation matrices to map frequency, value tracking, and retention parameters.</span></li
+          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Predictive Forecasting: <span style="font-weight: 500; color: #2D3748;">Constructs machine learning models to isolate churn risks and safeguard recurring client revenue.</span></li>
         </ul>
       </div>
     </div>
@@ -437,8 +437,8 @@
           <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Statistical Research & Controls</h3>
         </div>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;">🔬 Quantitative Modeling: <span style="font-weight: 500; color: #2D3748;">Applies advanced population sampling metrics, regressions, and rigorous ANOVA tracking to datasets.</span></li>
-          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;">📋 Evidence summaries: <span style="font-weight: 500; color: #2D3748;">Synthesizes complex field outcomes into highly defensible, executive reporting briefs for corporate stakeholders.</span></li>
+          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Quantitative Modeling: <span style="font-weight: 500; color: #2D3748;">Applies advanced population sampling metrics, regressions, and rigorous ANOVA tracking to datasets.</span></li>
+          <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Evidence summaries: <span style="font-weight: 500; color: #2D3748;">Synthesizes complex field outcomes into highly defensible, executive reporting briefs for corporate stakeholders.</span></li>
         </ul>
       </div>
     </div>
@@ -460,7 +460,7 @@
 <!-- ================================================ -->
 <div id="projects" class="content-card">
   <h2> Selected Projects Portfolio</h2>
-  <p style="margin-bottom: 25px;">A directory of production-ready analytical systems designed to optimize business operations, increase tracking visibility, and automate multi-source data processing pipelines using a protective synopsis format:</p>
+  <p style="margin-bottom: 20px;">A directory of production-ready analytical systems designed to optimize business operations, increase tracking visibility, and automate multi-source data processing pipelines using a protective synopsis format:</p>
 
   <!-- PROJECT 1 -->
   <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
