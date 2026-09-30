@@ -470,7 +470,7 @@
   <!-- PROJECT 1 -->
   <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
     <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 1. Workforce & HR Analytics System</summary>
-    <div style="margin-top: 90px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
+    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
       <p><b> Project Synopsis:</b> Developed an interactive workforce analytics system to transform fragmented employee records into management-ready insights tracking workforce composition, departmental distributions, salary bands, and performance metrics across large employee cohorts.</p>
       <p><b> Analytical Focus:</b> Workforce scale tracking | Department and role distribution | Salary compression and equity patterns | Shift performance variables | Attrition and stability trends.</p>
       <p><b> Specialized Tools Stack:</b> Excel | Power Query | Power BI | DAX | Statistical Analysis</p>
@@ -481,7 +481,7 @@
   <!-- PROJECT 2 -->
   <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
     <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 2. Data Quality & Reconciliation Engine</summary>
-    <div style="margin-top: 15px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
+    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
       <p><b> Project Synopsis:</b> Architected a data validation and reconciliation module to ingest multi-source administrative files, isolate structural data discrepancies, match missing parameters, and compile a verified clean database for secure corporate financial reporting.</p>
       <p><b> Analytical Focus:</b> Data completeness metrics | Duplicate and missing-value isolation | Cross-system key matching | Automated ledger reconciliation | Schema standardization | Exception reporting logs.</p>
       <p><b> Specialized Tools Stack:</b> Excel | Power Query | SQL | Python | Statistical Analysis</p>
@@ -492,7 +492,7 @@
   <!-- PROJECT 3 -->
   <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
     <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 3. Employee Engagement & Statistical Analytics</summary>
-    <div style="margin-top: 15px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
+    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
       <p><b> Project Synopsis:</b> Engineered a quantitative survey analytics system to process corporate sentiment tracking files, evaluating feedback distributions, response behaviors, and demographic correlations across dynamic organizational blocks.</p>
       <p><b> Analytical Focus:</b> Engagement pattern tracking | Survey response trends | Cohort sentiment analysis | Multi-variable correlation | Descriptive and inferential statistics diagnostics | Analytical data visualization.</p>
       <p><b> Specialized Tools Stack:</b> Excel | Power Query | Power BI | Python / R | Statistical Analysis</p>
@@ -503,7 +503,7 @@
   <!-- PROJECT 4 -->
   <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px;">
     <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 4. Customer & Commercial Predictive Analytics</summary>
-    <div style="margin-top: 15px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
+    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
       <p><b> Project Synopsis:</b> Developed an end-to-end commercial optimization pipeline using business transactions to group buyer cohorts and apply supervised machine learning classification algorithms to predict churn risks.</p>
       <p><b> Analytical Focus:</b> Purchasing pattern trends | Gross profit margins % | Customer behavioral segmentation | Customer Lifetime Value (CLV) tracks | Supervised predictive modeling | Model precision and performance evaluation.</p>
       <p><b> Specialized Tools Stack:</b> Excel | SQL | Python | Power BI | Scikit-Learn</p>
