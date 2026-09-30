@@ -337,22 +337,22 @@
   </div>
 </div>
 
-    <!-- RE-ENGINEERED OPTIMIZED TOOLSTACK RIBBON WITH CLEAN WRAPPING & LEGIBLE CONTRAST -->
-    <div style="background-color: #23272A; padding: 14px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; overflow: visible !important; margin-bottom: 10px !important;">
+      <!-- RE-ENGINEERED OPTIMIZED TOOLSTACK RIBBON WITH CLEAN WRAPPING & LEGIBLE CONTRAST -->
+    <div style="background-color: #23272A; padding: 14px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; overflow: visible !important;">
       <span style="font-size: 13.5px; color: #FFFFFF !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 6px; text-transform: uppercase;">🛠️ Data Analytical Tools Mastered</span>
       <span style="font-size: 14.5px !important; color: #FFD200 !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
         Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; DAX &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; R &nbsp;|&nbsp; STATA &nbsp;|&nbsp; SPSS
       </span>
     </div>
 
-  </div> <!-- Safely closes the lower competencies matrix grid layout -->
-</div> <!-- Safely closes the ABOUT Content Card panel wrapper -->
+  </div> <!-- Closes the lower section wrapper -->
+</div> <!-- Closes the ABOUT card container cleanly without any extra stray tags -->
 
 <!-- ================================================ -->
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
-<div id="services" class="content-card" style="padding: 40px !important;">
-  <h2> Operational Consulting Services</h2>
+<div id="services" class="content-card" style="padding: 15px 45px 35px 45px !important;">
+  <h2>💼 Operational Consulting Services</h2>
   <p style="margin-bottom: 20px; font-weight: bold; color: #1A488E;">Speaking directly to organizational pain points—substituting manual error with high-integrity automation:</p>
   <ul>
     <li><span class="skill-title">Enterprise Data Analytics:</span> Transforming disparate, structured data into clear commercial insights, localized market trends, and high-visibility corporate performance indicators.</li>
@@ -361,9 +361,8 @@
     <li><span class="skill-title">Statistical & Research Analytics:</span> Applying advanced quantitative methods, population sampling controls, and experimental regressions to survey and field research data to output sound, evidence-based reporting.</li>
     <li><span class="skill-title">Advanced Commercial Analytics:</span> Deploying customer behavioral segmentation matrices, RFM clustering profiles, supervised machine learning pipelines, and predictive risk modeling.</li>
   </ul>
-  <p style="margin-top: 25px; font-weight: bold;"><label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline;"> Review the Live Infrastructure Systems Powered by These Services →</label></p>
+  <p style="margin-top: 25px; font-weight: bold;"><label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline;">👉 Review the Live Infrastructure Systems Powered by These Services →</label></p>
 </div>
-
 
 
 <!-- ================================================ -->
