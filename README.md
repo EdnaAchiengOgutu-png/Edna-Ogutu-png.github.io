@@ -70,7 +70,7 @@
 /* Navigation Ribbon Strip - Tightened padding for a compact look */
 .navbar { 
   background-color: #23272A !important; 
-  padding: 2px 40px !important; /* Tightened vertical padding to make it slim */
+  padding: 0px 40px !important; /* Tightened vertical padding to make it slim */
   margin: 0 !important;
   text-align: left !important; 
   width: 100% !important;
