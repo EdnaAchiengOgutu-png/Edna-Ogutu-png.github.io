@@ -139,7 +139,7 @@
 
  /* Content Cards Layout Parameters - Text top-aligned via tightened internal padding */
   .content-card {
-    background-color: #97B2DE !important; 
+    background-color: #D2F7FF !important; 
     padding: 15px 45px 35px 45px !important; 
     border-radius: 12px !important; 
     margin-left: 20px !important; 
