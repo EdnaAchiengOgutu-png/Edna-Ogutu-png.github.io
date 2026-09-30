@@ -443,6 +443,45 @@
           <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Deploying multi-dimensional customer matrices and Recency, Frequency, Monetary (RFM) transaction clustering profiles to map intent.</span>
         </div>
         <div style="flex: 1; min-width: 280px; background: rgba(255,255,255,0.7); padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
+                  <span style="font-weight: 800; color: #1A488E; font-size: 13.5px; display: block; margin-bottom: 4px; text-transform: uppercase;">👥 Behavioral Segmentation</span>
+          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Deploying multi-dimensional customer matrices and Recency, Frequency, Monetary (RFM) transaction clustering profiles to map intent.</span>
+        </div>
+        <div style="flex: 1; min-width: 280px; background: rgba(255,255,255,0.7); padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
+          <span style="font-weight: 800; color: #1A488E; font-size: 13.5px; display: block; margin-bottom: 4px; text-transform: uppercase;">🔮 Predictive Risk Modeling</span>
+          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Building supervised machine learning classification pipelines to forecast market shifts, isolate churn risks, and drive proactive strategy blocks.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICE 5: STATISTICAL RESEARCH & CONTROLS -->
+    <div style="background-color: rgba(255,255,255,0.55); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
+      <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px;">
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 14px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;">05</span>
+        <h3 style="margin: 0 !important; font-size: 18px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase; letter-spacing: 0.5px;">Statistical Research & Controls</h3>
+      </div>
+      <p style="font-size: 14.5px; color: #23272A; font-weight: 700; margin-bottom: 15px; line-height: 1.45;">I leverage rigorous academic and empirical methodologies to ensure your research outcomes are bulletproof and mathematically sound.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 15px; width: 100%;">
+        <div style="flex: 1; min-width: 280px; background: rgba(255,255,255,0.7); padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
+          <span style="font-weight: 800; color: #1A488E; font-size: 13.5px; display: block; margin-bottom: 4px; text-transform: uppercase;">🔬 Quantitative Modeling</span>
+          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Applying advanced population sampling controls, experimental regressions, and variance analysis (ANOVA) matrices to large survey datasets.</span>
+        </div>
+        <div style="flex: 1; min-width: 280px; background: rgba(255,255,255,0.7); padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
+          <span style="font-weight: 800; color: #1A488E; font-size: 13.5px; display: block; margin-bottom: 4px; text-transform: uppercase;">📋 Evidence-Based Reporting</span>
+          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Synthesizing complex field data and deep analytics into defensible, high-integrity executive reports for stakeholders.</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- HIGH-CONTRAST ACTION ACCENT BUTTON BAR -->
+  <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
+    <p style="font-size: 15px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif;">
+      🛠️ Portfolio Synopses: <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 900; margin-left: 5px;">Examine the active project briefs and structural overviews demonstrating these services in production →</label>
+    </p>
+  </div>
+
+</div>
 
 
 
