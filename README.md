@@ -337,16 +337,16 @@
   </div>
 </div>
 
-<!-- RE-ENGINEERED OPTIMIZED TOOLSTACK RIBBON WITH CLEAN WRAPPING & LEGIBLE CONTRAST -->
-<div style="background-color: #23272A; padding: 14px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; overflow: visible !important; margin-bottom: 10px !important;">
-  <span style="font-size: 13.5px; color: #FFFFFF !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 6px; text-transform: uppercase;">🛠️ Data Analytical Tools Mastered</span>
-  <span style="font-size: 14.5px !important; color: #FFD200 !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
-    Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; DAX &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; R &nbsp;|&nbsp; STATA &nbsp;|&nbsp; SPSS
-  </span>
-</div>
+    <!-- RE-ENGINEERED OPTIMIZED TOOLSTACK RIBBON WITH CLEAN WRAPPING & LEGIBLE CONTRAST -->
+    <div style="background-color: #23272A; padding: 14px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; overflow: visible !important; margin-bottom: 10px !important;">
+      <span style="font-size: 13.5px; color: #FFFFFF !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 6px; text-transform: uppercase;">🛠️ Data Analytical Tools Mastered</span>
+      <span style="font-size: 14.5px !important; color: #FFD200 !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
+        Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; DAX &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; R &nbsp;|&nbsp; STATA &nbsp;|&nbsp; SPSS
+      </span>
+    </div>
 
-</div> <!-- Safely closes the Lower Aligned Matrix container -->
-</div> <!-- Safely closes the ABOUT Content Card Wrapper -->
+  </div> <!-- Safely closes the lower competencies matrix grid layout -->
+</div> <!-- Safely closes the ABOUT Content Card panel wrapper -->
 
 <!-- ================================================ -->
 <!-- 3. SERVICES CARD                                 -->
@@ -363,6 +363,7 @@
   </ul>
   <p style="margin-top: 25px; font-weight: bold;"><label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline;"> Review the Live Infrastructure Systems Powered by These Services →</label></p>
 </div>
+
 
 
 <!-- ================================================ -->
