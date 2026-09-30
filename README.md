@@ -281,15 +281,27 @@
       <img width="800" height="800" alt="data" src="data.png" style="width: 100% !important; height: 100% !important; aspect-ratio: 1 / 1 !important; object-fit: cover !important; border-radius: 8px; border: 3px solid #23272A; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block !important;" />
     </div>
     
-    <!-- RIGHT PANEL: CONTENT & VALUE PROPOSITION (VERTICALLY RE-CENTERED) -->
-    <div style="flex: 1.8; min-width: 300px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; align-self: center !important; text-align: left !important;">
-      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 12px 0 !important; padding-bottom: 6px !important; text-transform: uppercase !important; display: block !important;"> About Me</h2>
-      <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">I bridge the structural gap between messy, multi-source raw data and high-stakes executive strategy.</p>
-      <p style="line-height: 1.45; font-size: 16px; color: #2D3748; font-weight: 500; margin-bottom: 15px;">My approach is centered on building high-integrity validation checks at the collection source, ensuring that every predictive model, regression script, or visualization dashboard is mathematically sound, audit-ready, and immediately actionable for corporate decision-makers.</p>
-      <p style="line-height: 1.45; font-size: 16px; color: #2D3748; font-weight: 500; margin-bottom: 0;">Operating across the entire analytical pipeline—from executing rigorous data cleaning and cross-system reconciliations to formulating diagnostic models and interactive reporting systems—I transform complex numbers into simple, strategic next steps. I believe effective analytics begins with absolute data quality, requiring the right analytical questions to generate long-term operational efficiencies.</p>
-    </div>
-    
-  </div>
+  <!-- RIGHT PANEL: CONTENT & VALUE PROPOSITION (VERTICALLY RE-CENTERED) -->
+<div style="flex: 1.8; min-width: 300px; box-sizing: border-box; padding: 0 !important; margin: 0 !important; align-self: center !important; text-align: left !important;">
+  <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; border-bottom: 4px solid #23272A !important; margin: 0 0 12px 0 !important; padding-bottom: 6px !important; text-transform: uppercase !important; display: block !important;">👤 About Me</h2>
+  <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">I bridge the structural gap between messy, multi-source raw data and high-stakes executive strategy.</p>
+  <p style="line-height: 1.45; font-size: 16px; color: #2D3748; font-weight: 500; margin-bottom: 15px;">My approach is centered on building high-integrity validation checks at the collection source, ensuring that every predictive model, regression script, or visualization dashboard is mathematically sound, audit-ready, and immediately actionable for corporate decision-makers.</p>
+  
+  <!-- STRATEGIC VALUE PROPOSITION BULLET LIST -->
+  <ul style="padding-left: 20px !important; margin-top: 12px !important; margin-bottom: 0 !important; list-style-type: square !important;">
+    <li style="font-size: 14.5px !important; line-height: 1.5 !important; color: #1A1D20 !important; font-weight: 500; margin-bottom: 8px !important;">
+      <b>End-to-End Execution:</b> Operating across the entire analytical pipeline—from executing rigorous data cleaning and cross-system reconciliations to formulating diagnostic models and interactive reporting systems.
+    </li>
+    <li style="font-size: 14.5px !important; line-height: 1.5 !important; color: #1A1D20 !important; font-weight: 500; margin-bottom: 8px !important;">
+      <b>Strategic Transformation:</b> Transforming highly complex numbers into simple, actionable, and strategic next steps for senior leadership.
+    </li>
+    <li style="font-size: 14.5px !important; line-height: 1.5 !important; color: #1A1D20 !important; font-weight: 500; margin-bottom: 0 !important;">
+      <b>Data-Driven Efficiencies:</b> Grounding metrics in high-integrity data quality and asking the right analytical questions to generate long-term operational efficiencies.
+    </li>
+  </ul>
+</div>
+
+</div> <!-- Safely closes the top horizontal flex introduction row container block -->
 
   <!-- LOWER SECTION: FULL WIDTH ALIGNED COMPETENCIES MATRIX GRID -->
   <div style="width: 100%; box-sizing: border-box; margin-top: 25px !important;">
