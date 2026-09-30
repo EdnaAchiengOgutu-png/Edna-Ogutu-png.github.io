@@ -137,10 +137,10 @@
   }
 
 
-    /* Content Cards Layout Parameters - Text top-aligned via tightened internal padding */
+ /* Content Cards Layout Parameters - Text top-aligned via tightened internal padding */
   .content-card {
-    background-color: #D2F7FF !important; 
-    padding: 5px 45px 35px 45px !important; /* Top padding reduced to 10px to align words to the top */
+    background-color: #97B2DE !important; 
+    padding: 15px 45px 35px 45px !important; 
     border-radius: 12px !important; 
     margin-left: 20px !important; 
     margin-right: 20px !important; 
@@ -228,6 +228,7 @@
     <label for="tab-get-in-touch"> GET IN TOUCH</label>
   </div>
 </div>
+
 <!-- FIXED EDGE-TO-EDGE BOTTOM FROZEN FOOTER BAR -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
@@ -237,6 +238,7 @@
 </div>
 
 <div class="scroll-content">
+
 
 <!-- ================================================ -->
 <!-- 1. HOME CARD                                     -->
@@ -325,27 +327,29 @@
         </ul>
       </div>
 
-     <!-- BOX 4: BUSINESS INTELLIGENCE (NESTED IN A CORRECT PARENT ENGINE WRAPPER) -->
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 20px;">
-  <div style="background-color: rgba(255,255,255,0.6); padding: 14px 18px; border-radius: 8px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 10px rgba(0,0,0,0.02);">
-    <span style="font-weight: 800; color: #1A488E; font-size: 15px; display: block; margin-bottom: 8px;">💻 Business Intelligence Systems</span>
-    <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-      <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 4px !important;">Engineering interactive, responsive Power BI business dashboards.</li>
-      <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 4px !important;">Formulating corporate cross-filtering visual performance matrix maps.</li>
-      <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 0 !important;">Generating automated executive management reporting frameworks.</li>
-    </ul>
-  </div>
-</div>
+         <!-- BOX 4: BUSINESS INTELLIGENCE (NESTED CORRECTLY INSIDE THE CORE DOMAINS PARENT ROW) -->
+      <div style="background-color: rgba(255,255,255,0.6); padding: 14px 18px; border-radius: 8px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 10px rgba(0,0,0,0.02);">
+        <span style="font-weight: 800; color: #1A488E; font-size: 15px; display: block; margin-bottom: 8px;">💻 Business Intelligence Systems</span>
+        <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+          <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 4px !important;">Engineering interactive, responsive Power BI business dashboards.</li>
+          <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 4px !important;">Formulating corporate cross-filtering visual performance matrix maps.</li>
+          <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 0 !important;">Generating automated executive management reporting frameworks.</li>
+        </ul>
+      </div>
 
-      <!-- RE-ENGINEERED OPTIMIZED TOOLSTACK RIBBON WITH CLEAN WRAPPING & LEGIBLE CONTRAST -->
-    <div style="background-color: #23272A; padding: 14px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; overflow: visible !important;">
+    </div> <!-- Safely closes the single parent display grid container row -->
+
+    <!-- RE-ENGINEERED OPTIMIZED TOOLSTACK RIBBON WITH CLEAN WRAPPING & LEGIBLE CONTRAST -->
+    <div style="background-color: #23272A; padding: 14px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; overflow: visible !important; margin-top: 15px !important;">
       <span style="font-size: 13.5px; color: #FFFFFF !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 6px; text-transform: uppercase;">🛠️ Data Analytical Tools Mastered</span>
       <span style="font-size: 14.5px !important; color: #FFD200 !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
         Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; DAX &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; R &nbsp;|&nbsp; STATA &nbsp;|&nbsp; SPSS
       </span>
     </div>
 
-  </div> 
+  </div> <!-- Safely closes the internal padding card content flex framework -->
+</div> <!-- Safely closes the ABOUT Content Card Wrapper container box perfectly -->
+
 
 <!-- ================================================ -->
 <!-- 3. SERVICES CARD                                 -->
