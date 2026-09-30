@@ -367,45 +367,65 @@
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
 <div id="services" class="content-card" style="padding: 40px !important;">
-  <h2> Operational Consulting Services</h2>
+  <h2>💼 Operational Consulting Services</h2>
   <p style="margin-bottom: 25px; font-size: 16.5px; font-weight: bold; color: #23272A; line-height: 1.4;">Speaking directly to organizational pain points—substituting manual error with high-integrity automation:</p>
   
-  <!-- INTERACTIVE CONSULTING BENTO GRID SYSTEM -->
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; width: 100%; box-sizing: border-box; margin-bottom: 30px;">
+  <!-- PERSUASIVE BENTO GRID SYSTEM WITH NUMBERED CAPABILITIES & ACTION BULLETS -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 20px; width: 100%; box-sizing: border-box; margin-bottom: 30px;">
     
-    <!-- SERVICE CARD 1 -->
-    <div style="background-color: rgba(255,255,255,0.65); padding: 22px; border-radius: 10px; border: 1px solid rgba(35,39,42,0.15); box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: flex-start;">
-      <span style="font-size: 26px; display: block; margin-bottom: 10px;"></span>
-      <span style="font-weight: 900; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 8px; font-family: 'Arial', sans-serif;">Enterprise Data Analytics</span>
-      <p style="font-size: 14px; margin: 0; line-height: 1.5; color: #2D3748; font-weight: 500;">Transforming disparate, structured data into clear commercial insights, localized market trends, and high-visibility corporate performance indicators.</p>
+    <!-- CARD 1 -->
+    <div style="background-color: rgba(255,255,255,0.7); padding: 22px; border-radius: 10px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: flex-start;">
+      <span style="font-size: 26px; display: block; margin-bottom: 8px;">📊</span>
+      <span style="font-weight: 900; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 10px; font-family: 'Arial', sans-serif;">Enterprise Data Analytics</span>
+      <span style="font-size: 13.5px; color: #23272A; font-weight: 800; display: block; margin-bottom: 8px; text-transform: uppercase;">1. Operational Capability Target</span>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 6px !important;">Transforms disjointed, structured data streams into clear localized commercial insights.</li>
+        <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 0 !important;">Engineers executive tracking matrices that map and capture live market trends.</li>
+      </ul>
     </div>
 
-    <!-- SERVICE CARD 2 -->
-    <div style="background-color: rgba(255,255,255,0.65); padding: 22px; border-radius: 10px; border: 1px solid rgba(35,39,42,0.15); box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: flex-start;">
-      <span style="font-size: 26px; display: block; margin-bottom: 10px;"></span>
-      <span style="font-weight: 900; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 8px; font-family: 'Arial', sans-serif;">Database Validation & Auditing</span>
-      <p style="font-size: 14px; margin: 0; line-height: 1.5; color: #2D3748; font-weight: 500;">Implementing automated cleaning routines and cross-system ledger reconciliation to eliminate duplicate tracking records, fix syntax discrepancies, and isolate data leakages.</p>
+    <!-- CARD 2 -->
+    <div style="background-color: rgba(255,255,255,0.7); padding: 22px; border-radius: 10px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: flex-start;">
+      <span style="font-size: 26px; display: block; margin-bottom: 8px;">🧽</span>
+      <span style="font-weight: 900; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 10px; font-family: 'Arial', sans-serif;">Database Validation & Auditing</span>
+      <span style="font-size: 13.5px; color: #23272A; font-weight: 800; display: block; margin-bottom: 8px; text-transform: uppercase;">2. Data Integrity Target</span>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 6px !important;">Deploys automated source cleaning pipelines to completely isolate ledger data leakage.</li>
+        <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 0 !important;">Executes cross-system schema reconciliation to scrub tracking duplicates out of files.</li>
+      </ul>
     </div>
 
-    <!-- SERVICE CARD 3 -->
-    <div style="background-color: rgba(255,255,255,0.65); padding: 22px; border-radius: 10px; border: 1px solid rgba(35,39,42,0.15); box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: flex-start;">
-      <span style="font-size: 26px; display: block; margin-bottom: 10px;"></span>
-      <span style="font-weight: 900; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 8px; font-family: 'Arial', sans-serif;">Executive Business Intelligence</span>
-      <p style="font-size: 14px; margin: 0; line-height: 1.5; color: #2D3748; font-weight: 500;">Engineering responsive Power BI and Advanced Excel dashboard suites equipped with dynamic filtering and deep drill-down analytics for live decision support.</p>
+    <!-- CARD 3 -->
+    <div style="background-color: rgba(255,255,255,0.7); padding: 22px; border-radius: 10px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: flex-start;">
+      <span style="font-size: 26px; display: block; margin-bottom: 8px;">💻</span>
+      <span style="font-weight: 900; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 10px; font-family: 'Arial', sans-serif;">Executive Business Intelligence</span>
+      <span style="font-size: 13.5px; color: #23272A; font-weight: 800; display: block; margin-bottom: 8px; text-transform: uppercase;">3. Executive Visibility Target</span>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 6px !important;">Builds advanced Power BI dashboard environments with interactive cross-filters.</li>
+        <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 0 !important;">Formulates dynamic macro Excel sheets for direct, live multi-source decision support.</li>
+      </ul>
     </div>
 
-    <!-- SERVICE CARD 4 -->
-    <div style="background-color: rgba(255,255,255,0.65); padding: 22px; border-radius: 10px; border: 1px solid rgba(35,39,42,0.15); box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: flex-start;">
-      <span style="font-size: 26px; display: block; margin-bottom: 10px;">🔬</span>
-      <span style="font-weight: 900; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 8px; font-family: 'Arial', sans-serif;">Statistical & Research Analytics</span>
-      <p style="font-size: 14px; margin: 0; line-height: 1.5; color: #2D3748; font-weight: 500;">Applying advanced quantitative methods, population sampling controls, and experimental regressions to survey and field research data to output sound, evidence-based reporting.</p>
+    <!-- CARD 4 -->
+    <div style="background-color: rgba(255,255,255,0.7); padding: 22px; border-radius: 10px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: flex-start;">
+      <span style="font-size: 26px; display: block; margin-bottom: 8px;">🔬</span>
+      <span style="font-weight: 900; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 10px; font-family: 'Arial', sans-serif;">Statistical & Research Analytics</span>
+      <span style="font-size: 13.5px; color: #23272A; font-weight: 800; display: block; margin-bottom: 8px; text-transform: uppercase;">4. Empirical Precision Target</span>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 6px !important;">Applies population sampling constraints and rigorous multivariable regressions.</li>
+        <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 0 !important;">Synthesizes field research arrays into clean, evidence-based strategy briefs.</li>
+      </ul>
     </div>
 
-    <!-- SERVICE CARD 5 -->
-    <div style="background-color: rgba(255,255,255,0.65); padding: 22px; border-radius: 10px; border: 1px solid rgba(35,39,42,0.15); box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: flex-start;">
-      <span style="font-size: 26px; display: block; margin-bottom: 10px;"></span>
-      <span style="font-weight: 900; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 8px; font-family: 'Arial', sans-serif;">Advanced Commercial Analytics</span>
-      <p style="font-size: 14px; margin: 0; line-height: 1.5; color: #2D3748; font-weight: 500;">Deploying customer behavioral segmentation matrices, RFM clustering profiles, supervised machine learning pipelines, and predictive risk modeling.</p>
+    <!-- CARD 5 -->
+    <div style="background-color: rgba(255,255,255,0.7); padding: 22px; border-radius: 10px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: flex-start;">
+      <span style="font-size: 26px; display: block; margin-bottom: 8px;">🤖</span>
+      <span style="font-weight: 900; color: #1A488E; font-size: 16.5px; display: block; margin-bottom: 10px; font-family: 'Arial', sans-serif;">Advanced Commercial Analytics</span>
+      <span style="font-size: 13.5px; color: #23272A; font-weight: 800; display: block; margin-bottom: 8px; text-transform: uppercase;">5. Predictive Risk Target</span>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 6px !important;">Maps buyer behavioral profiles using advanced RFM transaction clustering models.</li>
+        <li style="font-size: 13.5px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 0 !important;">Deploys supervised machine learning classification algorithms to predict churn risks.</li>
+      </ul>
     </div>
 
   </div>
@@ -418,7 +438,6 @@
   </div>
 
 </div>
-
 
 
 <!-- ================================================ -->
