@@ -463,7 +463,7 @@
 <!-- ================================================ -->
 <!-- 4. PROJECTS CARD                                 -->
 <!-- ================================================ -->
-<div id="projects" class="content-card" style="padding: 17px 35px 17px 35px !important;">
+<div id="projects" class="content-card" style="padding: 25px 45px 35px 45px !important;">
   <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Projects Pool</h2>
   <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">A directory of production-ready analytical systems designed using a secure, standard, and unified enterprise specification format:</p>
 
@@ -477,8 +477,8 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; width: 25%; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Project Synopsis</td>
             <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important;">Engineered an end-to-end operational data processing and relational modeling database framework.</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important;">Aggregated and transformed highly fragmented employee files into centralized executive-ready assets.</li>
+                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Engineered an end-to-end operational data processing and relational modeling database framework.</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Aggregated and transformed highly fragmented employee files into centralized executive-ready assets.</li>
               </ul>
             </td>
           </tr>
@@ -486,9 +486,9 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Focus & Production Scale</td>
             <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important;"><b>Workforce Scale Tracking:</b> Completed scale mapping for <b>1,048,575 total employees</b> across <b>734,439 active tracks</b>.</li>
-                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important;"><b>Salary Intelligence:</b> Formulated interactive cohort analytics for a salary baseline of <b>$10,741.16</b> mapped by position role.</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important;"><b>Stability Analysis:</b> Isolated an exact **19.96% attrition rate variance** across core departments to flag risk areas.</li>
+                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;"><b>Workforce Scale Tracking:</b> Completed scale mapping for <b>1,048,575 total employees</b> across <b>734,439 active tracks</b>.</li>
+                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;"><b>Salary Intelligence:</b> Formulated interactive cohort analytics for a salary baseline of <b>$10,741.16</b> mapped by position role.</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;"><b>Stability Analysis:</b> Isolated an exact **19.96% attrition rate variance** across core departments to flag risk areas.</li>
               </ul>
             </td>
           </tr>
@@ -496,16 +496,16 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Specialized Tools Stack</td>
             <td style="padding: 12px 10px; color: #23272A; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: bold; color: #23272A !important;">Power BI Desktop &nbsp;|&nbsp; Power Query ETL &nbsp;|&nbsp; DAX Metric Modeling &nbsp;|&nbsp; Advanced Excel Data Structuring</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: 500; color: #23272A !important;">Power BI Desktop &nbsp;|&nbsp; Power Query ETL &nbsp;|&nbsp; DAX Metric Modeling &nbsp;|&nbsp; Advanced Excel Data Structuring</li>
               </ul>
             </td>
           </tr>
           <tr style="border-bottom: 0px !important;">
-            <td style="padding: 12px 10px; font-weight: bold; color: #FFD200 !important; vertical-align: top; background-color: #1A488E !important; border-right: 1px solid #1A488E !important;"> Strategic Value & Output</td>
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Strategic Value & Output</td>
             <td style="padding: 12px 10px; color: #23272A !important; vertical-align: top; background-color: #FFFFFF !important;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 6px !important; line-height: 1.45; font-weight: bold; color: #23272A !important;">Delivered a responsive multi-tab dashboard layout spanning Overview, Workforce, Performance, and Attrition Analytics.</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: bold; color: #23272A !important;">Transforms messy operational feedback loops into audit-ready information for senior leadership decisions.</li>
+                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #23272A !important; font-weight: 500 !important;">Delivered a responsive multi-tab dashboard layout spanning Overview, Workforce, Performance, and Attrition Analytics.</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #23272A !important; font-weight: 500 !important;">Transforms messy operational feedback loops into audit-ready information for senior leadership decisions.</li>
               </ul>
             </td>
           </tr>
@@ -528,8 +528,8 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Core Business Questions</td>
             <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important;">Where are the structural discrepancies and hidden financial leakages hiding inside multi-source ledger reporting arrays?</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important;">How can we construct an automated source of truth that guarantees ledger records are 100% audit-ready?</li>
+                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Where are the structural discrepancies and hidden financial leakages hiding inside multi-source ledger reporting arrays?</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">How can we construct an automated source of truth that guarantees ledger records are 100% audit-ready?</li>
               </ul>
             </td>
           </tr>
@@ -537,8 +537,8 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Target Metrics & KPIs</td>
             <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important;">Record Completeness Score (%) &nbsp;|&nbsp; Exception Error Detection Rate</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important;">Duplicate Tracking Volume &nbsp;|&nbsp; Reconciliation Processing Time</li>
+                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Record Completeness Score (%) &nbsp;|&nbsp; Exception Error Detection Rate</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Duplicate Tracking Volume &nbsp;|&nbsp; Reconciliation Processing Time</li>
               </ul>
             </td>
           </tr>
@@ -546,16 +546,16 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Specialized Tools Stack</td>
             <td style="padding: 12px 10px; color: #23272A; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: bold; color: #23272A !important;">Advanced Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; SQL (PostgreSQL) &nbsp;|&nbsp; Python (Pandas/NumPy) &nbsp;|&nbsp; Exception Logs</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: 500; color: #23272A !important;">Advanced Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; SQL (PostgreSQL) &nbsp;|&nbsp; Python (Pandas/NumPy) &nbsp;|&nbsp; Exception Logs</li>
               </ul>
             </td>
           </tr>
-          <tr style="border-bottom: 0px !important;">
-            <td style="padding: 12px 10px; font-weight: bold; color: #FFD200 !important; vertical-align: top; background-color: #1A488E !important; border-right: 1px solid #1A488E !important;"> Target Scope & Value</td>
-                       <td style="padding: 12px 10px; color: #23272A !important; vertical-align: top; background-color: #FFFFFF !important;">
+                  <tr style="border-bottom: 0px !important;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Target Scope & Value</td>
+            <td style="padding: 12px 10px; color: #23272A !important; vertical-align: top; background-color: #FFFFFF !important;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 6px !important; line-height: 1.45; font-weight: bold; color: #23272A !important;">Ingesting multi-source administrative files, isolating formatting and structural metadata variances.</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: bold; color: #23272A !important;">Compiles a verified clean database to eliminate financial risk parameters and mitigate leaks.</li>
+                <li style="margin-bottom: 6px !important; line-height: 1.45; font-weight: 500; color: #23272A !important;">Ingesting multi-source administrative files, isolating formatting and structural metadata variances.</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: 500; color: #23272A !important;">Compiles a verified clean database to eliminate financial risk parameters and mitigate leaks.</li>
               </ul>
             </td>
           </tr>
@@ -578,8 +578,8 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Core Business Questions</td>
             <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important;">What specific workplace variables (tenure, shift, role) are mathematically correlated with satisfaction scores?</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important;">Are feedback shifts statistically significant or due to minor baseline seasonal trend drops?</li>
+                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">What specific workplace variables (tenure, shift, role) are mathematically correlated with satisfaction scores?</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Are feedback shifts statistically significant or due to minor baseline seasonal trend drops?</li>
               </ul>
             </td>
           </tr>
@@ -587,8 +587,8 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Target Metrics & KPIs</td>
             <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important;">Average Engagement Score &nbsp;|&nbsp; Survey Response Rate (%)</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important;">Sentiment Index Variance &nbsp;|&nbsp; Demographic Correlation Coefficient (r)</li>
+                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Average Engagement Score &nbsp;|&nbsp; Survey Response Rate (%)</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Sentiment Index Variance &nbsp;|&nbsp; Demographic Correlation Coefficient (r)</li>
               </ul>
             </td>
           </tr>
@@ -596,16 +596,16 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Specialized Tools Stack</td>
             <td style="padding: 12px 10px; color: #23272A; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: bold; color: #23272A !important;">Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; R Studio / Python &nbsp;|&nbsp; Statistical Analysis Inferences</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: 500; color: #23272A !important;">Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; R Studio / Python &nbsp;|&nbsp; Statistical Analysis Inferences</li>
               </ul>
             </td>
           </tr>
           <tr style="border-bottom: 0px !important;">
-            <td style="padding: 12px 10px; font-weight: bold; color: #FFD200 !important; vertical-align: top; background-color: #1A488E !important; border-right: 1px solid #1A488E !important;"> Target Scope & Value</td>
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Target Scope & Value</td>
             <td style="padding: 12px 10px; color: #23272A !important; vertical-align: top; background-color: #FFFFFF !important;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 6px !important; line-height: 1.45; font-weight: bold; color: #23272A !important;">Processing survey matrix arrays, building quantitative metrics distribution channels for analysis.</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: bold; color: #23272A !important;">Translates raw Likert feedback scales into defensible evidence paths to optimize performance models.</li>
+                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #23272A !important; font-weight: 500 !important;">Processing survey matrix arrays, building quantitative metrics distribution channels for analysis.</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #23272A !important; font-weight: 500 !important;">Translates raw Likert feedback scales into defensible evidence paths to optimize performance models.</li>
               </ul>
             </td>
           </tr>
@@ -628,8 +628,8 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Core Business Questions</td>
             <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important;">Which high-value client segments are exhibiting behavioral patterns that signal an imminent risk of leaving?</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important;">What is the Projected Customer Lifetime Value (CLV) drop-off if customer retention drops by a specific percentage over the next quarter?</li>
+                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Which high-value client segments are exhibiting behavioral patterns that signal an imminent risk of leaving?</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">What is the Projected Customer Lifetime Value (CLV) drop-off if customer retention drops by a specific percentage over the next quarter?</li>
               </ul>
             </td>
           </tr>
@@ -637,20 +637,138 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Target Metrics & KPIs</td>
             <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important;">Customer Churn Probability (%) &nbsp;|&nbsp; Projected Revenue At Risk</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important;">Customer Lifetime Value (CLV) &nbsp;|&nbsp; Model Precision & Recall Accuracy Rate</li>
+                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Customer Churn Probability (%) &nbsp;|&nbsp; Projected Revenue At Risk</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Customer Lifetime Value (CLV) &nbsp;|&nbsp; Model Precision & Recall Accuracy Rate</li>
               </ul>
             </td>
           </tr>
           <tr style="border-bottom: 1px solid #E2E8F0;">
-            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;">🛠️ Specialized Tools Stack</td>
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Specialized Tools Stack</td>
             <td style="padding: 12px 10px; color: #23272A; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: bold; color: #23272A !important;">Excel &nbsp;|&nbsp; SQL Server &nbsp;|&nbsp; Python &nbsp;|&nbsp; Scikit-Learn &nbsp;|&nbsp; Power BI Dashboard Integration</li>
+                              <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: 500; color: #23272A !important;">Advanced Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; SQL (PostgreSQL) &nbsp;|&nbsp; Python (Pandas/NumPy) &nbsp;|&nbsp; Exception Logs</li>
               </ul>
             </td>
           </tr>
           <tr style="border-bottom: 0px !important;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Target Scope & Value</td>
+            <td style="padding: 12px 10px; color: #23272A !important; vertical-align: top; background-color: #FFFFFF !important;">
+              <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+                <li style="margin-bottom: 6px !important; line-height: 1.45; font-weight: 500; color: #23272A !important;">Ingesting multi-source administrative files, isolating formatting and structural metadata variances.</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: 500; color: #23272A !important;">Compiles a verified clean database to eliminate financial risk parameters and mitigate leaks.</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <!-- PROJECT 3 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 3. Employee Engagement Matrix & Quantitative Survey Diagnostics</summary>
+    <div style="margin-top: 12px; padding: 5px 0 0 0; width: 100%; box-sizing: border-box; border-top: 1px dashed #CBD5E0;">
+      <table style="width: 100% !important; border-collapse: collapse !important; background-color: #FFFFFF !important; color: #23272A !important; font-size: 14px !important; margin-top: 10px; border: 1px solid #E2E8F0 !important;">
+        <tbody>
+          <tr style="border-bottom: 1px solid #E2E8F0;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; width: 25%; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Venture Track Status</td>
+            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">[PRODUCTION PIPELINE ACTIVE — IN PROGRESS / ONGOING]</td>
+          </tr>
+          <tr style="border-bottom: 1px solid #E2E8F0;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Core Business Questions</td>
+            <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
+              <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">What specific workplace variables (tenure, shift, role) are mathematically correlated with satisfaction scores?</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Are feedback shifts statistically significant or due to minor baseline seasonal trend drops?</li>
+              </ul>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #E2E8F0;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Target Metrics & KPIs</td>
+            <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
+              <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Average Engagement Score &nbsp;|&nbsp; Survey Response Rate (%)</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Sentiment Index Variance &nbsp;|&nbsp; Demographic Correlation Coefficient (r)</li>
+              </ul>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #E2E8F0;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Specialized Tools Stack</td>
+            <td style="padding: 12px 10px; color: #23272A; vertical-align: top; background-color: #FFFFFF;">
+              <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: 500; color: #23272A !important;">Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; R Studio / Python &nbsp;|&nbsp; Statistical Analysis Inferences</li>
+              </ul>
+            </td>
+          </tr>
+          <tr style="border-bottom: 0px !important;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Target Scope & Value</td>
+                        <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Target Scope & Value</td>
+            <td style="padding: 12px 10px; color: #23272A !important; vertical-align: top; background-color: #FFFFFF !important;">
+              <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #23272A !important; font-weight: 500 !important;">Processing survey matrix arrays, building quantitative metrics distribution channels for analysis.</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #23272A !important; font-weight: 500 !important;">Translates raw Likert feedback scales into defensible evidence paths to optimize performance models.</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <!-- PROJECT 4 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 4. Customer & Commercial Predictive Churn Optimization Engine</summary>
+    <div style="margin-top: 12px; padding: 5px 0 0 0; width: 100%; box-sizing: border-box; border-top: 1px dashed #CBD5E0;">
+      <table style="width: 100% !important; border-collapse: collapse !important; background-color: #FFFFFF !important; color: #23272A !important; font-size: 14px !important; margin-top: 10px; border: 1px solid #E2E8F0 !important;">
+        <tbody>
+          <tr style="border-bottom: 1px solid #E2E8F0;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; width: 25%; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Venture Track Status</td>
+            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">[PRODUCTION PIPELINE ACTIVE — IN PROGRESS / ONGOING]</td>
+          </tr>
+          <tr style="border-bottom: 1px solid #E2E8F0;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Core Business Questions</td>
+            <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
+              <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Which high-value client segments are exhibiting behavioral patterns that signal an imminent risk of leaving?</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">What is the Projected Customer Lifetime Value (CLV) drop-off if customer retention drops by a specific percentage over the next quarter?</li>
+              </ul>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #E2E8F0;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Target Metrics & KPIs</td>
+            <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
+              <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Customer Churn Probability (%) &nbsp;|&nbsp; Projected Revenue At Risk</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Customer Lifetime Value (CLV) &nbsp;|&nbsp; Model Precision & Recall Accuracy Rate</li>
+              </ul>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #E2E8F0;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Specialized Tools Stack</td>
+            <td style="padding: 12px 10px; color: #23272A; vertical-align: top; background-color: #FFFFFF;">
+              <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+                <li style="margin-bottom: 0 !important; line-height: 1.45; font-weight: 500; color: #23272A !important;">Excel &nbsp;|&nbsp; SQL Server &nbsp;|&nbsp; Python &nbsp;|&nbsp; Scikit-Learn &nbsp;|&nbsp; Power BI Dashboard Integration</li>
+              </ul>
+            </td>
+          </tr>
+          <tr style="border-bottom: 0px !important;">
+            <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Target Scope & Value</td>
+            <td style="padding: 12px 10px; color: #23272A !important; vertical-align: top; background-color: #FFFFFF !important;">
+              <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+                <li style="margin-bottom: 6px !important; line-height: 1.45; color: #23272A !important; font-weight: 500 !important;">Developing an end-to-end commercial optimization pipeline using business transactions to group buyer cohorts.</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #23272A !important; font-weight: 500 !important;">Applies supervised machine learning classification algorithms to predict and mitigate customer churn risks.</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+</div>
+
+
+
+
 
 
 <!-- ================================================ -->
