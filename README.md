@@ -365,7 +365,7 @@
 <!-- ================================================ -->
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
-<div id="services" class="content-card" style="padding: 25px 45px 35px 45px !important;">
+<div id="services" class="content-card" style="padding: 17px 37px 17px 37px !important;">
   <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 6px !important;"> Consulting Services</h2>
   <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 12px; font-weight: bold; color: #23272A; line-height: 1.35;">Substituting manual error with high-integrity automation to protect corporate budgets and optimize scaling loops:</p>
   
@@ -463,12 +463,12 @@
 <!-- ================================================ -->
 <!-- 4. PROJECTS CARD                                 -->
 <!-- ================================================ -->
-<div id="projects" class="content-card" style="padding: 18px 40px 18px 40px !important;">
+<div id="projects" class="content-card" style="padding: 17px 37px 17px 37px !important;">
   <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Projects Portfolio</h2>
   <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">A select directory of production-ready analytical architecture systems designed to optimize business operations, increase tracking visibility, and automate multi-source data processing pipelines using a protective synopsis format:</p>
 
 <!-- PROJECT 1 -->
-  <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+  <details style="background-color: #FFFFFF; padding: 15px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
     <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 1. Workforce & HR Analytics System</summary>
     <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
       <p><b> Project Synopsis:</b> Developed an interactive workforce analytics system to transform fragmented employee records into management-ready insights tracking workforce composition, departmental distributions, salary bands, and performance metrics across large employee cohorts.</p>
@@ -479,7 +479,7 @@
   </details>
 
   <!-- PROJECT 2 -->
-  <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+  <details style="background-color: #FFFFFF; padding: 15px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
     <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 2. Data Quality & Reconciliation Engine</summary>
     <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
       <p><b> Project Synopsis:</b> Architected a data validation and reconciliation module to ingest multi-source administrative files, isolate structural data discrepancies, match missing parameters, and compile a verified clean database for secure corporate financial reporting.</p>
@@ -490,7 +490,7 @@
   </details>
 
   <!-- PROJECT 3 -->
-  <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+  <details style="background-color: #FFFFFF; padding: 15px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
     <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 3. Employee Engagement & Statistical Analytics</summary>
     <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
       <p><b> Project Synopsis:</b> Engineered a quantitative survey analytics system to process corporate sentiment tracking files, evaluating feedback distributions, response behaviors, and demographic correlations across dynamic organizational blocks.</p>
@@ -501,7 +501,7 @@
   </details>
 
   <!-- PROJECT 4 -->
-  <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px;">
+  <details style="background-color: #FFFFFF; padding: 15px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px;">
     <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 4. Customer & Commercial Predictive Analytics</summary>
     <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
       <p><b> Project Synopsis:</b> Developed an end-to-end commercial optimization pipeline using business transactions to group buyer cohorts and apply supervised machine learning classification algorithms to predict churn risks.</p>
