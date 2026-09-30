@@ -461,109 +461,106 @@
 
 
 <!-- ================================================ -->
-<!-- 4. PROJECTS CARD                                 -->
+<!-- 4. PROJECTS PORTFOLIO               -->
 <!-- ================================================ -->
 <div id="projects" class="content-card" style="padding: 17px 37px 17px 37px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Projects Portfolio</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">A select directory of production-ready analytical architecture systems designed to optimize business operations, increase tracking visibility, and automate multi-source data processing pipelines using a protective synopsis format:</p>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Selected Projects & Data Directory</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">A consolidated directory summarizing system architectures, alignment profiles, and operational capability targets for my core data modules:</p>
 
-<!-- PROJECT 1 -->
-  <details style="background-color: #FFFFFF; padding: 15px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 1. Workforce & HR Analytics System</summary>
-    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
-      <p><b> Project Synopsis:</b> Developed an interactive workforce analytics system to transform fragmented employee records into management-ready insights tracking workforce composition, departmental distributions, salary bands, and performance metrics across large employee cohorts.</p>
-      <p><b> Analytical Focus:</b> Workforce scale tracking | Department and role distribution | Salary compression and equity patterns | Shift performance variables | Attrition and stability trends.</p>
-      <p><b> Specialized Tools Stack:</b> Excel | Power Query | Power BI | DAX | Statistical Analysis</p>
-      <p><b> Strategic Value & Output:</b> Interactive Power BI report dashboard featuring multi-dimensional cross-filtering. Delivers a consolidated view of workforce health parameters to support executive monitoring, compliance audits, and strategic resource forecasting.</p>
-    </div>
-  </details>
-
-  <!-- PROJECT 2 -->
-  <details style="background-color: #FFFFFF; padding: 15px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 2. Data Quality & Reconciliation Engine</summary>
-    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
-      <p><b> Project Synopsis:</b> Architected a data validation and reconciliation module to ingest multi-source administrative files, isolate structural data discrepancies, match missing parameters, and compile a verified clean database for secure corporate financial reporting.</p>
-      <p><b> Analytical Focus:</b> Data completeness metrics | Duplicate and missing-value isolation | Cross-system key matching | Automated ledger reconciliation | Schema standardization | Exception reporting logs.</p>
-      <p><b> Specialized Tools Stack:</b> Excel | Power Query | SQL | Python | Statistical Analysis</p>
-      <p><b> Strategic Value & Output:</b> A fully validated, reconciled relational dataset backed by automated exception tracking scripts. Mitigates financial and reporting risk by identifying and resolving structural database anomalies before files are used for audits.</p>
-    </div>
-  </details>
-
-  <!-- PROJECT 3 -->
-  <details style="background-color: #FFFFFF; padding: 15px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 3. Employee Engagement & Statistical Analytics</summary>
-    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
-      <p><b> Project Synopsis:</b> Engineered a quantitative survey analytics system to process corporate sentiment tracking files, evaluating feedback distributions, response behaviors, and demographic correlations across dynamic organizational blocks.</p>
-      <p><b> Analytical Focus:</b> Engagement pattern tracking | Survey response trends | Cohort sentiment analysis | Multi-variable correlation | Descriptive and inferential statistics diagnostics | Analytical data visualization.</p>
-      <p><b> Specialized Tools Stack:</b> Excel | Power Query | Power BI | Python / R | Statistical Analysis</p>
-      <p><b> Strategic Value & Output:</b> Interactive sentiment matrix dashboard supported by inferential statistical tests. Translates raw Likert-scale feedback metrics into structured evidence to support proactive team management and isolate operational friction points.</p>
-    </div>
-  </details>
-
-  <!-- PROJECT 4 -->
-  <details style="background-color: #FFFFFF; padding: 15px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 4. Customer & Commercial Predictive Analytics</summary>
-    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
-      <p><b> Project Synopsis:</b> Developed an end-to-end commercial optimization pipeline using business transactions to group buyer cohorts and apply supervised machine learning classification algorithms to predict churn risks.</p>
-      <p><b> Analytical Focus:</b> Purchasing pattern trends | Gross profit margins % | Customer behavioral segmentation | Customer Lifetime Value (CLV) tracks | Supervised predictive modeling | Model precision and performance evaluation.</p>
-      <p><b> Specialized Tools Stack:</b> Excel | SQL | Python | Power BI | Scikit-Learn</p>
-      <p><b> Strategic Value & Output:</b> Enterprise business intelligence dashboard connected directly to statistical clustering and churn risk classifiers. Combines visual reporting with advanced predictive diagnostics to identify high-value customer groups and mitigate revenue drop-offs.</p>
-    </div>
-  </details>
-  </div>
-
-
-<!-- ================================================ -->
-<!-- 5. PORTFOLIO CARD                                -->
-<!-- ================================================ -->
-<div id="portfolio-hub" class="content-card">
-  <h2> Portfolio Directory</h2>
-  <p style="line-height: 1.45; font-size: 16px; color: #1A1D20; margin-bottom: 25px;">A directory summarizing alignment profiles and operational capability targets for my core data modules:</p>
-  
+  <!-- ENTERPRISE PORTFOLIO DIRECTORY MASTER TABLE LEDGER -->
   <div style="width: 100% !important; overflow-x: auto !important; margin-bottom: 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
     <table style="width: 100% !important; min-width: 950px !important; border-collapse: collapse !important; background-color: #FFFFFF !important; color: #23272A !important; font-size: 13.5px !important; margin: 0;">
       <thead>
         <tr style="background-color: #23272A !important; color: #FFFFFF !important; font-weight: bold;">
-          <th style="padding: 14px 10px; border-right: 1px solid #3A3F44; text-align: center; width: 4%;">#</th>
-          <th style="padding: 14px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 22%;">Venture Track Name Focus</th>
-          <th style="padding: 14px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 18%;">Specialized Tools Stack</th>
-          <th style="padding: 14px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 26%;">Core Enterprise Metrics Deployed</th>
-          <th style="padding: 14px 12px; text-align: left; width: 30%;">Target Operational Capability Value</th>
+          <th style="padding: 12px 10px; border-right: 1px solid #3A3F44; text-align: center; width: 4%;">#</th>
+          <th style="padding: 12px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 22%;">Venture Track Name Focus</th>
+          <th style="padding: 12px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 18%;">Specialized Tools Stack</th>
+          <th style="padding: 12px 12px; border-right: 1px solid #3A3F44; text-align: left; width: 26%;">Core Enterprise Metrics Deployed</th>
+          <th style="padding: 12px 12px; text-align: left; width: 30%;">Target Operational Capability Value</th>
         </tr>
       </thead>
       <tbody>
         <tr style="background-color: #FFFFFF; border-bottom: 1px solid #E2E8F0;">
-          <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">1</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Workforce & HR Analytics</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0;">Excel, Power Query, Power BI, DAX</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0;">Headcount, Department Distribution, Attrition Rate</td>
-          <td style="padding: 14px 12px; font-weight: 500;">Analytical Modelling, KPI Development, Corporate Management Reporting</td>
+          <td style="padding: 12px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">1</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Workforce & HR Analytics</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, Power Query, Power BI, DAX</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Headcount, Department Distribution, Attrition Rate</td>
+          <td style="padding: 12px 12px; font-weight: 500; color: #2D3748;">Analytical Modelling, KPI Development, Corporate Management Reporting</td>
         </tr>
         <tr style="background-color: #F8FAFC; border-bottom: 1px solid #E2E8F0;">
-          <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">2</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Data Quality & Reconciliation</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0;">Excel, Power Query, SQL, Python</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0;">Record Completeness, Duplicate Tracking, Gaps Validation</td>
-          <td style="padding: 14px 12px; font-weight: 500;">Cross-Source Record Matching, Dataset Cleaning, Exception Reporting</td>
+          <td style="padding: 12px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">2</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Data Quality & Reconciliation</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, Power Query, SQL, Python</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Record Completeness, Duplicate Tracking, Gaps Validation</td>
+          <td style="padding: 12px 12px; font-weight: 500; color: #2D3748;">Cross-Source Record Matching, Dataset Cleaning, Exception Reporting</td>
         </tr>
         <tr style="background-color: #FFFFFF; border-bottom: 1px solid #E2E8F0;">
-          <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">3</td>
-                    <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Employee Survey Analytics</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, Power BI, Python, R</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Engagement Score, Response Rates, Variable Correlations</td>
-          <td style="padding: 14px 12px; font-weight: 500;">Inferential Statistics, Survey Array Processing, Evidence-Based Insights</td>
+          <td style="padding: 12px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">3</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Employee Survey Analytics</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, Power BI, Python, R</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Engagement Score, Response Rates, Variable Correlations</td>
+          <td style="padding: 12px 12px; font-weight: 500; color: #2D3748;">Inferential Statistics, Survey Array Processing, Evidence-Based Insights</td>
         </tr>
         <tr style="background-color: #F8FAFC; border-bottom: 0;">
-          <td style="padding: 14px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">4</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Customer & Commercial Analytics</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, SQL, Python, Power BI, scikit-learn</td>
-          <td style="padding: 14px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Purchasing Patterns, CLV, Predictive Churn Probability</td>
-          <td style="padding: 14px 12px; font-weight: 500;">Customer Behavior Segmentation, Supervised ML, Business Intelligence Support</td>
+          <td style="padding: 12px 10px; border-right: 1px solid #E2E8F0; text-align: center; font-weight: bold; color: #4A5568;">4</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; font-weight: bold; color: #1A488E;">Customer & Commercial Analytics</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Excel, SQL, Python, Power BI, scikit-learn</td>
+          <td style="padding: 12px 12px; border-right: 1px solid #E2E8F0; color: #2D3748;">Purchasing Patterns, CLV, Predictive Churn Probability</td>
+          <td style="padding: 12px 12px; font-weight: 500; color: #2D3748;">Customer Behavior Segmentation, Supervised ML, Business Intelligence Support</td>
         </tr>
       </tbody>
     </table>
   </div>
+
+  <p style="margin-top: 5px !important; margin-bottom: 15px !important; font-size: 15px; font-weight: bold; color: #23272A; text-transform: uppercase; letter-spacing: 0.5px;"> Deep-Dive Production Frameworks</p>
+
+  <!-- PROJECT dropdown 1 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 1. Workforce & HR Analytics System</summary>
+    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Project Synopsis:</b> Developed an interactive workforce analytics system to transform fragmented employee records into management-ready insights tracking workforce composition, departmental distributions, salary bands, and performance metrics across large employee cohorts.</p>
+      <p style="margin-bottom: 10px !important;"><b> Analytical Focus:</b> Workforce scale tracking | Department and role distribution | Salary compression and equity patterns | Shift performance variables | Attrition and stability trends.</p>
+      <p style="margin-bottom: 10px !important;"><b> Specialized Tools Stack:</b> Excel | Power Query | Power BI | DAX | Statistical Analysis</p>
+      <p style="margin-bottom: 0 !important;"><b> Strategic Value & Output:</b> Interactive Power BI report dashboard featuring multi-dimensional cross-filtering. Delivers a consolidated view of workforce health parameters to support executive monitoring, compliance audits, and strategic resource forecasting.</p>
+    </div>
+  </details>
+
+  <!-- PROJECT dropdown 2 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 2. Data Quality & Reconciliation Engine</summary>
+    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Project Synopsis:</b> Architected a data validation and reconciliation module to ingest multi-source administrative files, isolate structural data discrepancies, match missing parameters, and compile a verified clean database for secure corporate financial reporting.</p>
+      <p style="margin-bottom: 10px !important;"><b> Analytical Focus:</b> Data completeness metrics | Duplicate and missing-value isolation | Cross-system key matching | Automated ledger reconciliation | Schema standardization | Exception reporting logs.</p>
+      <p style="margin-bottom: 10px !important;"><b> Specialized Tools Stack:</b> Excel | Power Query | SQL | Python | Statistical Analysis</p>
+      <p style="margin-bottom: 0 !important;"><b> Strategic Value & Output:</b> A fully validated, reconciled relational dataset backed by automated exception tracking scripts. Mitigates financial and reporting risk by identifying and resolving structural database anomalies before files are used for audits.</p>
+    </div>
+  </details>
+
+  <!-- PROJECT dropdown 3 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 3. Employee Engagement & Statistical Analytics</summary>
+    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Project Synopsis:</b> Engineered a quantitative survey analytics system to process corporate sentiment tracking files, evaluating feedback distributions, response behaviors, and demographic correlations across dynamic organizational blocks.</p>
+      <p style="margin-bottom: 10px !important;"><b> Analytical Focus:</b> Engagement pattern tracking | Survey response trends | Cohort sentiment analysis | Multi-variable correlation | Descriptive and inferential statistics diagnostics | Analytical data visualization.</p>
+            <p style="margin-bottom: 10px !important;"><b> Analytical Focus:</b> Engagement pattern tracking | Survey response trends | Cohort sentiment analysis | Multi-variable correlation | Descriptive and inferential statistics diagnostics | Analytical data visualization.</p>
+      <p style="margin-bottom: 10px !important;"><b> Specialized Tools Stack:</b> Excel | Power Query | Power BI | Python / R | Statistical Analysis</p>
+      <p style="margin-bottom: 0 !important;"><b> Strategic Value & Output:</b> Interactive sentiment matrix dashboard supported by inferential statistical tests. Translates raw Likert-scale feedback metrics into structured evidence to support proactive team management and isolate operational friction points.</p>
+    </div>
+  </details>
+
+  <!-- PROJECT dropdown 4 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 4. Customer & Commercial Predictive Analytics</summary>
+    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Project Synopsis:</b> Developed an end-to-end commercial optimization pipeline using business transactions to group buyer cohorts and apply supervised machine learning classification algorithms to predict churn risks.</p>
+      <p style="margin-bottom: 10px !important;"><b> Analytical Focus:</b> Purchasing pattern trends | Gross profit margins % | Customer behavioral segmentation | Customer Lifetime Value (CLV) tracks | Supervised predictive modeling | Model precision and performance evaluation.</p>
+      <p style="margin-bottom: 10px !important;"><b> Specialized Tools Stack:</b> Excel | SQL | Python | Power BI | Scikit-Learn</p>
+      <p style="margin-bottom: 0 !important;"><b> Strategic Value & Output:</b> Enterprise business intelligence dashboard connected directly to statistical clustering and churn risk classifiers. Combines visual reporting with advanced predictive diagnostics to identify high-value customer groups and mitigate revenue drop-offs.</p>
+    </div>
+  </details>
 </div>
+
+
 
 <!-- ================================================ -->
 <!-- 6. EXPERIENCE CARD                               -->
