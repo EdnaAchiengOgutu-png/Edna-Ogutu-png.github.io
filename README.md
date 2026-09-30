@@ -436,7 +436,28 @@
     <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 18px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: space-between !important; grid-column: 1 / -1 !important;">
       <div>
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-          <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">05</span>
+                   <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">05</span>
+          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase; letter-spacing: 0.3px;">Statistical Research & Controls</h3>
+        </div>
+        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.45;">I leverage rigorous academic and empirical methodologies to ensure your research outcomes are bulletproof and mathematically sound.</p>
+      </div>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Quantitative Modeling: <span style="font-weight: 500; color: #2D3748;">Applying advanced population sampling controls, experimental regressions, and variance analysis (ANOVA) matrices to large survey datasets.</span></li>
+        <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Evidence-Based Reporting: <span style="font-weight: 500; color: #2D3748;">Synthesizing complex field data and deep inferential analytics into defensible, high-integrity executive reports for enterprise stakeholders.</span></li>
+      </ul>
+    </div>
+
+  </div> <!-- Safely closes the display grid layout container -->
+
+  <!-- HIGH-CONTRAST ACTION ACCENT BUTTON BAR -->
+  <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
+    <p style="font-size: 15px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif;">
+       ... Portfolio Synopses: <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 900; margin-left: 5px;">Examine the active project briefs and structural overviews demonstrating these services in production →</label>
+    </p>
+  </div>
+
+</div> <!-- Safely closes the services content-card panel wrapper container perfectly -->
+
 
 
 <!-- ================================================ -->
