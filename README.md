@@ -467,136 +467,50 @@
   <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;">📊 Selected Projects Portfolio</h2>
   <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">A select directory of production-ready analytical architecture systems designed to optimize business operations, increase tracking visibility, and automate multi-source data processing pipelines using a protective synopsis format:</p>
 
-  <!-- PROJECT 1 -->
-  <details style="background-color: #FFFFFF; border-radius: 6px; border: 1px solid #CBD5E0; box-shadow: 0 2px 6px rgba(0,0,0,0.03); margin-bottom: 12px; width: 100%; box-sizing: border-box; overflow: hidden;">
-    <summary style="font-weight: 800; color: #1A488E; font-size: 15px; cursor: pointer; text-transform: uppercase; padding: 12px 20px; outline: none; background-color: #F8FAFC; display: block !important;">💼 1. Workforce & HR Analytics System</summary>
-    <div style="padding: 20px; background-color: #F0F4F8; border-top: 1px solid #E2E8F0; width: 100%; box-sizing: border-box;">
-      
-      <!-- TOP MATRIX GRID CONTAINER -->
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 15px;">
-        <div style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
-          <span style="font-weight: 800; color: #1A488E; font-size: 13px; display: block; margin-bottom: 4px; text-transform: uppercase;">🎯 Project Synopsis</span>
-          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Developed an interactive workforce analytics system to transform fragmented employee records into management-ready insights tracking workforce composition, departmental distributions, salary bands, and performance metrics across large employee cohorts.</span>
-        </div>
-        <div style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
-          <span style="font-weight: 800; color: #1A488E; font-size: 13px; display: block; margin-bottom: 4px; text-transform: uppercase;">🔍 Analytical Focus</span>
-          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Workforce scale tracking | Department and role distribution | Salary compression and equity patterns | Shift performance variables | Attrition and stability trends.</span>
-        </div>
-      </div>
-
-      <!-- MID-STRIP FOR TOOLS STACK -->
-      <div style="background-color: rgba(255,255,255,0.85); padding: 10px 15px; border-radius: 6px; border-left: 4px solid #4A5568; margin-bottom: 15px; width: 100%; box-sizing: border-box;">
-        <span style="font-size: 13px; color: #4A5568; font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 2px;">🛠️ Specialized Tools Stack</span>
-        <span style="font-size: 13.5px; color: #23272A; font-weight: 800;">Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; DAX &nbsp;|&nbsp; Statistical Analysis</span>
-      </div>
-
-      <!-- BASE HIGH-CONTRAST VALUE BLOCK -->
-      <div style="background-color: #23272A; padding: 12px 18px; border-radius: 6px; border-left: 4px solid #FFD200; width: 100%; box-sizing: border-box;">
-        <span style="font-size: 12.5px; color: #FFFFFF; font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 2px; letter-spacing: 0.5px;">🏆 Strategic Value & Output</span>
-        <span style="font-size: 13.5px; color: #FFD200; font-weight: bold; line-height: 1.4;">Interactive Power BI report dashboard featuring multi-dimensional cross-filtering. Delivers a consolidated view of workforce health parameters to support executive monitoring, compliance audits, and strategic resource forecasting.</span>
-      </div>
-
+<!-- PROJECT 1 -->
+  <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 1. Workforce & HR Analytics System</summary>
+    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
+      <p><b> Project Synopsis:</b> Developed an interactive workforce analytics system to transform fragmented employee records into management-ready insights tracking workforce composition, departmental distributions, salary bands, and performance metrics across large employee cohorts.</p>
+      <p><b> Analytical Focus:</b> Workforce scale tracking | Department and role distribution | Salary compression and equity patterns | Shift performance variables | Attrition and stability trends.</p>
+      <p><b> Specialized Tools Stack:</b> Excel | Power Query | Power BI | DAX | Statistical Analysis</p>
+      <p><b> Strategic Value & Output:</b> Interactive Power BI report dashboard featuring multi-dimensional cross-filtering. Delivers a consolidated view of workforce health parameters to support executive monitoring, compliance audits, and strategic resource forecasting.</p>
     </div>
   </details>
 
   <!-- PROJECT 2 -->
-  <details style="background-color: #FFFFFF; border-radius: 6px; border: 1px solid #CBD5E0; box-shadow: 0 2px 6px rgba(0,0,0,0.03); margin-bottom: 12px; width: 100%; box-sizing: border-box; overflow: hidden;">
-    <summary style="font-weight: 800; color: #1A488E; font-size: 15px; cursor: pointer; text-transform: uppercase; padding: 12px 20px; outline: none; background-color: #F8FAFC; display: block !important;">🧽 2. Data Quality & Reconciliation Engine</summary>
-    <div style="padding: 20px; background-color: #F0F4F8; border-top: 1px solid #E2E8F0; width: 100%; box-sizing: border-box;">
-      
-      <!-- TOP MATRIX GRID CONTAINER -->
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 15px;">
-        <div style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
-          <span style="font-weight: 800; color: #1A488E; font-size: 13px; display: block; margin-bottom: 4px; text-transform: uppercase;">🎯 Project Synopsis</span>
-          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Architected a data validation and reconciliation module to ingest multi-source administrative files, isolate structural data discrepancies, match missing parameters, and compile a verified clean database for secure corporate financial reporting.</span>
-        </div>
-        <div style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
-          <span style="font-weight: 800; color: #1A488E; font-size: 13px; display: block; margin-bottom: 4px; text-transform: uppercase;">🔍 Analytical Focus</span>
-          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Data completeness metrics | Duplicate and missing-value isolation | Cross-system key matching | Automated ledger reconciliation | Schema standardization | Exception reporting logs.</span>
-        </div>
-      </div>
-
-      <!-- MID-STRIP FOR TOOLS STACK -->
-      <div style="background-color: rgba(255,255,255,0.85); padding: 10px 15px; border-radius: 6px; border-left: 4px solid #4A5568; margin-bottom: 15px; width: 100%; box-sizing: border-box;">
-        <span style="font-size: 13px; color: #4A5568; font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 2px;">🛠️ Specialized Tools Stack</span>
-        <span style="font-size: 13.5px; color: #23272A; font-weight: 800;">Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; Statistical Analysis</span>
-      </div>
-
-      <!-- BASE HIGH-CONTRAST VALUE BLOCK -->
-      <div style="background-color: #23272A; padding: 12px 18px; border-radius: 6px; border-left: 4px solid #FFD200; width: 100%; box-sizing: border-box;">
-        <span style="font-size: 12.5px; color: #FFFFFF; font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 2px; letter-spacing: 0.5px;">🏆 Strategic Value & Output</span>
-        <span style="font-size: 13.5px; color: #FFD200; font-weight: bold; line-height: 1.4;">A fully validated, reconciled relational dataset backed by automated exception tracking scripts. Mitigates financial and reporting risk by identifying and resolving structural database anomalies before files are used for audits.</span>
-      </div>
-
+  <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 2. Data Quality & Reconciliation Engine</summary>
+    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
+      <p><b> Project Synopsis:</b> Architected a data validation and reconciliation module to ingest multi-source administrative files, isolate structural data discrepancies, match missing parameters, and compile a verified clean database for secure corporate financial reporting.</p>
+      <p><b> Analytical Focus:</b> Data completeness metrics | Duplicate and missing-value isolation | Cross-system key matching | Automated ledger reconciliation | Schema standardization | Exception reporting logs.</p>
+      <p><b> Specialized Tools Stack:</b> Excel | Power Query | SQL | Python | Statistical Analysis</p>
+      <p><b> Strategic Value & Output:</b> A fully validated, reconciled relational dataset backed by automated exception tracking scripts. Mitigates financial and reporting risk by identifying and resolving structural database anomalies before files are used for audits.</p>
     </div>
   </details>
 
   <!-- PROJECT 3 -->
-  <details style="background-color: #FFFFFF; border-radius: 6px; border: 1px solid #CBD5E0; box-shadow: 0 2px 6px rgba(0,0,0,0.03); margin-bottom: 12px; width: 100%; box-sizing: border-box; overflow: hidden;">
-    <summary style="font-weight: 800; color: #1A488E; font-size: 15px; cursor: pointer; text-transform: uppercase; padding: 12px 20px; outline: none; background-color: #F8FAFC; display: block !important;">📊 3. Employee Engagement & Statistical Analytics</summary>
-    <div style="padding: 20px; background-color: #F0F4F8; border-top: 1px solid #E2E8F0; width: 100%; box-sizing: border-box;">
-      
-      <!-- TOP MATRIX GRID CONTAINER -->
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 15px;">
-        <div style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
-          <span style="font-weight: 800; color: #1A488E; font-size: 13px; display: block; margin-bottom: 4px; text-transform: uppercase;">🎯 Project Synopsis</span>
-          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Engineered a quantitative survey analytics system to process corporate sentiment tracking files, evaluating feedback distributions, response behaviors, and demographic correlations across dynamic organizational blocks.</span>
-        </div>
-        <div style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
-          <span style="font-weight: 800; color: #1A488E; font-size: 13px; display: block; margin-bottom: 4px; text-transform: uppercase;">🔍 Analytical Focus</span>
-                    <span style="font-weight: 800; color: #1A488E; font-size: 13px; display: block; margin-bottom: 4px; text-transform: uppercase;">🔍 Analytical Focus</span>
-          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Engagement pattern tracking | Survey response trends | Cohort sentiment analysis | Multi-variable correlation | Descriptive and inferential statistics diagnostics | Analytical data visualization.</span>
-        </div>
-      </div>
-
-      <!-- MID-STRIP FOR TOOLS STACK -->
-      <div style="background-color: rgba(255,255,255,0.85); padding: 10px 15px; border-radius: 6px; border-left: 4px solid #4A5568; margin-bottom: 15px; width: 100%; box-sizing: border-box;">
-        <span style="font-size: 13px; color: #4A5568; font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 2px;">🛠️ Specialized Tools Stack</span>
-        <span style="font-size: 13.5px; color: #23272A; font-weight: 800;">Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; Python / R &nbsp;|&nbsp; Statistical Analysis</span>
-      </div>
-
-      <!-- BASE HIGH-CONTRAST VALUE BLOCK -->
-      <div style="background-color: #23272A; padding: 12px 18px; border-radius: 6px; border-left: 4px solid #FFD200; width: 100%; box-sizing: border-box;">
-        <span style="font-size: 12.5px; color: #FFFFFF; font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 2px; letter-spacing: 0.5px;">🏆 Strategic Value & Output</span>
-        <span style="font-size: 13.5px; color: #FFD200; font-weight: bold; line-height: 1.4;">Interactive sentiment matrix dashboard supported by inferential statistical tests. Translates raw Likert-scale feedback metrics into structured evidence to support proactive team management and isolate operational friction points.</span>
-      </div>
-
+  <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 20px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 3. Employee Engagement & Statistical Analytics</summary>
+    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
+      <p><b> Project Synopsis:</b> Engineered a quantitative survey analytics system to process corporate sentiment tracking files, evaluating feedback distributions, response behaviors, and demographic correlations across dynamic organizational blocks.</p>
+      <p><b> Analytical Focus:</b> Engagement pattern tracking | Survey response trends | Cohort sentiment analysis | Multi-variable correlation | Descriptive and inferential statistics diagnostics | Analytical data visualization.</p>
+      <p><b> Specialized Tools Stack:</b> Excel | Power Query | Power BI | Python / R | Statistical Analysis</p>
+      <p><b> Strategic Value & Output:</b> Interactive sentiment matrix dashboard supported by inferential statistical tests. Translates raw Likert-scale feedback metrics into structured evidence to support proactive team management and isolate operational friction points.</p>
     </div>
   </details>
 
   <!-- PROJECT 4 -->
-  <details style="background-color: #FFFFFF; border-radius: 6px; border: 1px solid #CBD5E0; box-shadow: 0 2px 6px rgba(0,0,0,0.03); margin-bottom: 0px; width: 100%; box-sizing: border-box; overflow: hidden;">
-    <summary style="font-weight: 800; color: #1A488E; font-size: 15px; cursor: pointer; text-transform: uppercase; padding: 12px 20px; outline: none; background-color: #F8FAFC; display: block !important;">🤖 4. Customer & Commercial Predictive Analytics</summary>
-    <div style="padding: 20px; background-color: #F0F4F8; border-top: 1px solid #E2E8F0; width: 100%; box-sizing: border-box;">
-      
-      <!-- TOP MATRIX GRID CONTAINER -->
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 15px;">
-        <div style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
-          <span style="font-weight: 800; color: #1A488E; font-size: 13px; display: block; margin-bottom: 4px; text-transform: uppercase;">🎯 Project Synopsis</span>
-          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Developed an end-to-end commercial optimization pipeline using business transactions to group buyer cohorts and apply supervised machine learning classification algorithms to predict churn risks.</span>
-        </div>
-        <div style="background-color: #FFFFFF; padding: 15px; border-radius: 6px; border-left: 4px solid #1A488E; box-shadow: 0 2px 6px rgba(0,0,0,0.01);">
-          <span style="font-weight: 800; color: #1A488E; font-size: 13px; display: block; margin-bottom: 4px; text-transform: uppercase;">🔍 Analytical Focus</span>
-          <span style="font-size: 13.5px; line-height: 1.45; color: #2D3748; font-weight: 500; display: block;">Purchasing pattern trends | Gross profit margins % | Customer behavioral segmentation | Customer Lifetime Value (CLV) tracks | Supervised predictive modeling | Model precision and performance evaluation.</span>
-        </div>
-      </div>
-
-      <!-- MID-STRIP FOR TOOLS STACK -->
-      <div style="background-color: rgba(255,255,255,0.85); padding: 10px 15px; border-radius: 6px; border-left: 4px solid #4A5568; margin-bottom: 15px; width: 100%; box-sizing: border-box;">
-        <span style="font-size: 13px; color: #4A5568; font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 2px;">🛠️ Specialized Tools Stack</span>
-        <span style="font-size: 13.5px; color: #23272A; font-weight: 800;">Excel &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; Scikit-Learn</span>
-      </div>
-
-      <!-- BASE HIGH-CONTRAST VALUE BLOCK -->
-      <div style="background-color: #23272A; padding: 12px 18px; border-radius: 6px; border-left: 4px solid #FFD200; width: 100%; box-sizing: border-box;">
-        <span style="font-size: 12.5px; color: #FFFFFF; font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 2px; letter-spacing: 0.5px;">🏆 Strategic Value & Output</span>
-        <span style="font-size: 13.5px; color: #FFD200; font-weight: bold; line-height: 1.4;">Enterprise business intelligence dashboard connected directly to statistical clustering and churn risk classifiers. Combines visual reporting with advanced predictive diagnostics to identify high-value customer groups and mitigate revenue drop-offs.</span>
-      </div>
-
+  <details style="background-color: #FFFFFF; padding: 20px 25px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase;"> 4. Customer & Commercial Predictive Analytics</summary>
+    <div style="margin-top: 8px; padding-left: 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748;">
+      <p><b> Project Synopsis:</b> Developed an end-to-end commercial optimization pipeline using business transactions to group buyer cohorts and apply supervised machine learning classification algorithms to predict churn risks.</p>
+      <p><b> Analytical Focus:</b> Purchasing pattern trends | Gross profit margins % | Customer behavioral segmentation | Customer Lifetime Value (CLV) tracks | Supervised predictive modeling | Model precision and performance evaluation.</p>
+      <p><b> Specialized Tools Stack:</b> Excel | SQL | Python | Power BI | Scikit-Learn</p>
+      <p><b> Strategic Value & Output:</b> Enterprise business intelligence dashboard connected directly to statistical clustering and churn risk classifiers. Combines visual reporting with advanced predictive diagnostics to identify high-value customer groups and mitigate revenue drop-offs.</p>
     </div>
   </details>
-</div>
-
+  </div>
 
 
 <!-- ================================================ -->
