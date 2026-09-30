@@ -366,8 +366,8 @@
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
 <div id="services" class="content-card" style="padding: 25px 45px 35px 45px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Consulting Services</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 22px; font-weight: bold; color: #23272A; line-height: 1.35;">Substituting manual error with high-integrity automation to protect corporate budgets and optimize scaling loops:</p>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 6px !important;"> Consulting Services</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 12px; font-weight: bold; color: #23272A; line-height: 1.35;">Substituting manual error with high-integrity automation to protect corporate budgets and optimize scaling loops:</p>
   
   <!-- EXECUTIVE 2-COLUMN COMMERCIAL GRID FRAMEWORK -->
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 25px; align-items: stretch !important;">
