@@ -463,8 +463,8 @@
 <!-- ================================================ -->
 <!-- 4. PROJECTS CARD                                 -->
 <!-- ================================================ -->
-<div id="projects" class="content-card" style="padding: 25px 45px 35px 45px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;">📊 Selected Projects Portfolio</h2>
+<div id="projects" class="content-card" style="padding: 18px 40px 18px 40px !important;">
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Projects Portfolio</h2>
   <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">A select directory of production-ready analytical architecture systems designed to optimize business operations, increase tracking visibility, and automate multi-source data processing pipelines using a protective synopsis format:</p>
 
 <!-- PROJECT 1 -->
