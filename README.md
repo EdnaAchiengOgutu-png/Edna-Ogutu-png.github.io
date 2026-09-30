@@ -325,32 +325,33 @@
         </ul>
       </div>
 
-      <!-- BOX 4: BUSINESS INTELLIGENCE -->
-      <div style="background-color: rgba(255,255,255,0.6); padding: 14px 18px; border-radius: 8px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 10px rgba(0,0,0,0.02);">
-        <span style="font-weight: 800; color: #1A488E; font-weight: 800; font-size: 15px; display: block; margin-bottom: 8px;"> Business Intelligence Systems</span>
-        <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 4px !important;">Engineering interactive, responsive Power BI business dashboards.</li>
-          <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 4px !important;">Formulating corporate cross-filtering visual performance matrix maps.</li>
-          <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 0 !important;">Generating automated executive management reporting frameworks.</li>
-        </ul>
-      </div>
-
-      <!-- RE-ENGINEERED OPTIMIZED TOOLSTACK RIBBON WITH CLEAN WRAPPING & LEGIBLE CONTRAST -->
-    <div style="background-color: #23272A; padding: 14px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; overflow: visible !important;">
-      <span style="font-size: 13.5px; color: #FFFFFF !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 6px; text-transform: uppercase;">🛠️ Data Analytical Tools Mastered</span>
-      <span style="font-size: 14.5px !important; color: #FFD200 !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
-        Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; DAX &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; R &nbsp;|&nbsp; STATA &nbsp;|&nbsp; SPSS
-          </span>
-    </div>
-
+     <!-- BOX 4: BUSINESS INTELLIGENCE (NESTED IN A CORRECT PARENT ENGINE WRAPPER) -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 20px;">
+  <div style="background-color: rgba(255,255,255,0.6); padding: 14px 18px; border-radius: 8px; border: 1px solid rgba(35,39,42,0.2); box-shadow: 0 4px 10px rgba(0,0,0,0.02);">
+    <span style="font-weight: 800; color: #1A488E; font-size: 15px; display: block; margin-bottom: 8px;">💻 Business Intelligence Systems</span>
+    <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+      <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 4px !important;">Engineering interactive, responsive Power BI business dashboards.</li>
+      <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 4px !important;">Formulating corporate cross-filtering visual performance matrix maps.</li>
+      <li style="font-size: 13px !important; line-height: 1.4 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 0 !important;">Generating automated executive management reporting frameworks.</li>
+    </ul>
   </div>
 </div>
+
+<!-- RE-ENGINEERED OPTIMIZED TOOLSTACK RIBBON WITH CLEAN WRAPPING & LEGIBLE CONTRAST -->
+<div style="background-color: #23272A; padding: 14px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; overflow: visible !important; margin-bottom: 10px !important;">
+  <span style="font-size: 13.5px; color: #FFFFFF !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 6px; text-transform: uppercase;">🛠️ Data Analytical Tools Mastered</span>
+  <span style="font-size: 14.5px !important; color: #FFD200 !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
+    Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; DAX &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; R &nbsp;|&nbsp; STATA &nbsp;|&nbsp; SPSS
+  </span>
+</div>
+
+</div> <!-- Safely closes the Lower Aligned Matrix container -->
+</div> <!-- Safely closes the ABOUT Content Card Wrapper -->
 
 <!-- ================================================ -->
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
-<div id="services" class="content-card">
-
+<div id="services" class="content-card" style="padding: 40px !important;">
   <h2> Operational Consulting Services</h2>
   <p style="margin-bottom: 20px; font-weight: bold; color: #1A488E;">Speaking directly to organizational pain points—substituting manual error with high-integrity automation:</p>
   <ul>
@@ -358,10 +359,11 @@
     <li><span class="skill-title">Database Validation & Auditing:</span> Implementing automated cleaning routines and cross-system ledger reconciliation to eliminate duplicate tracking records, fix syntax discrepancies, and isolate data leakages.</li>
     <li><span class="skill-title">Executive Business Intelligence:</span> Engineering responsive Power BI and Advanced Excel dashboard suites equipped with dynamic filtering and deep drill-down analytics for live decision support.</li>
     <li><span class="skill-title">Statistical & Research Analytics:</span> Applying advanced quantitative methods, population sampling controls, and experimental regressions to survey and field research data to output sound, evidence-based reporting.</li>
-        <li><span class="skill-title">Advanced Commercial Analytics:</span> Deploying customer behavioral segmentation matrices, RFM clustering profiles, supervised machine learning pipelines, and predictive risk modeling.</li>
+    <li><span class="skill-title">Advanced Commercial Analytics:</span> Deploying customer behavioral segmentation matrices, RFM clustering profiles, supervised machine learning pipelines, and predictive risk modeling.</li>
   </ul>
   <p style="margin-top: 25px; font-weight: bold;"><label for="tab-projects" style="color: #1A488E; cursor: pointer; text-decoration: underline;"> Review the Live Infrastructure Systems Powered by These Services →</label></p>
 </div>
+
 
 <!-- ================================================ -->
 <!-- 4. PROJECTS CARD                                 -->
