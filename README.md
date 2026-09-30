@@ -345,7 +345,6 @@
       <span style="font-size: 14.5px !important; color: #FFFFFF !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
         Excel &nbsp;|&nbsp; Power Query &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; DAX &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; R &nbsp;|&nbsp; STATA &nbsp;|&nbsp; SPSS
       </span>
-      </ul>
     </div>
      </div>
 
