@@ -127,7 +127,7 @@
 
   /* Scrolling Content Layout Core Layer Workspace - Tightened Top Spacing Option */
   .scroll-content {
-    margin-top: 97px !important; 
+    margin-top: 80px !important; 
     padding: 8px 0 65px 0 !important; 
     box-sizing: border-box !important;
     width: 100% !important;
@@ -140,7 +140,7 @@
  /* Content Cards Layout Parameters - Text top-aligned via tightened internal padding */
   .content-card {
     background-color: #D2F7FF !important; 
-    padding: 15px 45px 35px 45px !important; 
+    padding: 5px 45px 35px 45px !important; 
     border-radius: 12px !important; 
     margin-left: 20px !important; 
     margin-right: 20px !important; 
