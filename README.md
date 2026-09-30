@@ -345,8 +345,7 @@
       </span>
     </div>
 
-  </div> <!-- Closes the lower section wrapper -->
-</div> <!-- Closes the ABOUT card container cleanly without any extra stray tags -->
+  </div> 
 
 <!-- ================================================ -->
 <!-- 3. SERVICES CARD                                 -->
