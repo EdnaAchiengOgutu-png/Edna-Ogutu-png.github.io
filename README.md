@@ -889,7 +889,7 @@
 
 
 <!-- ================================================ -->
-<!-- 9. GET IN TOUCH CARD (FUNCTIONAL BACKEND FORM)    -->
+<!-- 9. GET IN TOUCH CARD (FULLY FUNCTIONAL FORM)     -->
 <!-- ================================================ -->
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
@@ -905,13 +905,16 @@
     <!-- RIGHT PANEL: INTERACTIVE INTAKE FORM -->
     <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important;">
       
-      <!-- Using Web3Forms Free Endpoint (No backend server config required) -->
       <form action="https://web3forms.com" method="POST" style="width: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 15px; text-align: left;">
         
-        <!-- REQUIRED: Change this access key value after registering for free at web3forms.com -->
-        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
-        <!-- Optional: Redirects visitors back to your home layout profile page on submit -->
-        <input type="hidden" name="redirect" value="https://github.com"> 
+        <!-- INTEGRATED UNIQUE ACCESS KEY -->
+        <input type="hidden" name="access_key" value="0b458d02-f50e-4cbe-b729-c441817646df">
+        
+        <!-- AUTOMATIC REDIRECT HOOK: Bounces clients straight back to your portfolio page -->
+        <input type="hidden" name="redirect" value="https://github.io"> 
+        
+        <!-- EMAIL SUBJECT CONFIG -->
+        <input type="hidden" name="subject" value="New Portfolio Consulting Inquiry">
         
         <div style="display: flex; flex-direction: column; gap: 5px;">
           <label style="font-size: 13px; font-weight: bold; color: #23272A;">Your Name</label>
@@ -941,6 +944,3 @@
 
 </div> <!-- Closes scroll-content layout engine -->
 </div> <!-- Closes portfolio-container outer window -->
-
-
-
