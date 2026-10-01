@@ -727,39 +727,38 @@
 <!-- ================================================ -->
 <!-- 6. EXPERIENCE CARD                               -->
 <!-- ================================================ -->
-<div id="experience" class="content-card">
+<div id="experience" class="content-card" style="padding: 25px 45px 35px 45px !important;">
   <h2> Experience</h2>
   <h3 style="margin-top: 0 !important;">Professional Experience</h3>
   <p style="line-height: 1.45; font-size: 15.5px; color: #1A1D20; margin-bottom: 25px;">My consulting track spans data engineering, workforce analytics, research operations, and quantitative biostatistics across research, corporate, and international development environments.</p>
 
-  <h3> Data Analyst - Infotrak Research & Consulting</h3>
-  <span class="job-meta">Active Engagement Track - (2026)</span>
+  <h3> Data Analyst — Infotrak Research & Consulting</h3>
+  <span class="job-meta">Active Engagement Track — (2026)</span>
   <ul>
     <li>Managing research, survey, and commercial business data pipelines across end-to-end data management, data validation, inferential statistical testing, and executive reporting.</li>
     <li>Automating the transformation of massive raw field research tracking arrays into high-integrity, decision-ready information assets for strategic stakeholders.</li>
   </ul>
 
-  <h3> Workforce & Data Analyst - Calltronix Kenya Ltd</h3>
-  <span class="job-meta">Corporate Operations Track - (2024–2025)</span>
+  <h3> Workforce & Data Analyst — Calltronix Kenya Ltd</h3>
+  <span class="job-meta">Corporate Operations Track — (2024–2025)</span>
   <ul>
     <li>Analysed and reconciled cross-functional workforce, HR, finance, and system operations data to audit productivity, validate incentive parameters, and support payroll processing for 350+ FTE.</li>
     <li>Integrated multiple disjointed operational data platforms to eliminate tracking variances and generate automated performance dashboards for leadership.</li>
   </ul>
 
-  <h3> Data & Research Analyst - Hamasisha Africa</h3>
-  <span class="job-meta">Research Systems Analyst Track - (2025)</span>
+  <h3> Data & Research Analyst — Hamasisha Africa</h3>
+  <span class="job-meta">Research Systems Analyst Track — (2025)</span>
   <ul>
     <li>Supported quantitative project research through data preparation, multi-variable statistical analysis, narrative interpretation, and stakeholder reporting, directly enabling evidence-based funding deployments.</li>
   </ul>
 
-  <h3> Research, MEAL & Data Assignments - Various Projects</h3>
+  <h3> Research, MEAL & Data Assignments — Various Projects</h3>
   <span class="job-meta">Independent Field Consultations Track</span>
   <ul>
     <li>Undertook specialized contract assignments involving quantitative data capture monitoring, digital questionnaire skip-logic engineering, descriptive summaries, and field-based information management.</li>
   </ul>
-
   
-  <p style="margin-top: 25px; font-weight: bold; color: #1A488E;"> Primary Specialty Fields: Data Analytics | Statistics | Business Intelligence | Data Management | Research Analytics | Workforce Analytics</p>
+  <p style="margin-top: 25px; font-weight: bold; color: #1A488E; font-size: 15px;"> Primary Specialty Fields: Data Analytics | Statistics | Business Intelligence | Data Management | Research Analytics | Workforce Analytics</p>
 </div>
 
 
