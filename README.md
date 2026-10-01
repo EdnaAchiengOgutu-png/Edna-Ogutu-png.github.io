@@ -842,8 +842,8 @@
 <!-- 8. CERTIFICATIONS CARD                           -->
 <!-- ================================================ -->
 <div id="certifications" class="content-card" style="padding: 25px 45px 35px 45px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Certifications & Professional Development</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 25px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Validated global credentials and specialized industry training tracking advanced data systems engineering:</p>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;">🏆 Certifications & Professional Development</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 25px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Validated global credentials and specialized industry training tracking advanced data systems engineering and project governance:</p>
 
   <!-- TWIN COLUMN CREDENTIALS GRID -->
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 25px;">
@@ -857,21 +857,25 @@
       <p style="font-size: 13.5px; margin: 0; line-height: 1.5; color: #2D3748; font-weight: 500;">Validated global industry training covering advanced data science operations, machine learning classification algorithms, predictive trends forecasting, and Python data analysis workflows.</p>
     </div>
 
-    <!-- CREDENTIAL 2: MEAL -->
+    <!-- CREDENTIAL 2: MEAL & HUMANITARIAN PROJECT MANAGEMENT -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: flex-start;">
       <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11px; padding: 3px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">SYSTEMS</span>
-        <h3 style="margin: 0 !important; font-size: 15.5px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.2px;">MEAL Essentials Professional Certificate</h3>
+        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11px; padding: 3px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">GOVERNANCE</span>
+        <h3 style="margin: 0 !important; font-size: 15.5px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.2px;">Humanitarian MEAL & Project Systems</h3>
       </div>
-      <span style="font-size: 12.5px; color: #4A5568; font-weight: bold; display: block; margin-bottom: 8px; font-family: 'Arial', sans-serif;"> DisasterReady / Humanitarian Leadership Academy</span>
-      <p style="font-size: 13.5px; margin: 0; line-height: 1.5; color: #2D3748; font-weight: 500;">Specialized international certification credentials tracking quantitative data verification tracking, multi-variable monitoring, program evaluation, accountability, and project learning systems.</p>
+      <span style="font-size: 12.5px; color: #4A5568; font-weight: bold; display: block; margin-bottom: 8px; font-family: 'Arial', sans-serif;">🏫 DisasterReady / Humanitarian Leadership Academy</span>
+      <p style="font-size: 13.5px; margin: 0 0 10px 0; line-height: 1.45; color: #2D3748; font-weight: 600;">Dual-track operational credentials specializing in international project architecture and metrics validation loops:</p>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="font-size: 13px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 4px !important;"><b>MEAL Essentials Professional:</b> Specialized in data verification tracking, multi-variable monitoring tracking arrays, program evaluation metrics, and system accountability frameworks.</li>
+        <li style="font-size: 13px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 0 !important;"><b>Project Management Essentials Track:</b> Certified execution proficiency across end-to-end institutional development structures, spanning advanced Project Planning architecture and active Implementation governance models.</li>
+      </ul>
     </div>
 
   </div>
 
   <!-- HIGH-CONTRAST LOWER TRACK ENGINE RE-LINKED BLOCK -->
   <div style="background-color: #23272A; padding: 14px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
-    <span style="font-size: 13px; color: #FFFFFF !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 6px; text-transform: uppercase; font-family: 'Arial', sans-serif;"> Continuous Capabilities Integration Framework</span>
+    <span style="font-size: 13px; color: #FFFFFF !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 6px; text-transform: uppercase; font-family: 'Arial', sans-serif;">🔄 Continuous Capabilities Integration Framework</span>
     <span style="font-size: 14.5px !important; color: #FFD200 !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
       Data Analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business Intelligence &nbsp;|&nbsp; Data Science &nbsp;|&nbsp; Research Analytics
     </span>
