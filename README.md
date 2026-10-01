@@ -757,7 +757,7 @@
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Analysed and reconciled cross-functional workforce, HR, finance, and system operations data to audit productivity, validate incentive parameters, and support payroll processing for 350+ FTE.</li>
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Integrated multiple disjointed operational data platforms to eliminate tracking variances and generate automated performance dashboards for leadership support teams.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Ledger Reconciliation &nbsp;|&nbsp; HR Analytics &nbsp;|&nbsp; Payroll Auditing</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Data Reconciliation &nbsp;|&nbsp; HR Analytics &nbsp;|&nbsp; Workfoce Planning &nbsp;|&nbsp; Payroll Planning and Auditing</div>
     </div>
 
     <!-- ROLE 3: HAMASISHA AFRICA -->
@@ -878,8 +878,8 @@
   </div>
 
   <!-- HIGH-CONTRAST LOWER TRACK ENGINE RE-LINKED BLOCK -->
-  <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 12px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
-    <span style="font-size: 13px; color: #FFD200 !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 6px; text-transform: uppercase; font-family: 'Arial', sans-serif;"> Continuous Capabilities Integration Framework</span>
+  <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 12 12px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
+    <span style="font-size: 13px; color: #FFD200 !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 12px; text-transform: uppercase; font-family: 'Arial', sans-serif;"> Continuous Capabilities Integration Framework</span>
     <span style="font-size: 14.5px !important; color: #FFD200 !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
       Data Analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business Intelligence &nbsp;|&nbsp; Data Science &nbsp;|&nbsp; Research Analytics
     </span>
