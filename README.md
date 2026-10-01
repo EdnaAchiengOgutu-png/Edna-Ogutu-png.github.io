@@ -842,7 +842,7 @@
 <!-- 8. CERTIFICATIONS CARD                           -->
 <!-- ================================================ -->
 <div id="certifications" class="content-card" style="padding: 17px 37px 17px 37px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Certifications & Professional Development</h2>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 6px !important;"> Certifications & Professional Development</h2>
   <p style="margin-top: 10 !important; margin-bottom: 25px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Validated global credentials and specialized industry training tracking advanced data systems engineering and project governance:</p>
 
   <!-- PREMIUM SINGLE COLUMN STACKED CREDENTIALS FRAMEWORK -->
@@ -878,7 +878,7 @@
   </div>
 
   <!-- HIGH-CONTRAST LOWER TRACK ENGINE RE-LINKED BLOCK -->
-  <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 12 12px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
+  <div style="background-color: #23272A; padding: 15px 25px; border-radius: 100px; border-left: 6px solid #FFD200; box-shadow: 12 12px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
     <span style="font-size: 13px; color: #FFD200 !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 12px; text-transform: uppercase; font-family: 'Arial', sans-serif;"> Continuous Capabilities Integration Framework</span>
     <span style="font-size: 14.5px !important; color: #FFD200 !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
       Data Analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business Intelligence &nbsp;|&nbsp; Data Science &nbsp;|&nbsp; Research Analytics
