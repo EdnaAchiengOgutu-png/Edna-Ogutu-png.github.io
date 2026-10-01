@@ -522,7 +522,7 @@
         <tbody>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; width: 25%; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Venture Track Status</td>
-            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">[PRODUCTION PIPELINE ACTIVE — IN PROGRESS / ONGOING]</td>
+            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">[PRODUCTION PIPELINE ACTIVE - IN PROGRESS / ONGOING]</td>
           </tr>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Core Business Questions</td>
@@ -572,7 +572,7 @@
         <tbody>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; width: 25%; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Venture Track Status</td>
-            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">[PRODUCTION PIPELINE ACTIVE — IN PROGRESS / ONGOING]</td>
+            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">[PRODUCTION PIPELINE ACTIVE - IN PROGRESS / ONGOING]</td>
           </tr>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Core Business Questions</td>
@@ -622,7 +622,7 @@
         <tbody>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; width: 25%; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Venture Track Status</td>
-            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">[PRODUCTION PIPELINE ACTIVE — IN PROGRESS / ONGOING]</td>
+            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">[PRODUCTION PIPELINE ACTIVE - IN PROGRESS / ONGOING]</td>
           </tr>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Core Business Questions</td>
