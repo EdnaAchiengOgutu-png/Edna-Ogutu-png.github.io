@@ -728,7 +728,7 @@
 <!-- 6. EXPERIENCE CARD                               -->
 <!-- ================================================ -->
 <div id="experience" class="content-card" style="padding: 17px 37px 17px 37px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Professional Consulting Track</h2>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Professional Experience Track</h2>
   <p style="margin-top: 0 !important; margin-bottom: 25px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">My consulting track spans advanced statistical modeling, cross-source data engineering, and predictive commercial business intelligence across high-stakes corporate environments:</p>
 
   <!-- TIMELINE GRID ENGINE DECK -->
@@ -799,21 +799,44 @@
 <!-- ================================================ -->
 <!-- 7. EDUCATION CARD                                -->
 <!-- ================================================ -->
-<div id="education" class="content-card">
-  <h2> Education</h2>
-  
-  <h3> Master of Science in Data Science</h3>
-  <span class="job-meta">Open University of Kenya - (Ongoing / In Progress)</span>
-  <p style="line-height: 1.5; font-size: 15px; color: #1A1D20; font-weight: 500; margin-bottom: 20px; background: rgba(255,255,255,0.4); padding: 15px; border-radius: 6px;">
-    <b> Advanced Graduate Competencies:</b> Active development of advanced capabilities in predictive analytics, computational machine learning algorithms, big data engineering, data warehousing architecture, cloud-based data science pipelines, and senior-level data governance frameworks.
-  </p>
-  
-  <h3> Bachelor of Science in Biostatistics</h3>
-  <span class="job-meta">Jomo Kenyatta University of Agriculture and Technology (JKUAT) - (2022 | Second Class Upper Division)</span>
-  <p style="line-height: 1.5; font-size: 15px; color: #1A1D20; font-weight: 500; background: rgba(255,255,255,0.4); padding: 15px; border-radius: 6px;">
-    <b> Core Academic Competencies Mastered:</b> Advanced training in biostatistics, mathematical modeling, inferential quantitative methods, research design methodology, regression diagnostics, and relational data analysis.
-  </p>
+<div id="education" class="content-card" style="padding: 25px 45px 35px 45px !important;">
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Academic Foundations</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 25px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Advanced graduate data track training and rigorous quantitative biostatistics core competencies:</p>
+
+  <!-- ACADEMIC TIMELINE CONTAINER DECK -->
+  <div style="display: flex; flex-direction: column; gap: 20px; width: 100%; box-sizing: border-box;">
+    
+    <!-- DEGREE 1: DATA SCIENCE -->
+    <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; text-transform: uppercase; letter-spacing: 0.5px;">🚀 MSC PROGRAM TRACK</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Master of Science in Data Science</h3>
+      </div>
+      <span style="font-size: 13.5px; color: #23272A; font-weight: bold; display: block; margin-bottom: 12px; font-family: 'Arial', sans-serif;"> Open University of Kenya &nbsp;|&nbsp; <span style="color: #1A488E; font-weight: 800;">[Ongoing / In Progress]</span></span>
+      <span style="font-size: 13px; color: #1A488E; font-weight: 800; display: block; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px;"> Advanced Graduate Competencies Deployed:</span>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 4px !important;">Active development of advanced capabilities in predictive analytics, computational machine learning classification, and model precision mapping.</li>
+        <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Architecting big data engineering frameworks, data warehousing systems, cloud science pipelines, and senior corporate governance blocks.</li>
+      </ul>
+    </div>
+
+    <!-- DEGREE 2: BIOSTATISTICS -->
+    <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
+        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; text-transform: uppercase; letter-spacing: 0.5px;"> BSC ACADEMIC FOUNDATION</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Bachelor of Science in Biostatistics</h3>
+      </div>
+      <span style="font-size: 13.5px; color: #23272A; font-weight: bold; display: block; margin-bottom: 12px; font-family: 'Arial', sans-serif;"> Jomo Kenyatta University of Agriculture and Technology (JKUAT) &nbsp;|&nbsp; <span style="color: #2D3748; font-weight: 800;">Class of 2022 — Second Class Upper Division</span></span>
+      <span style="font-size: 13px; color: #1A488E; font-weight: 800; display: block; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px;"> Core Academic Disciplines Mastered:</span>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 4px !important;">Advanced training in foundational biostatistics, complex mathematical modeling arrays, and deep inferential quantitative methodology.</li>
+        <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Formulating rigorous research design rules, multi-variable regression diagnostics, population sampling tracks, and relational data analysis.</li>
+      </ul>
+    </div>
+
+  </div>
 </div>
+
 
 <!-- ================================================ -->
 <!-- 8. CERTIFICATIONS CARD                           -->
