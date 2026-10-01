@@ -728,37 +728,71 @@
 <!-- 6. EXPERIENCE CARD                               -->
 <!-- ================================================ -->
 <div id="experience" class="content-card" style="padding: 25px 45px 35px 45px !important;">
-  <h2> Experience</h2>
-  <h3 style="margin-top: 0 !important;">Professional Experience</h3>
-  <p style="line-height: 1.45; font-size: 15.5px; color: #1A1D20; margin-bottom: 25px;">My consulting track spans data engineering, workforce analytics, research operations, and quantitative biostatistics across research, corporate, and international development environments.</p>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Professional Consulting Track</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 25px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">My enterprise consulting track spans advanced statistical modeling, cross-source data engineering, and predictive commercial business intelligence across high-stakes corporate environments:</p>
 
-  <h3> Data Analyst — Infotrak Research & Consulting</h3>
-  <span class="job-meta">Active Engagement Track — (2026)</span>
-  <ul>
-    <li>Managing research, survey, and commercial business data pipelines across end-to-end data management, data validation, inferential statistical testing, and executive reporting.</li>
-    <li>Automating the transformation of massive raw field research tracking arrays into high-integrity, decision-ready information assets for strategic stakeholders.</li>
-  </ul>
+  <!-- TIMELINE GRID ENGINE DECK -->
+  <div style="display: flex; flex-direction: column; gap: 20px; width: 100%; box-sizing: border-box; margin-bottom: 25px;">
+    
+    <!-- ROLE 1: INFOTRAK -->
+    <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> ENGAGEMENT TRACK - 2026</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Data Analyst — Infotrak Research & Consulting</h3>
+      </div>
+      <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Managing research, survey, and commercial business data pipelines across end-to-end data management, data validation, inferential statistical testing, and executive reporting.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Automating the transformation of massive raw field research tracking arrays into high-integrity, decision-ready information assets for strategic stakeholders.</li>
+      </ul>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Pipeline Automation &nbsp;|&nbsp; Inferential Statistics &nbsp;|&nbsp; Executive Briefs</div>
+    </div>
 
-  <h3> Workforce & Data Analyst — Calltronix Kenya Ltd</h3>
-  <span class="job-meta">Corporate Operations Track — (2024–2025)</span>
-  <ul>
-    <li>Analysed and reconciled cross-functional workforce, HR, finance, and system operations data to audit productivity, validate incentive parameters, and support payroll processing for 350+ FTE.</li>
-    <li>Integrated multiple disjointed operational data platforms to eliminate tracking variances and generate automated performance dashboards for leadership.</li>
-  </ul>
+    <!-- ROLE 2: CALLTRONIX -->
+    <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
+        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> CORPORATE TRACK - 2024–2025</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Workforce & Data Analyst - Calltronix Kenya Ltd</h3>
+      </div>
+      <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Analysed and reconciled cross-functional workforce, HR, finance, and system operations data to audit productivity, validate incentive parameters, and support payroll processing for 350+ FTE.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Integrated multiple disjointed operational data platforms to eliminate tracking variances and generate automated performance dashboards for leadership support teams.</li>
+      </ul>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Ledger Reconciliation &nbsp;|&nbsp; HR Analytics &nbsp;|&nbsp; Payroll Auditing</div>
+    </div>
 
-  <h3> Data & Research Analyst — Hamasisha Africa</h3>
-  <span class="job-meta">Research Systems Analyst Track — (2025)</span>
-  <ul>
-    <li>Supported quantitative project research through data preparation, multi-variable statistical analysis, narrative interpretation, and stakeholder reporting, directly enabling evidence-based funding deployments.</li>
-  </ul>
+    <!-- ROLE 3: HAMASISHA AFRICA -->
+    <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
+        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> SYSTEMS TRACK - 2025</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Data & Research Analyst - Hamasisha Africa</h3>
+      </div>
+      <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Supported quantitative project research through data preparation, multi-variable statistical analysis, narrative interpretation, and stakeholder reporting, directly enabling evidence-based funding deployments.</li>
+      </ul>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Quantitative Research &nbsp;|&nbsp; Multi-Variable Regressions &nbsp;|&nbsp; Funding Metrics</div>
+    </div>
 
-  <h3> Research, MEAL & Data Assignments — Various Projects</h3>
-  <span class="job-meta">Independent Field Consultations Track</span>
-  <ul>
-    <li>Undertook specialized contract assignments involving quantitative data capture monitoring, digital questionnaire skip-logic engineering, descriptive summaries, and field-based information management.</li>
-  </ul>
-  
-  <p style="margin-top: 25px; font-weight: bold; color: #1A488E; font-size: 15px;"> Primary Specialty Fields: Data Analytics | Statistics | Business Intelligence | Data Management | Research Analytics | Workforce Analytics</p>
+    <!-- ROLE 4: ASSIGNMENTS -->
+    <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
+        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> FIELD TRACK</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Research, MEAL & Data Operations Assignments</h3>
+      </div>
+      <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Undertook specialized contract assignments involving quantitative data capture monitoring, digital questionnaire skip-logic engineering, descriptive summaries, and field-based information management assets.</li>
+      </ul>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Skip-Logic Engineering &nbsp;|&nbsp; MEAL Compliance &nbsp;|&nbsp; Field Data Capture</div>
+    </div>
+
+  </div>
+
+  <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
+  <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
+    <p style="font-size: 14.5px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; text-transform: uppercase;">
+       Primary Specialty Execution Fields: <span style="color: #FFD200; font-weight: 900; margin-left: 5px;">Data Analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business Intelligence &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Research Analytics &nbsp;|&nbsp; Workforce Analytics</span>
+    </p>
+  </div>
+
 </div>
 
 
