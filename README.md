@@ -737,7 +737,7 @@
     <!-- ROLE 1: INFOTRAK -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> ENGAGEMENT TRACK - 2026</span>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> 1. ENGAGEMENT TRACK - 2026</span>
         <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Data Analyst — Infotrak Research & Consulting</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
@@ -750,7 +750,7 @@
     <!-- ROLE 2: CALLTRONIX -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> CORPORATE TRACK - 2024–2025</span>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> 2. CORPORATE TRACK - 2024–2025</span>
         <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Workforce & Data Analyst - Calltronix Kenya Ltd</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
@@ -763,7 +763,7 @@
     <!-- ROLE 3: HAMASISHA AFRICA -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> SYSTEMS TRACK - 2025</span>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> 3. SYSTEMS TRACK - 2025</span>
         <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Data & Research Analyst - Hamasisha Africa</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
@@ -775,7 +775,7 @@
     <!-- ROLE 4: ASSIGNMENTS -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> FIELD TRACK</span>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> 4. FIELD TRACK</span>
         <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Research, MEAL & Data Operations Assignments</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
