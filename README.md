@@ -452,7 +452,7 @@
   <!-- HIGH-CONTRAST ACTION ACCENT BUTTON BAR -->
   <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
     <p style="font-size: 15px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif;">
-       ... Portfolio Synopses: <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 900; margin-left: 5px;">Examine the active project briefs and structural overviews demonstrating these services in production →</label>
+       Explore - Projects: <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 900; margin-left: 5px;">Examine the active project briefs and structural overviews demonstrating these services in production →</label>
     </p>
   </div>
 
