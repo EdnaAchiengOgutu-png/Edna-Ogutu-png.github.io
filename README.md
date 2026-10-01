@@ -887,11 +887,10 @@
 
 </div>
 
-
 <!-- ================================================ -->
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
 <!-- ================================================ -->
-<div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
+<div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 25px 40px 40px 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
     <!-- LEFT PANEL: VALUE PROPOSITION -->
@@ -921,7 +920,6 @@
             <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #718096; display: block;">WhatsApp Chat</span>
             <strong style="font-size: 15px; color: #23272A;">+254 741 937074</strong>
           </div>
-          <!-- Automatically opens WhatsApp chat with a clean intro text template -->
           <a href="https://wa.me." target="_blank" style="background-color: #25D366; color: #FFFFFF; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px; text-decoration: none; text-transform: uppercase;">Message</a>
         </div>
 
@@ -931,7 +929,6 @@
             <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #718096; display: block;">Direct Call</span>
             <strong style="font-size: 15px; color: #23272A;">+254 741 937074</strong>
           </div>
-          <!-- Launches system phone dialer on mobile devices -->
           <a href="tel:+254741937074" style="background-color: #4A5568; color: #FFFFFF; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px; text-decoration: none; text-transform: uppercase;">Call</a>
         </div>
 
