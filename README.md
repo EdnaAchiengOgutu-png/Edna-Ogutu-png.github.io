@@ -892,14 +892,23 @@
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
 <!-- ================================================ -->
 <div id="get-in-touch" class="content-card" style="padding: 25px 45px 35px 45px !important;">
+  
+  <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; margin: 0 0 12px 0 !important; padding-bottom: 6px !important; text-transform: uppercase !important; border-bottom: 4px solid #23272A !important; display: block !important; text-align: left !important;">📞 Get In Touch</h2>
+
+  <!-- PREMIUM DARK GRAY & GOLD TARGET BRAND INDICATOR RIBBON -->
+  <div style="background-color: #23272A; padding: 10px 18px; border-radius: 6px; border-left: 5px solid #FFD200; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-bottom: 20px; width: 100%; box-sizing: border-box; display: inline-block;">
+    <p style="font-size: 13.5px !important; color: #FFD200 !important; font-weight: 800 !important; margin: 0 !important; padding: 0 !important; line-height: 1.4 !important; font-family: 'Arial', sans-serif !important; letter-spacing: 0.5px; text-transform: uppercase;">
+      ✉️ Secure Consultation Gate &nbsp;|&nbsp; Business Solutions Routing Array
+    </p>
+  </div>
+
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0; align-items: center !important;">
     
     <!-- LEFT PANEL: VALUE PROPOSITION -->
     <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
-      <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get in touch</span>
-      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; margin: 0 0 15px 0 !important; padding-bottom: 6px !important; text-transform: uppercase !important; border-bottom: 4px solid #23272A !important; display: block !important; text-align: left !important;">Let's Build Something Together</h2>
+      <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Let's Build Something Together</p>
       <p style="line-height: 1.5; font-size: 16px; color: #1A1D20 !important; font-weight: bold; margin-bottom: 20px; text-align: left !important;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
-      <p style="line-height: 1.5; font-size: 15px; color: #1A1D20 !important; margin-bottom: 25px; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
+      <p style="line-height: 1.5; font-size: 15px; color: #1A1D20 !important; margin-bottom: 0px; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
     </div>
     
     <!-- RIGHT PANEL: DIRECT CHANNELS CARD -->
