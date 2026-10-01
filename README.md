@@ -892,9 +892,9 @@
 <!-- ================================================ -->
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
 <!-- ================================================ -->
-<div id="get-in-touch" class="content-card" style="padding: 25px 45px 35px 45px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;">📞 Get In Touch</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Substituting manual error with high-integrity automation to protect corporate budgets and optimize scaling loops:</p>
+<div id="get-in-touch" class="content-card" style="padding: 17px 37px 17px 37px !important;">
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Get In Touch</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 17px; font-weight: bold; color: #23272A; line-height: 1.35;">Substituting manual error with high-integrity automation to protect corporate budgets and optimize scaling loops:</p>
   
   <!-- SRE RE-ENGINEERED 2-COLUMN BALANCE MATRIX -->
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 20px; width: 100%; box-sizing: border-box; align-items: stretch !important;">
@@ -902,7 +902,7 @@
     <!-- LEFT PANEL CARD: EXECUTIVE VALUE PROPOSITION -->
     <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: flex-start !important;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">01</span>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;"></span>
         <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Let's Build Something Together</h3>
       </div>
       <p style="font-size: 14.5px; color: #23272A; font-weight: bold; margin-top: 0 !important; margin-bottom: 12px !important; line-height: 1.45;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
@@ -916,7 +916,7 @@
       <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 14px 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; flex: 1;">
         <div>
           <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
-            <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">02</span>
+            <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">01</span>
             <span style="font-size: 12.5px; text-transform: uppercase; font-weight: bold; color: #1A488E; letter-spacing: 0.3px;">Email Inquiries</span>
           </div>
           <strong style="font-size: 14px; color: #23272A; font-family: 'Arial', sans-serif; padding-left: 36px; display: block;">hednaogutuh@gmail.com</strong>
@@ -928,7 +928,7 @@
       <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 14px 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; flex: 1;">
         <div>
           <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
-            <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">03</span>
+            <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">02</span>
             <span style="font-size: 12.5px; text-transform: uppercase; font-weight: bold; color: #1A488E; letter-spacing: 0.3px;">WhatsApp Chat</span>
           </div>
           <strong style="font-size: 14.5px; color: #23272A; font-family: 'Arial', sans-serif; padding-left: 36px; display: block;">+254 741 937074</strong>
@@ -940,7 +940,7 @@
       <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 14px 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; flex: 1;">
         <div>
           <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
-            <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">04</span>
+            <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">03</span>
             <span style="font-size: 12.5px; text-transform: uppercase; font-weight: bold; color: #1A488E; letter-spacing: 0.3px;">Direct Call</span>
           </div>
           <strong style="font-size: 14.5px; color: #23272A; font-family: 'Arial', sans-serif; padding-left: 36px; display: block;">+254 741 937074</strong>
