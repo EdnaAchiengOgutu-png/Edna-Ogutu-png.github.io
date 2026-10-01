@@ -26,7 +26,7 @@
  /* ================================================================== */
   /* 2. PASTE THE NEW SYSTEM LAYER DIRECTLY HERE (RIGHT BELOW BODY)       */
   /* ================================================================== */
-  body::before {
+  body {
     content: "" !important;
     position: fixed !important;
     top: 0 !important;
