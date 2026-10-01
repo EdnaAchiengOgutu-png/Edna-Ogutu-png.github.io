@@ -902,7 +902,7 @@
     <!-- LEFT PANEL CARD: EXECUTIVE VALUE PROPOSITION -->
     <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: flex-start !important;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;"></span>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">00</span>
         <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Let's Build Something Together</h3>
       </div>
       <p style="font-size: 14.5px; color: #23272A; font-weight: bold; margin-top: 0 !important; margin-bottom: 12px !important; line-height: 1.45;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
