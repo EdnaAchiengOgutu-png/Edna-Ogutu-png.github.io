@@ -812,7 +812,7 @@
         <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; text-transform: uppercase; letter-spacing: 0.5px;"> 1. MSC PROGRAM TRACK</span>
         <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Master of Science in Data Science</h3>
       </div>
-      <span style="font-size: 13.5px; color: #23272A; font-weight: bold; display: block; margin-bottom: 12px; font-family: 'Arial', sans-serif;"> Open University of Kenya &nbsp;|&nbsp; <span style="color: #1A488E; font-weight: 800;">[Ongoing / In Progress]</span></span>
+      <span style="font-size: 13.5px; color: #23272A; font-weight: bold; display: block; margin-bottom: 12px; font-family: 'Arial', sans-serif;"> Open University of Kenya &nbsp;|&nbsp; <span style="color: #1A488E; font-weight: 800;">[Ongoing]</span></span>
       <span style="font-size: 13px; color: #1A488E; font-weight: 800; display: block; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px;"> Advanced Graduate Competencies Deployed:</span>
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
         <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 4px !important;">Active development of advanced capabilities in predictive analytics, computational machine learning classification, and model precision mapping.</li>
@@ -823,10 +823,10 @@
     <!-- DEGREE 2: BIOSTATISTICS -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; text-transform: uppercase; letter-spacing: 0.5px;"> BSC ACADEMIC FOUNDATION</span>
-        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;"> 2. Bachelor of Science in Biostatistics</h3>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; text-transform: uppercase; letter-spacing: 0.5px;">  2. BSC ACADEMIC FOUNDATION</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;"> Bachelor of Science in Biostatistics</h3>
       </div>
-      <span style="font-size: 13.5px; color: #23272A; font-weight: bold; display: block; margin-bottom: 12px; font-family: 'Arial', sans-serif;"> Jomo Kenyatta University of Agriculture and Technology (JKUAT) &nbsp;|&nbsp; <span style="color: #2D3748; font-weight: 800;">Class of 2022 — Second Class Upper Division</span></span>
+      <span style="font-size: 13.5px; color: #23272A; font-weight: bold; display: block; margin-bottom: 12px; font-family: 'Arial', sans-serif;"> Jomo Kenyatta University of Agriculture and Technology (JKUAT) &nbsp;|&nbsp; <span style="color: #2D3748; font-weight: 800;">Class of 2022 - Second Class Upper Division</span></span>
       <span style="font-size: 13px; color: #1A488E; font-weight: 800; display: block; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px;"> Core Academic Disciplines Mastered:</span>
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
         <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 4px !important;">Advanced training in foundational biostatistics, complex mathematical modeling arrays, and deep inferential quantitative methodology.</li>
