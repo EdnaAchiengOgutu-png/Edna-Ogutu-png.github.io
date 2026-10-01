@@ -893,43 +893,61 @@
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
 <!-- ================================================ -->
 <div id="get-in-touch" class="content-card" style="padding: 25px 45px 35px 45px !important;">
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;">📞 Get In Touch</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Substituting manual error with high-integrity automation to protect corporate budgets and optimize scaling loops:</p>
   
-  <!-- TOP VALUE STATEMENT PANEL -->
-  <div style="width: 100%; box-sizing: border-box; margin-bottom: 25px; text-align: left !important;">
-    <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px;">Get in touch</span>
-    <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important; border-bottom: 4px solid #23272A !important; padding-bottom: 6px !important;">Let's Build Something Together</h2>
-    <p style="line-height: 1.5; font-size: 16px; color: #1A1D20 !important; font-weight: bold; margin-bottom: 12px;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
-    <p style="line-height: 1.5; font-size: 15px; color: #2D3748 !important; font-weight: 500; margin-bottom: 0;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
-  </div>
-  
-  <!-- BOTTOM PANEL: PREMIUM STACKED ENTERPRISE CHANNELS DECK -->
-  <div style="background-color: #23272A !important; border: 1px solid #3A3F44 !important; padding: 25px; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); box-sizing: border-box; width: 100%; display: flex; flex-direction: column; gap: 15px;">
+  <!-- SRE RE-ENGINEERED 2-COLUMN BALANCE MATRIX -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 20px; width: 100%; box-sizing: border-box; align-items: stretch !important;">
     
-    <!-- EMAIL CHANNEL CARD -->
-    <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #FFFFFF !important; border: 1px solid #E2E8F0; border-left: 5px solid #FFD200 !important; border-radius: 6px; flex-wrap: wrap; gap: 15px;">
-      <div style="text-align: left;">
-        <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.5px; margin-bottom: 2px;">Email Inquiries</span>
-        <strong style="font-size: 15px; color: #1A488E !important; font-family: 'Arial', sans-serif;">hednaogutuh@gmail.com</strong>
+    <!-- LEFT PANEL CARD: EXECUTIVE VALUE PROPOSITION -->
+    <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: flex-start !important;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">01</span>
+        <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Let's Build Something Together</h3>
       </div>
-      <a href="mailto:hednaogutuh@gmail.com" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block; line-height: 1;"></a>
+      <p style="font-size: 14.5px; color: #23272A; font-weight: bold; margin-top: 0 !important; margin-bottom: 12px !important; line-height: 1.45;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
+      <p style="font-size: 13.5px; color: #2D3748; font-weight: 500; margin: 0; line-height: 1.5;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
     </div>
 
-    <!-- WHATSAPP CHANNEL CARD -->
-    <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #FFFFFF !important; border: 1px solid #E2E8F0; border-left: 5px solid #FFD200 !important; border-radius: 6px; flex-wrap: wrap; gap: 15px;">
-      <div style="text-align: left;">
-        <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.5px; margin-bottom: 2px;">WhatsApp Chat</span>
-        <strong style="font-size: 15px; color: #1A488E !important; font-family: 'Arial', sans-serif;">+254 741 937074</strong>
+    <!-- RIGHT PANEL MODULE: COMPACT STACKED CHANNELS SLIDER CONTAINER -->
+    <div style="display: flex; flex-direction: column; gap: 12px; justify-content: space-between; box-sizing: border-box;">
+      
+      <!-- MINIFIED MODULE CARD 1: EMAIL -->
+      <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 14px 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; flex: 1;">
+        <div>
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
+            <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">02</span>
+            <span style="font-size: 12.5px; text-transform: uppercase; font-weight: bold; color: #1A488E; letter-spacing: 0.3px;">Email Inquiries</span>
+          </div>
+          <strong style="font-size: 14px; color: #23272A; font-family: 'Arial', sans-serif; padding-left: 36px; display: block;">hednaogutuh@gmail.com</strong>
+        </div>
+        <a href="mailto:hednaogutuh@gmail.com" style="font-size: 24px; text-decoration: none; cursor: pointer; padding-right: 5px;"></a>
       </div>
-      <a href="https://wa.me." target="_blank" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block; line-height: 1;"></a>
-    </div>
 
-    <!-- PHONE CALL CHANNEL CARD -->
-    <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #FFFFFF !important; border: 1px solid #E2E8F0; border-left: 5px solid #FFD200 !important; border-radius: 6px; flex-wrap: wrap; gap: 15px;">
-      <div style="text-align: left;">
-        <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.5px; margin-bottom: 2px;">Direct Call</span>
-        <strong style="font-size: 15px; color: #1A488E !important; font-family: 'Arial', sans-serif;">+254 741 937074</strong>
+      <!-- MINIFIED MODULE CARD 2: WHATSAPP -->
+      <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 14px 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; flex: 1;">
+        <div>
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
+            <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">03</span>
+            <span style="font-size: 12.5px; text-transform: uppercase; font-weight: bold; color: #1A488E; letter-spacing: 0.3px;">WhatsApp Chat</span>
+          </div>
+          <strong style="font-size: 14.5px; color: #23272A; font-family: 'Arial', sans-serif; padding-left: 36px; display: block;">+254 741 937074</strong>
+        </div>
+        <a href="https://wa.me." target="_blank" style="font-size: 24px; text-decoration: none; cursor: pointer; padding-right: 5px;"></a>
       </div>
-      <a href="tel:+254741937074" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block; line-height: 1;"></a>
+
+      <!-- MINIFIED MODULE CARD 3: PHONE CALL -->
+      <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 14px 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; flex: 1;">
+        <div>
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
+            <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">04</span>
+            <span style="font-size: 12.5px; text-transform: uppercase; font-weight: bold; color: #1A488E; letter-spacing: 0.3px;">Direct Call</span>
+          </div>
+          <strong style="font-size: 14.5px; color: #23272A; font-family: 'Arial', sans-serif; padding-left: 36px; display: block;">+254 741 937074</strong>
+        </div>
+        <a href="tel:+254741937074" style="font-size: 24px; text-decoration: none; cursor: pointer; padding-right: 5px;"></a>
+      </div>
+
     </div>
 
   </div>
