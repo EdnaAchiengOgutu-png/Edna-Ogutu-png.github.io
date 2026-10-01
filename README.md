@@ -887,22 +887,23 @@
 
 </div>
 
+
 <!-- ================================================ -->
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
 <!-- ================================================ -->
-<div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 25px 40px 40px 40px !important;">
-  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
+<div id="get-in-touch" class="content-card" style="padding: 25px 45px 35px 45px !important;">
+  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0; align-items: center !important;">
     
     <!-- LEFT PANEL: VALUE PROPOSITION -->
     <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
       <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get in touch</span>
-      <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important; text-align: left !important;">Let's Build Something Together</h2>
-      <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 20px; text-align: left !important;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
-      <p style="line-height: 1.5; font-size: 15px; color: #4A5568 !important; margin-bottom: 25px; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
+      <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; margin: 0 0 15px 0 !important; padding-bottom: 6px !important; text-transform: uppercase !important; border-bottom: 4px solid #23272A !important; display: block !important; text-align: left !important;">Let's Build Something Together</h2>
+      <p style="line-height: 1.5; font-size: 16px; color: #1A1D20 !important; font-weight: bold; margin-bottom: 20px; text-align: left !important;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
+      <p style="line-height: 1.5; font-size: 15px; color: #1A1D20 !important; margin-bottom: 25px; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
     </div>
     
     <!-- RIGHT PANEL: DIRECT CHANNELS CARD -->
-    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 40px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center;">
+    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #CBD5E0; padding: 40px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center;">
       <div style="display: flex; flex-direction: column; gap: 15px; width: 100%; box-sizing: border-box;">
         
         <!-- EMAIL CHANNEL -->
