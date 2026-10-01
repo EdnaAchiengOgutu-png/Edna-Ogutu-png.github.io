@@ -842,32 +842,36 @@
 <!-- 8. CERTIFICATIONS CARD                           -->
 <!-- ================================================ -->
 <div id="certifications" class="content-card" style="padding: 25px 45px 35px 45px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;">🏆 Certifications & Professional Development</h2>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Certifications & Professional Development</h2>
   <p style="margin-top: 0 !important; margin-bottom: 25px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Validated global credentials and specialized industry training tracking advanced data systems engineering and project governance:</p>
 
-  <!-- TWIN COLUMN CREDENTIALS GRID -->
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 25px;">
+  <!-- PREMIUM SINGLE COLUMN STACKED CREDENTIALS FRAMEWORK -->
+  <div style="display: flex; flex-direction: column; gap: 20px; width: 100%; box-sizing: border-box; margin-bottom: 25px;">
     
-    <!-- CREDENTIAL 1: IBM -->
-    <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: flex-start;">
-      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 11px; padding: 3px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">DATA & AI</span>
-        <h3 style="margin: 0 !important; font-size: 15.5px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.2px;">IBM Data Science & AI Professional</h3>
+    <!-- CREDENTIAL 1: IBM DATA SCIENCE & AI -->
+    <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15 rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> 1. ADVANCED ANALYTICS & AI</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">IBM Data Science & AI Professional</h3>
       </div>
-      <p style="font-size: 13.5px; margin: 0; line-height: 1.5; color: #2D3748; font-weight: 500;">Validated global industry training covering advanced data science operations, machine learning classification algorithms, predictive trends forecasting, and Python data analysis workflows.</p>
+      <span style="font-size: 13.5px; color: #23272A; font-weight: bold; display: block; margin-bottom: 10px; font-family: 'Arial', sans-serif;"> IBM Authorized Industry Credential</span>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important;">Validated global validation training covering enterprise data science operations, machine learning classification algorithms, and predictive trends forecasting workflows.</li>
+        <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important;">Engineering interactive computational scripts and executing multi-tiered dataset cleaning routines using Python data analysis frameworks.</li>
+      </ul>
     </div>
 
-    <!-- CREDENTIAL 2: MEAL & HUMANITARIAN PROJECT MANAGEMENT -->
-    <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: flex-start;">
-      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11px; padding: 3px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">GOVERNANCE</span>
-        <h3 style="margin: 0 !important; font-size: 15.5px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.2px;">Humanitarian MEAL & Project Systems</h3>
+    <!-- CREDENTIAL 2: HUMANITARIAN MEAL & PROJECT SYSTEMS -->
+    <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
+        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> 2. METRICS & PROJECT GOVERNANCE</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Humanitarian MEAL & Project Management Essentials</h3>
       </div>
-      <span style="font-size: 12.5px; color: #4A5568; font-weight: bold; display: block; margin-bottom: 8px; font-family: 'Arial', sans-serif;">🏫 DisasterReady / Humanitarian Leadership Academy</span>
-      <p style="font-size: 13.5px; margin: 0 0 10px 0; line-height: 1.45; color: #2D3748; font-weight: 600;">Dual-track operational credentials specializing in international project architecture and metrics validation loops:</p>
+      <span style="font-size: 13.5px; color: #23272A; font-weight: bold; display: block; margin-bottom: 12px; font-family: 'Arial', sans-serif;"> DisasterReady / Humanitarian Leadership Academy</span>
+      <span style="font-size: 13px; color: #1A488E; font-weight: 800; display: block; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px;"> Specialized Dual-Track Endorsements Mastered:</span>
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-        <li style="font-size: 13px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 4px !important;"><b>MEAL Essentials Professional:</b> Specialized in data verification tracking, multi-variable monitoring tracking arrays, program evaluation metrics, and system accountability frameworks.</li>
-        <li style="font-size: 13px !important; line-height: 1.45 !important; color: #2D3748 !important; font-weight: 500; margin-bottom: 0 !important;"><b>Project Management Essentials Track:</b> Certified execution proficiency across end-to-end institutional development structures, spanning advanced Project Planning architecture and active Implementation governance models.</li>
+        <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;"><b>MEAL Essentials Professional:</b> Specialized training in multi-variable monitoring tracking arrays, quantitative dataset validation loops, program evaluation metrics, and system accountability frameworks.</li>
+        <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;"><b>Project Management Essentials Track:</b> Certified operational proficiency spanning advanced project planning structures, lifecycle milestones layout, and active project implementation governance models.</li>
       </ul>
     </div>
 
