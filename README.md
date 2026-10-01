@@ -727,9 +727,9 @@
 <!-- ================================================ -->
 <!-- 6. EXPERIENCE CARD                               -->
 <!-- ================================================ -->
-<div id="experience" class="content-card" style="padding: 25px 45px 35px 45px !important;">
+<div id="experience" class="content-card" style="padding: 17px 37px 17px 37px !important;">
   <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Professional Consulting Track</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 25px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">My enterprise consulting track spans advanced statistical modeling, cross-source data engineering, and predictive commercial business intelligence across high-stakes corporate environments:</p>
+  <p style="margin-top: 0 !important; margin-bottom: 25px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">My consulting track spans advanced statistical modeling, cross-source data engineering, and predictive commercial business intelligence across high-stakes corporate environments:</p>
 
   <!-- TIMELINE GRID ENGINE DECK -->
   <div style="display: flex; flex-direction: column; gap: 20px; width: 100%; box-sizing: border-box; margin-bottom: 25px;">
@@ -738,7 +738,7 @@
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
         <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> 1. ENGAGEMENT TRACK - 2026</span>
-        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Data Analyst — Infotrak Research & Consulting</h3>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Data Analyst - Infotrak Research & Consulting</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Managing research, survey, and commercial business data pipelines across end-to-end data management, data validation, inferential statistical testing, and executive reporting.</li>
