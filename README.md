@@ -893,56 +893,51 @@
 <!-- ================================================ -->
 <div id="get-in-touch" class="content-card" style="padding: 25px 45px 35px 45px !important;">
   
-  <h2 style="color: #23272A !important; font-size: 26px !important; font-weight: 900 !important; margin: 0 0 12px 0 !important; padding-bottom: 6px !important; text-transform: uppercase !important; border-bottom: 4px solid #23272A !important; display: block !important; text-align: left !important;">📞 Get In Touch</h2>
-
-  <!-- PREMIUM DARK GRAY & GOLD TARGET BRAND INDICATOR RIBBON -->
-  <div style="background-color: #23272A; padding: 10px 18px; border-radius: 6px; border-left: 5px solid #FFD200; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-bottom: 20px; width: 100%; box-sizing: border-box; display: inline-block;">
-    <p style="font-size: 13.5px !important; color: #FFD200 !important; font-weight: 800 !important; margin: 0 !important; padding: 0 !important; line-height: 1.4 !important; font-family: 'Arial', sans-serif !important; letter-spacing: 0.5px; text-transform: uppercase;">
-      ✉️ Secure Consultation Gate &nbsp;|&nbsp; Business Solutions Routing Array
-    </p>
+  <!-- HIGHLIGHTED EXECUTIVE HEADER DECK WITH UNIFIED COMPACT SPACING -->
+  <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 20px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
+    <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> SECURE CONSULTATION GATE</span>
+    <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Business Solutions Routing Array</h3>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0; align-items: center !important;">
+  <div style="display: flex; flex-wrap: wrap; gap: 30px; width: 100%; box-sizing: border-box; margin: 0; align-items: stretch !important;">
     
-    <!-- LEFT PANEL: VALUE PROPOSITION -->
-    <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
-      <p style="font-size: 24px; color: #111314; font-weight: 900; margin: 0 0 15px 0; line-height: 1.35; letter-spacing: -0.5px;">Let's Build Something Together</p>
-      <p style="line-height: 1.5; font-size: 16px; color: #1A1D20 !important; font-weight: bold; margin-bottom: 20px; text-align: left !important;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
-      <p style="line-height: 1.5; font-size: 15px; color: #1A1D20 !important; margin-bottom: 0px; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
+    <!-- LEFT PANEL: GLOSSY BENTO VALUE PROPOSITION CARD -->
+    <div style="flex: 1; min-width: 320px; background-color: rgba(255,255,255,0.55); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; border-left: 6px solid #FFD200 !important;">
+      <h3 style="margin: 0 0 10px 0 !important; font-size: 20px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: -0.3px;">Let's Build Something Together</h3>
+      <p style="line-height: 1.5; font-size: 15px; color: #23272A !important; font-weight: bold; margin-bottom: 12px; text-align: left !important;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
+      <p style="line-height: 1.5; font-size: 14.5px; color: #2D3748 !important; font-weight: 500; margin-bottom: 0; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
     </div>
     
-    <!-- RIGHT PANEL: DIRECT CHANNELS CARD -->
-    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #CBD5E0; padding: 40px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center;">
-      <div style="display: flex; flex-direction: column; gap: 15px; width: 100%; box-sizing: border-box;">
-        
-        <!-- EMAIL CHANNEL -->
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px;">
-          <div style="text-align: left;">
-            <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #718096; display: block;">Email Inquiries</span>
-            <strong style="font-size: 15px; color: #23272A;">hednaogutuh@gmail.com</strong>
-          </div>
-          <a href="mailto:hednaogutuh@gmail.com" style="background-color: #1A488E; color: #FFFFFF; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px; text-decoration: none; text-transform: uppercase;">Email</a>
+    <!-- RIGHT PANEL: PREMIUM STACKED DIRECT CHANNELS CORER -->
+    <div style="flex: 1.2; min-width: 360px; display: flex; flex-direction: column; gap: 15px; justify-content: center; box-sizing: border-box;">
+      
+      <!-- EMAIL CHANNEL -->
+      <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 8px; padding: 15px 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.01); display: flex; align-items: center; justify-content: space-between; gap: 15px; flex-wrap: wrap;">
+        <div style="text-align: left;">
+          <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.3px;">Email Inquiries</span>
+          <strong style="font-size: 15px; color: #23272A; font-family: 'Arial', sans-serif;">hednaogutuh@gmail.com</strong>
         </div>
-
-        <!-- WHATSAPP CHANNEL -->
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px;">
-          <div style="text-align: left;">
-            <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #718096; display: block;">WhatsApp Chat</span>
-            <strong style="font-size: 15px; color: #23272A;">+254 741 937074</strong>
-          </div>
-          <a href="https://wa.me." target="_blank" style="background-color: #25D366; color: #FFFFFF; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px; text-decoration: none; text-transform: uppercase;">Message</a>
-        </div>
-
-        <!-- PHONE CALL CHANNEL -->
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px;">
-          <div style="text-align: left;">
-            <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #718096; display: block;">Direct Call</span>
-            <strong style="font-size: 15px; color: #23272A;">+254 741 937074</strong>
-          </div>
-          <a href="tel:+254741937074" style="background-color: #4A5568; color: #FFFFFF; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px; text-decoration: none; text-transform: uppercase;">Call</a>
-        </div>
-
+        <a href="mailto:hednaogutuh@gmail.com" style="background-color: #1A488E; color: #FFFFFF !important; padding: 10px 22px; border-radius: 6px; font-weight: bold; font-size: 12.5px; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 10px rgba(26,72,142,0.15);">Email</a>
       </div>
+
+      <!-- WHATSAPP CHANNEL -->
+      <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 8px; padding: 15px 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.01); display: flex; align-items: center; justify-content: space-between; gap: 15px; flex-wrap: wrap;">
+        <div style="text-align: left;">
+          <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.3px;">WhatsApp Chat</span>
+          <strong style="font-size: 15px; color: #23272A; font-family: 'Arial', sans-serif;">+254 741 937074</strong>
+        </div>
+        <a href="https://wa.me." target="_blank" style="background-color: #25D366; color: #FFFFFF !important; padding: 10px 22px; border-radius: 6px; font-weight: bold; font-size: 12.5px; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 10px rgba(37,211,102,0.15);">Message</a>
+      </div>
+
+      <!-- PHONE CALL CHANNEL -->
+      <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 8px; padding: 15px 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.01); display: flex; align-items: center; justify-content: space-between; gap: 15px; flex-wrap: wrap;">
+        <div style="text-align: left;">
+          <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.3px;">Direct Call</span>
+          <strong style="font-size: 15px; color: #23272A; font-family: 'Arial', sans-serif;">+254 741 937074</strong>
+        </div>
+        <a href="tel:+254741937074" style="background-color: #4A5568; color: #FFFFFF !important; padding: 10px 22px; border-radius: 6px; font-weight: bold; font-size: 12.5px; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 10px rgba(74,85,104,0.15);">Call</a>
+      </div>
+
     </div>
     
   </div>
