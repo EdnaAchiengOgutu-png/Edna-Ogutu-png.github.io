@@ -892,54 +892,41 @@
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
 <!-- ================================================ -->
 <div id="get-in-touch" class="content-card" style="padding: 25px 45px 35px 45px !important;">
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;">📞 Get In Touch</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Secure Data Solutions Consultation Gate &nbsp;|&nbsp; Professional Routing Array:</p>
   
-  <!-- EXECUTIVE NAVIGATION ACCENT SUB-BAR -->
-  <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 20px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-    <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 11px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> SECURE CONSULTATION GATE</span>
-    <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px; text-transform: uppercase;">Business Solutions Routing Array</h3>
-  </div>
-
-  <div style="display: flex; flex-direction: column; gap: 20px; width: 100%; box-sizing: border-box; margin: 0;">
+  <!-- UNIFIED 2-COLUMN GRID SYSTEM TO EXACTLY MATCH THE SERVICES PAGE STYLE -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 20px; width: 100%; box-sizing: border-box; align-items: stretch !important;">
     
-    <!-- TOP SECTION: FULL WIDTH VALUE CANVA STRIP -->
-    <div style="background-color: rgba(255,255,255,0.55); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%; border-left: 6px solid #FFD200 !important;">
-      <h3 style="margin: 0 0 8px 0 !important; font-size: 20px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: -0.3px;">Let's Build Something Together</h3>
-      <p style="line-height: 1.5; font-size: 15.5px; color: #23272A !important; font-weight: bold; margin-bottom: 12px; text-align: left !important;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
-      <p style="line-height: 1.5; font-size: 14.5px; color: #2D3748 !important; font-weight: 500; margin-bottom: 0; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the secure communication channels listed below to discuss your operational goals.</p>
+    <!-- LEFT SIDE CARD 01: VALUE STATEMENT -->
+    <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: flex-start !important;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">01</span>
+        <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Let's Build Something Together</h3>
+      </div>
+      <p style="font-size: 14px; color: #23272A; font-weight: bold; margin-top: 0 !important; margin-bottom: 12px !important; line-height: 1.45;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
+      <p style="font-size: 13.5px; color: #2D3748; font-weight: 500; margin: 0; line-height: 1.5;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
     </div>
-    
-    <!-- BOTTOM SECTION: UNIFIED 3-COLUMN DIRECT ACTION GRID DECK -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box;">
-      
-      <!-- INQUIRY MODULE 1: EMAIL -->
-      <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; min-height: 140px;">
-        <div style="text-align: left; margin-bottom: 15px;">
-          <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.5px; margin-bottom: 4px;">📧 Email Inquiries</span>
-          <strong style="font-size: 14px; color: #23272A; font-family: 'Arial', sans-serif; display: block; word-break: break-all;">hednaogutuh@gmail.com</strong>
-        </div>
-        <a href="mailto:hednaogutuh@gmail.com" style="background-color: #1A488E; color: #FFFFFF !important; padding: 12px 15px; border-radius: 6px; font-weight: bold; font-size: 12px; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; text-align: center !important; display: block; box-shadow: 0 3px 8px rgba(26,72,142,0.15);">Launch Email Client</a>
-      </div>
 
-      <!-- INQUIRY MODULE 2: WHATSAPP -->
-      <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; min-height: 140px;">
-        <div style="text-align: left; margin-bottom: 15px;">
-          <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.5px; margin-bottom: 4px;">💬 WhatsApp Chat</span>
-          <strong style="font-size: 14.5px; color: #23272A; font-family: 'Arial', sans-serif; display: block;">+254 741 937074</strong>
-        </div>
-        <a href="https://wa.me." target="_blank" style="background-color: #25D366; color: #FFFFFF !important; padding: 12px 15px; border-radius: 6px; font-weight: bold; font-size: 12px; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; text-align: center !important; display: block; box-shadow: 0 3px 8px rgba(37,211,102,0.15);">Open Secure Chat</a>
+    <!-- RIGHT SIDE CARD 02: INQUIRY CHANNELS -->
+    <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: flex-start !important;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">02</span>
+        <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Direct Communication Channels</h3>
       </div>
-
-      <!-- INQUIRY MODULE 3: DIRECT CALL -->
-      <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; min-height: 140px;">
-        <div style="text-align: left; margin-bottom: 15px;">
-          <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.5px; margin-bottom: 4px;">📞 Voice Inquiries</span>
-          <strong style="font-size: 14.5px; color: #23272A; font-family: 'Arial', sans-serif; display: block;">+254 741 937074</strong>
-        </div>
-        <a href="tel:+254741937074" style="background-color: #4A5568; color: #FFFFFF !important; padding: 12px 15px; border-radius: 6px; font-weight: bold; font-size: 12px; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; text-align: center !important; display: block; box-shadow: 0 3px 8px rgba(74,85,104,0.15);">Initiate Direct Call</a>
-      </div>
-
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 8px !important;">
+          📧 Email Inquiries: <span style="font-weight: 500; color: #2D3748;">hednaogutuh@gmail.com</span>
+        </li>
+        <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 8px !important;">
+          💬 WhatsApp Chat: <span style="font-weight: 500; color: #2D3748;">+254 741 937074</span>
+        </li>
+        <li style="font-size: 13.5px !important; line-height: 1.5 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;">
+          📞 Direct Call: <span style="font-weight: 500; color: #2D3748;">+254 741 937074</span>
+        </li>
+      </ul>
     </div>
-    
+
   </div>
 </div>
 
