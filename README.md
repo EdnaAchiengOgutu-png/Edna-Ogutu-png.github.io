@@ -864,7 +864,7 @@
     <!-- CREDENTIAL 2: HUMANITARIAN MEAL & PROJECT SYSTEMS -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> 2. METRICS & PROJECT GOVERNANCE</span>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> 2. METRICS & PROJECT GOVERNANCE</span>
         <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Humanitarian MEAL & Project Management Essentials</h3>
       </div>
       <span style="font-size: 13.5px; color: #23272A; font-weight: bold; display: block; margin-bottom: 12px; font-family: 'Arial', sans-serif;"> DisasterReady / Humanitarian Leadership Academy</span>
@@ -878,8 +878,8 @@
   </div>
 
   <!-- HIGH-CONTRAST LOWER TRACK ENGINE RE-LINKED BLOCK -->
-  <div style="background-color: #23272A; padding: 14px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
-    <span style="font-size: 13px; color: #FFFFFF !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 6px; text-transform: uppercase; font-family: 'Arial', sans-serif;">🔄 Continuous Capabilities Integration Framework</span>
+  <div style="background-color: #23272A; padding: 14px 20px; border-radius: 22px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box;">
+    <span style="font-size: 13px; color: #FFD200 !important; font-weight: bold; letter-spacing: 0.5px; display: block; margin-bottom: 6px; text-transform: uppercase; font-family: 'Arial', sans-serif;"> Continuous Capabilities Integration Framework</span>
     <span style="font-size: 14.5px !important; color: #FFD200 !important; font-weight: 900 !important; margin: 0 !important; padding: 0 !important; line-height: 1.5 !important; word-wrap: break-word !important; white-space: normal !important; display: block !important; font-family: 'Arial', sans-serif !important;">
       Data Analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business Intelligence &nbsp;|&nbsp; Data Science &nbsp;|&nbsp; Research Analytics
     </span>
