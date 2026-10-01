@@ -888,35 +888,52 @@
 </div>
 
 
-
 <!-- ================================================ -->
-<!-- 9. GET IN TOUCH CARD                             -->
+<!-- 9. GET IN TOUCH CARD (FUNCTIONAL BACKEND FORM)    -->
 <!-- ================================================ -->
 <div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
   <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
     
-    <!-- LEFT PANEL: CONDENSED VALUE PROPOSITION -->
+    <!-- LEFT PANEL: VALUE PROPOSITION -->
     <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
       <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get in touch</span>
       <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important; text-align: left !important;">Let's Build Something Together</h2>
       <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 20px; text-align: left !important;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
-      <p style="line-height: 1.5; font-size: 15px; color: #4A5568 !important; margin-bottom: 25px; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. If you have an active organizational requirement or a consulting project, let's connect to map out your operational goals.</p>
+      <p style="line-height: 1.5; font-size: 15px; color: #4A5568 !important; margin-bottom: 25px; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Fill out your requirements to map out your operational goals.</p>
     </div>
     
-    <!-- RIGHT PANEL: CONVERSION CALL-TO-ACTION CONTAINER -->
-    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 45px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center; text-align: center !important;">
-      <div style="border: 2px dashed #CBD5E0; border-radius: 8px; padding: 25px; background-color: #F8FAFC; text-align: center !important; width: 100%; box-sizing: border-box;">
-        <span style="font-size: 40px; display: block; margin-bottom: 10px; text-align: center !important;">📧</span>
-        <h4 style="margin: 0 0 8px 0; font-size: 18px; font-weight: bold; color: #23272A; text-align: center !important;">Start a Project Inquiry</h4>
-        <p style="margin: 0 0 20px 0; font-size: 15px; font-weight: bold; color: #1A488E; text-align: center !important;">hednaogutuh@gmail.com</p>
-        <p style="margin: 0 0 25px 0; font-size: 14px; line-height: 1.45; color: #4A5568; text-align: center !important;">Click below to automatically draft a secure, pre-formatted requirement template directly within your default email app.</p>
+    <!-- RIGHT PANEL: INTERACTIVE INTAKE FORM -->
+    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important;">
+      
+      <!-- Using Web3Forms Free Endpoint (No backend server config required) -->
+      <form action="https://web3forms.com" method="POST" style="width: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 15px; text-align: left;">
         
-        <!-- FIXED AND PROGRAMMED MAILTO LAUNCH TRIGGER -->
-        <a href="mailto:hednaogutuh@://gmail.com" 
-           style="background-color: #1A488E !important; color: #FFFFFF !important; padding: 15px 30px !important; border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 14px; display: inline-block; box-shadow: 0 4px 10px rgba(26,72,142,0.2); text-transform: uppercase; letter-spacing: 0.5px; text-align: center !important;">
-            Initialize Inquiry Draft
-        </a>
-      </div>
+        <!-- REQUIRED: Change this access key value after registering for free at web3forms.com -->
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+        <!-- Optional: Redirects visitors back to your home layout profile page on submit -->
+        <input type="hidden" name="redirect" value="https://github.com"> 
+        
+        <div style="display: flex; flex-direction: column; gap: 5px;">
+          <label style="font-size: 13px; font-weight: bold; color: #23272A;">Your Name</label>
+          <input type="text" name="name" required style="width: 100%; padding: 10px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; font-size: 14px; background-color: #F8FAFC;">
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 5px;">
+          <label style="font-size: 13px; font-weight: bold; color: #23272A;">Email Address</label>
+          <input type="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; font-size: 14px; background-color: #F8FAFC;">
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 5px;">
+          <label style="font-size: 13px; font-weight: bold; color: #23272A;">Inquiry Summary & Project Scope</label>
+          <textarea name="message" rows="4" required placeholder="Describe your data challenges or timeline metrics..." style="width: 100%; padding: 10px; border: 1px solid #CBD5E0; border-radius: 6px; box-sizing: border-box; font-size: 14px; font-family: sans-serif; resize: vertical; background-color: #F8FAFC;"></textarea>
+        </div>
+
+        <button type="submit" style="background-color: #1A488E !important; color: #FFFFFF !important; padding: 14px !important; border: none !important; border-radius: 6px; font-weight: bold; font-size: 14px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 10px rgba(26,72,142,0.2); width: 100%; text-align: center; margin-top: 5px;">
+           Submit Inquiry
+        </button>
+        
+      </form>
+      
     </div>
     
   </div>
@@ -924,7 +941,6 @@
 
 </div> <!-- Closes scroll-content layout engine -->
 </div> <!-- Closes portfolio-container outer window -->
-
 
 
 
