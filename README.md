@@ -901,7 +901,7 @@
       <p style="line-height: 1.5; font-size: 15px; color: #4A5568 !important; margin-bottom: 25px; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
     </div>
     
-    <!-- RIGHT PANEL: DIRECT CHANNELS CARD -->
+    <!-- RIGHT PANEL: DIRECT CHANNELS CARD (BUTTONS CONVERTED TO ICONS) -->
     <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 40px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center;">
       <div style="display: flex; flex-direction: column; gap: 15px; width: 100%; box-sizing: border-box;">
         
@@ -911,7 +911,9 @@
             <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #718096; display: block;">Email Inquiries</span>
             <strong style="font-size: 15px; color: #23272A;">hednaogutuh@gmail.com</strong>
           </div>
-          <a href="mailto:hednaogutuh@gmail.com" style="background-color: #1A488E; color: #FFFFFF; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px; text-decoration: none; text-transform: uppercase;">Email</a>
+          <a href="mailto:hednaogutuh@gmail.com" style="display: inline-block; width: 42px; height: 42px; text-decoration: none;">
+            <img src="https://icons8.com" alt="Email" style="width: 100%; height: 100%; object-fit: contain;" />
+          </a>
         </div>
 
         <!-- WHATSAPP CHANNEL -->
@@ -920,8 +922,9 @@
             <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #718096; display: block;">WhatsApp Chat</span>
             <strong style="font-size: 15px; color: #23272A;">+254 741 937074</strong>
           </div>
-          <!-- Automatically opens WhatsApp chat with a clean intro text template -->
-          <a href="https://wa.me." target="_blank" style="background-color: #25D366; color: #FFFFFF; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px; text-decoration: none; text-transform: uppercase;">Message</a>
+          <a href="https://wa.me." target="_blank" style="display: inline-block; width: 42px; height: 42px; text-decoration: none;">
+            <img src="https://icons8.com" alt="WhatsApp" style="width: 100%; height: 100%; object-fit: contain;" />
+          </a>
         </div>
 
         <!-- PHONE CALL CHANNEL -->
@@ -930,8 +933,9 @@
             <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #718096; display: block;">Direct Call</span>
             <strong style="font-size: 15px; color: #23272A;">+254 741 937074</strong>
           </div>
-          <!-- Launches system phone dialer on mobile devices -->
-          <a href="tel:+254741937074" style="background-color: #4A5568; color: #FFFFFF; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px; text-decoration: none; text-transform: uppercase;">Call</a>
+          <a href="tel:+254741937074" style="display: inline-block; width: 42px; height: 42px; text-decoration: none;">
+            <img src="https://icons8.com" alt="Call" style="width: 100%; height: 100%; object-fit: contain;" />
+          </a>
         </div>
 
       </div>
