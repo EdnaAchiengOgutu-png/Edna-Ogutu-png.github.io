@@ -890,10 +890,10 @@
 
 
 <!-- ================================================ -->
-<!-- 9. GET IN TOUCH CARD (TEXT-ONLY DIRECTORY)       -->
+<!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
 <!-- ================================================ -->
-<div id="get-in-touch" class="content-card" style="background-color: #FFFFFF !important; color: #23272A !important; padding: 40px !important;">
-  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0;">
+<div id="get-in-touch" class="content-card" style="background-color: #D2F7FF !important; color: #23272A !important; padding: 40px !important;">
+  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0; align-items: center !important;">
     
     <!-- LEFT PANEL: VALUE PROPOSITION -->
     <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
@@ -903,38 +903,36 @@
       <p style="line-height: 1.5; font-size: 15px; color: #4A5568 !important; margin-bottom: 25px; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
     </div>
     
-    <!-- RIGHT PANEL: UNCLICKABLE CHANNELS CARD -->
-    <div style="flex: 1.2; min-width: 360px; background-color: #FFFFFF; border: 1px solid #E2E8F0; padding: 40px 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center;">
-      <div style="display: flex; flex-direction: column; gap: 15px; width: 100%; box-sizing: border-box;">
-        
-        <!-- EMAIL CHANNEL (TEXT ONLY) -->
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px;">
-          <div style="text-align: left;">
-            <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #718096; display: block;">Email Inquiries</span>
-            <strong style="font-size: 15px; color: #23272A; user-select: all !important;">hednaogutuh@gmail.com</strong>
-          </div>
-          <span style="background-color: #CBD5E0; color: #4A5568; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px; text-transform: uppercase; user-select: none;">Email</span>
+    <!-- RIGHT PANEL: DIRECT CHANNELS CARD (CLEAN EMBEDDED CONTACT LIST) -->
+    <div style="flex: 1.2; min-width: 360px; box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center; gap: 16px;">
+      
+      <!-- EMAIL CHANNEL -->
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; border-bottom: 1px solid rgba(35,39,42,0.15);">
+        <div style="text-align: left;">
+          <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #1A488E; display: block; letter-spacing: 0.5px;">Email Inquiries</span>
+          <strong style="font-size: 15px; color: #23272A; font-family: 'Arial', sans-serif;">hednaogutuh@gmail.com</strong>
         </div>
-
-        <!-- WHATSAPP CHANNEL (TEXT ONLY) -->
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px;">
-          <div style="text-align: left;">
-            <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #718096; display: block;">WhatsApp Chat</span>
-            <strong style="font-size: 15px; color: #23272A; user-select: all !important;">+254 741 937074</strong>
-          </div>
-          <span style="background-color: #CBD5E0; color: #4A5568; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px; text-transform: uppercase; user-select: none;">Chat</span>
-        </div>
-
-        <!-- PHONE CALL CHANNEL (TEXT ONLY) -->
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px;">
-          <div style="text-align: left;">
-            <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #718096; display: block;">Direct Call</span>
-            <strong style="font-size: 15px; color: #23272A; user-select: all !important;">+254 741 937074</strong>
-          </div>
-          <span style="background-color: #CBD5E0; color: #4A5568; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 13px; text-transform: uppercase; user-select: none;">Call</span>
-        </div>
-
+        <a href="mailto:hednaogutuh@gmail.com" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block;">✉️</a>
       </div>
+
+      <!-- WHATSAPP CHANNEL -->
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; border-bottom: 1px solid rgba(35,39,42,0.15);">
+        <div style="text-align: left;">
+          <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #1A488E; display: block; letter-spacing: 0.5px;">WhatsApp Chat</span>
+          <strong style="font-size: 15px; color: #23272A; font-family: 'Arial', sans-serif;">+254 741 937074</strong>
+        </div>
+        <a href="https://wa.me." target="_blank" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block;">💬</a>
+      </div>
+
+      <!-- PHONE CALL CHANNEL -->
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; border-bottom: 1px solid rgba(35,39,42,0.15);">
+        <div style="text-align: left;">
+          <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #1A488E; display: block; letter-spacing: 0.5px;">Direct Call</span>
+          <strong style="font-size: 15px; color: #23272A; font-family: 'Arial', sans-serif;">+254 741 937074</strong>
+        </div>
+        <a href="tel:+254741937074" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block;">📞</a>
+      </div>
+
     </div>
     
   </div>
