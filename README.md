@@ -33,7 +33,7 @@
     left: 0 !important;
     width: 100vw !important;
     height: 100vh !important;
-    background-image: url('Data Video.gif') !important;
+    background-image: url('Data video.gif') !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
