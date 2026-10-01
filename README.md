@@ -892,49 +892,46 @@
 <!-- ================================================ -->
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
 <!-- ================================================ -->
-<div id="get-in-touch" class="content-card" style="background-color: #D2F7FF !important; color: #23272A !important; padding: 40px !important;">
-  <div style="display: flex; flex-wrap: wrap; gap: 40px; width: 100%; box-sizing: border-box; margin: 0; align-items: center !important;">
+<div id="get-in-touch" class="content-card" style="padding: 25px 45px 35px 45px !important;">
+  
+  <!-- TOP VALUE STATEMENT PANEL -->
+  <div style="width: 100%; box-sizing: border-box; margin-bottom: 25px; text-align: left !important;">
+    <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px;">Get in touch</span>
+    <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important; border-bottom: 4px solid #23272A !important; padding-bottom: 6px !important;">Let's Build Something Together</h2>
+    <p style="line-height: 1.5; font-size: 16px; color: #1A1D20 !important; font-weight: bold; margin-bottom: 12px;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
+    <p style="line-height: 1.5; font-size: 15px; color: #2D3748 !important; font-weight: 500; margin-bottom: 0;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
+  </div>
+  
+  <!-- BOTTOM PANEL: PREMIUM STACKED ENTERPRISE CHANNELS DECK -->
+  <div style="background-color: #23272A !important; border: 1px solid #3A3F44 !important; padding: 25px; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); box-sizing: border-box; width: 100%; display: flex; flex-direction: column; gap: 15px;">
     
-    <!-- LEFT PANEL: VALUE PROPOSITION -->
-    <div style="flex: 1; min-width: 320px; box-sizing: border-box; padding: 0 !important; margin: 0 !important;">
-      <span style="color: #1A488E; font-weight: bold; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; display: block; margin-bottom: 5px; text-align: left !important;">Get in touch</span>
-      <h2 style="color: #23272A !important; font-size: 36px !important; font-weight: 900 !important; border: none !important; margin: 0 0 15px 0 !important; padding: 0 !important; text-transform: none !important; display: block !important; text-align: left !important;">Let's Build Something Together</h2>
-      <p style="line-height: 1.5; font-size: 16px; color: #4A5568 !important; margin-bottom: 20px; text-align: left !important;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
-      <p style="line-height: 1.5; font-size: 15px; color: #4A5568 !important; margin-bottom: 25px; text-align: left !important;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
+    <!-- EMAIL CHANNEL CARD -->
+    <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #FFFFFF !important; border: 1px solid #E2E8F0; border-left: 5px solid #FFD200 !important; border-radius: 6px; flex-wrap: wrap; gap: 15px;">
+      <div style="text-align: left;">
+        <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.5px; margin-bottom: 2px;">Email Inquiries</span>
+        <strong style="font-size: 15px; color: #1A488E !important; font-family: 'Arial', sans-serif;">hednaogutuh@gmail.com</strong>
+      </div>
+      <a href="mailto:hednaogutuh@gmail.com" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block; line-height: 1;"></a>
     </div>
-    
-    <!-- RIGHT PANEL: DIRECT CHANNELS CARD (CLEAN EMBEDDED CONTACT LIST) -->
-    <div style="flex: 1.2; min-width: 360px; box-sizing: border-box; margin: 0 !important; display: flex; flex-direction: column; justify-content: center; gap: 16px;">
-      
-      <!-- EMAIL CHANNEL -->
-      <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; border-bottom: 1px solid rgba(35,39,42,0.15);">
-        <div style="text-align: left;">
-          <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #1A488E; display: block; letter-spacing: 0.5px;">Email Inquiries</span>
-          <strong style="font-size: 15px; color: #23272A; font-family: 'Arial', sans-serif;">hednaogutuh@gmail.com</strong>
-        </div>
-        <a href="mailto:hednaogutuh@gmail.com" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block;">✉️</a>
-      </div>
 
-      <!-- WHATSAPP CHANNEL -->
-      <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; border-bottom: 1px solid rgba(35,39,42,0.15);">
-        <div style="text-align: left;">
-          <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #1A488E; display: block; letter-spacing: 0.5px;">WhatsApp Chat</span>
-          <strong style="font-size: 15px; color: #23272A; font-family: 'Arial', sans-serif;">+254 741 937074</strong>
-        </div>
-        <a href="https://wa.me." target="_blank" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block;">💬</a>
+    <!-- WHATSAPP CHANNEL CARD -->
+    <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #FFFFFF !important; border: 1px solid #E2E8F0; border-left: 5px solid #FFD200 !important; border-radius: 6px; flex-wrap: wrap; gap: 15px;">
+      <div style="text-align: left;">
+        <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.5px; margin-bottom: 2px;">WhatsApp Chat</span>
+        <strong style="font-size: 15px; color: #1A488E !important; font-family: 'Arial', sans-serif;">+254 741 937074</strong>
       </div>
-
-      <!-- PHONE CALL CHANNEL -->
-      <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; border-bottom: 1px solid rgba(35,39,42,0.15);">
-        <div style="text-align: left;">
-          <span style="font-size: 12px; text-transform: uppercase; font-weight: bold; color: #1A488E; display: block; letter-spacing: 0.5px;">Direct Call</span>
-          <strong style="font-size: 15px; color: #23272A; font-family: 'Arial', sans-serif;">+254 741 937074</strong>
-        </div>
-        <a href="tel:+254741937074" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block;">📞</a>
-      </div>
-
+      <a href="https://wa.me." target="_blank" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block; line-height: 1;"></a>
     </div>
-    
+
+    <!-- PHONE CALL CHANNEL CARD -->
+    <div style="display: flex; align-items: center; justify-content: space-between; padding: 15px 20px; background-color: #FFFFFF !important; border: 1px solid #E2E8F0; border-left: 5px solid #FFD200 !important; border-radius: 6px; flex-wrap: wrap; gap: 15px;">
+      <div style="text-align: left;">
+        <span style="font-size: 11px; text-transform: uppercase; font-weight: bold; color: #718096; display: block; letter-spacing: 0.5px; margin-bottom: 2px;">Direct Call</span>
+        <strong style="font-size: 15px; color: #1A488E !important; font-family: 'Arial', sans-serif;">+254 741 937074</strong>
+      </div>
+      <a href="tel:+254741937074" style="font-size: 26px; text-decoration: none; cursor: pointer; display: inline-block; line-height: 1;"></a>
+    </div>
+
   </div>
 </div>
 
