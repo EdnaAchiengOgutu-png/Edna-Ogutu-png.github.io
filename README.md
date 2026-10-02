@@ -459,7 +459,7 @@
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; width: 25%; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Project Synopsis</td>
             <td style="padding: 12px 10px; color: #2D3748; vertical-align: top; background-color: #FFFFFF;">
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Engineered an end-to-end operational data processing and relational modeling database framework.</li>
+                <li style="margin-bottom: 4px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Designed an end-to-end operational data processing and relational modeling database framework.</li>
                 <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;">Aggregated and transformed highly fragmented employee files into centralized executive-ready assets.</li>
               </ul>
             </td>
@@ -732,14 +732,14 @@
     <!-- ROLE 2: HAMASISHA AFRICA -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> ANALYST TRACK - 2025–2026</span>
-        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Research & Data Analyst — Hamasisha Africa</h3>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> ANALYST TRACK - 2025–2026</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Research & Data Analyst - Hamasisha Africa</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Supervised field data gathering and designed digital questionnaires for youth and community development evaluation studies.</li>
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Cleaned datasets, ran statistical reviews, and prepared summarized progress reports and evidence briefs for program teams.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;">⚡ Core Focus: Survey Management &nbsp;|&nbsp; Data Quality Checks &nbsp;|&nbsp; Progress Reports</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Survey Management &nbsp;|&nbsp; Data Quality Checks &nbsp;|&nbsp; Progress Reports</div>
     </div>
 
     <!-- ROLE 3: CALLTRONIX -->
@@ -758,7 +758,7 @@
     <!-- ROLE 4: INTERNSHIPS & FIELD ASSIGNMENTS -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> ASSIGNMENTS TRACK - 2023–2024</span>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> ASSIGNMENTS TRACK - 2023–2024</span>
         <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">M&E Intern & Field Assistant Tracks - SGS Kenya | AMREF | GAIN-AGRA</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
@@ -772,7 +772,7 @@
 
   <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
   <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
-    <p style="font-size: 14.5px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; text-transform: uppercase;">
+    <p style="font-size: 14.5px; color: #FFD200!important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; text-transform: uppercase;">
        Primary Specialty Execution Fields: <span style="color: #FFD200; font-weight: 900; margin-left: 5px;">MEAL Data Systems &nbsp;|&nbsp; Field Supervision &nbsp;|&nbsp; Quality Auditing &nbsp;|&nbsp; Survey Design &nbsp;|&nbsp; Dashboard Visualization</span>
     </p>
   </div>
