@@ -442,9 +442,6 @@
 </div>
 
 
-
-
-
 <!-- ================================================ -->
 <!-- 4. PROJECTS CARD                                 -->
 <!-- ================================================ -->
@@ -454,7 +451,7 @@
 
   <!-- PROJECT 1 -->
   <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 1. Enterprise HR Analytics & Workforce Stability Infrastructure</summary>
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 1. HR Analytics & Workforce Stability Infrastructure</summary>
     <div style="margin-top: 12px; padding: 5px 0 0 0; width: 100%; box-sizing: border-box; border-top: 1px dashed #CBD5E0;">
       <table style="width: 100% !important; border-collapse: collapse !important; background-color: #FFFFFF !important; color: #23272A !important; font-size: 14px !important; margin-top: 10px; border: 1px solid #E2E8F0 !important;">
         <tbody>
@@ -473,7 +470,7 @@
               <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
                 <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;"><b>Workforce Scale Tracking:</b> Completed scale mapping for <b>1,048,575 total employees</b> across <b>734,439 active tracks</b>.</li>
                 <li style="margin-bottom: 6px !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;"><b>Salary Intelligence:</b> Formulated interactive cohort analytics for a salary baseline of <b>$10,741.16</b> mapped by position role.</li>
-                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;"><b>Stability Analysis:</b> Isolated an exact **19.96% attrition rate variance** across core departments to flag risk areas.</li>
+                <li style="margin-bottom: 0 !important; line-height: 1.45; color: #2D3748 !important; font-weight: 500 !important;"><b>Stability Analysis:</b> Isolated an exact 19.96% attrition rate variance across core departments to flag risk areas.</li>
               </ul>
             </td>
           </tr>
@@ -507,7 +504,7 @@
         <tbody>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; width: 25%; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Venture Track Status</td>
-            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">[PRODUCTION PIPELINE ACTIVE - IN PROGRESS / ONGOING]</td>
+            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">PRODUCTION PIPELINE ACTIVE - IN PROGRESS </td>
           </tr>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Core Business Questions</td>
@@ -557,7 +554,7 @@
         <tbody>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; width: 25%; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Venture Track Status</td>
-            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">[PRODUCTION PIPELINE ACTIVE - IN PROGRESS / ONGOING]</td>
+            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">PRODUCTION PIPELINE ACTIVE - IN PROGRESS </td>
           </tr>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Core Business Questions</td>
@@ -607,7 +604,7 @@
         <tbody>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; width: 25%; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Venture Track Status</td>
-            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">[PRODUCTION PIPELINE ACTIVE - IN PROGRESS / ONGOING]</td>
+            <td style="padding: 12px 10px; color: #1A488E; font-weight: 800; vertical-align: top; background-color: #FFFFFF;">PRODUCTION PIPELINE ACTIVE - IN PROGRESS </td>
           </tr>
           <tr style="border-bottom: 1px solid #E2E8F0;">
             <td style="padding: 12px 10px; font-weight: bold; color: #1A488E; vertical-align: top; background-color: #F8FAFC; border-right: 1px solid #E2E8F0;"> Core Business Questions</td>
