@@ -709,61 +709,63 @@
 <!-- ================================================ -->
 <!-- 6. EXPERIENCE CARD                               -->
 <!-- ================================================ -->
-<div id="experience" class="content-card" style="padding: 17px 37px 17px 37px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Professional Experience Track</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 25px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">My consulting track spans advanced statistical modeling, cross-source data engineering, and predictive commercial business intelligence across high-stakes corporate environments:</p>
+<div id="experience" class="content-card" style="padding: 25px 45px 35px 45px !important;">
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Professional Experience</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 25px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">My professional track spans quantitative data collection, quality auditing, and responsive dashboard development across corporate and development research environments:</p>
 
   <!-- TIMELINE GRID ENGINE DECK -->
   <div style="display: flex; flex-direction: column; gap: 20px; width: 100%; box-sizing: border-box; margin-bottom: 25px;">
     
-    <!-- ROLE 1: INFOTRAK -->
+    <!-- ROLE 1: PASGR -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> 1. ENGAGEMENT TRACK - 2026</span>
-        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Data Analyst - Infotrak Research & Consulting</h3>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> LATEST CONTRACT - 2026</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Research Assistant (Contract) - PASGR (AYPS Project)</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Managing research, survey, and commercial business data pipelines across end-to-end data management, data validation, inferential statistical testing, and executive reporting.</li>
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Automating the transformation of massive raw field research tracking arrays into high-integrity, decision-ready information assets for strategic stakeholders.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Facilitated professional household surveys, focus group sessions, and key interviews following strict field research rules.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Collected high-quality field records using structured digital survey applications while protecting data privacy.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Pipeline Automation &nbsp;|&nbsp; Inferential Statistics &nbsp;|&nbsp; Executive Briefs</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Digital Data Collection &nbsp;|&nbsp; Key Interviews &nbsp;|&nbsp; Field Ethics</div>
     </div>
 
-    <!-- ROLE 2: CALLTRONIX -->
+    <!-- ROLE 2: HAMASISHA AFRICA -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> 2. CORPORATE TRACK - 2024–2025</span>
-        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Workforce & Data Analyst - Calltronix Kenya Ltd</h3>
+        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> ANALYST TRACK - 2025–2026</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Research & Data Analyst — Hamasisha Africa</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Analysed and reconciled cross-functional workforce, HR, finance, and system operations data to audit productivity, validate incentive parameters, and support payroll processing for 350+ FTE.</li>
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Integrated multiple disjointed operational data platforms to eliminate tracking variances and generate automated performance dashboards for leadership support teams.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Supervised field data gathering and designed digital questionnaires for youth and community development evaluation studies.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Cleaned datasets, ran statistical reviews, and prepared summarized progress reports and evidence briefs for program teams.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Data Reconciliation &nbsp;|&nbsp; HR Analytics &nbsp;|&nbsp; Workfoce Planning &nbsp;|&nbsp; Payroll Planning and Auditing</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;">⚡ Core Focus: Survey Management &nbsp;|&nbsp; Data Quality Checks &nbsp;|&nbsp; Progress Reports</div>
     </div>
 
-    <!-- ROLE 3: HAMASISHA AFRICA -->
+    <!-- ROLE 3: CALLTRONIX -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> 3. SYSTEMS TRACK - 2025</span>
-        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Data & Research Analyst - Hamasisha Africa</h3>
+        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> OPERATIONS TRACK - 2024–2025</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Data & Research Analyst - Calltronix Kenya Limited</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Supported quantitative project research through data preparation, multi-variable statistical analysis, narrative interpretation, and stakeholder reporting, directly enabling evidence-based funding deployments.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Analyzed workforce datasets and cross-checked multi-source files to find trends and support accurate routine performance tracking.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Developed and maintained interactive Power BI dashboards to simplify performance monitoring and support management reviews.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Quantitative Research &nbsp;|&nbsp; Multi-Variable Regressions &nbsp;|&nbsp; Funding Metrics</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Workforce Datasets &nbsp;|&nbsp; Power BI Dashboards &nbsp;|&nbsp; File Auditing</div>
     </div>
 
-    <!-- ROLE 4: ASSIGNMENTS -->
+    <!-- ROLE 4: INTERNSHIPS & FIELD ASSIGNMENTS -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif;"> 4. FIELD TRACK</span>
-        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Research, MEAL & Data Operations Assignments</h3>
+        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> ASSIGNMENTS TRACK - 2023–2024</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">M&E Intern & Field Assistant Tracks - SGS Kenya | AMREF | GAIN-AGRA</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Undertook specialized contract assignments involving quantitative data capture monitoring, digital questionnaire skip-logic engineering, descriptive summaries, and field-based information management assets.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Supported data compilation, data validation loops, quality checks, and database cleaning tasks to fix missing or incorrect entries.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Conducted household data collection, verified research protocol compliance, and contributed to statistical summaries.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Skip-Logic Engineering &nbsp;|&nbsp; MEAL Compliance &nbsp;|&nbsp; Field Data Capture</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Database Cleaning &nbsp;|&nbsp; Quality Assessment &nbsp;|&nbsp; Health Research Surveys</div>
     </div>
 
   </div>
@@ -771,7 +773,7 @@
   <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
   <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
     <p style="font-size: 14.5px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; text-transform: uppercase;">
-       Primary Specialty Execution Fields: <span style="color: #FFD200; font-weight: 900; margin-left: 5px;">Data Analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business Intelligence &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Research Analytics &nbsp;|&nbsp; Workforce Analytics</span>
+       Primary Specialty Execution Fields: <span style="color: #FFD200; font-weight: 900; margin-left: 5px;">MEAL Data Systems &nbsp;|&nbsp; Field Supervision &nbsp;|&nbsp; Quality Auditing &nbsp;|&nbsp; Survey Design &nbsp;|&nbsp; Dashboard Visualization</span>
     </p>
   </div>
 
