@@ -369,7 +369,7 @@
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
 <div id="services" class="content-card" style="padding: 17px 37px 17px 37px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Services Offered</h2>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Services Available</h2>
   <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 17px; font-weight: bold; color: #23272A; line-height: 1.35;">Fixing data errors and building automated tools to help your business save time and money:</p>
   
   <!-- EXECUTIVE 2-COLUMN COMMERCIAL GRID FRAMEWORK -->
