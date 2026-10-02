@@ -745,7 +745,7 @@
     <!-- ROLE 3: CALLTRONIX -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> OPERATIONS TRACK - 2024–2025</span>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> OPERATIONS TRACK - 2024–2025</span>
         <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Data & Research Analyst - Calltronix Kenya Limited</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
