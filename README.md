@@ -369,8 +369,8 @@
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
 <div id="services" class="content-card" style="padding: 25px 45px 35px 45px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Consulting Services Menu</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15px; font-weight: bold; color: #23272A; line-height: 1.35;">Substituting manual tracking errors with high-integrity automated data systems to optimize budgets:</p>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Services Menu</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15px; font-weight: bold; color: #23272A; line-height: 1.35;">Fixing data errors and building automated tools to help your business save time and money:</p>
   
   <!-- EXECUTIVE 2-COLUMN COMMERCIAL GRID FRAMEWORK -->
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 25px; align-items: stretch !important;">
@@ -380,12 +380,12 @@
       <div>
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
           <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">01</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Enterprise Data Analytics</h3>
+          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Data Analytics</h3>
         </div>
-        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Scalable analytics architecture engineered to bridge the gap between complex business operations and clear corporate strategy.</p>
+        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Organizing your daily business data so you can see trends and make smart company plans.</p>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Commercial Insights: <span style="font-weight: 500; color: #2D3748;">Transforming fragmented datasets into clear localized market trends and growth opportunities.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> KPI Benchmarking: <span style="font-weight: 500; color: #2D3748;">Mapping multi-departmental pipelines into high-visibility tracking dashboards to monitor real-time organizational health.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Useful Insights: <span style="font-weight: 500; color: #2D3748;">Turning messy tracking files into clear, profitable growth opportunities.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Smart Tracking: <span style="font-weight: 500; color: #2D3748;">Setting up simple tracking sheets to view your team's weekly and monthly performance numbers.</span></li>
         </ul>
       </div>
     </div>
@@ -395,12 +395,12 @@
       <div>
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
           <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">02</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Database Validation & Auditing</h3>
+          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Data Cleaning & Checks</h3>
         </div>
-        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Rigorous data governance protocols deployed to establish a single, trusted source of truth for your business infrastructure.</p>
+        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Fixing broken databases so your company works with correct, reliable records every day.</p>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Automated Data Cleaning: <span style="font-weight: 500; color: #2D3748;">Custom checking scripts that dynamically fix syntax discrepancies and catch format anomalies.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Ledger Reconciliation: <span style="font-weight: 500; color: #2D3748;">Cross-system auditing routines designed to fully eliminate tracking duplicates and data leakage.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Automatic Cleaning: <span style="font-weight: 500; color: #2D3748;">Building tools that find and instantly fix spelling errors, formatting issues, and entry mistakes.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> File Auditing: <span style="font-weight: 500; color: #2D3748;">Comparing different system files to permanently delete duplicates and stop budget leaks.</span></li>
         </ul>
       </div>
     </div>
@@ -410,12 +410,12 @@
       <div>
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
           <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">03</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Executive Business Intelligence</h3>
+          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Dashboards & Reports</h3>
         </div>
-        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">High-impact data visualization systems built to democratize project information access and drive rapid executive decision-making.</p>
+        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Creating easy-to-read visual dashboards that help managers see performance and make quick decisions.</p>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Dashboard Engineering: <span style="font-weight: 500; color: #2D3748;">Responsive Power BI and Advanced Excel environments tailored for clear daily operational oversight.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Live Decision Support: <span style="font-weight: 500; color: #2D3748;">Interactive cross-filters, parameters, and deep drill-down features for friction-free monthly reporting.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Dashboard Engineering: <span style="font-weight: 500; color: #2D3748;">Building responsive Power BI and Advanced Excel charts for clear daily company updates.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Simple Filters: <span style="font-weight: 500; color: #2D3748;">Adding interactive click buttons so you can filter results by date, department, or team instantly.</span></li>
         </ul>
       </div>
     </div>
@@ -425,12 +425,12 @@
       <div>
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
           <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">04</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Advanced Commercial Analytics</h3>
+          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Customer & Sales Trends</h3>
         </div>
-        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Advanced machine learning frameworks applied to customer data loops to optimize monetization, mitigate churn risk, and project revenue scales.</p>
+        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Studying client shopping behaviors to improve sales and project future revenue trends safely.</p>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Behavioral Segmentation: <span style="font-weight: 500; color: #2D3748;">Multi-dimensional matrices and Recency, Frequency, Monetary (RFM) transaction clustering models.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Predictive Risk Modeling: <span style="font-weight: 500; color: #2D3748;">Supervised classification algorithms built to forecast commercial market shifts and proactively flag at-risk revenue.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Buyer Groups: <span style="font-weight: 500; color: #2D3748;">Grouping customers by how recently, how often, and how much money they spend with your business.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Customer Retention: <span style="font-weight: 500; color: #2D3748;">Finding early warning signs that show which clients might leave, so you can keep them happy.</span></li>
         </ul>
       </div>
     </div>
@@ -440,26 +440,29 @@
       <div>
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
           <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">05</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Statistical Research & Controls</h3>
+          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Survey & Project Research</h3>
         </div>
-        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Rigorous academic and empirical methodologies applied to large survey feedback layers to guarantee outcomes are bulletproof and mathematically sound.</p>
+        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Using trusted mathematical math methods to review field surveys and make sure your project numbers are accurate.</p>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Quantitative Modeling: <span style="font-weight: 500; color: #2D3748;">Deploying advanced population sampling controls, experimental regressions, and variance analysis (ANOVA) matrices.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Defensible Reporting: <span style="font-weight: 500; color: #2D3748;">Synthesizing complex field arrays and inferential metrics into clean executive strategy briefs for corporate stakeholders.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;">🔬 Data Review: <span style="font-weight: 500; color: #2D3748;">Running math tests on survey files to find patterns and make sure the data is realistic.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;">🔬 Data Review: <span style="font-weight: 500; color: #2D3748;">Running math tests on survey files to find patterns and make sure the data is realistic.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;">📋 Simple Summaries: <span style="font-weight: 500; color: #2D3748;">Translating confusing project data sheets into clean, easy-to-understand executive summary briefs.</span></li>
         </ul>
       </div>
     </div>
 
   </div> <!-- Safely closes the display grid layout container -->
 
-  <!-- HIGH-CONTRAST ACTION ACCENT BUTTON BAR -->
   <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
     <p style="font-size: 15px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif;">
-       Explore - Projects: <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 900; margin-left: 5px;">Examine the active project briefs and structural overviews demonstrating these services in production →</label>
+      🚀 Explore - Projects: <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 900; margin-left: 5px;">Examine the active project briefs and structural overviews demonstrating these services in production →</label>
     </p>
   </div>
 
 </div> <!-- Safely closes the services content-card panel wrapper container perfectly -->
+
+
+
 
 
 <!-- ================================================ -->
