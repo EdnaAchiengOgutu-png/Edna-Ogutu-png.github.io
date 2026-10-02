@@ -235,7 +235,7 @@
 <!-- FIXED EDGE-TO-EDGE BOTTOM FROZEN FOOTER BAR -->
 <div class="fixed-footer-container">
   <div class="footer-bar">
-    <p> <span class="footer-highlight">Nairobi, Kenya</span> | 💬 <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
+    <p> <span class="footer-highlight">Nairobi, Kenya</span> |  <a href="https://whatsapp.com" target="_blank">WhatsApp: +254 741 937074</a></p>
     <p> <a href="https://www.linkedin.com/in/edna-achieng-ogutu/" target="_blank">Connect on LinkedIn</a></p>
   </div>
 </div>
@@ -435,7 +435,7 @@
   <!-- ACTION ACCENT BUTTON BAR -->
   <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 20px !important;">
     <p style="font-size: 15px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif;">
-      🚀 Explore - Projects: <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 900; margin-left: 5px;">Examine the active project briefs and structural overviews demonstrating these services in production →</label>
+       Explore - Projects: <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 900; margin-left: 5px;">Examine the active project briefs and structural overviews →</label>
     </p>
   </div>
 
