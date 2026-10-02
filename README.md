@@ -23,25 +23,39 @@
     padding: 0 !important;
   }
 
- /* ================================================================== */
-  /* 2. PASTE THE NEW SYSTEM LAYER DIRECTLY HERE (RIGHT BELOW BODY)       */
-  /* ================================================================== */
-  body {
+
+
+
+  
+  /* 1. CLEAN STANDARD BODY WRAPPER */
+  body { 
+    background-color: #D2F7FF !important; 
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+  }
+
+  /* 2. TRANSLUCENT BACKGROUND LAYER — PASSES CLICKS THROUGH TO TABS */
+  body::before {
     content: "" !important;
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     width: 100vw !important;
     height: 100vh !important;
-    background-image: url('Data video.gif') !important;
+    background-image: url('Data Video.gif') !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     opacity: 0.12 !important; /* Controls the transparency level over the sky blue */
-    z-index: -1 !important;   /* Locks the moving canvas loop safely behind your text cards */
-    pointer-events: none !important;
+    z-index: -9999 !important; /* Drives the video to the absolute back of your website */
+    pointer-events: none !important; /* FORCE-ALLOWS MOUSE CLICKS TO PASS DIRECTLY TO YOUR NAV TABS */
   }
 
+
+
+
+  
   
   /* HIDES THE RADIO MECHANISM BUTTONS OUT OF SIGHT */
   input[type="radio"].tab-toggle {
