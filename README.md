@@ -384,8 +384,8 @@
         </div>
         <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Gathering, sorting, and breaking down raw datasets to uncover valuable business patterns and trends.</p>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;">📊 Data Analysis: <span style="font-weight: 500; color: #2D3748;">Reviewing historical records to answer key business questions and track core operations.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;">📈 Performance Summaries: <span style="font-weight: 500; color: #2D3748;">Translating complex numbers into simple, actionable growth points for company stakeholders.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Data Analysis: <span style="font-weight: 500; color: #2D3748;">Reviewing historical records to answer key business questions and track core operations.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Performance Summaries: <span style="font-weight: 500; color: #2D3748;">Translating complex numbers into simple, actionable growth points for company stakeholders.</span></li>
         </ul>
       </div>
     </div>
