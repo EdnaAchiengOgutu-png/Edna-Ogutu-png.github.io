@@ -369,99 +369,77 @@
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
 <div id="services" class="content-card" style="padding: 17px 37px 17px 37px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Services Available</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 17px; font-weight: bold; color: #23272A; line-height: 1.35;">Fixing data errors and building automated tools to help your business save time and money:</p>
-  
-  <!-- EXECUTIVE 2-COLUMN COMMERCIAL GRID FRAMEWORK -->
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 25px; align-items: stretch !important;">
-    
-         <!-- SERVICE 1 -->
-    <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 18px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: space-between !important;">
-      <div>
-        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-          <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">01</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Data Analytics Offerings</h3>
-        </div>
-        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Gathering, sorting, and breaking down raw datasets to uncover valuable business patterns and trends.</p>
-        <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Data Analysis: <span style="font-weight: 500; color: #2D3748;">Reviewing historical records to answer key business questions and track core operations.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Performance Summaries: <span style="font-weight: 500; color: #2D3748;">Translating complex numbers into simple, actionable growth points for company stakeholders.</span></li>
-        </ul>
-      </div>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Services Offered </h2>
+  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Fixing data errors and building automated tools to help your business save time and money:</p>
+
+  <!-- SERVICE DROPDOWN 1 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 01. Data Analysis Offerings</summary>
+    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Gathering, sorting, and breaking down raw datasets to uncover valuable business patterns and trends.</p>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Data Analysis:</b> Reviewing historical records to answer key business questions and track core operations.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Performance Summaries:</b> Translating complex numbers into simple, actionable growth points for company stakeholders.</li>
+      </ul>
     </div>
+  </details>
 
-
-
-    <!-- SERVICE 2 -->
-    <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 18px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: space-between !important;">
-      <div>
-        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-          <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">02</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Data Cleaning & Checks</h3>
-        </div>
-        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Fixing broken databases so your company works with correct, reliable records every day.</p>
-        <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Automatic Cleaning: <span style="font-weight: 500; color: #2D3748;">Building tools that find and instantly fix spelling errors, formatting issues, and entry mistakes.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> File Auditing: <span style="font-weight: 500; color: #2D3748;">Comparing different system files to permanently delete duplicates and stop budget leaks.</span></li>
-        </ul>
-      </div>
+  <!-- SERVICE DROPDOWN 2 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 02. Data Cleaning & Checks</summary>
+    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Fixing broken databases so your company works with correct, reliable records every day.</p>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Automatic Cleaning:</b> Building tools that find and instantly fix spelling errors, formatting issues, and entry mistakes.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>File Auditing:</b> Comparing different system files to permanently delete duplicates and stop budget leaks.</li>
+      </ul>
     </div>
+  </details>
 
-    <!-- SERVICE 3 -->
-    <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 18px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: space-between !important;">
-      <div>
-        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-          <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">03</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Dashboards & Reports</h3>
-        </div>
-        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Creating easy-to-read visual dashboards that help managers see performance and make quick decisions.</p>
-        <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Dashboard Engineering: <span style="font-weight: 500; color: #2D3748;">Building responsive Power BI and Advanced Excel charts for clear daily company updates.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Simple Filters: <span style="font-weight: 500; color: #2D3748;">Adding interactive click buttons so you can filter results by date, department, or team instantly.</span></li>
-        </ul>
-      </div>
+  <!-- SERVICE DROPDOWN 3 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 03. Dashboards & Reports</summary>
+    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Creating easy-to-read visual dashboards that help managers see performance and make quick decisions.</p>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Dashboard Engineering:</b> Building responsive Power BI and Advanced Excel charts for clear daily company updates.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Simple Filters:</b> Adding interactive click buttons so you can filter results by date, department, or team instantly.</li>
+      </ul>
     </div>
+  </details>
 
-    <!-- SERVICE 4 -->
-    <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 18px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: space-between !important;">
-      <div>
-        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-          <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">04</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Customer & Sales Trends</h3>
-        </div>
-        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Studying client shopping behaviors to improve sales and project future revenue trends safely.</p>
-        <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Buyer Groups: <span style="font-weight: 500; color: #2D3748;">Grouping customers by how recently, how often, and how much money they spend with your business.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Customer Retention: <span style="font-weight: 500; color: #2D3748;">Finding early warning signs that show which clients might leave, so you can keep them happy.</span></li>
-        </ul>
-      </div>
+  <!-- SERVICE DROPDOWN 4 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 04. Customer & Sales Trends</summary>
+    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Studying client shopping behaviors to improve sales and project future revenue trends safely.</p>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Buyer Groups:</b> Grouping customers by how recently, how often, and how much money they spend with your business.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Customer Retention:</b> Finding early warning signs that show which clients might leave, so you can keep them happy.</li>
+      </ul>
     </div>
+  </details>
 
-    <!-- SERVICE 5 -->
-    <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 18px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: space-between !important; grid-column: 1 / -1 !important;">
-      <div>
-        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-          <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">05</span>
-          <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Survey & Project Research</h3>
-        </div>
-        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Using trusted mathematical math methods to review field surveys and make sure your project numbers are accurate.</p>
-        <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;">🔬 Data Review: <span style="font-weight: 500; color: #2D3748;">Running math tests on survey files to find patterns and make sure the data is realistic.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;">🔬 Data Review: <span style="font-weight: 500; color: #2D3748;">Running math tests on survey files to find patterns and make sure the data is realistic.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;">📋 Simple Summaries: <span style="font-weight: 500; color: #2D3748;">Translating confusing project data sheets into clean, easy-to-understand executive summary briefs.</span></li>
-        </ul>
-      </div>
+  <!-- SERVICE DROPDOWN 5 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 05. Survey & Project Research</summary>
+    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Using trusted mathematical math methods to review field surveys and make sure your project numbers are accurate.</p>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Data Review:</b> Running math tests on survey files to find patterns and make sure the data is realistic.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Simple Summaries:</b> Translating confusing project data sheets into clean, easy-to-understand executive summary briefs.</li>
+      </ul>
     </div>
+  </details>
 
-  </div> <!-- Safely closes the display grid layout container -->
-
-  <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
+  <!-- ACTION ACCENT BUTTON BAR -->
+  <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 20px !important;">
     <p style="font-size: 15px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif;">
       🚀 Explore - Projects: <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: 900; margin-left: 5px;">Examine the active project briefs and structural overviews demonstrating these services in production →</label>
     </p>
   </div>
 
-</div> <!-- Safely closes the services content-card panel wrapper container perfectly -->
+</div>
 
 
 
