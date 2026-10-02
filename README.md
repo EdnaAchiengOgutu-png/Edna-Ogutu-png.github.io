@@ -368,27 +368,28 @@
 <!-- ================================================ -->
 <!-- 3. SERVICES CARD                                 -->
 <!-- ================================================ -->
-<div id="services" class="content-card" style="padding: 25px 45px 35px 45px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Services Menu</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15px; font-weight: bold; color: #23272A; line-height: 1.35;">Fixing data errors and building automated tools to help your business save time and money:</p>
+<div id="services" class="content-card" style="padding: 17px 37px 17px 37px !important;">
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Services Offered</h2>
+  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 17px; font-weight: bold; color: #23272A; line-height: 1.35;">Fixing data errors and building automated tools to help your business save time and money:</p>
   
   <!-- EXECUTIVE 2-COLUMN COMMERCIAL GRID FRAMEWORK -->
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 15px; width: 100%; box-sizing: border-box; margin-bottom: 25px; align-items: stretch !important;">
     
-    <!-- SERVICE 1 -->
+      <!-- SERVICE 1 -->
     <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 18px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: space-between !important;">
       <div>
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
           <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">01</span>
           <h3 style="margin: 0 !important; font-size: 16px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Data Analytics</h3>
         </div>
-        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Organizing your daily business data so you can see trends and make smart company plans.</p>
+        <p style="font-size: 13.5px; color: #23272A; font-weight: 700; margin-bottom: 12px; line-height: 1.4;">Using professional **Data Analytics** to organize your daily business records so you can see clear trends and make smart company plans.</p>
         <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Useful Insights: <span style="font-weight: 500; color: #2D3748;">Turning messy tracking files into clear, profitable growth opportunities.</span></li>
-          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Smart Tracking: <span style="font-weight: 500; color: #2D3748;">Setting up simple tracking sheets to view your team's weekly and monthly performance numbers.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 6px !important;"> Analytical Insights: <span style="font-weight: 500; color: #2D3748;">Applying **Data Analytics** to messy tracking files to find clear, profitable growth opportunities.</span></li>
+          <li style="font-size: 13px !important; line-height: 1.45 !important; color: #1A1D20 !important; font-weight: bold; margin-bottom: 0 !important;"> Smart Tracking: <span style="font-weight: 500; color: #2D3748;">Setting up simple **Analytical Tracking Sheets** to view your team's weekly and monthly performance numbers.</span></li>
         </ul>
       </div>
     </div>
+
 
     <!-- SERVICE 2 -->
     <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 18px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: space-between !important;">
