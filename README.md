@@ -876,8 +876,10 @@
    <!-- HIGH-CONTRAST LOWER TRACK ENGINE RE-LINKED BLOCK -->
   <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
     <p style="font-size: 14.5px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; text-transform: uppercase;">
-            
-    
+       </ul>
+    </div>
+
+  </div> <!-- Closes the internal credentials flex framework -->
    <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
   <div style="background-color: #23272A; padding: 12px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 25px !important;">
     <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
