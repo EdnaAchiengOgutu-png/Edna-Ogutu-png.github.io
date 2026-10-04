@@ -429,7 +429,14 @@
     </p>
   </div>
 
-</div>
+ <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
+  <div style="background-color: #23272A; padding: 8px 15px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 15px !important;">
+    <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
+      Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 8px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
+    </p>
+    </div>
+
+  </div>
 
 
 <!-- ================================================ -->
@@ -635,7 +642,14 @@
       </table>
     </div>
   </details>
-</div>
+ <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
+  <div style="background-color: #23272A; padding: 8px 15px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 15px !important;">
+    <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
+      Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 8px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
+    </p>
+    </div>
+
+  </div>
 
 
 <!-- ================================================ -->
@@ -693,7 +707,14 @@
       </tbody>
     </table>
   </div>
-</div>
+ <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
+  <div style="background-color: #23272A; padding: 8px 15px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 15px !important;">
+    <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
+      Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 8px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
+    </p>
+    </div>
+
+  </div>
 
 
 <!-- ================================================ -->
@@ -752,12 +773,14 @@
   <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
   <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
     <p style="font-size: 14.5px; color: #FFD200!important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; text-transform: uppercase;">
-       Execution Fields: <span style="color: #FFD200; font-weight: 450; margin-left: 5px;">Data Analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business Intelligence &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Research Analytics &nbsp;|&nbsp; Workforce planning and Analytics;|&nbsp; Payroll Analytics</span>
+       <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
+  <div style="background-color: #23272A; padding: 8px 15px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 15px !important;">
+    <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
+      Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 8px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
     </p>
+    </div>
+
   </div>
-
-</div>
-
 
 <!-- ================================================ -->
 <!-- 7. EDUCATION CARD                                -->
@@ -858,7 +881,14 @@
       Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 8px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
     </p>
   </div>
-   </div>
+   <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
+  <div style="background-color: #23272A; padding: 8px 15px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 15px !important;">
+    <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
+      Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 8px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
+    </p>
+    </div>
+
+  </div>
     
 <!-- ================================================ -->
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
@@ -925,8 +955,14 @@
   
     </div>
 
+   <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
+  <div style="background-color: #23272A; padding: 8px 15px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 15px !important;">
+    <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
+      Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 8px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
+    </p>
+    </div>
+
   </div>
-</div>
 
 </div> <!-- Closes scroll-content layout engine -->
 </div> <!-- Closes portfolio-container outer window -->
