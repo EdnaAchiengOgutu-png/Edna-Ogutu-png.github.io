@@ -739,7 +739,7 @@
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Facilitated professional household surveys, focus group sessions, and key interviews following strict field research rules.</li>
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Collected high-quality field records using structured digital survey applications while protecting data privacy.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Digital Data Collection &nbsp;|&nbsp; Key Interviews &nbsp;|&nbsp; Field Ethics</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Skills: Digital Data Quality Control &nbsp;|&nbsp; KII and FGD &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Research Ethics</div>
     </div>
 
   <!-- ROLE 2: CALLTRONIX -->
@@ -749,24 +749,24 @@
         <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Workforce and Data Analyst - Calltronix Kenya Limited</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Managed workforce planning, shift scheduling, and hours allocation templates for <b>over 350 active FTE</b> using automated systems.</li>
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Reconciled telephony and call tracking metrics from <b>QueueMetrics and multi-source CRM platforms</b> to verify dataset integrity and audit HR payroll entries.</li>
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Utilized enterprise CRM software for deep <b>sales analysis</b>, developing custom performance dashboards and reporting templates for <b>10+ corporate clients</b> weekly and monthly.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Managed workforce planning, shift scheduling analysis, and shift allocation templates for over 350 active FTE using automated systems.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Reconciled telephony data and call tracking metrics from QueueMetrics (Loway) and multi-source CRM platforms to verify dataset integrity and Planned and designed HR payroll.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Utilized enterprise CRM software for sales analytics, developing custom performance dashboards and reporting templates for 10+ corporate clients on weekly and monthly basis.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: CRM Sales Analysis &nbsp;|&nbsp; QueueMetrics Audits &nbsp;|&nbsp; 350+ FTE Scheduling</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Skills: CRM Sales Analysis &nbsp;|&nbsp; QueueMetrics Audits &nbsp;|&nbsp; Workforce Planning and Analytics &nbsp;|&nbsp; Data analysis &nbsp;|&nbsp; 350+ FTE Scheduling analysis</div>
     </div>
 
     <!-- ROLE 3: INTERNSHIPS & FIELD ASSIGNMENTS -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
         <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> ASSIGNMENTS TRACK - 2022-2024</span>
-        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">M&E Intern & Field Assistant Tracks - SGS Kenya | AMREF | GAIN-AGRA</h3>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;"> Intern & Field Assistant Tracks - SGS Kenya | AMREC | GAIN-AGRA</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Supported data compilation, data validation loops, quality checks, and database cleaning tasks to fix missing or incorrect entries.</li>
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Conducted household data collection, verified research protocol compliance, and contributed to statistical summaries.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Database Cleaning &nbsp;|&nbsp; Quality Assessment &nbsp;|&nbsp; Health Research Surveys</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Skills: Data Quality Control &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Quality Assessment &nbsp;|&nbsp; Research Analysis</div>
     </div>
 
   </div>
