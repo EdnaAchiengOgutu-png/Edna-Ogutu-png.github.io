@@ -884,9 +884,9 @@
 <!-- ================================================ -->
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
 <!-- ================================================ -->
-<div id="get-in-touch" class="content-card" style="padding: 17px 37px 17px 37px !important;">
+<div id="get-in-touch" class="content-card" style="padding: 25px 45px 35px 45px !important;">
   <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Get In Touch</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Secure Data Solutions Consultation Gate &nbsp;|&nbsp; Professional Routing Array:</p>
+  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Substituting manual error with high-integrity automation to protect corporate budgets and optimize scaling loops:</p>
   
   <!-- SRE RE-ENGINEERED 2-COLUMN BALANCE MATRIX -->
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 20px; width: 100%; box-sizing: border-box; align-items: stretch !important;">
@@ -894,11 +894,11 @@
     <!-- LEFT PANEL CARD: EXECUTIVE VALUE PROPOSITION -->
     <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); display: flex !important; flex-direction: column !important; justify-content: flex-start !important;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 6px;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">00</span>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 12px; padding: 3px 10px; border-radius: 4px; font-family: 'Arial', sans-serif;">01</span>
         <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Let's Build Something Together</h3>
       </div>
       <p style="font-size: 14.5px; color: #23272A; font-weight: bold; margin-top: 0 !important; margin-bottom: 12px !important; line-height: 1.45;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
-      <p style="font-size: 13.5px; color: #2D3748; font-weight: 200; margin: 0; line-height: 1.5;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
+      <p style="font-size: 13.5px; color: #2D3748; font-weight: 500; margin: 0; line-height: 1.5;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
     </div>
 
     <!-- RIGHT PANEL MODULE: COMPACT STACKED CHANNELS SLIDER CONTAINER -->
@@ -908,19 +908,19 @@
       <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 14px 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; flex: 1;">
         <div>
           <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
-            <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">01</span>
+            <span style="background-color: #23272A; color: #FFD200; font-weight: 900; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">02</span>
             <span style="font-size: 12.5px; text-transform: uppercase; font-weight: bold; color: #1A488E; letter-spacing: 0.3px;">Email Inquiries</span>
           </div>
           <strong style="font-size: 14px; color: #23272A; font-family: 'Arial', sans-serif; padding-left: 36px; display: block;">hednaogutuh@gmail.com</strong>
         </div>
-        <a href="mailto:hednaogutuh@gmail.com" style="font-size: 24px; text-decoration: none; cursor: pointer; padding-right: 5px;"></a>
+        <a href="mailto:hednaogutuh@gmail.com" style="font-size: 24px; text-decoration: none; cursor: pointer; padding-right: 5px;">✉️</a>
       </div>
 
       <!-- MINIFIED MODULE CARD 2: WHATSAPP -->
       <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 14px 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; flex: 1;">
         <div>
           <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
-            <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">02</span>
+            <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">03</span>
             <span style="font-size: 12.5px; text-transform: uppercase; font-weight: bold; color: #1A488E; letter-spacing: 0.3px;">WhatsApp Chat</span>
           </div>
           <strong style="font-size: 14.5px; color: #23272A; font-family: 'Arial', sans-serif; padding-left: 36px; display: block;">+254 741 937074</strong>
@@ -932,30 +932,24 @@
       <div style="background-color: rgba(255,255,255,0.75); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 14px 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; flex: 1;">
         <div>
           <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
-            <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">03</span>
+            <span style="background-color: #23272A; color: #FFFFFF; font-weight: bold; font-size: 10.5px; padding: 2px 8px; border-radius: 4px; font-family: 'Arial', sans-serif;">04</span>
             <span style="font-size: 12.5px; text-transform: uppercase; font-weight: bold; color: #1A488E; letter-spacing: 0.3px;">Direct Call</span>
           </div>
           <strong style="font-size: 14.5px; color: #23272A; font-family: 'Arial', sans-serif; padding-left: 36px; display: block;">+254 741 937074</strong>
         </div>
         <a href="tel:+254741937074" style="font-size: 24px; text-decoration: none; cursor: pointer; padding-right: 5px;"></a>
-        <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
+      </div>
 
-        
-  <div style="background-color: #23272A; padding: 8px 15px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 15px !important;">
+       <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
+  <div style="background-color: #23272A; padding: 12px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 25px !important;">
     <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
       Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 8px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
     </p>
-  
-    </div>
 
-   <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
-  <div style="background-color: #23272A; padding: 8px 15px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 15px !important;">
-    <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
-      Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 8px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
-    </p>
     </div>
 
   </div>
+</div>
 
 </div> <!-- Closes scroll-content layout engine -->
 </div> <!-- Closes portfolio-container outer window -->
