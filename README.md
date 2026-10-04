@@ -804,7 +804,6 @@
     </div>
 
   </div>
-</div>
 
 
 <!-- ================================================ -->
@@ -859,6 +858,7 @@
       Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 8px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
     </p>
   </div>
+   </div>
     
 <!-- ================================================ -->
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
