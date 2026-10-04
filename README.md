@@ -739,7 +739,7 @@
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Facilitated professional household surveys, focus group sessions, and key interviews following strict field research rules.</li>
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Collected high-quality field records using structured digital survey applications while protecting data privacy.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Skills: Digital Data Quality Control &nbsp;|&nbsp; KII and FGD &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Research Ethics</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Skills: Data Quality Control &nbsp;|&nbsp; KII/FGD &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Research Analysis </div>
     </div>
 
   <!-- ROLE 2: CALLTRONIX -->
@@ -753,7 +753,7 @@
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Reconciled telephony data and call tracking metrics from QueueMetrics (Loway) and multi-source CRM platforms to verify dataset integrity and Planned and designed HR payroll.</li>
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Utilized enterprise CRM software for sales analytics, developing custom performance dashboards and reporting templates for 10+ corporate clients on weekly and monthly basis.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Skills: CRM Sales Analysis &nbsp;|&nbsp; QueueMetrics Audits &nbsp;|&nbsp; Workforce Planning and Analytics &nbsp;|&nbsp; Data analysis &nbsp;|&nbsp; 350+ FTE Scheduling analysis</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Skills: CRM Analytics &nbsp;|&nbsp; QueueMetrics Audits &nbsp;|&nbsp; Workforce Planning Analytics &nbsp;|&nbsp; Data analysis &nbsp;|&nbsp; FTE Scheduling analysis</div>
     </div>
 
     <!-- ROLE 3: INTERNSHIPS & FIELD ASSIGNMENTS -->
@@ -766,7 +766,7 @@
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Supported data compilation, data validation loops, quality checks, and database cleaning tasks to fix missing or incorrect entries.</li>
         <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Conducted household data collection, verified research protocol compliance, and contributed to statistical summaries.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Skills: Data Quality Control &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Quality Assessment &nbsp;|&nbsp; Research Analysis</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Skills: Data Analytics &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Quality Assessment &nbsp;|&nbsp; Research Analytics </div>
     </div>
 
   </div>
