@@ -372,15 +372,15 @@
   <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Services Offered </h2>
   <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Fixing data errors and building automated tools to help your business save time and money:</p>
 
- <!-- SERVICE DROPDOWN 1 -->
+   <!-- SERVICE DROPDOWN 1 -->
   <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
     <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 01. Data & Workforce Analytics</summary>
     <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
-      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Services Offered:</b> Breaking down commercial transactions and internal staff operational performance data into clean visual monitors.</p>
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Services Offered:</b> Breaking down commercial transactions, internal staff operational performance, and compensation tracking into clean visual monitors.</p>
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Workforce Analytics:</b> Tracking team productivity, active staff capacities, and operational metrics to streamline internal workforce performance.</li>
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Workforce & Payroll Management:</b> Tracking team productivity, managing active staff capacities, and designing automated HR payroll planning and incentive metrics for 350+ FTE.</li>
         <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Trend & Sales Analysis:</b> Studying historical transaction layers to identify buying habits, project revenue scales, and map market growth directions.</li>
-        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Power BI Dashboard Engineering:</b> Translating complex data sheets into interactive weekly and monthly charts for 10+ corporate clients.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Power BI Dashboard Engineering:</b> Translating complex dataset files into interactive weekly and monthly charts for 10+ corporate clients.</li>
       </ul>
     </div>
   </details>
