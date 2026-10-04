@@ -852,12 +852,6 @@
     <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
       Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 2px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
     </p>
-    <p style="margin-top: 12px; font-weight: bold; font-size: 13.5px; color: #FFFFFFF; margin-bottom: 0; font-family: 'Arial', sans-serif; line-height: 1.4;">
-      Explore My Portfolio: 
-      <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: bold; margin: 0 4px;">View Projects Frameworks</label> | 
-      <label for="tab-services" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: bold; margin: 0 4px;">Explore Services</label> | 
-      <label for="tab-get-in-touch" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: bold; margin: 0 4px;">Schedule a Data Solutions Consultation Session</label>
-    </p>
   </div>
 
 
