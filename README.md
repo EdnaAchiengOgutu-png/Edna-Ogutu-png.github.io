@@ -378,7 +378,7 @@
     <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
       <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Services Offered:</b> Breaking down commercial transactions, internal staff operational performance, and compensation tracking into clean visual monitors.</p>
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Workforce & Payroll Management:</b> Tracking team productivity, managing active staff capacities, and designing automated HR payroll planning and incentive metrics for 350+ FTE.</li>
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Workforce & Payroll Management:</b> Tracking team productivity, managing active staff capacities, and designing automated HR payroll planning and incentive metrics.</li>
         <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Trend & Sales Analysis:</b> Studying historical transaction layers to identify buying habits, project revenue scales, and map market growth directions.</li>
         <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Power BI Dashboard Engineering:</b> Translating complex dataset files into interactive weekly and monthly charts for 10+ corporate clients.</li>
       </ul>
@@ -392,7 +392,7 @@
       <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Services Offered:</b> Deploying strict data validation checks across multi-source platforms to guarantee a single, trusted source of truth.</p>
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
         <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>CRM Pipeline Verification:</b> Auditing pipeline records within enterprise environments like Odoo ERP and Loway systems to ensure clean profile histories.</li>
-        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>QueueMetrics & Telephony Balancing:</b> Reconciling automated call center tracking data with payroll inputs to eliminate calculation errors.</li>
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>QueueMetrics & Telephony Balancing:</b> Reconciling automated call center tracking data to eliminate calculation errors.</li>
         <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Data File Reconciliation:</b> Designing cleaning checks that find formatting mistakes, delete duplicate entries, and stop corporate budget leaks.</li>
       </ul>
     </div>
@@ -405,7 +405,6 @@
       <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Services Offered:</b> Coordinating field survey data capture routines, project milestone timelines, and large operational staff rosters.</p>
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
         <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Field Survey Supervision:</b> Configuring mobile data collection software (KoboCollect, SurveyCTO) and auditing daily field entries for protocol compliance.</li>
-        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Workforce Schedule Planning:</b> Engineering shift-allocation rosters, timeline calendars, and hourly tracking templates for operations up to 350+ FTE rows.</li>
         <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Donor Progress Reporting:</b> Translating complex field survey datasets into clean project summaries and evidence briefs for project tracking.</li>
       </ul>
     </div>
