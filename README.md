@@ -870,16 +870,7 @@
       </ul>
     </div>
 
-  </div>
-
-
-   <!-- HIGH-CONTRAST LOWER TRACK ENGINE RE-LINKED BLOCK -->
-  <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
-    <p style="font-size: 14.5px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; text-transform: uppercase;">
-       </ul>
-    </div>
-
-  </div> <!-- Closes the internal credentials flex framework -->
+  </div> <!-- Closes the internal credentials flex framework safely -->
 
   <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
   <div style="background-color: #23272A; padding: 12px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 25px !important;">
@@ -893,9 +884,9 @@
 <!-- ================================================ -->
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
 <!-- ================================================ -->
-<div id="get-in-touch" class="content-card" style="padding: 17px 37px 17px 37px !important;">
+<div id="get-in-touch" class="content-card" style="padding: 25px 45px 35px 45px !important;">
   <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Get In Touch</h2>
-  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 17px; font-weight: bold; color: #23272A; line-height: 1.35;">Substituting manual error with high-integrity automation to protect corporate budgets and optimize scaling loops:</p>
+  <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Secure Data Solutions Consultation Gate &nbsp;|&nbsp; Professional Routing Array:</p>
   
   <!-- SRE RE-ENGINEERED 2-COLUMN BALANCE MATRIX -->
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 20px; width: 100%; box-sizing: border-box; align-items: stretch !important;">
