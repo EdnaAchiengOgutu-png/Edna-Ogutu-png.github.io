@@ -642,7 +642,7 @@
 <!-- 5. PORTFOLIO CARD                                -->
 <!-- ================================================ -->
 <div id="portfolio-hub" class="content-card" style="padding: 25px 45px 35px 45px !important;">
-  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Enterprise Portfolio Directory</h2>
+  <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Portfolio Directory</h2>
   <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">A technical asset directory cataloging relational ingestion sources, production scales, and integrity validation constraints across active data modules:</p>
   
   <!-- DATA ENGINEERING COMPLIANCE LEDGER MATRIX TABLE -->
