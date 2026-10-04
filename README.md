@@ -898,7 +898,7 @@
         <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Let's Build Something Together</h3>
       </div>
       <p style="font-size: 14.5px; color: #23272A; font-weight: bold; margin-top: 0 !important; margin-bottom: 12px !important; line-height: 1.45;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
-      <p style="font-size: 13.5px; color: #2D3748; font-weight: 500; margin: 0; line-height: 1.5;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
+      <p style="font-size: 13.5px; color: #2D3748; font-weight: 500; margin: 0; line-height: 1.5;">I design custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
     </div>
 
     <!-- RIGHT PANEL MODULE: COMPACT STACKED CHANNELS SLIDER CONTAINER -->
