@@ -432,6 +432,19 @@
     </div>
   </details>
 
+    <!-- SERVICE DROPDOWN 6 -->
+  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px; width: 100%; box-sizing: border-box;">
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 06. Portfolio & Web Design Services</summary>
+    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Designing and coding clean, responsive personal portfolio websites and business landing pages from scratch.</p>
+      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Custom Web Layouts:</b> Building responsive, modern layouts using clean HTML and CSS styles tailored to showcase your personal brand or business offerings.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Digital Business Cards:</b> Creating high-impact, single-screen mobile cards with embedded QR codes for immediate contact routing and professional networking.</li>
+      </ul>
+    </div>
+  </details>
+
+
   <!-- ACTION ACCENT BUTTON BAR -->
   <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 20px !important;">
     <p style="font-size: 15px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif;">
