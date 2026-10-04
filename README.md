@@ -752,7 +752,7 @@
   <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
   <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
     <p style="font-size: 14.5px; color: #FFD200!important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; text-transform: uppercase;">
-       Primary Specialty Execution Fields: <span style="color: #FFD200; font-weight: 900; margin-left: 5px;">MEAL Data Systems &nbsp;|&nbsp; Field Supervision &nbsp;|&nbsp; Quality Auditing &nbsp;|&nbsp; Survey Design &nbsp;|&nbsp; Dashboard Visualization</span>
+       Execution Fields: <span style="color: #FFD200; font-weight: 450; margin-left: 5px;">Data Analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business Intelligence &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Research Analytics &nbsp;|&nbsp; Workforce planning and Analytics;|&nbsp; Payroll Analytics</span>
     </p>
   </div>
 
@@ -844,7 +844,7 @@
    <!-- HIGH-CONTRAST LOWER TRACK ENGINE RE-LINKED BLOCK -->
   <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
     <p style="font-size: 14.5px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; text-transform: uppercase;">
-       Primary Specialty Execution Fields: <span style="color: #FFD200; font-weight: 900; margin-left: 5px;">Data Analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business Intelligence &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Research Analytics &nbsp;|&nbsp; Workforce planning and Analytics;|&nbsp; Payroll Analytics</span>
+       Execution Fields: <span style="color: #FFD200; font-weight: 450; margin-left: 5px;">Data Analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business Intelligence &nbsp;|&nbsp; Data Management &nbsp;|&nbsp; Research Analytics &nbsp;|&nbsp; Workforce planning and Analytics;|&nbsp; Payroll Analytics</span>
     </p>
   </div>
 
