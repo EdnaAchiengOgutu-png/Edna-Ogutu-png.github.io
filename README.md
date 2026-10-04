@@ -845,18 +845,18 @@
   <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 10px !important;">
     <p style="font-size: 14.5px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; text-transform: uppercase;">
             <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
-  <div style="background-color: #23272A; padding: 15px 25px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 25px !important;">
+  <div style="background-color: #23272A; padding: 10px 15px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 25px !important;">
     <p style="font-size: 14.5px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif;">
        <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
-  <div style="background-color: #23272A; padding: 12px 20px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 25px !important;">
+  <div style="background-color: #23272A; padding: 10px 15px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 25px !important;">
     <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
       Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 2px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
     </p>
-    <p style="margin-top: 12px; font-weight: bold; font-size: 13.5px; color: #E2E8F0; margin-bottom: 0; font-family: 'Arial', sans-serif; line-height: 1.4;">
+    <p style="margin-top: 12px; font-weight: bold; font-size: 13.5px; color: #FFFFFFF; margin-bottom: 0; font-family: 'Arial', sans-serif; line-height: 1.4;">
       Explore My Portfolio: 
-      <label for="tab-projects" style="color: #FFFFFF; cursor: pointer; text-decoration: underline; font-weight: bold; margin: 0 4px;">View Projects Frameworks</label> | 
-      <label for="tab-services" style="color: #FFFFFF; cursor: pointer; text-decoration: underline; font-weight: bold; margin: 0 4px;">Explore Services</label> | 
-      <label for="tab-get-in-touch" style="color: #FFFFFF; cursor: pointer; text-decoration: underline; font-weight: bold; margin: 0 4px;">Schedule a Data Solutions Consultation Session</label>
+      <label for="tab-projects" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: bold; margin: 0 4px;">View Projects Frameworks</label> | 
+      <label for="tab-services" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: bold; margin: 0 4px;">Explore Services</label> | 
+      <label for="tab-get-in-touch" style="color: #FFD200; cursor: pointer; text-decoration: underline; font-weight: bold; margin: 0 4px;">Schedule a Data Solutions Consultation Session</label>
     </p>
   </div>
 
