@@ -380,7 +380,7 @@
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
         <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Workforce & Payroll Management:</b> Tracking team productivity, managing active staff capacities, and designing automated HR payroll planning and incentive metrics.</li>
         <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Trend & Sales Analysis:</b> Studying historical transaction layers to identify buying habits, project revenue scales, and map market growth directions.</li>
-        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Power BI Dashboard Engineering:</b> Translating complex dataset files into interactive weekly and monthly charts for 10+ corporate clients.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Power BI Dashboard Design:</b> Translating complex dataset files into interactive weekly and monthly charts for corporate clients.</li>
       </ul>
     </div>
   </details>
