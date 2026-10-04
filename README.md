@@ -884,7 +884,7 @@
 <!-- ================================================ -->
 <!-- 9. GET IN TOUCH CARD (DIRECT CONTACT CHANNELS)   -->
 <!-- ================================================ -->
-<div id="get-in-touch" class="content-card" style="padding: 25px 45px 35px 45px !important;">
+<div id="get-in-touch" class="content-card" style="padding: 17px 37px 17px 37px !important;">
   <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Get In Touch</h2>
   <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Secure Data Solutions Consultation Gate &nbsp;|&nbsp; Professional Routing Array:</p>
   
@@ -898,7 +898,7 @@
         <h3 style="margin: 0 !important; font-size: 16.5px !important; font-weight: 900 !important; color: #1A488E !important; text-transform: uppercase;">Let's Build Something Together</h3>
       </div>
       <p style="font-size: 14.5px; color: #23272A; font-weight: bold; margin-top: 0 !important; margin-bottom: 12px !important; line-height: 1.45;">Need an interactive executive dashboard, an automated data cleaning script, or a rigorous statistical analysis model?</p>
-      <p style="font-size: 13.5px; color: #2D3748; font-weight: 500; margin: 0; line-height: 1.5;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
+      <p style="font-size: 13.5px; color: #2D3748; font-weight: 200; margin: 0; line-height: 1.5;">I engineer custom, high-integrity data infrastructure designed to eliminate manual business errors and power smart corporate strategies. Reach out directly through any of the channels listed here to discuss your operational goals.</p>
     </div>
 
     <!-- RIGHT PANEL MODULE: COMPACT STACKED CHANNELS SLIDER CONTAINER -->
@@ -939,6 +939,8 @@
         </div>
         <a href="tel:+254741937074" style="font-size: 24px; text-decoration: none; cursor: pointer; padding-right: 5px;"></a>
         <!-- PREMIUM LOWER BRAND FIELD RIBBON BUTTON BAR -->
+
+        
   <div style="background-color: #23272A; padding: 8px 15px; border-radius: 8px; border-left: 6px solid #FFD200; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; margin-top: 15px !important;">
     <p style="font-size: 14px; color: #FFFFFF !important; font-weight: bold; margin: 0; letter-spacing: 0.5px; font-family: 'Arial', sans-serif; line-height: 1.5;">
       Execution Skills: <span style="color: #FFD200; font-weight: 450; margin-left: 8px;">Data analytics &nbsp;|&nbsp; Statistics &nbsp;|&nbsp; Business intelligence &nbsp;|&nbsp; Data management &nbsp;|&nbsp; Research analytics &nbsp;|&nbsp; Workforce planning and analytics &nbsp;|&nbsp; Payroll analytics</span>
