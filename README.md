@@ -372,74 +372,53 @@
   <h2 style="margin: 0 0 4px 0 !important; padding-bottom: 4px !important;"> Services Offered </h2>
   <p style="margin-top: 0 !important; margin-bottom: 20px !important; font-size: 15.5px; font-weight: bold; color: #23272A; line-height: 1.35;">Fixing data errors and building automated tools to help your business save time and money:</p>
 
-  <!-- SERVICE DROPDOWN 1 -->
+ <!-- SERVICE DROPDOWN 1 -->
   <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 01. Data Analysis Offerings</summary>
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;">01. Data Analytics & Visualization</summary>
     <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
-      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Gathering, sorting, and breaking down raw datasets to uncover valuable business patterns and trends.</p>
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Core Offerings:</b> Breaking down complex raw business records and transaction layers into high-visibility dashboard monitors.</p>
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Data Analysis:</b> Reviewing historical records to answer key business questions and track core operations.</li>
-        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Performance Summaries:</b> Translating complex numbers into simple, actionable growth points for company stakeholders.</li>
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Trend & Commercial Analysis:</b> Reviewing historical records to identify customer patterns, project revenue scales, and map growth directions.</li>
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Power BI Dashboard Engineering:</b> Building automated, interactive dashboard suites with custom metrics and click-to-filter parameters.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Performance Summaries:</b> Translating massive, confusing spreadsheets into clean visual charts and weekly/monthly update templates for 10+ corporate clients.</li>
       </ul>
     </div>
   </details>
 
   <!-- SERVICE DROPDOWN 2 -->
   <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 02. Data Cleaning & Checks</summary>
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 02. Database Auditing & CRM Quality Control</summary>
     <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
-      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Fixing broken databases so your company works with correct, reliable records every day.</p>
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Core Offerings:</b> Deploying strict data checks across cross-functional platforms to guarantee a single, trusted source of truth.</p>
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Automatic Cleaning:</b> Building tools that find and instantly fix spelling errors, formatting issues, and entry mistakes.</li>
-        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>File Auditing:</b> Comparing different system files to permanently delete duplicates and stop budget leaks.</li>
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>CRM Pipeline Verification:</b> Auditing pipeline records within enterprise environments like Odoo ERP and Loway systems to ensure clean profile histories.</li>
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>QueueMetrics & Telephony Balancing:</b> Reconciling automated call center tracking data with payroll inputs to eliminate entry errors.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Data File Reconciliation:</b> Designing cleaning checks that find and fix formatting mistakes, delete duplicates, and stop business leaks.</li>
       </ul>
     </div>
   </details>
 
   <!-- SERVICE DROPDOWN 3 -->
   <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 03. Dashboards & Reports</summary>
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 03. Field Research & M&E Operations</summary>
     <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
-      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Creating easy-to-read visual dashboards that help managers see performance and make quick decisions.</p>
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Core Offerings:</b> Coordinating field survey data capture routines, donor reporting pipelines, and large center staffing calendars.</p>
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Dashboard Engineering:</b> Building responsive Power BI and Advanced Excel charts for clear daily company updates.</li>
-        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Simple Filters:</b> Adding interactive click buttons so you can filter results by date, department, or team instantly.</li>
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Field Survey Supervision:</b> Configuring mobile data collection software (KoboCollect, SurveyCTO) and auditing daily questionnaire entries for compliance.</li>
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Workforce Schedule Planning:</b> Engineering shift-allocation rosters, timeline calendars, and payroll tracking scripts for operations up to 350+ FTE staff.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Donor Progress Reporting:</b> Translating complex field survey datasets into clean, non-technical project summaries and evidence briefs for funding tracking.</li>
       </ul>
     </div>
   </details>
 
   <!-- SERVICE DROPDOWN 4 -->
-  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 10px; width: 100%; box-sizing: border-box;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 04. Customer & Sales Trends</summary>
-    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
-      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Studying client shopping behaviors to improve sales and project future revenue trends safely.</p>
-      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Buyer Groups:</b> Grouping customers by how recently, how often, and how much money they spend with your business.</li>
-        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Customer Retention:</b> Finding early warning signs that show which clients might leave, so you can keep them happy.</li>
-      </ul>
-    </div>
-  </details>
-
-  <!-- SERVICE DROPDOWN 5 -->
   <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px; width: 100%; box-sizing: border-box;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 05. Survey & Project Research</summary>
+    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 04. Portfolio & Web Design Services</summary>
     <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
-      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Using trusted mathematical math methods to review field surveys and make sure your project numbers are accurate.</p>
+      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Core Offerings:</b> Coding clean, responsive personal brand websites and interactive networking assets from scratch.</p>
       <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Data Review:</b> Running math tests on survey files to find patterns and make sure the data is realistic.</li>
-        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Simple Summaries:</b> Translating confusing project data sheets into clean, easy-to-understand executive summary briefs.</li>
-      </ul>
-    </div>
-  </details>
-
-    <!-- SERVICE DROPDOWN 6 -->
-  <details style="background-color: #FFFFFF; padding: 10px 20px; border-radius: 8px; border: 1px solid #CBD5E0; box-shadow: 0 4px 10px rgba(0,0,0,0.02); margin-bottom: 0px; width: 100%; box-sizing: border-box;">
-    <summary style="font-weight: bold; color: #1A488E; font-size: 17.5px; cursor: pointer; text-transform: uppercase; outline: none;"> 06. Portfolio & Web Design Services</summary>
-    <div style="margin-top: 12px; padding: 5px 10px 10px 10px; line-height: 1.5; font-size: 14.5px; color: #2D3748; border-top: 1px dashed #CBD5E0;">
-      <p style="margin-top: 8px !important; margin-bottom: 10px !important;"><b> Service Target:</b> Designing and coding clean, responsive personal portfolio websites and business landing pages from scratch.</p>
-      <ul style="padding-left: 20px !important; margin: 0 !important; list-style-type: square !important;">
-        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Custom Web Layouts:</b> Building responsive, modern layouts using clean HTML and CSS styles tailored to showcase your personal brand or business offerings.</li>
-        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Digital Business Cards:</b> Creating high-impact, single-screen mobile cards with embedded QR codes for immediate contact routing and professional networking.</li>
+        <li style="margin-bottom: 6px !important; line-height: 1.45;"><b>Custom Portfolio Design:</b> Designing and coding custom markdown profile repositories using edge-to-edge responsive HTML and inline CSS elements.</li>
+        <li style="margin-bottom: 0 !important; line-height: 1.45;"><b>Digital Business Cards:</b> Architecting single-screen mobile networking pages with embedded real-time scanning matrices and quick-action links.</li>
       </ul>
     </div>
   </details>
