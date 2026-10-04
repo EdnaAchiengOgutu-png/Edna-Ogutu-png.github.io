@@ -376,7 +376,8 @@
     </p>
     </div>
 
-  </div>
+  </div> <!-- Safely closes the internal layout engine -->
+</div> <!-- Safely closes the master experience content-card panel wrapper container perfectly -->
 
 <!-- ================================================ -->
 <!-- 3. SERVICES CARD                                 -->
