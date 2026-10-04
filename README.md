@@ -742,36 +742,24 @@
       <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Digital Data Collection &nbsp;|&nbsp; Key Interviews &nbsp;|&nbsp; Field Ethics</div>
     </div>
 
-    <!-- ROLE 2: HAMASISHA AFRICA -->
+  <!-- ROLE 2: CALLTRONIX -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> ANALYST TRACK - 2025–2026</span>
-        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Research & Data Analyst - Hamasisha Africa</h3>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> OPERATIONS TRACK - 2025-2026</span>
+        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Workforce and Data Analyst - Calltronix Kenya Limited</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Supervised field data gathering and designed digital questionnaires for youth and community development evaluation studies.</li>
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Cleaned datasets, ran statistical reviews, and prepared summarized progress reports and evidence briefs for program teams.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Managed workforce planning, shift scheduling, and hours allocation templates for <b>over 350 active FTE</b> using automated systems.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Reconciled telephony and call tracking metrics from <b>QueueMetrics and multi-source CRM platforms</b> to verify dataset integrity and audit HR payroll entries.</li>
+        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Utilized enterprise CRM software for deep <b>sales analysis</b>, developing custom performance dashboards and reporting templates for <b>10+ corporate clients</b> weekly and monthly.</li>
       </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Survey Management &nbsp;|&nbsp; Data Quality Checks &nbsp;|&nbsp; Progress Reports</div>
+      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: CRM Sales Analysis &nbsp;|&nbsp; QueueMetrics Audits &nbsp;|&nbsp; 350+ FTE Scheduling</div>
     </div>
 
-    <!-- ROLE 3: CALLTRONIX -->
+    <!-- ROLE 3: INTERNSHIPS & FIELD ASSIGNMENTS -->
     <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
       <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> OPERATIONS TRACK - 2024–2025</span>
-        <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">Data & Research Analyst - Calltronix Kenya Limited</h3>
-      </div>
-      <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 6px !important;">Analyzed workforce datasets and cross-checked multi-source files to find trends and support accurate routine performance tracking.</li>
-        <li style="font-size: 14px !important; line-height: 1.5 !important; color: #2D3748 !important; font-weight: 500 !important; margin-bottom: 0 !important;">Developed and maintained interactive Power BI dashboards to simplify performance monitoring and support management reviews.</li>
-      </ul>
-      <div style="font-size: 12px; color: #1A488E; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;"> Core Focus: Workforce Datasets &nbsp;|&nbsp; Power BI Dashboards &nbsp;|&nbsp; File Auditing</div>
-    </div>
-
-    <!-- ROLE 4: INTERNSHIPS & FIELD ASSIGNMENTS -->
-    <div style="background-color: rgba(255,255,255,0.7); border: 1px solid rgba(35,39,42,0.18); border-radius: 10px; padding: 22px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); box-sizing: border-box; width: 100%;">
-      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; border-bottom: 2px solid rgba(26,72,142,0.15); padding-bottom: 8px; flex-wrap: wrap;">
-        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> ASSIGNMENTS TRACK - 2023–2024</span>
+        <span style="background-color: #23272A; color: #FFD200; font-weight: bold; font-size: 11.5px; padding: 4px 12px; border-radius: 4px; font-family: 'Arial', sans-serif; letter-spacing: 0.5px;"> ASSIGNMENTS TRACK - 2022-2024</span>
         <h3 style="margin: 0 !important; font-size: 17px !important; font-weight: 900 !important; color: #1A488E !important; letter-spacing: 0.3px;">M&E Intern & Field Assistant Tracks - SGS Kenya | AMREF | GAIN-AGRA</h3>
       </div>
       <ul style="padding-left: 20px !important; margin: 0 0 15px 0 !important; list-style-type: square !important;">
